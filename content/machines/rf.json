@@ -1,0 +1,38 @@
+{
+  "slug": "rf",
+  "name": "RF",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "automazione",
+  "summary": {
+    "it": "Movimentazione automatica a 6 assi.",
+    "en": "Six-axis automatic handling."
+  },
+  "descriptor": {
+    "it": "Robot a 6 assi",
+    "en": "Articulated robots with 6 axes"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/10/W-p-RF.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-RF.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/rf/",
+  "processes": [
+    {
+      "label": {
+        "it": "Automazione a 6 assi",
+        "en": "6 axes automation"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Automazione-a-6-assi_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [],
+  "advantages": [],
+  "gallery": [],
+  "video": null,
+  "specs": [],
+  "viewer": {
+    "archetype": "robot-cell",
+    "variant": "handling6"
+  }
+}

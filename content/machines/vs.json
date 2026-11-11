@@ -1,0 +1,207 @@
+{
+  "slug": "vs",
+  "name": "VS",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "segatrici",
+  "summary": {
+    "it": "Taglia profili di forme diverse con sega a disco.",
+    "en": "Disc-saws sections of various shapes."
+  },
+  "descriptor": {
+    "it": "Linee di taglio di barre, piatti e tubi",
+    "en": "High speed disc sawing machines for pipes, tubes and miscellaneous profiles"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-VS-1.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-VS-1.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/vs/",
+  "processes": [
+    {
+      "label": {
+        "it": "Taglio profili",
+        "en": "Profile sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-profili_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Struttura rigida",
+        "en": "Stiff structure"
+      },
+      "text": {
+        "it": "Struttura molto rigida per tagli ad alte prestazioni.",
+        "en": "A very rigid frame for high-performance cutting."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Modulazione parametri",
+        "en": "Parameters modulation"
+      },
+      "text": {
+        "it": "I parametri di taglio si adattano durante il ciclo, a vantaggio della lama.",
+        "en": "Cutting parameters adapt during the cycle, extending blade life."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Regolazioni dinamiche",
+        "en": "Dynamic adjustments"
+      },
+      "text": {
+        "it": "Velocità e avanzamento della lama cambiano in ingresso e uscita dal profilo.",
+        "en": "Blade speed and feed change as it enters and leaves the section."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Speciali guida lama",
+        "en": "Special blade guides"
+      },
+      "text": {
+        "it": "Guida lama con tre coppie di pattini in acciaio temprato.",
+        "en": "Blade guide with three pairs of hardened-steel pads."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "La lama sale dal basso: adatta a profili di forme diverse.",
+      "en": "The blade rises from below: suited to sections of varied shape."
+    },
+    {
+      "it": "Piano di lavoro libero e cambio lama rapido.",
+      "en": "Clear work table and quick blade change."
+    },
+    {
+      "it": "PLC Siemens con schede modulari per controllare i cicli.",
+      "en": "Siemens PLC with modular boards to control the cycles."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/VS_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga6.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga2.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Linee di taglio di barre, piatti e tubi",
+        "en": "High speed disc sawing machines for pipes, tubes and miscellaneous profiles"
+      },
+      "models": [
+        "VS 315",
+        "VS 600"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Diametro Disco max. [mm]",
+            "en": "Disc Diameter max. [mm]"
+          },
+          "values": [
+            "360",
+            "600"
+          ]
+        },
+        {
+          "label": {
+            "it": "Profilo Tubo tondo max. [mm]",
+            "en": "Profile Round max. [mm]"
+          },
+          "values": [
+            "70",
+            "160"
+          ]
+        },
+        {
+          "label": {
+            "it": "Profilo Tubo quadro max. [mm]",
+            "en": "Profile Square max. [mm]"
+          },
+          "values": [
+            "65",
+            "150"
+          ]
+        },
+        {
+          "label": {
+            "it": "Profilo Piatto max. [mm]",
+            "en": "Profile Flat max. [mm]"
+          },
+          "values": [
+            "150 x 30",
+            "200 x 50"
+          ]
+        },
+        {
+          "label": {
+            "it": "Profilo “ ⊏ ” max. [mm]",
+            "en": "Profile “ ⊏ ” max. [mm]"
+          },
+          "values": [
+            "120 x 55",
+            "200 x 75"
+          ]
+        },
+        {
+          "label": {
+            "it": "Profilo “ I ” max. [mm]",
+            "en": "Profile “ I ”"
+          },
+          "values": [
+            "120 x 58",
+            "200 x 90"
+          ]
+        },
+        {
+          "label": {
+            "it": "Profilo “ L ” max. [mm]",
+            "en": "Profile “ L ” max. [mm]"
+          },
+          "values": [
+            "130 x 65",
+            "200 x 100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore profili [% per lato]",
+            "en": "Profiles thickness [% on side]"
+          },
+          "values": [
+            ">5%",
+            ">5%"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza installata [kW]",
+            "en": "Installed power [kW]"
+          },
+          "values": [
+            "20",
+            "39"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "disc-saw",
+    "variant": "vertical"
+  }
+}

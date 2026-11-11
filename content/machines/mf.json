@@ -1,0 +1,426 @@
+{
+  "slug": "mf",
+  "name": "MF",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "presse",
+  "summary": {
+    "it": "Pressa meccanica per stampaggio.",
+    "en": "Mechanical forging press."
+  },
+  "descriptor": {
+    "it": "Presse meccaniche eccentriche",
+    "en": "Mechanical eccentric presses"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-MF.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-MF_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/mf/",
+  "processes": [
+    {
+      "label": {
+        "it": "Sagomatura - stampaggio",
+        "en": "Forming - Forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sagomatura-stampaggio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stampaggio senza bava",
+        "en": "Flashless forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stampaggio-senza-bava_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stampi complessi",
+        "en": "Complex dies"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stampi-complessi_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Robusta per natura",
+        "en": "Naturally robust"
+      },
+      "text": {
+        "it": "Struttura elettrosaldata, progettata per la massima robustezza.",
+        "en": "Welded structure designed for maximum strength."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Sistema di controllo pressa",
+        "en": "Machine control system"
+      },
+      "text": {
+        "it": "Pressa sensorizzata e comandata dal pannello di controllo.",
+        "en": "Fully sensor-equipped press run from the control panel."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Sorgente di potenza",
+        "en": "Source of power"
+      },
+      "text": {
+        "it": "Motore a giri variabili per regolare velocità ed energia di deformazione.",
+        "en": "Variable-speed motor to adjust forming speed and energy."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Espulsori",
+        "en": "Ejectors"
+      },
+      "text": {
+        "it": "Espulsori opzionali idraulici, inferiori e superiori.",
+        "en": "Optional hydraulic, lower and upper ejectors."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Con biella singola o doppia, secondo la lavorazione.",
+      "en": "With single or double connecting rod, depending on the job."
+    },
+    {
+      "it": "Disponibile con gemello digitale per l'Industria 4.0.",
+      "en": "Available with a digital twin for Industry 4.0."
+    },
+    {
+      "it": "Regolazione dell'altezza del piano stampo a cunei.",
+      "en": "Wedge adjustment of the die-table height."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF-g2-MF-D-3150-visione-dinsieme.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF-g3-MF-D-3150-Albero-eccentrico.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF-g4-Serie-S-biella-singola.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF-g5-Serie-D-biella-doppia.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF_g4-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF_g3-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF_INGRANAGGIO-CON-BIELLA-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/MF_g2.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "-S Presse eccentriche meccaniche per preformatura e sbavatura",
+        "en": "-S Preforming & Deburring Mechanical Eccentric Presses"
+      },
+      "models": [
+        "MF-S 250",
+        "MF-S 315",
+        "MF-S 400",
+        "MF-S 630",
+        "MF-S 1000",
+        "MF-S 1400"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza nominale [kN]",
+            "en": "Nominal force [kN]"
+          },
+          "values": [
+            "2500",
+            "3150",
+            "4000",
+            "6300",
+            "10000",
+            "14000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa della slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "500",
+            "500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità in continuo [Rpm]",
+            "en": "Continuous speed [RPM]"
+          },
+          "values": [
+            "60",
+            "60",
+            "50",
+            "50",
+            "40",
+            "35"
+          ]
+        },
+        {
+          "label": {
+            "it": "Registrazione slitta motorizzata [mm]",
+            "en": "Powered ram adjustment [mm]"
+          },
+          "values": [
+            "80",
+            "80",
+            "150",
+            "100",
+            "100",
+            "150"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale - slitta in basso, regolazione a metà [mm]",
+            "en": "Vertical clearance– ram downward, halfway adjustment [mm]"
+          },
+          "values": [
+            "860",
+            "860",
+            "725",
+            "650",
+            "600",
+            "600"
+          ]
+        },
+        {
+          "label": {
+            "it": "Area di lavoro della slitta L&P [mm]",
+            "en": "Ram working area [mm WxD]"
+          },
+          "values": [
+            "1115x850",
+            "1115x850",
+            "1250x900",
+            "1430x1145",
+            "1230x1115",
+            "1300x1175"
+          ]
+        },
+        {
+          "label": {
+            "it": "Area di lavoro del basamento LxP [mm]",
+            "en": "Baseplate working area [mm WxD]"
+          },
+          "values": [
+            "1100x950",
+            "1100x950",
+            "1220x1050",
+            "1400x1250",
+            "1200x1250",
+            "1300x1400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza installata [kW]",
+            "en": "Installed power [kW]"
+          },
+          "values": [
+            "22",
+            "25",
+            "37",
+            "55",
+            "75",
+            "110"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso [kg]",
+            "en": "Weight [kg]"
+          },
+          "values": [
+            "20000",
+            "23000",
+            "32000",
+            "45000",
+            "65000",
+            "90000"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "-T / MF-D Presse eccentriche meccaniche di forgiatura con Tassello (T) e Doppia biella (D)",
+        "en": "-T / MF-D Forging Mechanical Eccentric Presses with Yoke (T) and Double Connecting Rod (D)"
+      },
+      "models": [
+        "MF-D 1250",
+        "MF-D 1600",
+        "MF-D 2000",
+        "MF-D 2500",
+        "MF-D 3500",
+        "MF-D 4000",
+        "MF-D 6300",
+        "MF-D 8000"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza nominale [kN]",
+            "en": "Nominal force [kN]"
+          },
+          "values": [
+            "12500",
+            "16000",
+            "20000",
+            "25000",
+            "35000",
+            "40000",
+            "63000",
+            "80000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa della slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "270",
+            "280",
+            "280",
+            "350",
+            "350",
+            "400",
+            "460",
+            "500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità in continuo [Rpm]",
+            "en": "Continuous speed [Rpm]"
+          },
+          "values": [
+            "90",
+            "85",
+            "80",
+            "70",
+            "65",
+            "55",
+            "45",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Registrazione slitta motorizzata [mm]",
+            "en": "Powered ram adjustment [mm]"
+          },
+          "values": [
+            "15",
+            "15",
+            "15",
+            "20",
+            "20",
+            "20",
+            "15",
+            "15"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale – slitta in basso, regolazione a metà [mm]",
+            "en": "Vertical clearance – ram downward, halfway adjustment [mm]"
+          },
+          "values": [
+            "900",
+            "1000",
+            "1100",
+            "1250",
+            "1100",
+            "1475",
+            "1600",
+            "1600"
+          ]
+        },
+        {
+          "label": {
+            "it": "Area di lavoro della slitta LxP [mm]",
+            "en": "Ram working area WxD [mm]"
+          },
+          "values": [
+            "880x1070",
+            "980x1150",
+            "1080x1215",
+            "1280x1530",
+            "1500x1630",
+            "1480x1875",
+            "2080x1875",
+            "1900x2150"
+          ]
+        },
+        {
+          "label": {
+            "it": "Area di lavoro del basamento LxP [mm]",
+            "en": "Baseplate working area WxD [mm]"
+          },
+          "values": [
+            "970x1120",
+            "1070x1200",
+            "1170x1265",
+            "1370x1580",
+            "1550x1600",
+            "1570x1925",
+            "2150x1875",
+            "2100x2300"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza installata [kW]",
+            "en": "Installed power [kW]"
+          },
+          "values": [
+            "90",
+            "110",
+            "130",
+            "160",
+            "250",
+            "250",
+            "345",
+            "400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso [kg]",
+            "en": "Weight [kg]"
+          },
+          "values": [
+            "75000",
+            "120000",
+            "140000",
+            "210000",
+            "280000",
+            "330000",
+            "615000",
+            "700000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "press",
+    "variant": "mechanical"
+  }
+}

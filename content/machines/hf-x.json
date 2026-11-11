@@ -1,0 +1,290 @@
+{
+  "slug": "hf-x",
+  "name": "HF X",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "presse",
+  "summary": {
+    "it": "Pressa idraulica a tripla azione.",
+    "en": "Triple-action hydraulic press."
+  },
+  "descriptor": {
+    "it": "Presse idrauliche a tripla azione",
+    "en": "Triple action hydraulic presses"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/10/W-p-HF-x-1.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-HF-X-1.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/hf-x/",
+  "processes": [
+    {
+      "label": {
+        "it": "Preformatura",
+        "en": "Preforming"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Preformatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Sagomatura - stampaggio",
+        "en": "Forming - Forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sagomatura-stampaggio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Sbavatura",
+        "en": "Trimming"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sbavatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Estrusione inversa",
+        "en": "Reverse extrusion"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Estrusione-inversa_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Estrusione diretta",
+        "en": "Direct extrusion"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Estrusione-diretta_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Piercing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Foratura-forgia_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Centralina idraulica",
+        "en": "Hydraulic unit"
+      },
+      "text": {
+        "it": "Centralina con valvole proporzionali per le prestazioni richieste in forgiatura.",
+        "en": "Power unit with proportional valves for demanding forging work."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Ingombro ridotto",
+        "en": "Reduced overall size"
+      },
+      "text": {
+        "it": "La centralina sopra la pressa riduce lo spazio occupato a terra.",
+        "en": "The power unit sits on top of the press, saving floor space."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Ritorno rapido slitta",
+        "en": "Fast ram return"
+      },
+      "text": {
+        "it": "La slitta risale velocemente e riduce il tempo ciclo.",
+        "en": "The ram returns quickly, cutting cycle time."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Aperture laterali per bracci di lubrificazione e manipolazione.",
+      "en": "Side openings for lubrication and handling arms."
+    },
+    {
+      "it": "Corsa e luce maggiorate su richiesta.",
+      "en": "Longer stroke and daylight on request."
+    },
+    {
+      "it": "PLC Siemens con schede modulari per controllare ogni ciclo.",
+      "en": "Siemens PLC with modular boards to monitor every cycle."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g5-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g6.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g8.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "HF-X Presse idrauliche a tripla azione",
+        "en": "HF-X Triple action hydraulic presses"
+      },
+      "models": [
+        "HF 400X",
+        "HF 630X",
+        "HF 800X"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza di pressata [kN]",
+            "en": "Pressing force [kN]"
+          },
+          "values": [
+            "4000",
+            "6300",
+            "8000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Pressione di lavoro [max. bar]",
+            "en": "Working pressure [max.bar]"
+          },
+          "values": [
+            "315",
+            "315",
+            "315"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità di avvicinamento [max. mm/sec]",
+            "en": "Approach speed [max.mm/sec]"
+          },
+          "values": [
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità di ritorno [max. mm/sec",
+            "en": "Return speed [max.mm/sec]"
+          },
+          "values": [
+            "400",
+            "220",
+            "260"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa slitta [mm.]",
+            "en": "Ram stroke [mm.]"
+          },
+          "values": [
+            "500",
+            "500",
+            "650"
+          ]
+        },
+        {
+          "label": {
+            "it": "Altezza dal piano alla slitta [slitta in alto mm.]",
+            "en": "Height from bed to ram [ram at top mm.]"
+          },
+          "values": [
+            "800",
+            "800",
+            "1100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Distanza interna tra le colonne [mm]",
+            "en": "Inside distance between columns [mm]"
+          },
+          "values": [
+            "1240",
+            "1240",
+            "1400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni base porta stampo: profondità x larghezza [mm.]",
+            "en": "Die holding base plant dimensions: Depth x Width [mm.]"
+          },
+          "values": [
+            "800 x 1200",
+            "1000 x 1200",
+            "1100 x 1350"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza idraulica totale installata [kW]",
+            "en": "Total installed hydraulic power [kW]"
+          },
+          "values": [
+            "180",
+            "200",
+            "250"
+          ]
+        },
+        {
+          "label": {
+            "it": "No. 2 cilindri laterali (sinistro e destro)",
+            "en": "No. 2 sides cyliders (left and right):"
+          },
+          "values": []
+        },
+        {
+          "label": {
+            "it": "Forza di punzonatura (regolabile) [ton]",
+            "en": "Punch force (adjustable) [ton]"
+          },
+          "values": [
+            "200",
+            "300",
+            "400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Lunghezza corsa [mm]",
+            "en": "Stroke length [mm]"
+          },
+          "values": [
+            "200",
+            "200",
+            "250"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità di lavoro con pompa e accumulatore [max. mm/sec]",
+            "en": "Pressing speed with pump and accumulator [max.mm/sec]"
+          },
+          "values": [
+            "400",
+            "250",
+            "200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità di ritorno [max. mm/sec]",
+            "en": "Return speed [max.mm/sec]"
+          },
+          "values": [
+            "200",
+            "100",
+            "100"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "press",
+    "variant": "hydraulic"
+  }
+}

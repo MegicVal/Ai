@@ -1,0 +1,167 @@
+{
+  "slug": "ctch",
+  "name": "CTCH",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "cesoie",
+  "summary": {
+    "it": "Cesoia idraulica per taglio a caldo.",
+    "en": "Hydraulic shear for hot cutting."
+  },
+  "descriptor": {
+    "it": "Cesoie idrauliche a caldo",
+    "en": "Hydraulic hot shearing lines"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-CTCH.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-CTCH.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/ctch/",
+  "processes": [
+    {
+      "label": {
+        "it": "Taglio a caldo",
+        "en": "Hot shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-a-caldo_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Tagli perfetti",
+        "en": "Perfect cut"
+      },
+      "text": {
+        "it": "Tagli ortogonali e senza bave, anche sugli acciai più duri.",
+        "en": "Square, burr-free cuts, even on the hardest steels."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Correzione lunghezza pezzo",
+        "en": "Sheared length adjustment"
+      },
+      "text": {
+        "it": "La lunghezza del taglio si corregge subito per compensare l'usura degli stampi.",
+        "en": "Cut length is corrected at once to offset die wear."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Regolazione della temperatura",
+        "en": "Temperature adjustment"
+      },
+      "text": {
+        "it": "La temperatura della barra si regola in automatico prima del taglio.",
+        "en": "Bar temperature is set automatically before the cut."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Sistemi automatici",
+        "en": "Automatic systems"
+      },
+      "text": {
+        "it": "Linee semplici e veloci, facili da integrare con ogni tipo di pressa.",
+        "en": "Simple, fast lines that integrate easily with any press."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Meno scarto e meno bava.",
+      "en": "Less scrap and less burr."
+    },
+    {
+      "it": "Meno energia: non serve preriscaldare.",
+      "en": "Less energy: no pre-heating stage."
+    },
+    {
+      "it": "Meno ingombro e niente magazzino di pezzi pretagliati.",
+      "en": "Smaller footprint and no stock of pre-cut pieces."
+    },
+    {
+      "it": "Meno costi di collaudo stampi e avviamento.",
+      "en": "Lower die try-out and start-up costs."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_Dispositivo-di-taglio-in-squadra-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_Rulliera-riscaldo-barre.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_Rulliera-in-entrata.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_Braccio-di-scarico-automatico-per-billette.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CTCH_g4.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Cesoie idrauliche a caldo",
+        "en": "Hydraulic hot shearing lines"
+      },
+      "models": [
+        "CTCH 70",
+        "CTCH 100",
+        "CTCH 140",
+        "CTCH 180",
+        "CTCH 250",
+        "CTCH 300"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Tondo min./max. Ø 1150°C [mm]",
+            "en": "Round min. / max. Ø 1150°C [mm.]"
+          },
+          "values": [
+            "30/70",
+            "40/120",
+            "50/160",
+            "80/200",
+            "100/250",
+            "100/300"
+          ]
+        },
+        {
+          "label": {
+            "it": "Quadro min./max. Ø 1150°C [mm]",
+            "en": "Square min. / max. Ø 1150°C [mm.]"
+          },
+          "values": [
+            "30/60",
+            "40/100",
+            "50/140",
+            "80/180",
+            "100/250",
+            "100/250"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza centralina idraulica [kW]",
+            "en": "Hydraulic unit power [kW]"
+          },
+          "values": [
+            "16,5",
+            "33",
+            "47",
+            "78",
+            "124",
+            "143"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "shear",
+    "variant": "hydraulic"
+  }
+}

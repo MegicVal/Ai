@@ -1,0 +1,196 @@
+{
+  "slug": "s",
+  "name": "S",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "segatrici",
+  "summary": {
+    "it": "Taglia profili con sega a disco.",
+    "en": "Disc-saws sections."
+  },
+  "descriptor": {
+    "it": "Linee di taglio ad alta velocità di profili tondi, quadri e sagomati",
+    "en": "High speed disc sawing machines for round, square and special shapes profiles"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-S-1.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-S_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/s/",
+  "processes": [
+    {
+      "label": {
+        "it": "Taglio billette",
+        "en": "Billet sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-billette_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Struttura rigida",
+        "en": "Stiff structure"
+      },
+      "text": {
+        "it": "Struttura molto rigida per tagli ad alte prestazioni.",
+        "en": "A very rigid frame for high-performance cutting."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Modulazione parametri",
+        "en": "Parameters modulation"
+      },
+      "text": {
+        "it": "I parametri di taglio si adattano durante il ciclo, a vantaggio della lama.",
+        "en": "Cutting parameters adapt during the cycle, extending blade life."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Regolazioni dinamiche",
+        "en": "Dynamic adjustments"
+      },
+      "text": {
+        "it": "Velocità e avanzamento della lama cambiano in ingresso e uscita dal profilo.",
+        "en": "Blade speed and feed change as it enters and leaves the section."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Speciali guida lama",
+        "en": "Special blade guides"
+      },
+      "text": {
+        "it": "Guida lama con tre coppie di pattini in acciaio temprato.",
+        "en": "Blade guide with three pairs of hardened-steel pads."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Taglio veloce e preciso di barre tonde e quadre.",
+      "en": "Fast, accurate cutting of round and square bars."
+    },
+    {
+      "it": "Tagli ripetibili, ortogonali e regolari.",
+      "en": "Repeatable, square, even cuts."
+    },
+    {
+      "it": "PLC Siemens con schede modulari per controllare i cicli.",
+      "en": "Siemens PLC with modular boards to control the cycles."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/S_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/S_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/S_G1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/SP-S-vS-ga4.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Linee di taglio ad alta velocità di profili tondi, quadri e sagomati",
+        "en": "High speed disc sawing machines for round, square and special shapes profiles"
+      },
+      "models": [
+        "S 30 C",
+        "S 90",
+        "S 35",
+        "S 42 C",
+        "S 56",
+        "S 80",
+        "S 110",
+        "S 140",
+        "S 200",
+        "S 220"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Diametro Disco max. [mm]",
+            "en": "Disc Diameter max. [mm]"
+          },
+          "values": [
+            "315",
+            "900",
+            "400",
+            "460",
+            "560",
+            "800",
+            "1120",
+            "1520",
+            "2000",
+            "2200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Tondo min/max [mm]",
+            "en": "Round min/max. [mm]"
+          },
+          "values": [
+            "15/80",
+            "60/280",
+            "30/130",
+            "40/150",
+            "40/180",
+            "60/230",
+            "100/350",
+            "120/500",
+            "200/600",
+            "300/800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Quadro min/max [mm]",
+            "en": "Square min/max. [mm]"
+          },
+          "values": [
+            "15/65",
+            "60/260",
+            "30/120",
+            "40/110",
+            "40/165",
+            "60/215",
+            "100/320",
+            "120/440",
+            "-",
+            "-"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza installata [kW]",
+            "en": "Installed power [kW]"
+          },
+          "values": [
+            "18",
+            "60",
+            "27",
+            "33",
+            "39",
+            "55",
+            "90",
+            "140",
+            "224",
+            "240"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "disc-saw",
+    "variant": "horizontal"
+  }
+}

@@ -2,54 +2,40 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 
-/** Plays the clip only while it is on screen; poster and video are downloaded as it approaches. */
-export function LazyVideo({ src, poster, label }: { src: string; poster: string; label: string }) {
+/**
+ * Background film for the hero. The poster paints first; the video file is requested
+ * only once the page has loaded, and never when the visitor asks for reduced motion.
+ */
+export function HeroVideo({ src, poster }: { src: string; poster: string }) {
   const ref = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     const video = ref.current;
-    if (!video) return;
-    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const nearby = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) return;
-        video.poster = poster;
-        nearby.disconnect();
-      },
-      { rootMargin: "800px" },
-    );
-    nearby.observe(video);
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !still) {
-          if (!video.src) video.src = src;
-          video.play().catch(() => {});
-        } else {
-          video.pause();
-        }
-      },
-      { threshold: 0.25 },
-    );
-    observer.observe(video);
-    return () => {
-      nearby.disconnect();
-      observer.disconnect();
+    if (!video || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const start = () => {
+      video.src = src;
+      video.play().catch(() => {});
     };
-  }, [src, poster]);
+    if (document.readyState === "complete") {
+      const timer = window.setTimeout(start, 400);
+      return () => window.clearTimeout(timer);
+    }
+    window.addEventListener("load", start, { once: true });
+    return () => window.removeEventListener("load", start);
+  }, [src]);
 
   return (
-    <figure className="relative">
-      <video
-        ref={ref}
-        className="aspect-video w-full bg-coal object-cover"
-        muted
-        loop
-        playsInline
-        preload="none"
-        aria-label={label}
-      />
-      <figcaption className="label absolute top-3 left-3 bg-ink/80 px-2 py-1 text-paper">{label}</figcaption>
-    </figure>
+    <video
+      ref={ref}
+      className="absolute inset-0 -z-20 size-full bg-ink object-cover"
+      poster={poster}
+      muted
+      loop
+      playsInline
+      preload="none"
+      aria-hidden="true"
+      tabIndex={-1}
+    />
   );
 }
 

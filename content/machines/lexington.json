@@ -1,0 +1,223 @@
+{
+  "slug": "lexington",
+  "name": "LEXINGTON",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Traccia i profili su quattro lati.",
+    "en": "Scribes sections on four sides."
+  },
+  "descriptor": {
+    "it": "Linee automatiche di tracciatura su 4 lati a CNC per profili",
+    "en": "Automatic CNC 4-sides scribing lines for sections"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/09/W-p-Lexington.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/09/l-Lexington_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/lexington/",
+  "processes": [
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Teste di tracciatura indipendenti",
+        "en": "Independent scribing heads"
+      },
+      "text": {
+        "it": "Quattro teste di tracciatura indipendenti, ognuna con asse aggiuntivo.",
+        "en": "Four independent scribing heads, each with an extra axis."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_g3.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili automatico",
+        "en": "Automatic tool changer"
+      },
+      "text": {
+        "it": "Cambio utensile automatico sulle unità di foratura.",
+        "en": "Automatic tool change on the drilling units."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_cambio-utensili.jpg"
+    },
+    {
+      "title": {
+        "it": "Utensile di tracciatura brevettato",
+        "en": "Patented scribing tool"
+      },
+      "text": {
+        "it": "Utensile brevettato FICEP con inserto al carburo.",
+        "en": "FICEP-patented tool with a carbide insert."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_tracciatura-brevetteto.jpg"
+    },
+    {
+      "title": {
+        "it": "Importazione automatica dei dati da CAD",
+        "en": "Automatic CAD data import"
+      },
+      "text": {
+        "it": "Il software ricava i dati di tracciatura direttamente dal modello 3D.",
+        "en": "The software takes scribing data straight from the 3D model."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_g4.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Non serve più preparare a mano marcature e posizioni.",
+      "en": "No more manual preparation of marks and positions."
+    },
+    {
+      "it": "Scarica da solo posizioni e orientamento dei pezzi da montare.",
+      "en": "Downloads positions and orientation of the fittings automatically."
+    },
+    {
+      "it": "Traccia le quattro superfici allo stesso tempo.",
+      "en": "Scribes all four faces at the same time."
+    },
+    {
+      "it": "Sceglie da solo l'utensile di tracciatura.",
+      "en": "Selects the scribing tool on its own."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_gp2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/09/LEXINGTON_gp1.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Linee automatiche di tracciatura su 4 lati a CNC per profili",
+        "en": "Automatic CNC 4-sides scribing lines for sections"
+      },
+      "models": [
+        "1203 VLS"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni profilo [min.mm]",
+            "en": "Section size [min. mm]"
+          },
+          "values": [
+            "80x10"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni profilo [max.mm]",
+            "en": "Section size [max. mm]"
+          },
+          "values": [
+            "1220x610"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di tracciatura [no.]",
+            "en": "Scribing heads [no.]"
+          },
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili di tracciatura per testa [no.]",
+            "en": "Scribing tools per head [no.]"
+          },
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max. RPM]"
+          },
+          "values": [
+            "5000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa asse ausiliario mandrino [mm]",
+            "en": "Spindle sub-axis stroke [mm]"
+          },
+          "values": [
+            "350"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "11500"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "beam-line",
+    "variant": "scribe"
+  }
+}

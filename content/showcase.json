@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "kicker": { "it": "Carpenteria metallica · Forgiatura", "en": "Steel fabrication · Forging" },
+    "title": { "it": "Dal 1930 costruiamo le macchine che lavorano l'acciaio.", "en": "Since 1930 we have built the machines that work steel." },
+    "body": {
+      "it": "Impianti automatici per profili e lamiere, linee complete per stampare e tagliare. Dalla singola macchina alla fabbrica intera.",
+      "en": "Automatic lines for sections and plates, complete lines for forging and cutting. From a single machine to an entire factory."
+    },
+    "video": "https://ficepgroup.com/wp-content/themes/tema-bianco/video/Ficep_Corporate_short_2022_720.mp4",
+    "poster": "https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg",
+    "primary": { "it": "Vedi tutte le macchine", "en": "See all machines" },
+    "secondary": { "it": "Visita lo stabilimento", "en": "Visit the plant" }
+  },
+  "showcase": {
+    "kicker": { "it": "Macchine in 3D", "en": "Machines in 3D" },
+    "title": { "it": "Scegli una macchina e aprila.", "en": "Pick a machine and open it." },
+    "body": {
+      "it": "Ogni macchina del catalogo ha un modello da ruotare ed esplodere nei suoi componenti. Qui ne trovi otto, una per famiglia.",
+      "en": "Every machine in the range has a model to rotate and explode into its components. Here are eight, one per family."
+    },
+    "machines": ["gemini", "valiant", "xp-r", "katana", "nozomi", "rb-g", "dd", "caddy"],
+    "open": { "it": "Apri la scheda", "en": "Open the page" }
+  }
+}

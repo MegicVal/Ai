@@ -1,0 +1,265 @@
+{
+  "slug": "nozomi",
+  "name": "NOZOMI",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Taglio termico di profili su 9 assi.",
+    "en": "Nine-axis thermal cutting of sections."
+  },
+  "descriptor": {
+    "it": "Robot automatico di taglio termico a CNC con 9 assi",
+    "en": "Automatic 9 axes CNC thermal coping robot"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/nozomi_banner.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-nozomi_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/nozomi/",
+  "processes": [
+    {
+      "label": {
+        "it": "Plasma",
+        "en": "Plasma cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Plasma_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Braccio robotico antropomorfo",
+        "en": "Articulating robotic arm"
+      },
+      "text": {
+        "it": "Robot a 9 assi che lavora il profilo su tutti e quattro i lati.",
+        "en": "A nine-axis robot that works the section on all four sides."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g6-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Morse",
+        "en": "Clamping"
+      },
+      "text": {
+        "it": "Staffaggi automatici tengono il profilo in posizione.",
+        "en": "Automatic clamps keep the section in position."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_MORSE.jpg"
+    },
+    {
+      "title": {
+        "it": "Scanner laser",
+        "en": "Laser scanner"
+      },
+      "text": {
+        "it": "Rileva le superfici del profilo in pochi secondi.",
+        "en": "Scans the section's surfaces in a few seconds."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/laser-cut.jpg"
+    },
+    {
+      "title": {
+        "it": "Aspirazione fumi",
+        "en": "Fume exhaust system"
+      },
+      "text": {
+        "it": "Aspira e filtra i fumi del taglio termico e restituisce aria pulita.",
+        "en": "Extracts and filters thermal-cutting fumes, returning clean air."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_ASPIRATORE-FUMI.jpg"
+    },
+    {
+      "title": {
+        "it": "Libreria CNC",
+        "en": "CNC library"
+      },
+      "text": {
+        "it": "Una libreria di macro ottimizza i cicli di taglio.",
+        "en": "A macro library optimises cutting cycles."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/FLEX-libreria-cnc.jpg"
+    },
+    {
+      "title": {
+        "it": "\"True Hole\" Hypertherm",
+        "en": "Hypertherm “True Hole”"
+      },
+      "text": {
+        "it": "Fori al plasma di qualità con la tecnologia True Hole di Hypertherm.",
+        "en": "Quality plasma-cut holes with Hypertherm True Hole technology."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/HYPERTHERM-TRUE-HOLE.jpg"
+    },
+    {
+      "title": {
+        "it": "Simulatore 3D",
+        "en": "3D simulator"
+      },
+      "text": {
+        "it": "Mostra in 3D la lavorazione prima di eseguirla.",
+        "en": "Shows the job in 3D before it runs."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/3D-simulator-NOZOMI.jpg"
+    },
+    {
+      "title": {
+        "it": "Unico controllo numerico",
+        "en": "Single CNC control unit"
+      },
+      "text": {
+        "it": "Un solo CNC gestisce anche la segatrice o il robot in linea.",
+        "en": "A single CNC also runs the in-line saw or robot."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_unita-controllo-numerico.jpg"
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "text": {
+        "it": "I dispositivi di sicurezza fermano la macchina al primo contatto.",
+        "en": "Safety devices stop the machine on contact."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sicurezza-prodotto.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Elimina tracciatura, marcatura e taglio termico manuali.",
+      "en": "Removes manual layout, marking and thermal cutting."
+    },
+    {
+      "it": "Lavora in linea con le foratrici FICEP e risparmia spazio.",
+      "en": "Works in line with FICEP drilling lines and saves space."
+    },
+    {
+      "it": "Tempi di produzione più brevi e pianificabili.",
+      "en": "Shorter production times that can be planned."
+    },
+    {
+      "it": "Niente operazioni manuali, quindi meno errori.",
+      "en": "No manual operations, so fewer errors."
+    },
+    {
+      "it": "Meno spazio per lavorazioni che di solito si fanno a mano.",
+      "en": "Less floor space for work usually done by hand."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_Robot-di-taglio-termico-Nozomi-abbinato-alla-linea-di-foratura-Valiant.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI-gp2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI-gp1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_g7.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Automate-the-Structural-Steel-Fabrication-Process-with-the-FICEP-NOZOMI-Plasma-Cutting-Beam-Line-Sys.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Robot automatico di taglio termico a CNC con 9 assi",
+        "en": "Automatic 9 axes CNC thermal coping robot"
+      },
+      "models": [
+        "601RAZ",
+        "1201RAZ"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dim. profilo [min. mm]",
+            "en": "Section size [min. mm]"
+          },
+          "values": [
+            "80x10",
+            "80x10"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dim. profilo [max. mm]",
+            "en": "Section size [max mm]"
+          },
+          "values": [
+            "610x450",
+            "1220x610"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce Plasma [no.]",
+            "en": "Plasma torch [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce Ossitaglio - opzionale [no.]",
+            "en": "Oxy torch - optional [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "robot-cell",
+    "variant": "coping"
+  }
+}

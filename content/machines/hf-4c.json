@@ -1,0 +1,219 @@
+{
+  "slug": "hf-4c",
+  "name": "HF 4C",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "presse",
+  "summary": {
+    "it": "Pressa idraulica a quattro colonne.",
+    "en": "Four-column hydraulic press."
+  },
+  "descriptor": {
+    "it": "Presse idrauliche a colonne",
+    "en": "Columns hydraulic presses"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/10/W-p-HF-4C.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-HF-4C.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/hf-4c/",
+  "processes": [
+    {
+      "label": {
+        "it": "Preformatura",
+        "en": "Preforming"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Preformatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Sagomatura - stampaggio",
+        "en": "Forming - Forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sagomatura-stampaggio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Sbavatura",
+        "en": "Trimming"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sbavatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Estrusione inversa",
+        "en": "Reverse extrusion"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Estrusione-inversa_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Estrusione diretta",
+        "en": "Direct extrusion"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Estrusione-diretta_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Piercing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Foratura-forgia_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Centralina idraulica",
+        "en": "Hydraulic unit"
+      },
+      "text": {
+        "it": "Centralina con valvole proporzionali per le prestazioni richieste in forgiatura.",
+        "en": "Power unit with proportional valves for demanding forging work."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Ingombro ridotto",
+        "en": "Reduced overall size"
+      },
+      "text": {
+        "it": "La centralina sopra la pressa riduce lo spazio occupato a terra.",
+        "en": "The power unit sits on top of the press, saving floor space."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Ritorno rapido slitta",
+        "en": "Fast ram return"
+      },
+      "text": {
+        "it": "La slitta risale velocemente e riduce il tempo ciclo.",
+        "en": "The ram returns quickly, cutting cycle time."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Aperture laterali per bracci di lubrificazione e manipolazione.",
+      "en": "Side openings for lubrication and handling arms."
+    },
+    {
+      "it": "Corsa e luce maggiorate su richiesta.",
+      "en": "Longer stroke and daylight on request."
+    },
+    {
+      "it": "PLC Siemens con schede modulari per controllare ogni ciclo.",
+      "en": "Siemens PLC with modular boards to monitor every cycle."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g2-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g6.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/HF_g8.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "HF-4C Presse idrauliche a colonne",
+        "en": "HF-4C Columns hydraulic presses"
+      },
+      "models": [
+        "HF-4C 200",
+        "HF-4C 300",
+        "HF-4C 400",
+        "HF-4C 630",
+        "HF-4C 800",
+        "HF-4C 1000",
+        "HF-4C 1250"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza di pressata [kN]",
+            "en": "Pressing force [kN]"
+          },
+          "values": [
+            "2000",
+            "3000",
+            "4000",
+            "6300",
+            "8000",
+            "10000",
+            "12500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "500",
+            "500",
+            "500",
+            "650",
+            "650",
+            "800",
+            "800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Max velocità di lavoro [mm/sec]",
+            "en": "Max working speed [mm/sec]"
+          },
+          "values": [
+            "30 - 120",
+            "30 - 120",
+            "30 - 120",
+            "30 - 120",
+            "30 - 120",
+            "30 - 120",
+            "30 - 120"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale [mm]",
+            "en": "Vertical clearance [mm]"
+          },
+          "values": [
+            "1000",
+            "1000",
+            "1000",
+            "1250",
+            "1400",
+            "1500",
+            "1800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce orizzontale [mm]",
+            "en": "Horizontal clearance [mm]"
+          },
+          "values": [
+            "920",
+            "920",
+            "920",
+            "1020",
+            "1120",
+            "1270",
+            "1420"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "press",
+    "variant": "four-column"
+  }
+}

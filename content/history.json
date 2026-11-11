@@ -1,0 +1,134 @@
+[
+  {
+    "year": "1930",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1930.png",
+    "title": {
+      "it": "La fondazione",
+      "en": "The founding"
+    },
+    "text": {
+      "it": "Le famiglie Colombo e Giuliani aprono a Gazzada la Fabbrica Italiana Cesoie e Punzonatrici.",
+      "en": "The Colombo and Giuliani families open the Fabbrica Italiana Cesoie e Punzonatrici in Gazzada."
+    }
+  },
+  {
+    "year": "1935",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1935.png",
+    "title": {
+      "it": "Le prime cesoie",
+      "en": "The first shears"
+    },
+    "text": {
+      "it": "Parte la produzione di cesoie manuali e motorizzate e di punzonatrici.",
+      "en": "Production of manual and powered shears and punching machines begins."
+    }
+  },
+  {
+    "year": "1953",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1953.png",
+    "title": {
+      "it": "La prima fabbrica",
+      "en": "The first factory"
+    },
+    "text": {
+      "it": "Negli anni della ricostruzione nasce il primo stabilimento FICEP.",
+      "en": "In the post-war rebuilding years the first FICEP plant is built."
+    }
+  },
+  {
+    "year": "1965",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1965.png",
+    "title": {
+      "it": "Il controllo numerico",
+      "en": "Numerical control"
+    },
+    "text": {
+      "it": "Arriva la prima macchina a CNC e con lei le linee automatiche.",
+      "en": "The first CNC machine arrives, and with it automatic lines."
+    }
+  },
+  {
+    "year": "1974",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1974.png",
+    "title": {
+      "it": "Società per azioni",
+      "en": "Joint-stock company"
+    },
+    "text": {
+      "it": "FICEP diventa S.p.A. per sostenere la crescita.",
+      "en": "FICEP becomes an S.p.A. to support its growth."
+    }
+  },
+  {
+    "year": "1988",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1988.png",
+    "title": {
+      "it": "La prima filiale estera",
+      "en": "The first foreign subsidiary"
+    },
+    "text": {
+      "it": "Apre FICEP France; negli anni seguiranno molte altre sedi.",
+      "en": "FICEP France opens; many more sites follow over the years."
+    }
+  },
+  {
+    "year": "1995",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1995.png",
+    "title": {
+      "it": "Direct Drive",
+      "en": "Direct Drive"
+    },
+    "text": {
+      "it": "Debutta il motore lineare ad azionamento diretto per le presse a vite.",
+      "en": "The direct-drive linear motor for screw presses makes its debut."
+    }
+  },
+  {
+    "year": "1997",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/1997.png",
+    "title": {
+      "it": "Crosio della Valle",
+      "en": "Crosio della Valle"
+    },
+    "text": {
+      "it": "Un nuovo stabilimento e una rete di aziende satellite.",
+      "en": "A new plant and a network of satellite companies."
+    }
+  },
+  {
+    "year": "2012",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/s-2012.jpg",
+    "title": {
+      "it": "Academy of Technology",
+      "en": "Academy of Technology"
+    },
+    "text": {
+      "it": "Nasce il centro dove clienti e tecnici si formano sulle macchine.",
+      "en": "The centre where customers and technicians train on the machines opens."
+    }
+  },
+  {
+    "year": "2018",
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/s-2018.jpg",
+    "title": {
+      "it": "Nuova capacità produttiva",
+      "en": "New production capacity"
+    },
+    "text": {
+      "it": "Un altro stabilimento amplia gli spazi di montaggio.",
+      "en": "Another plant extends the assembly space."
+    }
+  },
+  {
+    "year": "Oggi",
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/03/s-2026.jpg",
+    "title": {
+      "it": "FICEP oggi",
+      "en": "FICEP today"
+    },
+    "text": {
+      "it": "Sedici filiali dirette e clienti in tutto il mondo.",
+      "en": "Sixteen direct subsidiaries and customers worldwide."
+    }
+  }
+]

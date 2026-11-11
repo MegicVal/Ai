@@ -26,13 +26,13 @@ function Logo({ lang, label, home }: { lang: Locale; label: string; home: string
 export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const t = dict.header;
   return (
-    <header className="absolute inset-x-0 z-30">
+    <header className="on-dark absolute inset-x-0 z-30 text-paper">
       <div className="wrap flex items-center justify-between gap-4 py-[18px]">
         <Logo lang={lang} label={t.logo} home={t.home} />
 
         <nav aria-label={t.nav} className="hidden gap-7 text-[0.95rem] font-medium lg:flex">
           {site.nav.map((item) => (
-            <Link key={item.id} href={href(lang, item.path)} className="transition-colors hover:text-accent">
+            <Link key={item.id} href={href(lang, item.path)} className="transition-colors hover:text-accent-hi">
               {tr(item.label, lang)}
             </Link>
           ))}
@@ -42,16 +42,16 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
           <Suspense fallback={null}>
             <LanguageSwitch lang={lang} label={t.language} className="hidden sm:flex" />
           </Suspense>
-          <Link href={href(lang, site.finderPath)} className="btn btn-ghost bg-paper/70 backdrop-blur-sm max-sm:hidden">
+          <Link href={href(lang, site.finderPath)} className="btn btn-ghost bg-ink/35 backdrop-blur-sm max-sm:hidden">
             {t.finder}
           </Link>
 
           {/* Mobile menu: a native disclosure, so it works before any script loads. */}
           <details className="group lg:hidden">
-            <summary className="btn btn-ghost cursor-pointer list-none bg-paper/70 backdrop-blur-sm [&::-webkit-details-marker]:hidden">
+            <summary className="btn btn-ghost cursor-pointer list-none bg-ink/35 backdrop-blur-sm [&::-webkit-details-marker]:hidden">
               {t.menu}
             </summary>
-            <div className="absolute inset-x-0 top-full border-y border-line bg-paper shadow-[0_24px_40px_-24px_rgb(12_17_16/0.35)]">
+            <div className="absolute inset-x-0 top-full border-y border-line bg-paper text-ink shadow-[0_24px_40px_-24px_rgb(12_17_16/0.35)]">
               <nav aria-label={t.nav} className="wrap grid py-3">
                 {site.nav.map((item) => (
                   <Link

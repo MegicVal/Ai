@@ -1,0 +1,350 @@
+{
+  "slug": "katana",
+  "name": "KATANA",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Taglia profili con sega a nastro.",
+    "en": "Band-saws sections."
+  },
+  "descriptor": {
+    "it": "Linee di taglio a nastro automatiche a CNC per profili",
+    "en": "Automatic CNC band sawing lines for structural steel sections"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-katama.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-katana_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/katana/",
+  "processes": [
+    {
+      "label": {
+        "it": "Taglio con sega a nastro",
+        "en": "Band sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Taglio-con-sega-a-nastro_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Bloccaggio materiale",
+        "en": "Profile clamping"
+      },
+      "text": {
+        "it": "Pressori idraulici orizzontali e verticali tengono fermo il profilo.",
+        "en": "Horizontal and vertical hydraulic clamps hold the section firmly."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-Pressori-verticali.jpg"
+    },
+    {
+      "title": {
+        "it": "Taglio inclinato",
+        "en": "Saw mitering"
+      },
+      "text": {
+        "it": "La segatrice ruota per tagli inclinati fino a 60° nei due sensi.",
+        "en": "The saw swivels for mitre cuts up to 60° both ways."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-taglio-inclinato.jpg"
+    },
+    {
+      "title": {
+        "it": "Dispositivo magnetico",
+        "en": "Magnetic device"
+      },
+      "text": {
+        "it": "In linea con una segatrice, un magnete scarica i pezzi tagliati.",
+        "en": "In line with a saw, a magnet unloads the cut parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-Dispositivo-di-scarico-automatico-con-magnete.jpg"
+    },
+    {
+      "title": {
+        "it": "Scarico pezzi corti",
+        "en": "Small parts handling"
+      },
+      "text": {
+        "it": "Una tavola dedicata gestisce pezzi corti, intestature e scarti.",
+        "en": "A dedicated table handles short parts, trim cuts and scrap."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-scarico-pezzi-corti.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio lama rapido",
+        "en": "Quick blade change"
+      },
+      "text": {
+        "it": "La lama a nastro si sostituisce in modo rapido e semplice.",
+        "en": "The band blade is quick and easy to replace."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-Cambio-rapido-della-lama.jpg"
+    },
+    {
+      "title": {
+        "it": "Pulizia della lama",
+        "en": "Blade cleaning"
+      },
+      "text": {
+        "it": "Una spazzola sincronizzata toglie i trucioli dalla lama.",
+        "en": "A synchronised brush clears chips from the blade."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-pulizia-della-lama.jpg"
+    },
+    {
+      "title": {
+        "it": "Lavorazione di tubi",
+        "en": "Processing of pipes"
+      },
+      "text": {
+        "it": "Un dispositivo dedicato permette di lavorare i tubi in semi-automatico.",
+        "en": "A dedicated device allows semi-automatic tube processing."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-lavorazione-dei-tubi.jpg"
+    },
+    {
+      "title": {
+        "it": "Unico controllo numerico",
+        "en": "Single CNC control unit"
+      },
+      "text": {
+        "it": "Un solo CNC gestisce anche la segatrice o il robot in linea.",
+        "en": "A single CNC also runs the in-line saw or robot."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_unita-controllo-numerico.jpg"
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "text": {
+        "it": "I dispositivi di sicurezza fermano la macchina al primo contatto.",
+        "en": "Safety devices stop the machine on contact."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sicurezza-prodotto.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Tagli inclinati fino a 60° nei due sensi.",
+      "en": "Mitre cuts up to 60° both ways."
+    },
+    {
+      "it": "Manutenzione e pulizia semplici.",
+      "en": "Easy maintenance and cleaning."
+    },
+    {
+      "it": "Tagli molto veloci e accurati.",
+      "en": "Very fast, accurate cuts."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-Sistema-automatico.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-esempi-lavorazione.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KATANA-gp1.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Drill-Saw-System-with-Double-Miter-Cutting-Capability.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linee di taglio a nastro automatiche a CNC per profili",
+        "en": "Automatic CNC band sawing lines for structural steel sections"
+      },
+      "models": [
+        "K60EL",
+        "K100EL",
+        "K115L",
+        "K115EL",
+        "K126EL",
+        "K206L",
+        "K208L"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni profilo a 90° [min mm]",
+            "en": "Section size at 90° [min.mm]"
+          },
+          "values": [
+            "50x10",
+            "50x10",
+            "50x10",
+            "50x10",
+            "50x10",
+            "200x10",
+            "200x10"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni profilo a 90° [max mm]",
+            "en": "Section size at 90° [max.mm]"
+          },
+          "values": [
+            "610x460",
+            "1015x460",
+            "1100x510",
+            "1100x610",
+            "1250x610",
+            "2000x610",
+            "2000x810"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni profilo a 45° [max mm]",
+            "en": "Section size at 45° [max.mm]"
+          },
+          "values": [
+            "610x460",
+            "685x460",
+            "710x510",
+            "850x610",
+            "850x610",
+            "1320x610",
+            "1320x810"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni profilo a 60° [max mm]",
+            "en": "Section size at 60° [max.mm]"
+          },
+          "values": [
+            "460x460",
+            "460x460",
+            "460x510",
+            "580x610",
+            "580x610",
+            "1880x610",
+            "1880x810"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza motore [kW]",
+            "en": "Motor power [kW]"
+          },
+          "values": [
+            "9",
+            "9",
+            "15",
+            "15",
+            "15",
+            "18",
+            "18"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità lama a nastro [max mt/min]",
+            "en": "Band saw blade speed [max.mt/min]"
+          },
+          "values": [
+            "170",
+            "170",
+            "170",
+            "170",
+            "170",
+            "170",
+            "170"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni lama a nastro [mm]",
+            "en": "Band saw blade size [mm]"
+          },
+          "values": [
+            "41x1.3x7250",
+            "41x1.3x7250",
+            "54x1.6x9920",
+            "54x1.6x9000",
+            "67x1.6x9000",
+            "67x1.6x12100",
+            "67x1.6x12930"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "3800",
+            "4500",
+            "11500",
+            "6400",
+            "6400",
+            "16500",
+            "17500"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "band-saw",
+    "variant": "default"
+  }
+}

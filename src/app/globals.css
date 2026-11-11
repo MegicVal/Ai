@@ -22,11 +22,9 @@
 }
 
 :root {
-  /* Height of the concept banner; the 3D stage pins itself right under it. */
+  /* Height of the concept banner. */
   --nh: 31px;
   --gutter: 16px;
-  /* Left/right inset of the page column, so full-bleed blocks can line up with it. */
-  --edge: max(var(--gutter), calc((100vw - 1304px) / 2 + var(--gutter)));
 }
 @media (max-width: 359px) {
   :root {
@@ -46,7 +44,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: var(--nh);
+  scroll-padding-top: calc(var(--nh) + 16px);
 }
 body {
   background: var(--color-paper);
@@ -111,104 +109,89 @@ body {
     border-color: var(--color-ink);
     color: var(--color-paper);
   }
-  .on-dark .btn-ghost:hover {
-    background: var(--color-paper);
-    border-color: var(--color-paper);
-    color: var(--color-ink);
-  }
+  .on-dark .btn-ghost:hover,
   .on-dark .btn-solid:hover {
     background: var(--color-paper);
     border-color: var(--color-paper);
     color: var(--color-ink);
   }
 
-  /* Hatched block that stands in for a photo until FICEP supplies real ones. */
-  .placeholder {
+  /* Photo frame: neutral ground while the image loads, slow zoom on hover inside links. */
+  .photo {
     position: relative;
-    display: grid;
-    place-items: center;
     overflow: hidden;
-    background:
-      repeating-linear-gradient(135deg, transparent 0 11px, color-mix(in srgb, currentColor 9%, transparent) 11px 12px),
-      color-mix(in srgb, currentColor 5%, transparent);
-    border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+    background: var(--color-ghost);
   }
-
-  /* ---------- 3D stage ---------- */
-  .stage {
-    position: relative;
-    --sbg: var(--color-paper);
-    --sfg: var(--color-ink);
-    --sfg2: var(--color-ink-2);
-    --sghost: var(--color-ghost);
-    --sline: var(--color-line);
-    --scard: var(--color-white);
-  }
-  .stage[data-dark="true"] {
-    --sbg: var(--color-ink);
-    --sfg: #ecf0ee;
-    --sfg2: var(--color-fog);
-    --sghost: #161d1b;
-    --sline: var(--color-rule);
-    --scard: var(--color-coal);
-  }
-  .stage-sticky {
-    position: sticky;
-    top: var(--nh);
-    height: calc(100vh - var(--nh));
-    height: calc(100svh - var(--nh));
-    overflow: hidden;
-    background: var(--sbg);
-    color: var(--sfg);
-    transition:
-      background-color 0.7s ease,
-      color 0.7s ease;
-  }
-  .stage-giant {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    padding-bottom: 8vh;
-    font-family: var(--font-display);
-    font-stretch: 125%;
-    font-weight: 800;
-    font-size: min(18vw, 42vh);
-    line-height: 0.8;
-    letter-spacing: -0.04em;
-    color: var(--sghost);
-    transition: color 0.7s ease;
-    user-select: none;
-  }
-  .stage-canvas,
-  .stage-poster {
-    position: absolute;
-    inset: 0;
-  }
-  .stage-canvas {
-    touch-action: pan-y;
-    cursor: grab;
-  }
-  .stage-canvas:active {
-    cursor: grabbing;
-  }
-  .stage-poster {
-    pointer-events: none;
-    transition: opacity 0.5s ease;
-  }
-  .stage-poster img {
+  .photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
-  .stage-tag {
+  a:hover .photo img,
+  button:hover .photo img {
+    transform: scale(1.04);
+  }
+  .on-dark .photo {
+    background: var(--color-coal);
+  }
+
+  /* ---------- 3D viewer ---------- */
+  .viewer {
+    position: relative;
+    overflow: hidden;
+    height: min(78svh, 760px);
+    min-height: 480px;
+    background: var(--color-ink);
+    color: #ecf0ee;
+  }
+  .viewer-giant {
     position: absolute;
-    left: var(--edge);
-    top: 96px;
-    color: var(--sfg2);
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding-bottom: 6%;
+    font-family: var(--font-display);
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: min(17vw, 300px);
+    line-height: 0.8;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+    color: #161d1b;
+    user-select: none;
+  }
+  .viewer-canvas {
+    position: absolute;
+    inset: 0;
+    touch-action: pan-y;
+    cursor: grab;
+  }
+  .viewer-canvas:active {
+    cursor: grabbing;
+  }
+  .viewer-tag,
+  .viewer-hint,
+  .viewer-loading {
+    position: absolute;
+    color: var(--color-fog);
     z-index: 2;
   }
-  .stage-balloons {
+  .viewer-tag {
+    left: var(--gutter);
+    top: 18px;
+  }
+  .viewer-hint {
+    right: var(--gutter);
+    top: 18px;
+    text-align: right;
+  }
+  .viewer-loading {
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+  .viewer-balloons {
     position: absolute;
     inset: 0;
     pointer-events: none;
@@ -224,82 +207,81 @@ body {
     place-items: center;
     padding: 0;
     border-radius: 50%;
-    border: 1.5px solid var(--sfg);
-    background: var(--sbg);
-    color: var(--sfg);
+    border: 1.5px solid #ecf0ee;
+    background: var(--color-ink);
+    color: #ecf0ee;
     font: 500 12px var(--font-mono);
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
     transition:
       background-color 0.2s,
-      color 0.2s,
       border-color 0.2s;
   }
   .bal:hover,
   .bal[aria-pressed="true"] {
     background: var(--color-hot);
     border-color: var(--color-hot);
-    color: #fff;
   }
-  .stage-tools {
+  .viewer-tools {
     position: absolute;
-    right: var(--edge);
+    right: var(--gutter);
     bottom: 18px;
     z-index: 5;
     display: flex;
+    align-items: center;
     gap: 8px;
   }
-  .stage-tools button {
+  .viewer-tools button {
     height: 40px;
     min-width: 40px;
     padding: 0 12px;
-    border: 1px solid var(--sline);
+    border: 1px solid var(--color-rule);
     border-radius: 2px;
-    background: var(--scard);
-    color: var(--sfg);
+    background: var(--color-coal);
     font-weight: 600;
     cursor: pointer;
-    transition:
-      background-color 0.7s,
-      color 0.7s,
-      border-color 0.3s;
+    transition: border-color 0.2s;
   }
-  .stage-tools button:hover {
-    border-color: var(--sfg);
+  .viewer-tools button:hover {
+    border-color: #ecf0ee;
   }
-  .stage-parts {
+  .viewer-slider {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-coal);
+  }
+  .viewer-slider input {
+    width: 130px;
+    accent-color: var(--color-hot);
+  }
+  .viewer-parts {
     position: absolute;
-    left: var(--edge);
+    left: var(--gutter);
     bottom: 18px;
     z-index: 5;
-    width: 280px;
+    width: 270px;
     display: grid;
-    gap: 2px;
-    opacity: 0;
-    visibility: hidden;
-    transition:
-      opacity 0.4s,
-      visibility 0.4s;
   }
-  .stage[data-dark="true"] .stage-parts {
-    opacity: 1;
-    visibility: visible;
-  }
-  .stage-parts button {
+  .viewer-parts button {
     width: 100%;
     display: grid;
     grid-template-columns: 26px 1fr;
     gap: 10px;
     align-items: center;
-    padding: 9px 10px;
-    border-top: 1px solid var(--sline);
-    color: var(--sfg2);
+    padding: 8px 10px;
+    border-top: 1px solid var(--color-rule);
+    color: var(--color-fog);
     font-weight: 500;
+    font-size: 0.92rem;
     text-align: left;
     cursor: pointer;
   }
-  .stage-parts button b {
+  .viewer-parts button b {
     display: grid;
     place-items: center;
     width: 22px;
@@ -308,86 +290,52 @@ body {
     border-radius: 50%;
     font: 500 11px var(--font-mono);
   }
-  .stage-parts button:hover,
-  .stage-parts button[aria-pressed="true"] {
-    color: var(--sfg);
+  .viewer-parts button:hover,
+  .viewer-parts button[aria-pressed="true"] {
+    color: #ecf0ee;
   }
-  .stage-parts button[aria-pressed="true"] b {
+  .viewer-parts button[aria-pressed="true"] b {
     background: var(--color-hot);
     border-color: var(--color-hot);
     color: #fff;
   }
-  .stage-card {
+  .viewer-card {
     position: absolute;
-    right: var(--edge);
-    top: 50%;
-    transform: translateY(-50%);
+    right: var(--gutter);
+    top: 64px;
     z-index: 5;
-    width: min(340px, calc(100% - 2 * var(--gutter)));
+    width: min(320px, calc(100% - 2 * var(--gutter)));
     display: grid;
-    gap: 12px;
-    padding: 22px;
-    border: 1px solid var(--sline);
-    background: var(--scard);
-  }
-  .stage-card dl > div {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 7px 0;
-    border-top: 1px dashed var(--sline);
-  }
-  .stage-chapters {
-    position: relative;
-    z-index: 4;
-    margin-top: calc(var(--nh) - 100vh);
-    margin-top: calc(var(--nh) - 100svh);
-    pointer-events: none;
-  }
-  .ch {
-    display: flex;
-    min-height: calc(100vh - var(--nh));
-    min-height: calc(100svh - var(--nh));
-    padding: 110px var(--edge) 84px;
-  }
-  .ch > div {
-    pointer-events: auto;
-  }
-  .ch-inside {
-    color: var(--color-ink);
-    transition: color 0.7s ease;
-  }
-  .ch-inside p {
-    color: var(--color-ink-2);
-    transition: color 0.7s ease;
-  }
-  .stage[data-dark="true"] .ch-inside {
-    color: #ecf0ee;
-  }
-  .stage[data-dark="true"] .ch-inside p {
-    color: var(--color-fog);
-  }
-  .ch-hold {
-    min-height: 150vh;
-    min-height: 150svh;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--color-rule);
+    background: var(--color-coal);
   }
 
   @media (max-width: 860px) {
-    .stage-giant {
-      padding-bottom: 34vh;
+    .viewer {
+      height: min(84svh, 720px);
+    }
+    .viewer-giant {
       font-size: 19vw;
+      padding-bottom: 40%;
     }
-    .stage-tag {
-      max-width: 52%;
-    }
-    .stage-tools {
-      top: 88px;
-      bottom: auto;
-    }
-    .stage-tools .zoom {
+    .viewer-hint {
       display: none;
     }
-    .stage-parts {
+    .viewer-tools {
+      left: var(--gutter);
+      right: var(--gutter);
+      bottom: 70px;
+      justify-content: flex-end;
+    }
+    .viewer-slider {
+      flex: 1;
+    }
+    .viewer-slider input {
+      width: 100%;
+    }
+    .viewer-parts {
       left: 0;
       right: 0;
       width: auto;
@@ -397,26 +345,73 @@ body {
       padding-inline: var(--gutter);
       scrollbar-width: none;
     }
-    .stage-parts li {
+    .viewer-parts li {
       flex: none;
     }
-    .stage-parts button {
+    .viewer-parts button {
       grid-template-columns: 22px auto;
-      border: 1px solid var(--sline);
+      border: 1px solid var(--color-rule);
       border-radius: 2px;
       white-space: nowrap;
     }
-    .stage-card {
-      top: auto;
-      bottom: 74px;
+    .viewer-card {
+      top: 48px;
       left: var(--gutter);
-      transform: none;
       width: auto;
-      padding: 16px;
+      padding: 14px;
     }
-    .ch {
-      padding-block: 120px 76px;
-    }
+  }
+
+  /* Horizontal strip that scrolls with touch or trackpad and snaps per item. */
+  .strip {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-inline: var(--gutter);
+    scroll-padding-inline: var(--gutter);
+    scrollbar-width: thin;
+  }
+  .strip > * {
+    scroll-snap-align: start;
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .spec-table th,
+  .spec-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-line);
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .spec-table thead th {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-2);
+    border-bottom-color: var(--color-ink);
+  }
+  .spec-table tbody th,
+  .spec-table thead th:first-child {
+    position: sticky;
+    left: 0;
+    background: var(--color-white);
+    text-align: left;
+    font-weight: 500;
+    white-space: normal;
+    min-width: 180px;
+    max-width: 280px;
+  }
+  .spec-table td {
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
   }
 }
 

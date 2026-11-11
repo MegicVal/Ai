@@ -1,32 +1,127 @@
 [
   {
     "slug": "centri-di-servizio",
-    "name": { "it": "Centri di servizio", "en": "Service centres" },
-    "text": { "it": "Tagliare e forare su commessa, con cambi rapidi.", "en": "Cutting and drilling to order, with fast changeovers." }
+    "name": {
+      "it": "Centri di servizio",
+      "en": "Service centres"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/centri-di-servizio-2.jpg",
+    "machines": [
+      "gemini",
+      "nozomi",
+      "valiant"
+    ],
+    "text": {
+      "it": "Tagliare e forare su commessa, con cambi rapidi.",
+      "en": "Cutting and drilling to order, with fast changeovers."
+    },
+    "body": {
+      "it": "I centri di servizio non vendono più solo acciaio a magazzino: consegnano profili e lamiere già lavorati. Servono linee che passano da una commessa all’altra senza attrezzaggi lunghi e che lavorano travi e lamiere nello stesso reparto.",
+      "en": "Service centres no longer just sell steel from stock: they deliver sections and plates already processed. They need lines that switch from one order to the next without long set-ups and that handle beams and plates in the same department."
+    }
   },
   {
     "slug": "macchine-agricole-movimento-terra",
-    "name": { "it": "Macchine agricole e movimento terra", "en": "Agricultural and earth-moving machinery" },
-    "text": { "it": "Lamiere spesse e pezzi ripetuti in grande serie.", "en": "Thick plates and parts repeated in large series." }
+    "name": {
+      "it": "Macchine agricole e movimento terra",
+      "en": "Agricultural and earth-moving machinery"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/macchine-agricole-1.jpg",
+    "machines": [
+      "gemini",
+      "kronos"
+    ],
+    "text": {
+      "it": "Lamiere spesse e pezzi ripetuti in grande serie.",
+      "en": "Thick plates and parts repeated in large series."
+    },
+    "body": {
+      "it": "Telai, bracci e benne nascono da lamiere spesse tagliate, forate e fresate con tolleranze strette. GEMINI e KRONOS lavorano da sole oppure affiancate in un’unica linea, per avere più produzione senza moltiplicare le movimentazioni.",
+      "en": "Frames, booms and buckets start as thick plates cut, drilled and milled to tight tolerances. GEMINI and KRONOS work alone or side by side in a single line, for more output without extra handling."
+    }
   },
   {
     "slug": "ponti",
-    "name": { "it": "Ponti", "en": "Bridges" },
-    "text": { "it": "Travi saldate e strutture fuori misura.", "en": "Welded girders and oversize structures." }
+    "name": {
+      "it": "Ponti",
+      "en": "Bridges"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ponti-1.jpg",
+    "machines": [
+      "enterprise",
+      "gemini",
+      "valiant"
+    ],
+    "text": {
+      "it": "Travi saldate e strutture fuori misura.",
+      "en": "Welded girders and oversize structures."
+    },
+    "body": {
+      "it": "Un ponte in acciaio deve durare e rispettare norme severe. Per questo le travi saldate di grandi dimensioni vengono forate e fresate in automatico, misurando la struttura reale prima di ogni lavorazione.",
+      "en": "A steel bridge has to last and meet strict standards. That is why large welded girders are drilled and milled automatically, measuring the real structure before each operation."
+    }
   },
   {
     "slug": "edifici",
-    "name": { "it": "Edifici commerciali e industriali", "en": "Commercial and industrial buildings" },
-    "text": { "it": "Profili e piastre, dal grezzo al cantiere.", "en": "Sections and plates, from raw stock to site." }
+    "name": {
+      "it": "Edifici commerciali e industriali",
+      "en": "Commercial and industrial buildings"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/struttur-commerciali-1.jpg",
+    "machines": [
+      "valiant",
+      "gemini",
+      "nozomi"
+    ],
+    "text": {
+      "it": "Profili e piastre, dal grezzo al cantiere.",
+      "en": "Sections and plates, from raw stock to site."
+    },
+    "body": {
+      "it": "Capannoni, centri commerciali e palazzi multipiano richiedono migliaia di travi e piastre diverse tra loro. Foratura, taglio e scantonatura in linea portano ogni pezzo in cantiere già pronto per il montaggio.",
+      "en": "Warehouses, shopping centres and multi-storey buildings need thousands of beams and plates, each one different. In-line drilling, cutting and coping deliver every part to site ready for assembly."
+    }
   },
   {
     "slug": "torri-di-trasmissione",
-    "name": { "it": "Torri di trasmissione", "en": "Transmission towers" },
-    "text": { "it": "Angolari punzonati e tagliati in linea.", "en": "Angles punched and cut in line." }
+    "name": {
+      "it": "Torri di trasmissione",
+      "en": "Transmission towers"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/torri-di-trasmissione-1.jpg",
+    "machines": [
+      "xp-t",
+      "rapid",
+      "kronos"
+    ],
+    "text": {
+      "it": "Angolari punzonati e tagliati in linea.",
+      "en": "Angles punched and cut in line."
+    },
+    "body": {
+      "it": "Dagli anni Sessanta FICEP sviluppa linee dedicate ad angolari e piastre per i tralicci. Punzonatura, foratura, marcatura e taglio avvengono in un solo passaggio, con la precisione che il montaggio in quota richiede.",
+      "en": "Since the 1960s FICEP has developed lines dedicated to angles and plates for lattice towers. Punching, drilling, marking and cutting happen in a single pass, with the accuracy that assembly at height demands."
+    }
   },
   {
     "slug": "eolico",
-    "name": { "it": "Eolico", "en": "Wind energy" },
-    "text": { "it": "Componenti per impianti onshore e offshore.", "en": "Components for onshore and offshore plants." }
+    "name": {
+      "it": "Eolico",
+      "en": "Wind energy"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/03/torri-eoliche-2.jpg",
+    "machines": [
+      "rb-g",
+      "kronos",
+      "energy"
+    ],
+    "text": {
+      "it": "Componenti per impianti onshore e offshore.",
+      "en": "Components for onshore and offshore plants."
+    },
+    "body": {
+      "it": "Generatori più potenti significano torri più alte, diametri maggiori e lamiere più spesse. Taglio, bisellatura dei bordi e sabbiatura preparano le virole alla saldatura rispettando tolleranze sempre più strette.",
+      "en": "More powerful generators mean taller towers, larger diameters and thicker plates. Cutting, edge bevelling and shot blasting prepare the shell sections for welding to ever tighter tolerances."
+    }
   }
 ]

@@ -1,0 +1,306 @@
+{
+  "slug": "xp-r",
+  "name": "XP R",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "angolari-piatti",
+  "summary": {
+    "it": "Punzona e cesoia angolari con avanzamento a rulli.",
+    "en": "Punches and shears angles with roller feed."
+  },
+  "descriptor": {
+    "it": "Linee a CNC per la punzonatura e taglio di angolari",
+    "en": "CNC punching and shearing lines for the processing of angles"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/p-XP-r.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-XP-r_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/xp-r/",
+  "processes": [
+    {
+      "label": {
+        "it": "Punzonatura",
+        "en": "Punching"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Punzonatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stozzatura",
+        "en": "Notching"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stozzatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con cesoia",
+        "en": "Shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-con-cesoia_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a u",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Unità di punzonatura",
+        "en": "Punching units"
+      },
+      "text": {
+        "it": "Unità di punzonatura con porta punzoni a cambio rapido.",
+        "en": "Punching units with quick-change punch holders."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Unita-di-punzonatura.jpg"
+    },
+    {
+      "title": {
+        "it": "Unità di taglio",
+        "en": "Shearing unit"
+      },
+      "text": {
+        "it": "Cesoia a taglio singolo o doppio, con lame costruite in casa.",
+        "en": "Single- or double-cut shear with blades made in-house."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Unita-di-taglio.jpg"
+    },
+    {
+      "title": {
+        "it": "Marcatrice",
+        "en": "Marking unit"
+      },
+      "text": {
+        "it": "Marcatrice a disco per identificare i pezzi.",
+        "en": "Disc marking unit to identify parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Marcatrice-a-disco-programmabile-con-38-caratteri.jpg"
+    },
+    {
+      "title": {
+        "it": "Punzonatura piatti",
+        "en": "Flats punching"
+      },
+      "text": {
+        "it": "Un dispositivo opzionale con pressori permette di punzonare i piatti.",
+        "en": "An optional device with clamps allows flats to be punched."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Punzonatura-piatti.jpg"
+    },
+    {
+      "title": {
+        "it": "Taglio di piatti e ferri a u",
+        "en": "Flats and channels shearing"
+      },
+      "text": {
+        "it": "Una cesoia a cambio rapido taglia anche piatti e ferri a U.",
+        "en": "A quick-change shear also cuts flats and channels."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Porta-lama-a-cambio-rapido.jpg"
+    },
+    {
+      "title": {
+        "it": "Unità multifunzionale",
+        "en": "Multi-functions unit"
+      },
+      "text": {
+        "it": "Un'unità attrezzabile per marcare, punzonare doppio o stozzare.",
+        "en": "One unit that can be tooled for marking, double punching or notching."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XPR-dispositivp-multifunziome.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema di posizionamento e misurazione barra",
+        "en": "Material positioning and measuring system"
+      },
+      "text": {
+        "it": "Due rulli comandati dal CNC trasportano e misurano l'angolare.",
+        "en": "Two CNC-driven rollers feed and measure the angle."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Sistema-di-alimentazione-barra-a-rulli.jpg"
+    },
+    {
+      "title": {
+        "it": "Rulliere a rulli folli",
+        "en": "Idler roll conveyors"
+      },
+      "text": {
+        "it": "Rulliere folli in entrata e uscita per muovere i profili a mano.",
+        "en": "Idle roller conveyors at infeed and outfeed for manual handling."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Rulliere-rulli-folli.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema rotativo di carico",
+        "en": "Rotating loading system"
+      },
+      "text": {
+        "it": "Supporti a V caricano da soli gli angolari sulla rulliera.",
+        "en": "V-supports load angles onto the conveyor automatically."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/AeHP-Sistema-rotativo-di-carico-.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Ogni modello si configura sulle esigenze produttive, con un investimento contenuto.",
+      "en": "Each model is configured to the production need, at a contained investment."
+    },
+    {
+      "it": "Struttura compatta, facile da installare.",
+      "en": "Compact frame, easy to install."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/XP-R-Esempi-di-lavorazioni.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/04/Steel-Angle-Fabrication-on-the-Worlds-Fastest-Roller-Feed-Angle-Line-XP-R.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linee a CNC per la punzonatura e taglio di angolari",
+        "en": "CNC punching and shearing lines for the processing of angles"
+      },
+      "models": [
+        "XP10R2",
+        "XP10R4",
+        "XP12R4",
+        "XP12R6",
+        "XP16R2",
+        "XP16R4",
+        "XP16R6"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni angolare (410 N/mm²) [min mm]",
+            "en": "Angle size (410 N/mm2) [min.mm]"
+          },
+          "values": [
+            "30x30x3",
+            "30x30x3",
+            "30x30x3",
+            "30x30x3",
+            "30x30x3",
+            "30x30x3",
+            "30x30x3"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni angolare (410 N/mm²) [max mm]",
+            "en": "Angle size (410 N/mm2) [max.mm]"
+          },
+          "values": [
+            "100x100x13",
+            "100x100x13",
+            "120x120x13",
+            "120x120x13",
+            "160x160x19",
+            "160x160x19",
+            "160x160x19"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro per ala [no.]",
+            "en": "Diameter per flange [no.]"
+          },
+          "values": [
+            "1",
+            "2",
+            "2",
+            "3",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza punzonatura [kN]",
+            "en": "Punching force [kN]"
+          },
+          "values": [
+            "650",
+            "650",
+            "650",
+            "650",
+            "800",
+            "800",
+            "800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro punzonatura [max mm]",
+            "en": "Punching diameter [max.mm]"
+          },
+          "values": [
+            "32",
+            "32",
+            "32",
+            "32",
+            "32",
+            "32",
+            "32"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza di taglio [kN]",
+            "en": "Shearing force [kN]"
+          },
+          "values": [
+            "1800",
+            "1800",
+            "1800",
+            "1800",
+            "2200",
+            "2200",
+            "2200"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "angle-line",
+    "variant": "default"
+  }
+}

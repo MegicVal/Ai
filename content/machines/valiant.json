@@ -1,0 +1,527 @@
+{
+  "slug": "valiant",
+  "name": "VALIANT",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Foratura a più mandrini ad alta produttività per profili.",
+    "en": "High-output multi-spindle drilling for sections."
+  },
+  "descriptor": {
+    "it": "Linea Automatica a CNC di foratura, foratura & taglio a nastro, foratura & taglio termico per profili",
+    "en": "Automatic CNC drilling, drilling & band sawing, drilling & coping lines for sections"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-valiant.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-valiant_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/valiant/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con sega a nastro",
+        "en": "Band sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Taglio-con-sega-a-nastro_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ossitaglio",
+        "en": "Oxy-fuel cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Ossitaglio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Plasma",
+        "en": "Plasma cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Plasma_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Nuovo sistema a doppie morse indipendenti",
+        "en": "New double independent vices"
+      },
+      "text": {
+        "it": "Doppie morse idrauliche indipendenti e doppio allineamento per bloccare meglio il profilo.",
+        "en": "Twin independent hydraulic vices and double alignment for a firmer grip."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/STEEL-CONSTRUCTION-MACHINERY_BEAMS_VALIANT_DOUBLE-INDEPENDENT-VICES.jpg"
+    },
+    {
+      "title": {
+        "it": "Mandrino con nuovo design",
+        "en": "New spindle design"
+      },
+      "text": {
+        "it": "Mandrini Direct Drive che trasmettono all'utensile tutta la potenza del motore.",
+        "en": "Direct Drive spindles that deliver full motor power to the tool."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/STEEL-CONSTRUCTION-MACHINERY_BEAMS_VALIANT_NEW-SPINDLE.jpg"
+    },
+    {
+      "title": {
+        "it": "Corsa asse ausiliario maggiorata",
+        "en": "Extended auxiliary sub axes"
+      },
+      "text": {
+        "it": "Asse complementare con corsa di 300 mm su ogni mandrino.",
+        "en": "Complementary axis with 300 mm travel on every spindle."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_Assi-ausiliari-con-corsa-di-300-mm.jpg"
+    },
+    {
+      "title": {
+        "it": "Nuova motrice e pinza",
+        "en": "New carriage and pincher"
+      },
+      "text": {
+        "it": "Braccio pinza singolo o doppio, anche con asse aggiuntivo.",
+        "en": "Single or twin gripper arm, also with an extra axis."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_sistema-doppia-pinza.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili automatico a 14 posizioni",
+        "en": "14 positions automatic tool changer"
+      },
+      "text": {
+        "it": "Ogni testa di foratura può avere un cambio utensili a 14 posizioni.",
+        "en": "Each drilling head can carry a 14-station tool changer."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_Dispositivo-di-cambio-utensili-a-14-posizioni.jpg"
+    },
+    {
+      "title": {
+        "it": "Fresatura avanzata",
+        "en": "Advanced milling"
+      },
+      "text": {
+        "it": "Fresature speciali: asole, tasche, svasature e preparazioni di saldatura.",
+        "en": "Special milling: slots, pockets, countersinks and weld preparations."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_esempi-di-lavorazione.jpg"
+    },
+    {
+      "title": {
+        "it": "Dispositivo magnetico",
+        "en": "Magnetic device"
+      },
+      "text": {
+        "it": "In linea con una segatrice, un magnete scarica i pezzi tagliati.",
+        "en": "In line with a saw, a magnet unloads the cut parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ORIENT-dispositivo-magnetico.jpg"
+    },
+    {
+      "title": {
+        "it": "Unico controllo numerico",
+        "en": "Single CNC control unit"
+      },
+      "text": {
+        "it": "Un solo CNC gestisce anche la segatrice o il robot in linea.",
+        "en": "A single CNC also runs the in-line saw or robot."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_unita-controllo-numerico.jpg"
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "text": {
+        "it": "I dispositivi di sicurezza fermano la macchina al primo contatto.",
+        "en": "Safety devices stop the machine on contact."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sicurezza-prodotto.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "La foratrice più evoluta della gamma.",
+      "en": "The most advanced drilling line in the range."
+    },
+    {
+      "it": "Fora contemporaneamente le tre superfici del profilo.",
+      "en": "Drills all three faces of the section at once."
+    },
+    {
+      "it": "Asse ausiliario con corsa di 300 mm su tutti e tre i mandrini.",
+      "en": "Auxiliary axis with 300 mm travel on all three spindles."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_g4.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Beam-Line-System-with-Sub-Axis-Spindles-for-Automatic-Steel-Fabrication-Valiant.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linee automatiche di foratura multi-mandrino a CNC",
+        "en": "Automatic CNC multi-spindle drilling lines"
+      },
+      "models": [
+        "453 VL 453 VL-R",
+        "603 VL 603 VL-R",
+        "1003 VL 1003 VL-R",
+        "1103 VL 1103 VL-R",
+        "1203 VL 1203 VL-R",
+        "2003/6 VL",
+        "2003/8 VL"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dim. profilo [min. mm]",
+            "en": "Section size [min.mm]"
+          },
+          "values": [
+            "60 * x10",
+            "60x10",
+            "60x10",
+            "80x10",
+            "80x10",
+            "200x75",
+            "200x75"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dim. profilo [max. mm]",
+            "en": "Section size [max.mm]"
+          },
+          "values": [
+            "460x460",
+            "610x460",
+            "1015x460",
+            "1115x510",
+            "1220x610",
+            "2030x610",
+            "2030x810"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "6/14",
+            "6/14",
+            "6/14",
+            "6/14",
+            "6/14",
+            "6/14",
+            "6/14"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max. mm]",
+            "en": "Drilling diameter [max mm]"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "31",
+            "31",
+            "31",
+            "31",
+            "31",
+            "31",
+            "31"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa asse ausiliario mandrino [mm]",
+            "en": "Spindle sub-axis stroke [mm]"
+          },
+          "values": [
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "10000",
+            "11000",
+            "11000",
+            "11500",
+            "11500",
+            "14500",
+            "15000"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Foratura e taglio a nastro",
+        "en": "Drilling and band sawing"
+      },
+      "models": [
+        "453 VLB",
+        "603 VLB",
+        "1003 VLB",
+        "1103 VLB",
+        "1203 VLB",
+        "2003/6 VLB",
+        "2003/8 VLB"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Potenza motore [kW]",
+            "en": "Motor power [kW]"
+          },
+          "values": [
+            "9",
+            "9",
+            "9",
+            "15",
+            "15",
+            "18",
+            "19"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità lama a nastro [max. mt/min]",
+            "en": "Band saw blade speed [max.mt/min]"
+          },
+          "values": [
+            "170",
+            "170",
+            "170",
+            "170",
+            "170",
+            "170",
+            "170"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensione lama a nastro [mm]",
+            "en": "Band saw blade size [mm]"
+          },
+          "values": [
+            "41x1.3x7250",
+            "41x1.3x7250",
+            "41x1.3x7250",
+            "54x1.6x9920",
+            "67x1.6x9000",
+            "67x1.6x12100",
+            "67x1.6x12100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "14500",
+            "15500",
+            "15500",
+            "23000",
+            "17900",
+            "31000",
+            "32500"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Foratura e taglio termico",
+        "en": "Drilling and thermal coping"
+      },
+      "models": [
+        "604 VLRAZ",
+        "1204 VLRAZ"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Torce ossitaglio [no.]",
+            "en": "Oxy-fuel torch [no.]"
+          },
+          "values": [
+            "-",
+            "-"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce plasma [no.]",
+            "en": "Plasma torch [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "20000",
+            "20500"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "beam-line",
+    "variant": "triple"
+  }
+}

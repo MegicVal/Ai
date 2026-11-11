@@ -1,0 +1,454 @@
+{
+  "slug": "kronos",
+  "name": "KRONOS",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "lamiere",
+  "summary": {
+    "it": "Taglio termico e foratura di lamiere.",
+    "en": "Thermal cutting and drilling of plates."
+  },
+  "descriptor": {
+    "it": "Linea automatica gantry a CNC di taglio ad alta definizione con plasma e ossitaglio per lamiere",
+    "en": "Automatic gantry style CNC high definition plasma & oxy-fuel cutting system for plates"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-kronos.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-kronos_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/kronos/",
+  "processes": [
+    {
+      "label": {
+        "it": "Ossitaglio",
+        "en": "Oxy-fuel cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Ossitaglio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Plasma",
+        "en": "Plasma cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Plasma_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Lamiere",
+        "en": "Plates"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Torce ossitaglio",
+        "en": "Oxy-fuel torches"
+      },
+      "text": {
+        "it": "Fino a quattro torce ossitaglio, secondo il modello.",
+        "en": "Up to four oxy-fuel torches, depending on the model."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_Torce-ossitaglio.jpg"
+    },
+    {
+      "title": {
+        "it": "Torce plasma Hypertherm",
+        "en": "Hypertherm plasma units"
+      },
+      "text": {
+        "it": "Torce plasma ad alta definizione, per tagli diritti o inclinati.",
+        "en": "High-definition plasma torches for straight or bevel cuts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_Torcia-plasma-bevel.jpg"
+    },
+    {
+      "title": {
+        "it": "\"True Hole\" Hypertherm",
+        "en": "Hypertherm “True Hole”"
+      },
+      "text": {
+        "it": "Fori al plasma di qualità con la tecnologia True Hole di Hypertherm.",
+        "en": "Quality plasma-cut holes with Hypertherm True Hole technology."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/HYPERTHERM-TRUE-HOLE.jpg"
+    },
+    {
+      "title": {
+        "it": "Bancale di supporto",
+        "en": "Cutting bench"
+      },
+      "text": {
+        "it": "Griglia robusta che tiene stabile la lamiera, predisposta per l'aspirazione.",
+        "en": "A sturdy grid that keeps the plate stable, ready for fume extraction."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS-bancala-di-supporto.jpg"
+    },
+    {
+      "title": {
+        "it": "Aspirazione fumi",
+        "en": "Fume exhaust system"
+      },
+      "text": {
+        "it": "Aspira e filtra i fumi del taglio termico e restituisce aria pulita.",
+        "en": "Extracts and filters thermal-cutting fumes, returning clean air."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS-aspiratore-fumi.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema a doppio gantry",
+        "en": "Double gantry system"
+      },
+      "text": {
+        "it": "Due portali sulla stessa linea per produrre di più a costi contenuti.",
+        "en": "Two gantries on the same line for more output at lower cost."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_gemini-kronos.jpg"
+    },
+    {
+      "title": {
+        "it": "Unita' di foratura",
+        "en": "Drilling unit"
+      },
+      "text": {
+        "it": "Testa di foratura a controllo numerico per fori precisi.",
+        "en": "CNC drilling head for accurate holes."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS-unita-di-foratura-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Scarico robotizzato",
+        "en": "Robotic unloading"
+      },
+      "text": {
+        "it": "Robot di scarico a 4 assi con doppia presa magnetica.",
+        "en": "Four-axis unloading robot with twin magnetic grippers."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/GEMINI-scarico-robotizzato.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Precisione e affidabilità nel tempo.",
+      "en": "Lasting accuracy and reliability."
+    },
+    {
+      "it": "Versione PC per solo plasma, con banco e armadio elettrico integrati.",
+      "en": "PC version for plasma only, with table and cabinet built in."
+    },
+    {
+      "it": "Si installa in un'unica operazione; un secondo sistema si aggiunge dopo.",
+      "en": "Installed in one go; a second system can be added later."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS-g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/KRONOS-g1.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Steel-Plate-Detail-Fabrication-Processes-with-the-FICEP-Kronos.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linea automatica gantry a CNC di foratura e taglio termico per lamiere di grandi dimensioni",
+        "en": "Automatic gantry CNC drilling and thermal cutting systems for large plates"
+      },
+      "models": [
+        "KR25SP",
+        "KR32SP",
+        "KR36SP",
+        "KR25HP",
+        "KR32HP",
+        "KR36HP",
+        "KR36HDX"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni lamiera [max mm]",
+            "en": "Plate size [max.mm]"
+          },
+          "values": [
+            "2540x6000",
+            "3100x6000",
+            "3600x6000",
+            "2540x6000",
+            "3100x6000",
+            "3600x6000",
+            "3600x6000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore lamiera con plasma [max mm]",
+            "en": "Plate thickness with plasma [max.mm]"
+          },
+          "values": [
+            "50",
+            "50",
+            "50",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce plasma diritte [max no.]",
+            "en": "Plasma straight torches [max.no.]"
+          },
+          "values": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce plasma con bevel [max no.]",
+            "en": "Plasma bevel torches [max.no.]"
+          },
+          "values": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore lamiera con ossitaglio [max mm]",
+            "en": "Plate thickness with oxy-fuel [max.mm]"
+          },
+          "values": [
+            "150",
+            "150",
+            "150",
+            "150",
+            "150",
+            "150",
+            "150"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce ossitaglio [max no.]",
+            "en": "Oxy-fuel-fuel torches [max.no.]"
+          },
+          "values": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [max no.]",
+            "en": "Drilling heads [max.no.]"
+          },
+          "values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [max no.]",
+            "en": "Drilling tools per head [max.no.]"
+          },
+          "values": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max mm]",
+            "en": "Drilling diameter [max.mm]"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "6000",
+            "6000",
+            "6000",
+            "6000",
+            "6000",
+            "6000",
+            "6000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "2500",
+            "2800",
+            "3000",
+            "2500",
+            "2800",
+            "3000",
+            "3000"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Linea automatica gantry a CNC di taglio termico per lamiere",
+        "en": "Automatic gantry CNC thermal cutting systems for plates"
+      },
+      "models": [
+        "KR153PC",
+        "KR204PC",
+        "KR206PC",
+        "KR208PC"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni lamiera [max mm]",
+            "en": "Plate size [max.mm]"
+          },
+          "values": [
+            "1500x3000",
+            "2000x4000",
+            "2000x6000",
+            "2000x8000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore lamiera con plasma [max mm]",
+            "en": "Plate thickness with plasma [max.mm]"
+          },
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce plasma diritte [max no.]",
+            "en": "Plasma straight torches [max.no.]"
+          },
+          "values": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "4000",
+            "5000",
+            "7500",
+            "10000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "plate-gantry",
+    "variant": "thermal"
+  }
+}

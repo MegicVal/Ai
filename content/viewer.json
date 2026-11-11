@@ -1,0 +1,1048 @@
+{
+  "plate-gantry": [
+    {
+      "id": "base",
+      "name": {
+        "it": "Telaio e bancale",
+        "en": "Frame and bed"
+      },
+      "function": {
+        "it": "Sostiene la lamiera su una griglia rigida e la tiene ferma durante la lavorazione.",
+        "en": "Carries the plate on a rigid grid and keeps it still while it is processed."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gantry",
+      "name": {
+        "it": "Portale e assi",
+        "en": "Gantry and axes"
+      },
+      "function": {
+        "it": "Scorre lungo la lamiera e porta le teste di lavoro.",
+        "en": "Travels along the plate carrying the working heads."
+      },
+      "explode": [
+        0,
+        1.15,
+        0
+      ]
+    },
+    {
+      "id": "head",
+      "name": {
+        "it": "Testa di lavoro",
+        "en": "Working head"
+      },
+      "function": {
+        "it": "Esegue foratura, fresatura o taglio laser secondo il modello.",
+        "en": "Drills, mills or laser-cuts depending on the model."
+      },
+      "explode": [
+        1.0,
+        2.3,
+        0
+      ]
+    },
+    {
+      "id": "tools",
+      "name": {
+        "it": "Utensili e torce",
+        "en": "Tools and torches"
+      },
+      "function": {
+        "it": "Cambio utensili automatico e torce per il taglio termico.",
+        "en": "Automatic tool changer and torches for thermal cutting."
+      },
+      "explode": [
+        2.0,
+        1.15,
+        0
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.2,
+        0,
+        0.2
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.2,
+        2.0,
+        0.2
+      ]
+    }
+  ],
+  "plate-roller": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Rulliera e lamiera",
+        "en": "Conveyor and plate"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "frame",
+      "name": {
+        "it": "Struttura",
+        "en": "Frame"
+      },
+      "function": {
+        "it": "Struttura rigida che attraversa la lamiera e porta le unità operatrici.",
+        "en": "A rigid frame spanning the plate and carrying the working units."
+      },
+      "explode": [
+        0,
+        1.2,
+        -0.6
+      ]
+    },
+    {
+      "id": "head",
+      "name": {
+        "it": "Unità di foratura o punzonatura",
+        "en": "Drilling or punching unit"
+      },
+      "function": {
+        "it": "Fora o punzona la lamiera mentre viene posizionata dal CNC.",
+        "en": "Drills or punches the plate as the CNC positions it."
+      },
+      "explode": [
+        0,
+        2.6,
+        0.4
+      ]
+    },
+    {
+      "id": "tools",
+      "name": {
+        "it": "Utensili e torcia",
+        "en": "Tools and torch"
+      },
+      "function": {
+        "it": "Magazzino utensili o torcia per il taglio termico.",
+        "en": "Tool magazine or torch for thermal cutting."
+      },
+      "explode": [
+        1.6,
+        1.6,
+        0.8
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.0,
+        0,
+        0.6
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.0,
+        2.0,
+        0.6
+      ]
+    }
+  ],
+  "beam-line": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Rulliere",
+        "en": "Roller conveyors"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "frame",
+      "name": {
+        "it": "Struttura",
+        "en": "Frame"
+      },
+      "function": {
+        "it": "Il telaio che sostiene i mandrini attorno al profilo.",
+        "en": "The frame that holds the spindles around the section."
+      },
+      "explode": [
+        0,
+        1.3,
+        -0.8
+      ]
+    },
+    {
+      "id": "heads",
+      "name": {
+        "it": "Mandrini",
+        "en": "Spindles"
+      },
+      "function": {
+        "it": "Forano, fresano e tracciano ali e anima del profilo.",
+        "en": "Drill, mill and scribe the flanges and web of the section."
+      },
+      "explode": [
+        0,
+        2.8,
+        0.4
+      ]
+    },
+    {
+      "id": "clamps",
+      "name": {
+        "it": "Morse",
+        "en": "Clamps"
+      },
+      "function": {
+        "it": "Bloccano il profilo durante la lavorazione.",
+        "en": "Hold the section during machining."
+      },
+      "explode": [
+        0,
+        0.3,
+        2.0
+      ]
+    },
+    {
+      "id": "carriage",
+      "name": {
+        "it": "Motrice con pinza",
+        "en": "Gripper carriage"
+      },
+      "function": {
+        "it": "Afferra il profilo e lo posiziona con precisione lungo la linea.",
+        "en": "Grips the section and positions it accurately along the line."
+      },
+      "explode": [
+        -0.6,
+        1.2,
+        1.4
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.0,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.0,
+        2.0,
+        0.8
+      ]
+    }
+  ],
+  "angle-line": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Rulliere e barra",
+        "en": "Conveyors and bar"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "carriage",
+      "name": {
+        "it": "Motrice con pinza",
+        "en": "Gripper carriage"
+      },
+      "function": {
+        "it": "Alimenta la barra e ne misura l’avanzamento.",
+        "en": "Feeds the bar and measures its travel."
+      },
+      "explode": [
+        -0.6,
+        1.2,
+        -1.0
+      ]
+    },
+    {
+      "id": "punch",
+      "name": {
+        "it": "Unità di punzonatura e marcatura",
+        "en": "Punching and marking unit"
+      },
+      "function": {
+        "it": "Punzona le due ali dell’angolare e marca il pezzo.",
+        "en": "Punches both legs of the angle and marks the part."
+      },
+      "explode": [
+        -0.4,
+        1.8,
+        0
+      ]
+    },
+    {
+      "id": "shear",
+      "name": {
+        "it": "Unità di taglio",
+        "en": "Shearing unit"
+      },
+      "function": {
+        "it": "Taglia il pezzo a misura alla fine della lavorazione.",
+        "en": "Cuts the part to length at the end of the cycle."
+      },
+      "explode": [
+        1.4,
+        1.3,
+        0
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        0.6,
+        0,
+        1.0
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        0.6,
+        2.0,
+        1.0
+      ]
+    }
+  ],
+  "flat-line": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Rulliere e barra",
+        "en": "Conveyors and bar"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "carriage",
+      "name": {
+        "it": "Motrice con pinza",
+        "en": "Gripper carriage"
+      },
+      "function": {
+        "it": "Alimenta il piatto e ne misura l’avanzamento.",
+        "en": "Feeds the flat and measures its travel."
+      },
+      "explode": [
+        -0.6,
+        1.2,
+        -1.0
+      ]
+    },
+    {
+      "id": "punch",
+      "name": {
+        "it": "Unità di foratura e punzonatura",
+        "en": "Drilling and punching unit"
+      },
+      "function": {
+        "it": "Fora, punzona e marca il piatto.",
+        "en": "Drills, punches and marks the flat."
+      },
+      "explode": [
+        -0.4,
+        1.8,
+        0
+      ]
+    },
+    {
+      "id": "shear",
+      "name": {
+        "it": "Unità di taglio",
+        "en": "Cutting unit"
+      },
+      "function": {
+        "it": "Taglia il pezzo a misura, diritto o inclinato.",
+        "en": "Cuts the part to length, straight or mitred."
+      },
+      "explode": [
+        1.4,
+        1.3,
+        0
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        0.6,
+        0,
+        1.0
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        0.6,
+        2.0,
+        1.0
+      ]
+    }
+  ],
+  "band-saw": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Rulliere",
+        "en": "Roller conveyors"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "saw",
+      "name": {
+        "it": "Arco della sega",
+        "en": "Saw bow"
+      },
+      "function": {
+        "it": "La lama a nastro scende sul profilo; l’arco ruota per i tagli inclinati.",
+        "en": "The band blade comes down on the section; the bow swivels for mitre cuts."
+      },
+      "explode": [
+        0,
+        1.8,
+        0
+      ]
+    },
+    {
+      "id": "clamps",
+      "name": {
+        "it": "Morse",
+        "en": "Clamps"
+      },
+      "function": {
+        "it": "Bloccano il profilo vicino alla lama.",
+        "en": "Hold the section close to the blade."
+      },
+      "explode": [
+        0,
+        0.3,
+        2.0
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.0,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.0,
+        2.0,
+        0.8
+      ]
+    }
+  ],
+  "robot-cell": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Pezzo e supporti",
+        "en": "Part and supports"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "robot",
+      "name": {
+        "it": "Robot",
+        "en": "Robot"
+      },
+      "function": {
+        "it": "Esegue taglio, saldatura, proiezione o movimentazione secondo il modello.",
+        "en": "Cuts, welds, projects or handles parts depending on the model."
+      },
+      "explode": [
+        0,
+        1.8,
+        -1.4
+      ]
+    },
+    {
+      "id": "cabin",
+      "name": {
+        "it": "Protezioni",
+        "en": "Guards"
+      },
+      "function": {
+        "it": "Delimitano la zona di lavoro in sicurezza.",
+        "en": "Enclose the work area safely."
+      },
+      "explode": [
+        0,
+        0.4,
+        -2.0
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.0,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.0,
+        2.0,
+        0.8
+      ]
+    }
+  ],
+  "tunnel": [
+    {
+      "id": "conveyor",
+      "name": {
+        "it": "Rulliere",
+        "en": "Roller conveyors"
+      },
+      "function": {
+        "it": "Portano il materiale dentro e fuori dalla zona di lavoro.",
+        "en": "Carry material into and out of the work area."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cabin",
+      "name": {
+        "it": "Cabina",
+        "en": "Cabinet"
+      },
+      "function": {
+        "it": "Il tunnel chiuso in cui avviene il trattamento.",
+        "en": "The enclosed tunnel where the treatment takes place."
+      },
+      "explode": [
+        0,
+        1.6,
+        0
+      ]
+    },
+    {
+      "id": "units",
+      "name": {
+        "it": "Turbine o pistole",
+        "en": "Turbines or guns"
+      },
+      "function": {
+        "it": "Proiettano l’abrasivo o la vernice sul pezzo da ogni lato.",
+        "en": "Throw abrasive or paint onto the part from every side."
+      },
+      "explode": [
+        0,
+        0.4,
+        2.4
+      ]
+    },
+    {
+      "id": "filter",
+      "name": {
+        "it": "Filtrazione",
+        "en": "Filtration"
+      },
+      "function": {
+        "it": "Aspira e filtra polveri e fumi, e recupera il materiale.",
+        "en": "Extracts and filters dust and fumes, and recovers material."
+      },
+      "explode": [
+        0,
+        0.6,
+        -1.8
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.0,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.0,
+        2.0,
+        0.8
+      ]
+    }
+  ],
+  "press": [
+    {
+      "id": "frame",
+      "name": {
+        "it": "Struttura",
+        "en": "Frame"
+      },
+      "function": {
+        "it": "Basamento, montanti e traversa assorbono la forza di stampaggio.",
+        "en": "Bed, uprights and crown absorb the forging force."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ram",
+      "name": {
+        "it": "Slitta",
+        "en": "Ram"
+      },
+      "function": {
+        "it": "Porta lo stampo superiore e scende sul pezzo.",
+        "en": "Carries the upper die and comes down on the part."
+      },
+      "explode": [
+        0,
+        0.4,
+        2.2
+      ]
+    },
+    {
+      "id": "drive",
+      "name": {
+        "it": "Azionamento",
+        "en": "Drive"
+      },
+      "function": {
+        "it": "Volano, vite o cilindro idraulico: è ciò che dà energia al colpo.",
+        "en": "Flywheel, screw or hydraulic cylinder: it gives the blow its energy."
+      },
+      "explode": [
+        0,
+        2.2,
+        0
+      ]
+    },
+    {
+      "id": "dies",
+      "name": {
+        "it": "Stampi",
+        "en": "Dies"
+      },
+      "function": {
+        "it": "Danno la forma al pezzo caldo.",
+        "en": "Give the hot part its shape."
+      },
+      "explode": [
+        0,
+        0.2,
+        2.4
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        1.2,
+        0,
+        0.6
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        1.2,
+        2.0,
+        0.6
+      ]
+    }
+  ],
+  "shear": [
+    {
+      "id": "base",
+      "name": {
+        "it": "Corpo macchina",
+        "en": "Machine body"
+      },
+      "function": {
+        "it": "Struttura che contiene cinematismo e azionamento.",
+        "en": "The structure that houses the mechanism and drive."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "head",
+      "name": {
+        "it": "Testa di taglio",
+        "en": "Shearing head"
+      },
+      "function": {
+        "it": "Le lame tagliano la barra in spezzoni.",
+        "en": "The blades cut the bar into billets."
+      },
+      "explode": [
+        1.2,
+        1.2,
+        0
+      ]
+    },
+    {
+      "id": "feed",
+      "name": {
+        "it": "Alimentazione barre",
+        "en": "Bar feed"
+      },
+      "function": {
+        "it": "Porta le barre alla testa di taglio e ne regola la lunghezza.",
+        "en": "Brings bars to the shearing head and sets their length."
+      },
+      "explode": [
+        -1.4,
+        0.6,
+        0
+      ]
+    },
+    {
+      "id": "chute",
+      "name": {
+        "it": "Scarico e pesatura",
+        "en": "Discharge and weighing"
+      },
+      "function": {
+        "it": "Scarica gli spezzoni, li pesa e li seleziona.",
+        "en": "Discharges the billets, weighs and sorts them."
+      },
+      "explode": [
+        1.6,
+        0,
+        1.2
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        0.6,
+        0,
+        1.2
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        0.6,
+        2.0,
+        1.2
+      ]
+    }
+  ],
+  "disc-saw": [
+    {
+      "id": "base",
+      "name": {
+        "it": "Basamento",
+        "en": "Base"
+      },
+      "function": {
+        "it": "Struttura rigida che smorza le vibrazioni del taglio.",
+        "en": "A rigid structure that damps cutting vibration."
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "saw",
+      "name": {
+        "it": "Testa con lama a disco",
+        "en": "Disc blade head"
+      },
+      "function": {
+        "it": "La lama avanza nel materiale con velocità regolata dal CNC.",
+        "en": "The blade feeds into the material at a CNC-controlled rate."
+      },
+      "explode": [
+        0,
+        1.6,
+        -1.0
+      ]
+    },
+    {
+      "id": "feed",
+      "name": {
+        "it": "Alimentazione e morse",
+        "en": "Feed and clamps"
+      },
+      "function": {
+        "it": "Avanza la barra a misura e la blocca durante il taglio.",
+        "en": "Feeds the bar to length and clamps it during the cut."
+      },
+      "explode": [
+        0,
+        0.5,
+        1.6
+      ]
+    },
+    {
+      "id": "cnc",
+      "name": {
+        "it": "Quadro di controllo",
+        "en": "Control station"
+      },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+      },
+      "explode": [
+        0.8,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "sw",
+      "name": {
+        "it": "Software",
+        "en": "Software"
+      },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
+        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+      },
+      "explode": [
+        0.8,
+        2.0,
+        0.8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "slug": "tipo-a",
+  "name": "TIPO A",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "lamiere",
+  "summary": {
+    "it": "Fora e taglia lamiere a caldo.",
+    "en": "Drills and thermally cuts plates."
+  },
+  "descriptor": {
+    "it": "Linea automatica di foratura e taglio termico a CNC per lamiere di grandi dimensioni",
+    "en": "Automatic CNC drilling & thermal cutting systems for heavy plates"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-tipoa.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipoa_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/tipo-a/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ossitaglio",
+        "en": "Oxy-fuel cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Ossitaglio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Plasma",
+        "en": "Plasma cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Plasma_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Lamiere",
+        "en": "Plates"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Unita' di foratura",
+        "en": "Drilling unit"
+      },
+      "text": {
+        "it": "Testa di foratura a controllo numerico per fori precisi.",
+        "en": "CNC drilling head for accurate holes."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g4jpg.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili",
+        "en": "Tool changer"
+      },
+      "text": {
+        "it": "Cambio utensili automatico gestito dal CNC.",
+        "en": "CNC-controlled automatic tool changer."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g5.jpg"
+    },
+    {
+      "title": {
+        "it": "Seconda unita' di foratura",
+        "en": "Second drilling unit"
+      },
+      "text": {
+        "it": "Un secondo mandrino con cambio utensili aumenta la produttività.",
+        "en": "A second spindle with tool changer raises productivity."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA-seconda-unita-foratura-gp2.jpg"
+    },
+    {
+      "title": {
+        "it": "Torce ossitaglio",
+        "en": "Oxy-fuel torch"
+      },
+      "text": {
+        "it": "Fino a quattro torce ossitaglio, secondo il modello.",
+        "en": "Up to four oxy-fuel torches, depending on the model."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_Optional-oxy-fuel-torches-are-available.jpg"
+    },
+    {
+      "title": {
+        "it": "Torce plasma Hypertherm",
+        "en": "Hypertherm plasma units"
+      },
+      "text": {
+        "it": "Torce plasma ad alta definizione, per tagli diritti o inclinati.",
+        "en": "High-definition plasma torches for straight or bevel cuts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_10.jpg"
+    },
+    {
+      "title": {
+        "it": "Motrice con pinza",
+        "en": "Carriage with pincher"
+      },
+      "text": {
+        "it": "Le piastre avanzano con una motrice a pinza o con doppie pinze laterali.",
+        "en": "Plates are fed by a gripper carriage or by twin side grippers."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA-motrice-con-pinza.jpg"
+    },
+    {
+      "title": {
+        "it": "Aspirazione fumi",
+        "en": "Fume exhaust system"
+      },
+      "text": {
+        "it": "Aspira e filtra i fumi del taglio termico e restituisce aria pulita.",
+        "en": "Extracts and filters thermal-cutting fumes, returning clean air."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/NOZOMI_ASPIRATORE-FUMI.jpg"
+    },
+    {
+      "title": {
+        "it": "Movimentazione lamiere",
+        "en": "Plates handling"
+      },
+      "text": {
+        "it": "Rulliere in entrata e uscita allungabili secondo la lunghezza della lamiera.",
+        "en": "Infeed and outfeed conveyors extendable to suit plate length."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA-movimentazione-lamiere.jpg"
+    },
+    {
+      "title": {
+        "it": "Tavola di scarico ribaltabile",
+        "en": "Trap door"
+      },
+      "text": {
+        "it": "Tavola ribaltabile per scaricare pezzi fino a 500 × 500 mm.",
+        "en": "Tilting table to unload parts up to 500 × 500 mm."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOG_Dispositivo-di-scarico-pezzi-finiti.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Foratura veloce con vite a sfere e utensili al carburo.",
+      "en": "Fast drilling with ball screw and carbide tools."
+    },
+    {
+      "it": "Software di nesting per usare meglio il materiale.",
+      "en": "Nesting software to make better use of material."
+    },
+    {
+      "it": "Scarica i pezzi mentre l'impianto lavora.",
+      "en": "Unloads parts while the line is running."
+    },
+    {
+      "it": "Misura con pignone e cremagliera: precisione su ogni lavorazione.",
+      "en": "Rack-and-pinion measuring: accuracy on every operation."
+    },
+    {
+      "it": "Dimensioni contenute e movimentazione facile.",
+      "en": "Compact size and easy handling."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g9.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g8.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g6.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA_11.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA-gp2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPOA-gp1.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Linea automatica di foratura e taglio termico a CNC per lamiere di grandi dimensioni",
+        "en": "Automatic CNC drilling & thermal cutting systems for heavy plates"
+      },
+      "models": [
+        "TIPO A25LG"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni lamiera [max.mm]",
+            "en": "Plate size [max. mm]"
+          },
+          "values": [
+            "2540x6000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "6 (12)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro foratura [max.mm]",
+            "en": "Drilling diameter [max. mm]"
+          },
+          "values": [
+            "40 (50)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore forabile [max.mm]",
+            "en": "Drilling thickness [max. mm]"
+          },
+          "values": [
+            "100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "33"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max. RPM]"
+          },
+          "values": [
+            "3000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce plasma [max.no.]",
+            "en": "Plasma torches [max. no.]"
+          },
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce ossitaglio [max.no.]",
+            "en": "Oxy-fuel torches [max. no.]"
+          },
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "15000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "plate-roller",
+    "variant": "drill-thermal"
+  }
+}

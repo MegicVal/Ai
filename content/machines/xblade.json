@@ -1,0 +1,326 @@
+{
+  "slug": "xblade",
+  "name": "XBLADE",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Fora e taglia profili in un'unica linea.",
+    "en": "Drills and cuts sections in a single line."
+  },
+  "descriptor": {
+    "it": "Linea automatica a CNC monomandrino di foratura, fresatura e taglio per profili",
+    "en": "Automatic CNC single spindle drilling, milling and cutting line for sections"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2025/02/XBLADE.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2025/02/XBLADE-listing.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/xblade/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con sega a disco",
+        "en": "Disc sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Taglio-con-sega-a-disco_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Testa rotante a doppio asse",
+        "en": "Double-axis rotary head"
+      },
+      "text": {
+        "it": "Due assi rotanti a 45° per lavorare su più piani.",
+        "en": "Two rotary axes at 45° to work on multiple planes."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Double-axis-rotary-head.jpg"
+    },
+    {
+      "title": {
+        "it": "Utensile da taglio con elettromandrino",
+        "en": "Electro-spindle cutting tool"
+      },
+      "text": {
+        "it": "Lama a disco da 560 mm su elettromandrino.",
+        "en": "560 mm disc blade on an electro-spindle."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Electro-spindle-cutting-tool.jpg"
+    },
+    {
+      "title": {
+        "it": "Porta-utensili automatico",
+        "en": "Automatic tool rack"
+      },
+      "text": {
+        "it": "Magazzino automatico con otto posizioni standard e due per utensili speciali.",
+        "en": "Automatic magazine with eight standard stations and two for special tools."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Automatic-tool-rack.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema di bloccaggio del profilo",
+        "en": "Section clamping system"
+      },
+      "text": {
+        "it": "Morse mobili indipendenti con bloccaggio pneumatico lungo l'asse X.",
+        "en": "Independent moving vices with pneumatic clamping along the X axis."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Section-clamping-system.jpg"
+    },
+    {
+      "title": {
+        "it": "Design compatto",
+        "en": "Compact design"
+      },
+      "text": {
+        "it": "Armadio elettrico, climatizzazione e raffreddamento sono integrati nella macchina.",
+        "en": "Electrical cabinet, air conditioning and cooling are built into the machine."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Compact-design.jpg"
+    },
+    {
+      "title": {
+        "it": "Nesting dei profili",
+        "en": "Profile nesting"
+      },
+      "text": {
+        "it": "Il software XBLADE Office Technology programma e ottimizza il nesting dei profili.",
+        "en": "XBLADE Office Technology software programs and optimises section nesting."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Profile-Nesting-XBLADE.jpg"
+    },
+    {
+      "title": {
+        "it": "Polaris",
+        "en": "Polaris"
+      },
+      "text": {
+        "it": "CNC aperto collegato al PC in fibra ottica ad alta velocità.",
+        "en": "Open CNC linked to the PC by high-speed optical fibre."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/02/Polaris-XBLADE.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Base modulare che facilita il movimento dell'asse Y.",
+      "en": "Modular base that eases the travel of the Y axis."
+    },
+    {
+      "it": "Il mandrino si orienta in qualsiasi direzione.",
+      "en": "The spindle can be oriented in any direction."
+    },
+    {
+      "it": "Assi X e Z su pattini a rulli per un movimento regolare.",
+      "en": "X and Z axes on roller guides for smooth motion."
+    },
+    {
+      "it": "Motori brushless, pignoni e cremagliere di precisione.",
+      "en": "Brushless motors and precision racks and pinions."
+    },
+    {
+      "it": "Due assi rotanti inclinati, mossi da servomotori.",
+      "en": "Two inclined rotary axes driven by servomotors."
+    }
+  ],
+  "gallery": [],
+  "video": "https://ficepgroup.com/wp-content/uploads/2025/02/New-Automatic-CNC-XBLADE_INTEGRALE.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linea automatica a CNC monomandrino di foratura, fresatura e taglio per profili",
+        "en": "Automatic CNC single spindle drilling, milling and cutting line for sections"
+      },
+      "models": [
+        "301 XB5"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Sezione contenuta nell’area [min. mm]",
+            "en": "Section contained in area [min. mm]"
+          },
+          "values": [
+            "30X30"
+          ]
+        },
+        {
+          "label": {
+            "it": "Sezione contenuta nell’area [max. mm]",
+            "en": "Section contained in area [max. mm]"
+          },
+          "values": [
+            "305x305 - 460x305* *con possibilità di lavorazione su 2 lati (2 teste, lato filo fisso)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura/taglio [no.]",
+            "en": "Drilling / Sawing heads [no"
+          },
+          "values": [
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili di foratura per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "Foratura: 8 Fresatura: 2 (max. D200) Taglio: 1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max. mm]",
+            "en": "Drilling diameter [max. mm]"
+          },
+          "values": [
+            "50"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro della lama a disco [mm]",
+            "en": "Disc saw diameter [mm]"
+          },
+          "values": [
+            "560"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza del mandrino [S1 kW]",
+            "en": "Spindle power [S1 kW]"
+          },
+          "values": [
+            "32"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità del mandrino [max. RPM]",
+            "en": "Spindle speed [max. RPM]"
+          },
+          "values": [
+            "3500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Assi CNC [no.]",
+            "en": "CNC axes [no.]"
+          },
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "label": {
+            "it": "Massa del modulo base [kg]",
+            "en": "Base module mass [kg]"
+          },
+          "values": [
+            "7000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Massa della configurazione standard [kg]",
+            "en": "Standard configuration mass [kg]"
+          },
+          "values": [
+            "16000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "beam-line",
+    "variant": "cantilever"
+  }
+}

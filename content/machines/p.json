@@ -1,0 +1,384 @@
+{
+  "slug": "p",
+  "name": "P",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "lamiere",
+  "summary": {
+    "it": "Fora e punzona piastre.",
+    "en": "Drills and punches plates."
+  },
+  "descriptor": {
+    "it": "Linee a CNC di foratura e punzonatura per piastre",
+    "en": "CNC plate drilling and punching lines"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-p.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-p_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/p/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Punzonatura",
+        "en": "Punching"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Punzonatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Lamiere",
+        "en": "Plates"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Unita' di punzonatura",
+        "en": "Punching units"
+      },
+      "text": {
+        "it": "Punzoni selezionabili con tutta la forza disponibile sull'intera corsa.",
+        "en": "Selectable punches with full force over the whole stroke."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/P-unita-punzonatura.jpg"
+    },
+    {
+      "title": {
+        "it": "Unita' di foratura",
+        "en": "Drilling units"
+      },
+      "text": {
+        "it": "Testa di foratura a controllo numerico per fori precisi.",
+        "en": "CNC drilling head for accurate holes."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-g2.jpg"
+    },
+    {
+      "title": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "text": {
+        "it": "Marca i pezzi con un utensile montato al posto di un punzone.",
+        "en": "Marks parts with a tool fitted in place of a punch."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-g3-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Tavolo di supporto",
+        "en": "Supporting table"
+      },
+      "text": {
+        "it": "Tavola a sfere che sostiene il pezzo e lo riposiziona facilmente.",
+        "en": "Ball-transfer table that supports the part and eases repositioning."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/P-tavolo-di-supporto.jpg"
+    },
+    {
+      "title": {
+        "it": "Carro con pinze",
+        "en": "Carriage with pinchers"
+      },
+      "text": {
+        "it": "Carro su vite a ricircolo di sfere con pinze idrauliche che bloccano la piastra.",
+        "en": "Ball-screw carriage with hydraulic grippers that hold the plate."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-g1.jpg"
+    },
+    {
+      "title": {
+        "it": "Struttura a \"c\"",
+        "en": "C-frame"
+      },
+      "text": {
+        "it": "Struttura compatta che racchiude impianti, centralina e CNC.",
+        "en": "Compact frame housing services, power unit and CNC."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p83e-g1.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Esegue le lavorazioni più richieste in carpenteria metallica.",
+      "en": "Covers the operations most used in steel fabrication."
+    },
+    {
+      "it": "Correzione automatica dello zero per misure accurate.",
+      "en": "Automatic zero correction for accurate measuring."
+    },
+    {
+      "it": "Semplice, efficiente e poco ingombrante.",
+      "en": "Simple, efficient and compact."
+    },
+    {
+      "it": "Il bloccaggio si adatta da solo allo spessore della piastra.",
+      "en": "Clamping adapts by itself to plate thickness."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p113e-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p83e-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-b.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-g5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p27e-g6.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/SERIE-P-p113e-g2.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Plate-detail-processing-for-steel-plate-fabrication-Model-P-113.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "27E Linee a CNC di foratura piastre",
+        "en": "27E CNC plate drilling lines"
+      },
+      "models": [
+        "P27E"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni piastra [max mm]",
+            "en": "Plate size [max.mm]"
+          },
+          "values": [
+            "1000 x riposizionamento"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [max no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [max no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max mm]",
+            "en": "Drilling diameter [max.mm]"
+          },
+          "values": [
+            "40 (50)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore di foratura [max mm]",
+            "en": "Drilling thickness [max.mm]"
+          },
+          "values": [
+            "80"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "19 (27)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "3500"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "83E & P113E Linee a CNC di punzonatura piastre",
+        "en": "83E & P113E CNC plate punching lines"
+      },
+      "models": [
+        "P83E",
+        "P113E"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni lamiera [max. mm]",
+            "en": "Plate size [max. mm]"
+          },
+          "values": [
+            "800 x riposizionamento",
+            "800 x riposizionamento"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza punzonatura [kN]",
+            "en": "Punching force [kN]"
+          },
+          "values": [
+            "800",
+            "1100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Punzoni [no]",
+            "en": "Punches [no]"
+          },
+          "values": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro punzonatura [max. mm]",
+            "en": "Punching diameter [max. mm]"
+          },
+          "values": [
+            "46",
+            "46"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore punzonatura [max. mm]",
+            "en": "Punching thickness [max. mm]"
+          },
+          "values": [
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "1",
+            "8"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro foratura [max. mm]",
+            "en": "Drilling diameter [max. mm]"
+          },
+          "values": [
+            "40 (50)",
+            "40 (50)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore forabile [max. mm]",
+            "en": "Drilling thickness [max. mm]"
+          },
+          "values": [
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "19 (27)",
+            "19 (27)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max RPM]",
+            "en": "Spindle speed [max RPM]"
+          },
+          "values": [
+            "3500",
+            "3500"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "plate-roller",
+    "variant": "punch"
+  }
+}

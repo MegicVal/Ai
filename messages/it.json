@@ -2,7 +2,7 @@
   "banner": "Concept di redesign – non è il sito ufficiale FICEP",
   "meta": {
     "title": "Concept di redesign FICEP",
-    "description": "Proposta indipendente di redesign: macchine in 3D, tour delle sedi e configuratore guidato. Non è il sito ufficiale."
+    "description": "Proposta indipendente di redesign del sito FICEP: catalogo completo, macchine in 3D, stabilimento navigabile e configuratore. Non è il sito ufficiale."
   },
   "header": {
     "logo": "Logo segnaposto",
@@ -13,32 +13,68 @@
     "finder": "Trova la tua macchina",
     "contact": "Contatti"
   },
-  "stage": {
-    "region": "in 3D",
-    "placeholder": "Modello 3D semplificato · segnaposto",
+  "viewer": {
+    "placeholder": "Modello 3D semplificato",
     "explode": "Esplodi",
     "assemble": "Ricomponi",
+    "explodeAmount": "Apertura della macchina",
     "zoomIn": "Avvicina",
     "zoomOut": "Allontana",
     "components": "Componenti",
     "componentOf": "Componente {n} di {total}",
     "closeCard": "Chiudi scheda",
-    "canvas": "Modello 3D della macchina. Trascina per ruotarla.",
-    "noWebgl": "Questo browser non mostra il 3D. I componenti restano nell'elenco."
+    "canvas": "Modello 3D. Trascina per ruotarlo.",
+    "noWebgl": "Questo browser non mostra il 3D. I componenti restano nell'elenco.",
+    "hint": "Trascina per ruotare"
+  },
+  "catalog": {
+    "kicker": "Macchine",
+    "title": "Tutta la gamma",
+    "lead": "44 macchine in due divisioni. Filtra per famiglia o per lavorazione, oppure cerca per nome.",
+    "all": "Tutte",
+    "search": "Cerca una macchina",
+    "process": "Lavorazione",
+    "anyProcess": "Tutte le lavorazioni",
+    "count": "{n} macchine",
+    "none": "Nessuna macchina corrisponde ai filtri.",
+    "reset": "Azzera i filtri",
+    "open": "Scheda"
+  },
+  "machine": {
+    "processes": "Lavorazioni",
+    "profiles": "Profili lavorabili",
+    "materials": "Materiali",
+    "viewerKicker": "Modello 3D",
+    "viewerTitle": "Guardala da ogni lato, poi aprila.",
+    "viewerBody": "Ruota il modello, regola l'apertura con il cursore e tocca un componente per sapere cosa fa.",
+    "features": "Caratteristiche principali",
+    "advantages": "Vantaggi",
+    "specs": "Specifiche tecniche",
+    "specsNote": "Dati dal catalogo pubblico FICEP.",
+    "gallery": "Galleria",
+    "video": "Video",
+    "related": "Nella stessa famiglia",
+    "requestInfo": "Richiedi informazioni",
+    "view3d": "Guarda in 3D",
+    "source": "Pagina originale su ficepgroup.com",
+    "model": "Modello"
   },
   "common": {
-    "placeholderImage": "Immagine segnaposto",
     "example": "Contenuto di esempio",
-    "past": "Concluso"
+    "past": "Concluso",
+    "discover": "Scopri",
+    "seeAlso": "Vedi anche",
+    "solution": "Le macchine per questo settore",
+    "allSectors": "Tutti i settori"
   },
   "footer": {
-    "disclaimer": "Concept indipendente, non affiliato a FICEP S.p.A. Logo, modelli 3D, immagini e video sono segnaposto; i testi sono riscritti.",
+    "disclaimer": "Concept indipendente, non affiliato a FICEP S.p.A. Foto, icone e video sono di FICEP e vengono caricati dal sito ufficiale solo a scopo dimostrativo. Logo e modelli 3D sono segnaposto; i testi sono riscritti.",
     "address": "Sede"
   },
   "soon": {
     "kicker": "In arrivo",
     "title": "Questa pagina arriva nelle prossime fasi.",
-    "body": "Il concept viene costruito a tappe: home, visualizzatore 3D, tour delle sedi, poi il resto del sito.",
+    "body": "Il concept viene costruito a tappe.",
     "back": "Torna alla home"
   }
 }
