@@ -1,0 +1,44 @@
+{
+  "banner": "Concept di redesign – non è il sito ufficiale FICEP",
+  "meta": {
+    "title": "Concept di redesign FICEP",
+    "description": "Proposta indipendente di redesign: macchine in 3D, tour delle sedi e configuratore guidato. Non è il sito ufficiale."
+  },
+  "header": {
+    "logo": "Logo segnaposto",
+    "home": "Home",
+    "nav": "Navigazione principale",
+    "menu": "Menu",
+    "language": "Lingua",
+    "finder": "Trova la tua macchina",
+    "contact": "Contatti"
+  },
+  "stage": {
+    "region": "in 3D",
+    "placeholder": "Modello 3D semplificato · segnaposto",
+    "explode": "Esplodi",
+    "assemble": "Ricomponi",
+    "zoomIn": "Avvicina",
+    "zoomOut": "Allontana",
+    "components": "Componenti",
+    "componentOf": "Componente {n} di {total}",
+    "closeCard": "Chiudi scheda",
+    "canvas": "Modello 3D della macchina. Trascina per ruotarla.",
+    "noWebgl": "Questo browser non mostra il 3D. I componenti restano nell'elenco."
+  },
+  "common": {
+    "placeholderImage": "Immagine segnaposto",
+    "example": "Contenuto di esempio",
+    "past": "Concluso"
+  },
+  "footer": {
+    "disclaimer": "Concept indipendente, non affiliato a FICEP S.p.A. Logo, modelli 3D, immagini e video sono segnaposto; i testi sono riscritti.",
+    "address": "Sede"
+  },
+  "soon": {
+    "kicker": "In arrivo",
+    "title": "Questa pagina arriva nelle prossime fasi.",
+    "body": "Il concept viene costruito a tappe: home, visualizzatore 3D, tour delle sedi, poi il resto del sito.",
+    "back": "Torna alla home"
+  }
+}

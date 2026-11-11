@@ -1,0 +1,44 @@
+{
+  "banner": "Redesign concept – not the official FICEP website",
+  "meta": {
+    "title": "FICEP redesign concept",
+    "description": "Independent redesign proposal: machines in 3D, site tours and a guided machine finder. Not the official website."
+  },
+  "header": {
+    "logo": "Placeholder logo",
+    "home": "Home",
+    "nav": "Main navigation",
+    "menu": "Menu",
+    "language": "Language",
+    "finder": "Find your machine",
+    "contact": "Contact"
+  },
+  "stage": {
+    "region": "in 3D",
+    "placeholder": "Simplified 3D model · placeholder",
+    "explode": "Explode",
+    "assemble": "Reassemble",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "components": "Components",
+    "componentOf": "Component {n} of {total}",
+    "closeCard": "Close card",
+    "canvas": "3D model of the machine. Drag to rotate it.",
+    "noWebgl": "This browser cannot show 3D. The components are still in the list."
+  },
+  "common": {
+    "placeholderImage": "Placeholder image",
+    "example": "Sample content",
+    "past": "Ended"
+  },
+  "footer": {
+    "disclaimer": "Independent concept, not affiliated with FICEP S.p.A. Logo, 3D models, images and video are placeholders; copy has been rewritten.",
+    "address": "Headquarters"
+  },
+  "soon": {
+    "kicker": "Coming soon",
+    "title": "This page arrives in the next phases.",
+    "body": "The concept is built in stages: home, 3D viewer, site tours, then the rest of the site.",
+    "back": "Back to home"
+  }
+}

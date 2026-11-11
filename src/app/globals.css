@@ -1,0 +1,433 @@
+@import "tailwindcss";
+
+/* Design tokens. Tailwind exposes each as a utility (bg-paper, text-ink-2, font-display…). */
+@theme {
+  --color-paper: #f3f5f4;
+  --color-white: #ffffff;
+  --color-ink: #0c1110;
+  --color-ink-2: #48534f;
+  --color-line: #d5dbd8;
+  --color-steel: #7c8884;
+  --color-fog: #a5b0ab;
+  --color-rule: #2a3330;
+  --color-coal: #141a18;
+  --color-ghost: #e2e7e4;
+  --color-accent: #00705f;
+  --color-accent-hi: #2cc4a6;
+  --color-hot: #e2571c;
+
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+  --font-sans: var(--font-plex), "Segoe UI", system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, monospace;
+}
+
+:root {
+  /* Height of the concept banner; the 3D stage pins itself right under it. */
+  --nh: 31px;
+  --gutter: 16px;
+  /* Left/right inset of the page column, so full-bleed blocks can line up with it. */
+  --edge: max(var(--gutter), calc((100vw - 1304px) / 2 + var(--gutter)));
+}
+@media (max-width: 359px) {
+  :root {
+    --nh: 46px;
+  }
+}
+@media (min-width: 640px) {
+  :root {
+    --gutter: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --gutter: 32px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nh);
+}
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+:focus-visible {
+  outline: 2px solid var(--color-accent-hi);
+  outline-offset: 2px;
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 1304px;
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-stretch: 120%;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  .label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 46px;
+    padding: 0 18px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition:
+      background-color 0.2s,
+      color 0.2s,
+      border-color 0.2s;
+  }
+  .btn-solid {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
+  .btn-solid:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+  }
+  .btn-ghost:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .on-dark .btn-ghost:hover {
+    background: var(--color-paper);
+    border-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .on-dark .btn-solid:hover {
+    background: var(--color-paper);
+    border-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  /* Hatched block that stands in for a photo until FICEP supplies real ones. */
+  .placeholder {
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background:
+      repeating-linear-gradient(135deg, transparent 0 11px, color-mix(in srgb, currentColor 9%, transparent) 11px 12px),
+      color-mix(in srgb, currentColor 5%, transparent);
+    border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+  }
+
+  /* ---------- 3D stage ---------- */
+  .stage {
+    position: relative;
+    --sbg: var(--color-paper);
+    --sfg: var(--color-ink);
+    --sfg2: var(--color-ink-2);
+    --sghost: var(--color-ghost);
+    --sline: var(--color-line);
+    --scard: var(--color-white);
+  }
+  .stage[data-dark="true"] {
+    --sbg: var(--color-ink);
+    --sfg: #ecf0ee;
+    --sfg2: var(--color-fog);
+    --sghost: #161d1b;
+    --sline: var(--color-rule);
+    --scard: var(--color-coal);
+  }
+  .stage-sticky {
+    position: sticky;
+    top: var(--nh);
+    height: calc(100vh - var(--nh));
+    height: calc(100svh - var(--nh));
+    overflow: hidden;
+    background: var(--sbg);
+    color: var(--sfg);
+    transition:
+      background-color 0.7s ease,
+      color 0.7s ease;
+  }
+  .stage-giant {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding-bottom: 8vh;
+    font-family: var(--font-display);
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: min(18vw, 42vh);
+    line-height: 0.8;
+    letter-spacing: -0.04em;
+    color: var(--sghost);
+    transition: color 0.7s ease;
+    user-select: none;
+  }
+  .stage-canvas,
+  .stage-poster {
+    position: absolute;
+    inset: 0;
+  }
+  .stage-canvas {
+    touch-action: pan-y;
+    cursor: grab;
+  }
+  .stage-canvas:active {
+    cursor: grabbing;
+  }
+  .stage-poster {
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+  .stage-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .stage-tag {
+    position: absolute;
+    left: var(--edge);
+    top: 96px;
+    color: var(--sfg2);
+    z-index: 2;
+  }
+  .stage-balloons {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .bal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0 -15px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border-radius: 50%;
+    border: 1.5px solid var(--sfg);
+    background: var(--sbg);
+    color: var(--sfg);
+    font: 500 12px var(--font-mono);
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      background-color 0.2s,
+      color 0.2s,
+      border-color 0.2s;
+  }
+  .bal:hover,
+  .bal[aria-pressed="true"] {
+    background: var(--color-hot);
+    border-color: var(--color-hot);
+    color: #fff;
+  }
+  .stage-tools {
+    position: absolute;
+    right: var(--edge);
+    bottom: 18px;
+    z-index: 5;
+    display: flex;
+    gap: 8px;
+  }
+  .stage-tools button {
+    height: 40px;
+    min-width: 40px;
+    padding: 0 12px;
+    border: 1px solid var(--sline);
+    border-radius: 2px;
+    background: var(--scard);
+    color: var(--sfg);
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      background-color 0.7s,
+      color 0.7s,
+      border-color 0.3s;
+  }
+  .stage-tools button:hover {
+    border-color: var(--sfg);
+  }
+  .stage-parts {
+    position: absolute;
+    left: var(--edge);
+    bottom: 18px;
+    z-index: 5;
+    width: 280px;
+    display: grid;
+    gap: 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.4s,
+      visibility 0.4s;
+  }
+  .stage[data-dark="true"] .stage-parts {
+    opacity: 1;
+    visibility: visible;
+  }
+  .stage-parts button {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 9px 10px;
+    border-top: 1px solid var(--sline);
+    color: var(--sfg2);
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+  }
+  .stage-parts button b {
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    font: 500 11px var(--font-mono);
+  }
+  .stage-parts button:hover,
+  .stage-parts button[aria-pressed="true"] {
+    color: var(--sfg);
+  }
+  .stage-parts button[aria-pressed="true"] b {
+    background: var(--color-hot);
+    border-color: var(--color-hot);
+    color: #fff;
+  }
+  .stage-card {
+    position: absolute;
+    right: var(--edge);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: min(340px, calc(100% - 2 * var(--gutter)));
+    display: grid;
+    gap: 12px;
+    padding: 22px;
+    border: 1px solid var(--sline);
+    background: var(--scard);
+  }
+  .stage-card dl > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 7px 0;
+    border-top: 1px dashed var(--sline);
+  }
+  .stage-chapters {
+    position: relative;
+    z-index: 4;
+    margin-top: calc(var(--nh) - 100vh);
+    margin-top: calc(var(--nh) - 100svh);
+    pointer-events: none;
+  }
+  .ch {
+    display: flex;
+    min-height: calc(100vh - var(--nh));
+    min-height: calc(100svh - var(--nh));
+    padding: 110px var(--edge) 84px;
+  }
+  .ch > div {
+    pointer-events: auto;
+  }
+  .ch-inside {
+    color: var(--color-ink);
+    transition: color 0.7s ease;
+  }
+  .ch-inside p {
+    color: var(--color-ink-2);
+    transition: color 0.7s ease;
+  }
+  .stage[data-dark="true"] .ch-inside {
+    color: #ecf0ee;
+  }
+  .stage[data-dark="true"] .ch-inside p {
+    color: var(--color-fog);
+  }
+  .ch-hold {
+    min-height: 150vh;
+    min-height: 150svh;
+  }
+
+  @media (max-width: 860px) {
+    .stage-giant {
+      padding-bottom: 34vh;
+      font-size: 19vw;
+    }
+    .stage-tag {
+      max-width: 52%;
+    }
+    .stage-tools {
+      top: 88px;
+      bottom: auto;
+    }
+    .stage-tools .zoom {
+      display: none;
+    }
+    .stage-parts {
+      left: 0;
+      right: 0;
+      width: auto;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-inline: var(--gutter);
+      scrollbar-width: none;
+    }
+    .stage-parts li {
+      flex: none;
+    }
+    .stage-parts button {
+      grid-template-columns: 22px auto;
+      border: 1px solid var(--sline);
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+    .stage-card {
+      top: auto;
+      bottom: 74px;
+      left: var(--gutter);
+      transform: none;
+      width: auto;
+      padding: 16px;
+    }
+    .ch {
+      padding-block: 120px 76px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

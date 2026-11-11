@@ -1,0 +1,118 @@
+{
+  "slug": "gemini",
+  "division": "steel",
+  "category": "lamiere",
+  "name": "GEMINI",
+  "tagline": {
+    "it": "Lamiere · taglio, foratura, fresatura",
+    "en": "Plates · cutting, drilling, milling"
+  },
+  "poster": {
+    "landscape": "/posters/gemini-landscape.webp",
+    "portrait": "/posters/gemini-portrait.webp"
+  },
+  "specSource": {
+    "it": "Valori dal catalogo pubblico, da verificare con FICEP.",
+    "en": "Figures from the public catalogue, to be confirmed with FICEP."
+  },
+  "components": [
+    {
+      "id": "base",
+      "name": { "it": "Telaio e bancale", "en": "Frame and bed" },
+      "function": {
+        "it": "Sostiene la lamiera su una griglia rigida e la tiene ferma durante taglio e foratura. È predisposto per aspirare i fumi.",
+        "en": "Carries the plate on a rigid grid and keeps it still during cutting and drilling. It is ready for fume extraction."
+      },
+      "specs": [
+        { "label": { "it": "Lamiera max", "en": "Max plate" }, "value": "3600 × 6000 mm" },
+        { "label": { "it": "Spessore con plasma", "en": "Plasma thickness" }, "value": { "it": "fino a 80 mm", "en": "up to 80 mm" } },
+        { "label": { "it": "Peso macchina", "en": "Machine weight" }, "value": "4.500–15.000 kg" }
+      ],
+      "explode": [0, 0, 0],
+      "anchor": [-2.9, 0.7, 1.5],
+      "model": { "type": "procedural", "part": "base" }
+    },
+    {
+      "id": "gantry",
+      "name": { "it": "Portale e assi", "en": "Gantry and axes" },
+      "function": {
+        "it": "Il portale scorre lungo la lamiera e porta le teste di lavoro. Ogni asse è comandato dal controllo numerico.",
+        "en": "The gantry travels along the plate carrying the working heads. Every axis is driven by the numerical control."
+      },
+      "specs": [
+        { "label": { "it": "Struttura", "en": "Structure" }, "value": { "it": "a portale (gantry)", "en": "gantry" } },
+        { "label": { "it": "Configurazione", "en": "Layout" }, "value": { "it": "singolo o doppio portale", "en": "single or twin gantry" } },
+        { "label": { "it": "Teste di foratura", "en": "Drilling heads" }, "value": { "it": "fino a 2", "en": "up to 2" } }
+      ],
+      "explode": [0, 1.15, 0],
+      "anchor": [0, 1.45, 1.78],
+      "model": { "type": "procedural", "part": "gantry" }
+    },
+    {
+      "id": "head",
+      "name": { "it": "Mandrino", "en": "Spindle" },
+      "function": {
+        "it": "Fora, fresa, svasa e maschia. I fori più grandi si ottengono in fresatura, con precisione sul diametro.",
+        "en": "Drills, mills, countersinks and taps. Larger holes are milled, keeping the diameter accurate."
+      },
+      "specs": [
+        { "label": { "it": "Potenza", "en": "Power" }, "value": "15–58 kW" },
+        { "label": { "it": "Velocità", "en": "Speed" }, "value": { "it": "fino a 7.000 giri/min", "en": "up to 7,000 rpm" } },
+        { "label": { "it": "Foro in foratura", "en": "Drilled hole" }, "value": "5–80 mm" },
+        { "label": { "it": "Foro in fresatura", "en": "Milled hole" }, "value": { "it": "fino a 400 mm", "en": "up to 400 mm" } }
+      ],
+      "explode": [1.0, 2.3, 0],
+      "anchor": [0.05, 0.95, 0],
+      "model": { "type": "procedural", "part": "head" }
+    },
+    {
+      "id": "tools",
+      "name": { "it": "Utensili e torce", "en": "Tools and torches" },
+      "function": {
+        "it": "Il cambio automatico tiene pronti gli utensili; le torce plasma e ossitaglio eseguono il taglio termico.",
+        "en": "The automatic changer keeps tools ready; plasma and oxy-fuel torches do the thermal cutting."
+      },
+      "specs": [
+        { "label": { "it": "Cambio utensile", "en": "Tool changer" }, "value": { "it": "6, 16 o 24 posizioni", "en": "6, 16 or 24 stations" } },
+        { "label": { "it": "Torce plasma", "en": "Plasma torches" }, "value": { "it": "fino a 2", "en": "up to 2" } },
+        { "label": { "it": "Torce ossitaglio", "en": "Oxy-fuel torches" }, "value": { "it": "fino a 3", "en": "up to 3" } },
+        { "label": { "it": "Ossitaglio", "en": "Oxy-fuel cut" }, "value": { "it": "fino a 200 mm", "en": "up to 200 mm" } }
+      ],
+      "explode": [2.0, 1.15, 0],
+      "anchor": [0.1, -0.25, 0.62],
+      "model": { "type": "procedural", "part": "tools" }
+    },
+    {
+      "id": "cnc",
+      "name": { "it": "Quadro di controllo", "en": "Control station" },
+      "function": {
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato all'interno del gruppo.",
+        "en": "The operator starts programs and follows the job from here. The numerical control is developed inside the group."
+      },
+      "specs": [
+        { "label": { "it": "CNC", "en": "CNC" }, "value": { "it": "Mitrol (gruppo FICEP)", "en": "Mitrol (FICEP group)" } },
+        { "label": { "it": "Armadio elettrico", "en": "Electrical cabinet" }, "value": { "it": "separato o integrato", "en": "separate or built in" } },
+        { "label": { "it": "Interfaccia", "en": "Interface" }, "value": { "it": "segnaposto", "en": "placeholder" } }
+      ],
+      "explode": [1.2, 0, 0.2],
+      "anchor": [0, 1.78, 0],
+      "model": { "type": "procedural", "part": "cnc" }
+    },
+    {
+      "id": "sw",
+      "name": { "it": "Software", "en": "Software" },
+      "function": {
+        "it": "Riceve i disegni dall'ufficio tecnico, dispone i pezzi sulla lamiera per sprecare meno acciaio e genera i programmi.",
+        "en": "Takes drawings from the design office, nests parts on the plate to waste less steel and generates the programs."
+      },
+      "specs": [
+        { "label": { "it": "Suite", "en": "Suite" }, "value": "Steel Projects PLM" },
+        { "label": { "it": "Nesting", "en": "Nesting" }, "value": { "it": "barre e lamiere", "en": "bars and plates" } },
+        { "label": { "it": "Dati CNC", "en": "CNC data" }, "value": { "it": "generati in automatico", "en": "generated automatically" } }
+      ],
+      "explode": [1.2, 2.0, 0.2],
+      "anchor": [0, 0.62, 0],
+      "model": { "type": "procedural", "part": "sw" }
+    }
+  ]
+}

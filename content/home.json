@@ -1,0 +1,100 @@
+{
+  "featuredMachine": "gemini",
+  "hero": {
+    "title": { "it": "Una lamiera entra. Un pezzo finito esce.", "en": "A plate goes in. A finished part comes out." },
+    "body": {
+      "it": "GEMINI taglia, fora e fresa lamiere fino a 3600 × 6000 mm senza spostarle da una postazione all'altra.",
+      "en": "GEMINI cuts, drills and mills plates up to 3600 × 6000 mm without moving them from one station to the next."
+    },
+    "explodeCta": { "it": "Esplodi la macchina", "en": "Explode the machine" },
+    "insideTitle": { "it": "Guardala dentro.", "en": "Look inside." },
+    "insideBody": {
+      "it": "Continua a scorrere: la linea si apre lungo i suoi assi. Tocca un componente per sapere cosa fa.",
+      "en": "Keep scrolling: the line opens along its axes. Tap a component to see what it does."
+    }
+  },
+  "divisions": {
+    "kicker": { "it": "Macchine", "en": "Machines" },
+    "title": { "it": "Due divisioni, un solo costruttore.", "en": "Two divisions, one manufacturer." },
+    "countLabel": { "it": "macchine", "en": "machines" },
+    "cta": { "it": "Vedi la gamma", "en": "See the range" }
+  },
+  "numbers": {
+    "kicker": { "it": "Azienda", "en": "Company" },
+    "title": { "it": "Dal 1930 costruiamo le macchine che lavorano l'acciaio.", "en": "Since 1930 we have built the machines that work steel." },
+    "tiles": [
+      { "value": "1930", "style": "ink", "wide": true, "text": { "it": "Nasce a Gazzada come fabbrica di cesoie e punzonatrici.", "en": "Founded in Gazzada as a maker of shears and punching machines." } },
+      { "value": "44", "style": "white", "text": { "it": "macchine a catalogo, in due divisioni.", "en": "machines in the range, across two divisions." } },
+      { "value": "16", "style": "accent", "text": { "it": "filiali dirette, con agenti in ogni continente.", "en": "direct subsidiaries, with agents on every continent." } },
+      { "value": "1965", "style": "white", "text": { "it": "La prima macchina a controllo numerico.", "en": "The first numerically controlled machine." } },
+      { "value": "11", "style": "white", "text": { "it": "lingue per parlare con i clienti.", "en": "languages to talk with customers." } },
+      { "value": "3.000 m²", "style": "ink", "wide": true, "text": { "it": "di Academy of Technology per formare chi userà gli impianti.", "en": "of Academy of Technology to train the people who will run the lines." } }
+    ],
+    "cta": { "it": "La nostra storia", "en": "Our history" }
+  },
+  "video": {
+    "kicker": { "it": "Video", "en": "Video" },
+    "title": { "it": "Dentro l'officina.", "en": "Inside the shop." },
+    "body": {
+      "it": "Qui andrà il filmato istituzionale: stabilimento, montaggio, collaudo. Per ora gira un video segnaposto generato dal modello 3D.",
+      "en": "The company film will go here: plant, assembly, testing. For now a placeholder clip generated from the 3D model is playing."
+    },
+    "src": "/video/placeholder.mp4",
+    "poster": "/video/placeholder.webp",
+    "label": { "it": "Video segnaposto", "en": "Placeholder video" }
+  },
+  "sectors": {
+    "kicker": { "it": "Settori", "en": "Sectors" },
+    "title": { "it": "Dove lavorano le nostre macchine.", "en": "Where our machines work." }
+  },
+  "finder": {
+    "kicker": { "it": "Configuratore", "en": "Machine finder" },
+    "title": { "it": "Quattro domande per trovare la tua macchina.", "en": "Four questions to find your machine." },
+    "body": {
+      "it": "Che materiale lavori, quali lavorazioni ti servono, quanto è grande il pezzo, quanti ne produci. Alla fine vedi fino a tre macchine a confronto.",
+      "en": "What you process, which operations you need, how big the part is, how many you make. You end with up to three machines side by side."
+    },
+    "steps": [
+      { "it": "Materiale e profilo", "en": "Material and section" },
+      { "it": "Lavorazioni", "en": "Operations" },
+      { "it": "Dimensioni", "en": "Size" },
+      { "it": "Volumi", "en": "Volume" }
+    ],
+    "cta": { "it": "Inizia", "en": "Start" }
+  },
+  "locations": {
+    "kicker": { "it": "Sedi nel mondo", "en": "Locations" },
+    "title": { "it": "Entra in una sede senza prendere l'aereo.", "en": "Walk into a site without catching a flight." },
+    "body": {
+      "it": "Sedici filiali dirette e una rete di agenti. Scegli una sede sulla mappa ed esplorala stanza per stanza: ingresso, produzione, showroom, Academy.",
+      "en": "Sixteen direct subsidiaries and a network of agents. Pick a site on the map and explore it room by room: entrance, production, showroom, Academy."
+    },
+    "cta": { "it": "Apri la mappa", "en": "Open the map" },
+    "tourLabel": { "it": "Tour 360° in arrivo nella fase 3", "en": "360° tour coming in phase 3" }
+  },
+  "news": {
+    "kicker": { "it": "News", "en": "News" },
+    "title": { "it": "Ultime notizie", "en": "Latest news" },
+    "all": { "it": "Tutte le notizie", "en": "All news" }
+  },
+  "events": {
+    "kicker": { "it": "Eventi", "en": "Events" },
+    "title": { "it": "Fiere e incontri", "en": "Trade fairs and meetings" },
+    "all": { "it": "Calendario completo", "en": "Full calendar" }
+  },
+  "services": {
+    "kicker": { "it": "Sto cercando", "en": "I am looking for" },
+    "items": [
+      { "path": "/servizi/assistenza", "title": { "it": "Assistenza", "en": "Service" }, "text": { "it": "Un tecnico, in sede o da remoto.", "en": "A technician, on site or remote." } },
+      { "path": "/servizi/ricambi", "title": { "it": "Ricambi", "en": "Spare parts" }, "text": { "it": "Parti originali e consumabili.", "en": "Original parts and consumables." } },
+      { "path": "/academy", "title": { "it": "Academy", "en": "Academy" }, "text": { "it": "Corsi per operatori e programmatori.", "en": "Courses for operators and programmers." } },
+      { "path": "/lavora-con-noi", "title": { "it": "Lavora con noi", "en": "Careers" }, "text": { "it": "Posizioni aperte e stage.", "en": "Open positions and internships." } }
+    ]
+  },
+  "newsletter": {
+    "title": { "it": "Novità su macchine ed eventi, una volta al mese.", "en": "Machine and event news, once a month." },
+    "placeholder": { "it": "La tua email di lavoro", "en": "Your work email" },
+    "cta": { "it": "Iscriviti", "en": "Subscribe" },
+    "demo": { "it": "Questa è una demo: l'iscrizione non è attiva nel concept.", "en": "This is a demo: sign-up is not active in the concept." }
+  }
+}

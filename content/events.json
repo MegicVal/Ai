@@ -1,0 +1,7 @@
+[
+  { "name": "METALMADRID", "start": "2026-11-04", "end": "2026-11-05", "place": { "it": "Madrid, Spagna", "en": "Madrid, Spain" } },
+  { "name": "PROJECT OMAN", "start": "2026-11-02", "end": "2026-11-04", "place": { "it": "Mascate, Oman", "en": "Muscat, Oman" } },
+  { "name": "FABTECH", "start": "2026-10-21", "end": "2026-10-23", "place": { "it": "Stati Uniti", "en": "United States" } },
+  { "name": "EUROBLECH", "start": "2026-10-20", "end": "2026-10-23", "place": { "it": "Hannover, Germania", "en": "Hannover, Germany" } },
+  { "name": "BIMU", "start": "2026-10-13", "end": "2026-10-16", "place": { "it": "Milano, Italia", "en": "Milan, Italy" } }
+]

@@ -1,0 +1,65 @@
+{
+  "nav": [
+    { "id": "machines", "path": "/macchine", "label": { "it": "Macchine", "en": "Machines" } },
+    { "id": "sectors", "path": "/settori", "label": { "it": "Settori", "en": "Sectors" } },
+    { "id": "services", "path": "/servizi", "label": { "it": "Servizi", "en": "Services" } },
+    { "id": "academy", "path": "/academy", "label": { "it": "Academy", "en": "Academy" } },
+    { "id": "company", "path": "/azienda", "label": { "it": "Azienda", "en": "Company" } },
+    { "id": "locations", "path": "/sedi", "label": { "it": "Sedi", "en": "Locations" } }
+  ],
+  "finderPath": "/trova-la-tua-macchina",
+  "contactPath": "/contatti",
+  "footer": [
+    {
+      "title": { "it": "Azienda", "en": "Company" },
+      "links": [
+        { "path": "/azienda", "label": { "it": "Chi siamo", "en": "About us" } },
+        { "path": "/azienda/gruppo", "label": { "it": "Gruppo", "en": "Group" } },
+        { "path": "/azienda/storia", "label": { "it": "Storia", "en": "History" } },
+        { "path": "/azienda/strategia", "label": { "it": "Strategia e visione", "en": "Strategy and vision" } },
+        { "path": "/azienda/make", "label": { "it": "MA.KE", "en": "MA.KE" } },
+        { "path": "/azienda/testimonianze", "label": { "it": "Testimonianze", "en": "Customer stories" } }
+      ]
+    },
+    {
+      "title": { "it": "Macchine", "en": "Machines" },
+      "links": [
+        { "path": "/macchine/carpenteria-metallica", "label": { "it": "Carpenteria metallica", "en": "Steel fabrication" } },
+        { "path": "/macchine/forgiatura", "label": { "it": "Forgiatura", "en": "Forging" } },
+        { "path": "/macchine/software", "label": { "it": "Software", "en": "Software" } },
+        { "path": "/trova-la-tua-macchina", "label": { "it": "Trova la tua macchina", "en": "Find your machine" } },
+        { "path": "/usato", "label": { "it": "Usato", "en": "Used machines" } }
+      ]
+    },
+    {
+      "title": { "it": "Servizi", "en": "Services" },
+      "links": [
+        { "path": "/servizi/assistenza", "label": { "it": "Assistenza", "en": "Service" } },
+        { "path": "/servizi/ricambi", "label": { "it": "Ricambi e consumabili", "en": "Spare parts and consumables" } },
+        { "path": "/servizi/manutenzione-preventiva", "label": { "it": "Manutenzione preventiva", "en": "Preventive maintenance" } },
+        { "path": "/servizi/supporto", "label": { "it": "Supporto", "en": "Support" } },
+        { "path": "/servizi/buying-experience", "label": { "it": "Buying Experience", "en": "Buying Experience" } }
+      ]
+    },
+    {
+      "title": { "it": "Academy e carriere", "en": "Academy and careers" },
+      "links": [
+        { "path": "/academy", "label": { "it": "Academy of Technology", "en": "Academy of Technology" } },
+        { "path": "/academy/formazione", "label": { "it": "Formazione", "en": "Training" } },
+        { "path": "/academy/showroom", "label": { "it": "Showroom", "en": "Showroom" } },
+        { "path": "/lavora-con-noi", "label": { "it": "Lavora con noi", "en": "Careers" } },
+        { "path": "/news", "label": { "it": "News", "en": "News" } },
+        { "path": "/eventi", "label": { "it": "Eventi", "en": "Events" } }
+      ]
+    }
+  ],
+  "legal": [
+    { "path": "/note-legali", "label": { "it": "Note legali", "en": "Legal notice" } },
+    { "path": "/privacy", "label": { "it": "Privacy", "en": "Privacy" } },
+    { "path": "/cookie", "label": { "it": "Cookie", "en": "Cookies" } },
+    { "path": "/dlgs-231", "label": { "it": "D.Lgs. 231", "en": "Decree 231" } },
+    { "path": "/condizioni-generali", "label": { "it": "Condizioni generali", "en": "General terms" } },
+    { "path": "/whistleblowing", "label": { "it": "Whistleblowing", "en": "Whistleblowing" } }
+  ],
+  "address": ["Via Matteotti 21", "21045 Gazzada Schianno (VA)", "Italia"]
+}

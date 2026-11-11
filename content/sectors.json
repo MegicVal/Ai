@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "centri-di-servizio",
+    "name": { "it": "Centri di servizio", "en": "Service centres" },
+    "text": { "it": "Tagliare e forare su commessa, con cambi rapidi.", "en": "Cutting and drilling to order, with fast changeovers." }
+  },
+  {
+    "slug": "macchine-agricole-movimento-terra",
+    "name": { "it": "Macchine agricole e movimento terra", "en": "Agricultural and earth-moving machinery" },
+    "text": { "it": "Lamiere spesse e pezzi ripetuti in grande serie.", "en": "Thick plates and parts repeated in large series." }
+  },
+  {
+    "slug": "ponti",
+    "name": { "it": "Ponti", "en": "Bridges" },
+    "text": { "it": "Travi saldate e strutture fuori misura.", "en": "Welded girders and oversize structures." }
+  },
+  {
+    "slug": "edifici",
+    "name": { "it": "Edifici commerciali e industriali", "en": "Commercial and industrial buildings" },
+    "text": { "it": "Profili e piastre, dal grezzo al cantiere.", "en": "Sections and plates, from raw stock to site." }
+  },
+  {
+    "slug": "torri-di-trasmissione",
+    "name": { "it": "Torri di trasmissione", "en": "Transmission towers" },
+    "text": { "it": "Angolari punzonati e tagliati in linea.", "en": "Angles punched and cut in line." }
+  },
+  {
+    "slug": "eolico",
+    "name": { "it": "Eolico", "en": "Wind energy" },
+    "text": { "it": "Componenti per impianti onshore e offshore.", "en": "Components for onshore and offshore plants." }
+  }
+]

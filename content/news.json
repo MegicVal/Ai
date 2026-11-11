@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "make-officina-di-domani",
+    "date": "2026-10-23",
+    "title": { "it": "MA.KE: come immaginiamo la carpenteria di domani", "en": "MA.KE: how we picture the steel shop of tomorrow" },
+    "excerpt": {
+      "it": "Un progetto che mette insieme macchine, movimentazione e software in un unico flusso di produzione.",
+      "en": "A project that brings machines, handling and software into a single production flow."
+    }
+  },
+  {
+    "slug": "easy-check-realta-aumentata",
+    "date": "2026-09-17",
+    "title": { "it": "Easy Check: il controllo qualità con la realtà aumentata", "en": "Easy Check: quality control with augmented reality" },
+    "excerpt": {
+      "it": "Steel Projects presenta uno strumento che sovrappone il disegno al pezzo reale per verificarlo in pochi secondi.",
+      "en": "Steel Projects presents a tool that overlays the drawing on the real part to check it in seconds."
+    }
+  }
+]
