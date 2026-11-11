@@ -7,17 +7,17 @@ import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import "../globals.css";
 
 // Fonts are self-hosted (SIL Open Font License), so nothing is fetched from third parties.
+// Archivo is cut down to what headings use: weights 600–800, widths 115–125%, Latin glyphs.
 const archivo = localFont({
-  src: "../fonts/archivo-latin-standard-normal.woff2",
+  src: "../fonts/archivo-display.woff2",
   variable: "--font-archivo",
-  weight: "100 900",
+  weight: "600 800",
   display: "swap",
-  declarations: [{ prop: "font-stretch", value: "62% 125%" }],
+  declarations: [{ prop: "font-stretch", value: "115% 125%" }],
 });
 const plex = localFont({
   src: [
     { path: "../fonts/ibm-plex-sans-latin-400-normal.woff2", weight: "400", style: "normal" },
-    { path: "../fonts/ibm-plex-sans-latin-500-normal.woff2", weight: "500", style: "normal" },
     { path: "../fonts/ibm-plex-sans-latin-600-normal.woff2", weight: "600", style: "normal" },
   ],
   variable: "--font-plex",

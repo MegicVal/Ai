@@ -95,7 +95,7 @@ export class MachineRig {
     camera.lookAt(this.target);
     // Slide the picture so the machine leaves room for the hero text.
     const offsetX = portrait ? 0 : -width * 0.15 * live;
-    const offsetY = portrait ? height * (0.25 + 0.04 * e) : height * 0.02 * live;
+    const offsetY = portrait ? height * (0.28 + 0.02 * e) : height * 0.02 * live;
     camera.setViewOffset(width, height, offsetX, offsetY, width, height);
     camera.updateMatrixWorld();
 

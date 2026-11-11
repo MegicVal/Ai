@@ -32,6 +32,7 @@ async function openStage(browser, width, height, scale, css) {
   await page.clock.install();
   await page.goto(`${base}/it`, { waitUntil: "load" });
   await page.addStyleTag({ content: hideChrome + css });
+  await page.mouse.move(40, 40); // the 3D scene starts on first interaction
   for (let i = 0; i < 200 && !(await page.$(".stage-canvas canvas")); i++) {
     await page.clock.runFor(100);
     await page.waitForTimeout(50);
@@ -54,13 +55,14 @@ async function poster(browser, name, width, height, scale) {
 
 async function video(browser) {
   const fps = 24;
-  const seconds = 8;
-  const css = `.stage { --sbg: #0c1110; --sghost: #161d1b; }`;
+  const seconds = 6;
+  const css = `.stage { --sbg: #0c1110; } .stage-giant { visibility: hidden !important; }`;
   const page = await openStage(browser, 1920, 720, 1, css);
   // Motion was frozen for a stable first frame; switch it back on for the clip.
   await page.emulateMedia({ reducedMotion: "no-preference" });
   await page.reload({ waitUntil: "load" });
   await page.addStyleTag({ content: hideChrome + css });
+  await page.mouse.move(40, 40); // the 3D scene starts on first interaction
   for (let i = 0; i < 200 && !(await page.$(".stage-canvas canvas")); i++) {
     await page.clock.runFor(100);
     await page.waitForTimeout(50);
@@ -72,13 +74,13 @@ async function video(browser) {
   }
   await page.close();
   const out = path.join(root, "video", "placeholder.mp4");
-  // The hero frames the machine right of centre; crop a 16:9 window around it.
+  // The hero frames the machine right of centre; crop a 16:9 window around it and enlarge.
   execFileSync("ffmpeg", [
     "-v", "error", "-y", "-framerate", String(fps), "-i", path.join(frames, "f%04d.png"),
-    "-vf", "crop=1280:720:608:0", "-c:v", "libx264", "-crf", "30", "-preset", "slow",
+    "-vf", "crop=1024:576:741:87,scale=1280:720:flags=lanczos", "-c:v", "libx264", "-crf", "30", "-preset", "slow",
     "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", out,
   ]);
-  const first = await sharp(path.join(frames, "f0000.png")).extract({ left: 608, top: 0, width: 1280, height: 720 }).webp({ quality: 70 }).toBuffer();
+  const first = await sharp(path.join(frames, "f0000.png")).extract({ left: 741, top: 87, width: 1024, height: 576 }).resize(1280, 720).webp({ quality: 70 }).toBuffer();
   fs.writeFileSync(path.join(root, "video", "placeholder.webp"), first);
   fs.rmSync(frames, { recursive: true, force: true });
   console.log(out, `${Math.round(fs.statSync(out).size / 1024)} KB`);

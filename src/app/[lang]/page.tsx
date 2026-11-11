@@ -27,6 +27,13 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
 
   return (
     <>
+      {/* The poster is the largest thing on the first screen: fetch it before anything else. */}
+      {machine.poster && (
+        <>
+          <link rel="preload" as="image" href={machine.poster.portrait} media="(max-aspect-ratio: 85/100)" fetchPriority="high" />
+          <link rel="preload" as="image" href={machine.poster.landscape} media="(min-aspect-ratio: 85/100)" fetchPriority="high" />
+        </>
+      )}
       <HeroStage id="macchina" slug={machine.slug} name={machine.name} parts={parts} labels={labels} poster={machine.poster}>
         <div className="ch items-end">
           <div className="grid max-w-[560px] gap-[18px]">

@@ -15,9 +15,10 @@ export function ConceptBanner({ text }: { text: string }) {
 
 function Logo({ lang, label, home }: { lang: Locale; label: string; home: string }) {
   return (
-    <Link href={href(lang)} className="flex items-center gap-2.5" aria-label={`${home} — ${label}`}>
-      <span className="grid size-[26px] place-items-center border-2 border-current font-display text-[13px] font-bold">F</span>
+    <Link href={href(lang)} className="flex items-center gap-2.5">
+      <span className="display grid size-[26px] place-items-center border-2 border-current text-[13px] font-bold">F</span>
       <span className="label hidden min-[480px]:inline">{label}</span>
+      <span className="sr-only">{home}</span>
     </Link>
   );
 }

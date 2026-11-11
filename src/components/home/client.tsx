@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 
-/** Plays the clip only while it is on screen; nothing is downloaded before that. */
+/** Plays the clip only while it is on screen; poster and video are downloaded as it approaches. */
 export function LazyVideo({ src, poster, label }: { src: string; poster: string; label: string }) {
   const ref = useRef<HTMLVideoElement>(null);
 
@@ -10,6 +10,15 @@ export function LazyVideo({ src, poster, label }: { src: string; poster: string;
     const video = ref.current;
     if (!video) return;
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const nearby = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        video.poster = poster;
+        nearby.disconnect();
+      },
+      { rootMargin: "800px" },
+    );
+    nearby.observe(video);
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !still) {
@@ -22,15 +31,17 @@ export function LazyVideo({ src, poster, label }: { src: string; poster: string;
       { threshold: 0.25 },
     );
     observer.observe(video);
-    return () => observer.disconnect();
-  }, [src]);
+    return () => {
+      nearby.disconnect();
+      observer.disconnect();
+    };
+  }, [src, poster]);
 
   return (
     <figure className="relative">
       <video
         ref={ref}
         className="aspect-video w-full bg-coal object-cover"
-        poster={poster}
         muted
         loop
         playsInline

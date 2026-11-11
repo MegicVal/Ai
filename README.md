@@ -44,6 +44,10 @@ src/components/layout/    banner, header, footer, animazioni
 scripts/      strumenti per rigenerare i segnaposto
 ```
 
+## Prestazioni
+
+Lighthouse sulla home in produzione (`npm run build && npm run start`): mobile 91 / 100 / 100, desktop 100 / 100 / 100 (prestazioni / accessibilità / buone pratiche). La scena 3D si scarica alla prima interazione del visitatore; fino a quel momento resta un fermo immagine dello stesso modello.
+
 ## Stato
 
 - [x] Fase 1 — Home

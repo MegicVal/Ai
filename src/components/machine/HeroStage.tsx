@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState, type PointerEvent, type React
 import { fill } from "@/lib/i18n";
 import type { StageControl, StageLabels, StagePart } from "./types";
 
-// three.js and the scene are a separate chunk, fetched only once the page is idle.
+// three.js and the scene are a separate chunk, fetched on the visitor's first interaction.
 const MachineCanvas = dynamic(() => import("./MachineCanvas"), { ssr: false });
 
 interface HeroStageProps {
@@ -92,18 +92,18 @@ export function HeroStage({ id, slug, name, parts, labels, poster, children }: H
     };
   }, [measure, parts, select]);
 
-  // Load the 3D scene after first paint, and only where WebGL 2 exists.
+  // The poster is a still of the same model. The live scene (three.js, ~200 KB) is fetched at the
+  // visitor's first sign of intent, so it never competes with the first paint.
   useEffect(() => {
+    const intents = ["pointermove", "pointerdown", "touchstart", "keydown", "wheel", "scroll"] as const;
+    const stop = () => intents.forEach((type) => window.removeEventListener(type, start));
     const start = () => {
+      stop();
       const supported = !!document.createElement("canvas").getContext("webgl2");
       setStatus(supported ? "loading" : "unsupported");
     };
-    if ("requestIdleCallback" in window) {
-      const handle = window.requestIdleCallback(start, { timeout: 2500 });
-      return () => window.cancelIdleCallback(handle);
-    }
-    const handle = setTimeout(start, 800);
-    return () => clearTimeout(handle);
+    intents.forEach((type) => window.addEventListener(type, start, { passive: true }));
+    return stop;
   }, []);
 
   // Stop rendering when the stage is off screen.
@@ -151,7 +151,7 @@ export function HeroStage({ id, slug, name, parts, labels, poster, children }: H
           <div className="stage-poster" style={{ opacity: status === "ready" ? 0 : 1 }} aria-hidden="true">
             <picture>
               <source media="(max-aspect-ratio: 85/100)" srcSet={poster.portrait} />
-              <img src={poster.landscape} alt="" fetchPriority="high" decoding="async" />
+              <img src={poster.landscape} alt="" fetchPriority="high" decoding="sync" />
             </picture>
           </div>
         )}
