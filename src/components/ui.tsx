@@ -35,7 +35,7 @@ export function PageHero({ kicker, title, lead, image, children }: { kicker: str
       {image && (
         <>
           <Photo src={image} eager className="absolute inset-0 -z-20 bg-ink" />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/75 to-ink/40" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/70 to-ink/55" />
         </>
       )}
       <div className="wrap grid min-h-[58svh] content-end gap-5 pt-40 pb-14">

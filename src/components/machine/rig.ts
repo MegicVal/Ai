@@ -21,7 +21,9 @@ export class MachineRig {
   private readonly software: (explode: number, camera: THREE.Camera) => void;
   private readonly lineMaterial = new THREE.LineBasicMaterial({ color: ACCENT_HI, transparent: true, opacity: 0.25 });
   private readonly center = new THREE.Vector3();
-  private readonly radius: number;
+  private readonly extent = new THREE.Vector2();
+  private readonly openCenter = new THREE.Vector3();
+  private readonly openExtent = new THREE.Vector2();
   private readonly target = new THREE.Vector3();
   private readonly point = new THREE.Vector3();
   private explode = 0;
@@ -44,7 +46,7 @@ export class MachineRig {
     }
     const size = bounds.getSize(new THREE.Vector3());
     bounds.getCenter(this.center);
-    this.radius = 0.5 * Math.hypot(size.x, size.y, size.z);
+    this.extent.set(0.5 * Math.hypot(size.x, size.z), 0.5 * size.y);
 
     this.entries = parts
       .filter((part) => this.kit.parts[part.id])
@@ -54,6 +56,15 @@ export class MachineRig {
         const mid = box.getCenter(new THREE.Vector3());
         return { part, built: this.kit.parts[part.id], anchor: new THREE.Vector3(mid.x, box.max.y, mid.z) };
       });
+
+    // The same framing for the exploded machine, so it stays centred while it opens.
+    const open = new THREE.Box3();
+    for (const { part, built } of this.entries) {
+      if (part.id !== "sw") open.union(meshBounds(built.group).translate(new THREE.Vector3(...part.explode)));
+    }
+    const openSize = open.getSize(new THREE.Vector3());
+    open.getCenter(this.openCenter);
+    this.openExtent.set(0.5 * Math.hypot(openSize.x, openSize.z), 0.5 * openSize.y);
   }
 
   /** The software panel only exists once the machine is open. */
@@ -96,11 +107,15 @@ export class MachineRig {
     const aspect = width / height;
     const portrait = aspect < 0.85;
     const half = Math.tan((camera.fov * Math.PI) / 360);
-    const fit = Math.max((this.radius * (portrait ? 0.86 : 1.02)) / (half * Math.min(aspect, 1.9)), (this.radius * 0.82) / half);
-    const radius = fit * (1 + 0.3 * e) * control.zoom;
+    // x = half the footprint diagonal, y = half the height, for the current opening
+    const wide = this.extent.x + (this.openExtent.x - this.extent.x) * e;
+    const tall = this.extent.y + (this.openExtent.y - this.extent.y) * e;
+    const fit = Math.max((wide * (portrait ? 0.8 : 1)) / (half * Math.min(aspect, 1.9)), (tall * 1.3) / half) + wide * 0.6;
+    const radius = fit * control.zoom;
     const azimuth = (portrait ? 1.05 : 0.62) + Math.sin(this.time * 0.16) * (0.3 - 0.18 * e) + control.dragT + 0.2 * e;
     const polar = 1.14 - 0.08 * e - control.dragP;
-    this.target.set(this.center.x + 0.5 * e, this.center.y * 0.85 + 0.7 * e, this.center.z);
+    this.target.lerpVectors(this.center, this.openCenter, e);
+    this.target.y *= 0.88;
     camera.position.set(
       this.target.x + radius * Math.sin(polar) * Math.sin(azimuth),
       this.target.y + radius * Math.cos(polar),

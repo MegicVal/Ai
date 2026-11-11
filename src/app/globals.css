@@ -413,6 +413,158 @@ body {
     font-family: var(--font-mono);
     font-size: 0.82rem;
   }
+
+  /* ---------- sites: plant from above and interior tour ---------- */
+  .site-stage {
+    position: relative;
+    overflow: hidden;
+    height: min(80svh, 780px);
+    min-height: 500px;
+    background: var(--color-coal);
+  }
+  .site-pin,
+  .tour-arrow,
+  .tour-tag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: auto;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .site-pin {
+    display: grid;
+    gap: 1px;
+    margin: -44px 0 0 -70px;
+    width: 140px;
+    padding: 7px 10px;
+    border: 1px solid var(--color-paper);
+    border-radius: 2px;
+    background: var(--color-ink);
+    color: var(--color-paper);
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.25;
+  }
+  .site-pin::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 1px;
+    height: 18px;
+    background: var(--color-paper);
+  }
+  .site-pin span {
+    font: 500 10px var(--font-mono);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent-hi);
+  }
+  .site-pin:hover {
+    background: var(--color-hot);
+    border-color: var(--color-hot);
+  }
+  .site-pin:hover span {
+    color: #fff;
+  }
+  .site-tool {
+    display: inline-grid;
+    place-items: center;
+    height: 40px;
+    min-width: 40px;
+    padding: 0 12px;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-ink);
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .site-tool:hover {
+    border-color: var(--color-paper);
+  }
+  .tour-arrow {
+    display: grid;
+    justify-items: center;
+    gap: 4px;
+    width: 120px;
+    margin: -30px 0 0 -60px;
+    color: var(--color-paper);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-shadow: 0 1px 6px rgb(12 17 16 / 0.9);
+  }
+  .tour-arrow i {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid var(--color-paper);
+    background: rgb(12 17 16 / 0.7);
+    font-style: normal;
+    font-size: 20px;
+    transition: background-color 0.2s;
+  }
+  .tour-arrow:hover i {
+    background: var(--color-hot);
+    border-color: var(--color-hot);
+  }
+  .tour-tag {
+    margin: -16px 0 0 -50px;
+    width: 100px;
+    padding: 5px 8px;
+    border: 1px solid var(--color-paper);
+    border-radius: 2px;
+    background: rgb(12 17 16 / 0.85);
+    color: var(--color-paper);
+    font: 600 11px var(--font-mono);
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .tour-tag:hover,
+  .tour-tag[aria-pressed="true"] {
+    background: var(--color-hot);
+    border-color: var(--color-hot);
+  }
+  .tour-panel,
+  .tour-machine,
+  .tour-map {
+    position: absolute;
+    z-index: 3;
+    border: 1px solid var(--color-rule);
+    background: rgb(12 17 16 / 0.88);
+    backdrop-filter: blur(6px);
+  }
+  .tour-panel {
+    left: var(--gutter);
+    top: 16px;
+    width: min(270px, 62%);
+    display: grid;
+    gap: 8px;
+    padding: 14px;
+  }
+  .tour-machine {
+    right: var(--gutter);
+    top: 16px;
+    width: min(280px, 70%);
+    display: grid;
+    gap: 8px;
+    padding: 14px;
+  }
+  .tour-map {
+    left: var(--gutter);
+    bottom: 16px;
+    width: min(250px, 46%);
+    padding: 8px;
+  }
+  .tour-map svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

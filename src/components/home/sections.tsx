@@ -26,7 +26,7 @@ export function HomeHero({ lang }: SectionProps) {
   return (
     <section className="on-dark relative isolate overflow-hidden bg-ink text-paper">
       <HeroVideo src={t.video} poster={t.poster} />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/55 to-ink/35" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/50 to-ink/50" />
       <div className="wrap grid min-h-[calc(100svh-var(--nh))] content-end gap-6 pt-40 pb-16">
         <span className="label text-accent-hi">{tr(t.kicker, lang)}</span>
         <h1 className="display max-w-[15ch] text-[clamp(2.6rem,7.4vw,6.6rem)] leading-[0.92] font-extrabold">{tr(t.title, lang)}</h1>

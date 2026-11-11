@@ -36,7 +36,7 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
     <>
       <section className="on-dark relative isolate overflow-hidden bg-ink text-paper">
         <Photo src={machine.hero} eager className="absolute inset-0 -z-20 bg-ink" />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/70 to-ink/30" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/65 to-ink/55" />
         <div className="wrap grid min-h-[76svh] content-end gap-5 pt-40 pb-12">
           <nav aria-label="Breadcrumb" className="label flex flex-wrap gap-x-2 text-fog">
             <Link href={href(lang, "/macchine")} className="hover:text-paper">
