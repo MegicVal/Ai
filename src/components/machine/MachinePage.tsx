@@ -9,7 +9,7 @@ function IconList({ title, items, lang }: { title: string; items: Labelled[]; la
   if (!items.length) return null;
   return (
     <div className="grid content-start gap-3">
-      <h3 className="label text-ink-2">{title}</h3>
+      <h2 className="label text-ink-2">{title}</h2>
       <ul className="flex flex-wrap gap-2">
         {items.map((item) => (
           <li key={item.label.it} className="flex items-center gap-2.5 border border-line bg-white py-2 pr-3.5 pl-2.5 text-sm font-medium">
