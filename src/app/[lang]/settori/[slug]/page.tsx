@@ -22,7 +22,13 @@ export default async function SectorPage({ params }: PageProps<"/[lang]/settori/
   const dict = getDictionary(lang);
   return (
     <>
-      <PageHero kicker={tr(home.sectors.kicker, lang)} title={tr(sector.name, lang)} lead={tr(sector.text, lang)} image={sector.image} />
+      <PageHero
+        kicker={tr(home.sectors.kicker, lang)}
+        title={tr(sector.name, lang)}
+        lead={tr(sector.text, lang)}
+        image={sector.image}
+        images={machinesBySlug(sector.machines).map((machine) => machine.hero)}
+      />
       <section className="py-14">
         <div className="wrap">
           <p className="display max-w-[40ch] text-[clamp(1.3rem,2.4vw,1.9rem)] leading-snug font-semibold">{tr(sector.body, lang)}</p>

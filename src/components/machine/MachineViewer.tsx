@@ -106,6 +106,7 @@ export function MachineViewer({ name, source, parts, labels, className = "" }: M
         {(status === "loading" || status === "ready") && (
           <MachineCanvas
             key={`${source.archetype}-${source.variant}`}
+            name={name}
             source={source}
             parts={parts}
             control={control}

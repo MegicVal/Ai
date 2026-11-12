@@ -5,6 +5,7 @@ import { useEffect, useMemo, type RefObject } from "react";
 import * as THREE from "three";
 import { archetypes, type Animate } from "@/components/machine/procedural/archetypes";
 import { Kit } from "@/components/machine/procedural/kit";
+import { Studio } from "@/components/machine/Studio";
 import type { SiteControl, Tour } from "./types";
 
 const EYE = 1.65;
@@ -33,9 +34,9 @@ class TourModel {
     this.trash.push(lamp);
     const floors: Record<string, THREE.Material> = {
       ingresso: this.material(0xd9dedb, 0.5),
-      showroom: this.material(0x3d4844, 0.35),
+      showroom: this.material(0x2f3836, 0.22),
       academy: this.material(0xc9cfcc, 0.6),
-      produzione: this.material(0x9aa5a1, 0.7),
+      produzione: this.material(0x7d8985, 0.55),
     };
 
     for (const zone of tour.zones) {
@@ -48,6 +49,25 @@ class TourModel {
       this.box(w, 0.1, d, dark, mx, zone.height + 0.05, mz);
       const rows = Math.max(2, Math.round(d / 6));
       for (let i = 0; i < rows; i++) this.box(w * 0.86, 0.06, 0.35, lamp, mx, zone.height - 0.04, z0 + ((i + 0.5) * d) / rows);
+      if (zone.height > 6) {
+        // industrial bay: steel columns, roof trusses, ribbon windows, marked walkway
+        const steel = this.material(0x6f7b77, 0.5);
+        const glass = new THREE.MeshBasicMaterial({ color: 0xcfe6ee });
+        const lane = this.material(0xf0b400, 0.6);
+        this.trash.push(glass);
+        for (let x = x0 + 4; x < x1 - 1; x += 8) {
+          this.box(0.35, zone.height, 0.35, steel, x, zone.height / 2, z0 + 0.4);
+          this.box(0.35, zone.height, 0.35, steel, x, zone.height / 2, z1 - 0.4);
+          this.box(0.25, 0.8, d - 0.8, steel, x, zone.height - 0.9, mz);
+          for (let z = z0 + 3; z < z1 - 2; z += 4) this.box(0.1, 0.8, 0.1, steel, x, zone.height - 0.45, z);
+        }
+        this.box(w - 1, 1.6, 0.06, glass, mx, zone.height - 2.6, z0 + 0.14);
+        this.box(w - 1, 1.6, 0.06, glass, mx, zone.height - 2.6, z1 - 0.14);
+        this.box(w - 6, 0.02, 0.14, lane, mx, 0.012, z0 + 2.6);
+        this.box(w - 6, 0.02, 0.14, lane, mx, 0.012, z1 - 2.6);
+        this.box(0.14, 0.02, d - 5.2, lane, x0 + 3, 0.012, mz);
+        this.box(0.14, 0.02, d - 5.2, lane, x1 - 3, 0.012, mz);
+      }
       // four walls, each split where a door opens onto another room
       this.wall(zone.id, "x", z0, x0, x1, zone.height, wall, stripe);
       this.wall(zone.id, "x", z1, x0, x1, zone.height, wall, stripe);
@@ -74,13 +94,11 @@ class TourModel {
     });
 
     // machines from the catalogue
-    const line = new THREE.LineBasicMaterial({ color: 0x0c1110, transparent: true, opacity: 0.35 });
-    this.trash.push(line);
     for (const machine of tour.machines) {
       const build = archetypes[machine.source.archetype];
       if (!build) continue;
-      const kit = new Kit(line);
-      const built = build(kit, machine.source.variant);
+      const kit = new Kit();
+      const built = build(kit, machine.source.variant, machine.name);
       const holder = new THREE.Group();
       Object.values(kit.parts).forEach((part) => holder.add(part.group));
       holder.traverse((object) => {
@@ -191,9 +209,10 @@ function Scene({ tour, control }: { tour: Tour; control: RefObject<SiteControl> 
   });
   return (
     <>
-      <hemisphereLight args={[0xffffff, 0x9aa5a1, 2.7]} />
-      <directionalLight position={[10, 30, -8]} intensity={1.4} />
-      <directionalLight position={[-12, 20, 30]} intensity={0.8} color={0xcfe9e2} />
+      <Studio />
+      <hemisphereLight args={[0xffffff, 0x9aa5a1, 0.7]} />
+      <directionalLight position={[10, 30, -8]} intensity={1.0} />
+      <directionalLight position={[-12, 20, 30]} intensity={0.45} color={0xcfe9e2} />
       <primitive object={model.group} />
     </>
   );
@@ -202,7 +221,6 @@ function Scene({ tour, control }: { tour: Tour; control: RefObject<SiteControl> 
 export default function TourCanvas({ tour, control, active, label }: { tour: Tour; control: RefObject<SiteControl>; active: boolean; label: string }) {
   return (
     <Canvas
-      flat
       dpr={[1, 1.75]}
       frameloop={active ? "always" : "never"}
       gl={{ antialias: true }}

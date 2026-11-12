@@ -1,6 +1,6 @@
 import showcase from "@content/showcase.json";
 import { notFound } from "next/navigation";
-import { Divisions, Finder, HomeHero, Locations, NewsEvents, Newsletter, Numbers, Sectors, Services, Showcase } from "@/components/home/sections";
+import { Divisions, Finder, HomeHero, Locations, NewsEvents, Newsletter, Numbers, Sectors, Services, Showcase, Ticker } from "@/components/home/sections";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
@@ -13,6 +13,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       {/* The hero photo is the largest thing on the first screen: fetch it before anything else. */}
       <link rel="preload" as="image" href={showcase.hero.poster} fetchPriority="high" />
       <HomeHero {...section} />
+      <Ticker />
       <Showcase {...section} />
       <Divisions {...section} />
       <Numbers {...section} />

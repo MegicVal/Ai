@@ -9,7 +9,13 @@ export function ContentPageView({ page, lang, dict }: { page: ContentPage; lang:
   const related = (page.related ?? []).map(getPage).filter((item): item is ContentPage => !!item);
   return (
     <>
-      <PageHero kicker={tr(page.kicker, lang)} title={tr(page.title, lang)} lead={tr(page.lead, lang)} image={page.image} />
+      <PageHero
+        kicker={tr(page.kicker, lang)}
+        title={tr(page.title, lang)}
+        lead={tr(page.lead, lang)}
+        image={page.image}
+        images={page.sections.map((section) => section.image ?? "").slice(0, 3)}
+      />
 
       <div className="wrap grid gap-[clamp(48px,7vw,96px)] py-[clamp(56px,8vw,112px)]">
         {page.sections.map((section, index) => (

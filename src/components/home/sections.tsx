@@ -2,8 +2,9 @@ import showcaseJson from "@content/showcase.json";
 import Link from "next/link";
 import { Reveal } from "@/components/layout/Motion";
 import { MachineShowcase, type ShowcaseItem } from "@/components/machine/MachineShowcase";
-import { Photo, SectionHead, arrow, band, h2, machinesBySlug, stageParts, viewerLabels } from "@/components/ui";
-import { catalog, events, home, locations, machineCount, machinePath, news, sectors, site } from "@/lib/content";
+import { Slideshow } from "@/components/Slideshow";
+import { Photo, SectionHead, arrow, band, h2, machinesBySlug, pictures, stageParts, viewerLabels } from "@/components/ui";
+import { catalog, events, home, locations, machineCount, machinePath, machines, news, sectors, site } from "@/lib/content";
 import { href, tr, type Dictionary, type Locale } from "@/lib/i18n";
 import { HeroVideo, NewsletterForm } from "./client";
 
@@ -41,6 +42,24 @@ export function HomeHero({ lang }: SectionProps) {
         </div>
       </div>
     </section>
+  );
+}
+
+/** Every machine name, running across the page under the hero. */
+export function Ticker() {
+  const names = machines.map((machine) => machine.name);
+  const row = (hidden: boolean) => (
+    <div aria-hidden={hidden}>
+      {names.map((name) => (
+        <span key={name}>{name}</span>
+      ))}
+    </div>
+  );
+  return (
+    <div className="ticker display on-dark border-y border-rule bg-ink py-4 text-[clamp(1.1rem,2.2vw,1.7rem)] font-bold text-[#5d6a66]">
+      {row(false)}
+      {row(true)}
+    </div>
   );
 }
 
@@ -87,8 +106,12 @@ export function Divisions({ lang }: SectionProps) {
             return (
               <Reveal key={division.id} delay={index * 0.08}>
                 <article className={`grid h-full content-start ${forging ? "on-dark bg-ink text-paper" : "bg-white"}`}>
-                  <Link href={href(lang, `/macchine/${division.slug}`)} className="group block" tabIndex={-1} aria-hidden="true">
-                    <Photo src={division.image} alt="" className="aspect-[16/9]" />
+                  <Link href={href(lang, `/macchine/${division.slug}`)} className="block" tabIndex={-1} aria-hidden="true">
+                    <Slideshow
+                      images={pictures(division.image, ...machines.filter((machine) => machine.division === division.id).slice(0, 5).map((machine) => machine.hero))}
+                      interval={4200 + index * 700}
+                      className="aspect-[16/9]"
+                    />
                   </Link>
                   <div className="grid gap-6 p-6 sm:p-9">
                     <div className="grid gap-4">
@@ -239,8 +262,16 @@ export function Locations({ lang }: SectionProps) {
           </Link>
         </Reveal>
         <Reveal delay={0.1}>
-          <Link href={href(lang, "/sedi")} className="group block" tabIndex={-1} aria-hidden="true">
-            <Photo src="https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg" alt="" className="aspect-[4/3]" />
+          <Link href={href(lang, "/sedi")} className="block" tabIndex={-1} aria-hidden="true">
+            <Slideshow
+              images={[
+                "https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg",
+                "https://ficepgroup.com/wp-content/uploads/2022/10/sr-g6.jpg",
+                "https://ficepgroup.com/wp-content/uploads/2022/10/unita-linee-di-taglio.jpg",
+                "https://ficepgroup.com/wp-content/uploads/2023/01/academy-b.jpg",
+              ]}
+              className="aspect-[4/3]"
+            />
           </Link>
         </Reveal>
       </div>

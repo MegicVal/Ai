@@ -38,6 +38,7 @@ export function CatalogPage({ lang, dict, division, category }: { lang: Locale; 
         title={family ? tr(family.name, lang) : current ? tr(current.name, lang) : dict.catalog.title}
         lead={current ? tr(current.summary, lang) : dict.catalog.lead}
         image={current?.image ?? catalog.divisions[0].image}
+        images={items.filter((item) => (!division || item.division === division) && (!category || item.category === category)).slice(0, 4).map((item) => getMachine(item.slug)?.hero ?? "")}
       />
       <section className="py-12">
         <div className="wrap">

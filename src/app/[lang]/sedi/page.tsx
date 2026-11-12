@@ -109,6 +109,7 @@ export default async function SitesPage({ params }: PageProps<"/[lang]/sedi">) {
         title={tr(home.locations.title, lang)}
         lead={tr(home.locations.body, lang)}
         image="https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg"
+        images={tourJson.zones.map((zone) => zone.photo)}
       />
       <SitesExplorer
         land={landPath}

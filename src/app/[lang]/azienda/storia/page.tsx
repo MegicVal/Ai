@@ -26,6 +26,7 @@ export default async function HistoryPage({ params }: PageProps<"/[lang]/azienda
         title={tr(title, lang)}
         lead={tr(lead, lang)}
         image="https://ficepgroup.com/wp-content/uploads/2022/10/b-storia.jpg"
+        images={history.slice(-3).map((step) => step.image)}
       />
       <section className="py-[clamp(56px,8vw,112px)]">
         <ol className="wrap grid gap-0">

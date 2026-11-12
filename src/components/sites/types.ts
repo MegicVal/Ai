@@ -6,7 +6,9 @@ export interface Plant {
   center: { lat: number; lon: number };
   ground: { tiles: string; z: number; x0: number; y0: number; n: number; west: number; north: number; east: number; south: number; attribution: string };
   attribution: string;
-  buildings: { id: string; ficep: boolean; height: number; points: [number, number][]; role?: string }[];
+  /** Property line of the plant, in metres east/north of its centre. */
+  site: [number, number][];
+  buildings: { id: string; ficep: boolean; kind: "hall" | "office" | "house"; height: number; points: [number, number][]; role?: string }[];
 }
 
 /** Camera state shared between the page controls and the render loop. */

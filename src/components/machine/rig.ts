@@ -3,9 +3,7 @@ import { archetypes, type Animate } from "./procedural/archetypes";
 import { Kit } from "./procedural/kit";
 import type { BuiltPart, StageControl, StagePart, ViewerSource } from "./types";
 
-const INK = 0x0c1110;
-const ACCENT_HI = 0x2cc4a6;
-const ACCENT = 0x00705f;
+const ACCENT = 0x00a88f;
 
 /**
  * Framework-free controller for one machine: builds the model, then runs the explode
@@ -19,7 +17,6 @@ export class MachineRig {
   private readonly kit: Kit;
   private readonly animate?: Animate;
   private readonly software: (explode: number, camera: THREE.Camera) => void;
-  private readonly lineMaterial = new THREE.LineBasicMaterial({ color: ACCENT_HI, transparent: true, opacity: 0.25 });
   private readonly center = new THREE.Vector3();
   private readonly extent = new THREE.Vector2();
   private readonly openCenter = new THREE.Vector3();
@@ -30,11 +27,11 @@ export class MachineRig {
   private time = 0;
   private selected: string | null = null;
 
-  constructor(source: ViewerSource, parts: StagePart[]) {
+  constructor(source: ViewerSource, parts: StagePart[], name: string) {
     const build = archetypes[source.archetype];
     if (!build) throw new Error(`No 3D model registered for "${source.archetype}"`);
-    this.kit = new Kit(this.lineMaterial);
-    const built = build(this.kit, source.variant);
+    this.kit = new Kit();
+    const built = build(this.kit, source.variant, name);
     this.animate = built.animate;
     this.software = this.kit.software(built.console);
 
@@ -72,7 +69,7 @@ export class MachineRig {
     return id === "sw" && this.explode < 0.5;
   }
 
-  update(camera: THREE.PerspectiveCamera, width: number, height: number, dt: number, control: StageControl, floor: THREE.ShadowMaterial | null): void {
+  update(camera: THREE.PerspectiveCamera, width: number, height: number, dt: number, control: StageControl, floor: THREE.Material | null): void {
     if (!control.reduce) this.time += dt;
     this.explode += (control.goal - this.explode) * Math.min(1, dt * 7);
     if (Math.abs(control.goal - this.explode) < 0.0005) this.explode = control.goal;
@@ -94,14 +91,12 @@ export class MachineRig {
         const on = part.id === this.selected;
         for (const material of built.materials) {
           material.emissive.setHex(on ? ACCENT : 0x000000);
-          material.emissiveIntensity = on ? 0.6 : 0;
+          material.emissiveIntensity = on ? 0.5 : 0;
         }
       }
     }
 
-    this.lineMaterial.opacity = 0.22 + 0.45 * e;
-    this.lineMaterial.color.setHex(e > 0.05 ? ACCENT_HI : INK);
-    if (floor) floor.opacity = 0.2 * live;
+    if (floor) floor.opacity = 1 - 0.45 * e;
 
     // Frame the machine by its bounding sphere, drift slowly, follow drag and zoom.
     const aspect = width / height;
@@ -141,7 +136,6 @@ export class MachineRig {
 
   dispose(): void {
     this.kit.dispose();
-    this.lineMaterial.dispose();
   }
 }
 

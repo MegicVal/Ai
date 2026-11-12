@@ -76,5 +76,10 @@
     "title": "This page arrives in the next phases.",
     "body": "The concept is built in stages.",
     "back": "Back to home"
+  },
+  "gallery": {
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "show": "Show photo"
   }
 }

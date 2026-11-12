@@ -76,5 +76,10 @@
     "title": "Questa pagina arriva nelle prossime fasi.",
     "body": "Il concept viene costruito a tappe.",
     "back": "Torna alla home"
+  },
+  "gallery": {
+    "previous": "Foto precedente",
+    "next": "Foto successiva",
+    "show": "Mostra la foto"
   }
 }

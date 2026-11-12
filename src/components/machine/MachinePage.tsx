@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Reveal } from "@/components/layout/Motion";
-import { MachineCard, Photo, SectionHead, band, h3, stageParts, viewerLabels } from "@/components/ui";
+import { Slideshow } from "@/components/Slideshow";
+import { HeroShell, MachineCard, Photo, SectionHead, band, h3, pictures, stageParts, viewerLabels } from "@/components/ui";
 import { catalog, machines, site, type Labelled, type Machine } from "@/lib/content";
 import { href, tr, type Dictionary, type Locale } from "@/lib/i18n";
 import { MachineViewer } from "./MachineViewer";
@@ -34,10 +35,7 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
 
   return (
     <>
-      <section className="on-dark relative isolate overflow-hidden bg-ink text-paper">
-        <Photo src={machine.hero} eager className="absolute inset-0 -z-20 bg-ink" />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/65 to-ink/55" />
-        <div className="wrap grid min-h-[76svh] content-end gap-5 pt-40 pb-12">
+      <HeroShell images={pictures(machine.hero, ...machine.gallery.slice(0, 4))} tall>
           <nav aria-label="Breadcrumb" className="label flex flex-wrap gap-x-2 text-fog">
             <Link href={href(lang, "/macchine")} className="hover:text-paper">
               {dict.catalog.kicker}
@@ -65,8 +63,7 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
               {t.view3d}
             </a>
           </div>
-        </div>
-      </section>
+      </HeroShell>
 
       <section className="py-14">
         <div className="wrap grid gap-10 lg:grid-cols-[1fr_1.4fr]">
@@ -174,13 +171,9 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
             <div className="wrap">
               <SectionHead title={t.gallery} id="gallery-title" />
             </div>
-            <ul className="strip auto-cols-[min(82vw,560px)]" tabIndex={0} aria-label={t.gallery}>
-              {machine.gallery.map((image) => (
-                <li key={image}>
-                  <Photo src={image} alt={machine.name} className="aspect-[3/2]" />
-                </li>
-              ))}
-            </ul>
+            <div className="wrap">
+              <Slideshow images={machine.gallery} alt={machine.name} controls labels={dict.gallery} interval={4200} className="aspect-[16/9] max-h-[82svh] w-full" />
+            </div>
           </div>
         </section>
       )}

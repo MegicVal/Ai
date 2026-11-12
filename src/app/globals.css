@@ -142,7 +142,8 @@ body {
     overflow: hidden;
     height: min(78svh, 760px);
     min-height: 480px;
-    background: var(--color-ink);
+    /* studio backdrop: a soft pool of light behind the machine */
+    background: radial-gradient(120% 85% at 50% 46%, #2c3633 0%, #171d1b 48%, var(--color-ink) 82%);
     color: #ecf0ee;
   }
   .viewer-giant {
@@ -158,7 +159,7 @@ body {
     line-height: 0.8;
     letter-spacing: -0.04em;
     white-space: nowrap;
-    color: #161d1b;
+    color: rgb(255 255 255 / 0.035);
     user-select: none;
   }
   .viewer-canvas {
@@ -377,6 +378,204 @@ body {
     scroll-snap-align: start;
   }
 
+  /* ---------- pictures that play like a film ---------- */
+  .slides {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-coal);
+  }
+  .slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.4s ease;
+    will-change: opacity, transform;
+  }
+  .slide[data-on="true"] {
+    opacity: 1;
+  }
+  .slides[data-playing="true"] .slide[data-on="true"][data-pan="a"] {
+    animation: pan-a 9s ease-out both;
+  }
+  .slides[data-playing="true"] .slide[data-on="true"][data-pan="b"] {
+    animation: pan-b 9s ease-out both;
+  }
+  @keyframes pan-a {
+    from {
+      transform: scale(1.02);
+    }
+    to {
+      transform: scale(1.14) translate(-1.2%, 1%);
+    }
+  }
+  @keyframes pan-b {
+    from {
+      transform: scale(1.14) translate(1.2%, -1%);
+    }
+    to {
+      transform: scale(1.02);
+    }
+  }
+  .slide-bars {
+    position: absolute;
+    left: var(--edge, var(--gutter));
+    right: var(--edge, var(--gutter));
+    bottom: 18px;
+    z-index: 2;
+    display: flex;
+    gap: 6px;
+    max-width: 340px;
+  }
+  .slide-bars span {
+    flex: 1;
+    height: 2px;
+    background: rgb(255 255 255 / 0.28);
+    overflow: hidden;
+  }
+  .slide-bars i {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #fff;
+  }
+  .slide-bars span[data-state="done"] i {
+    width: 100%;
+  }
+  .slides[data-playing="true"] .slide-bars span[data-state="on"] i {
+    animation: bar linear both;
+  }
+  @keyframes bar {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .slide-arrows {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+  }
+  .slide-arrows span {
+    padding: 6px 9px;
+    background: rgb(12 17 16 / 0.55);
+  }
+  .slide-arrows button {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgb(255 255 255 / 0.6);
+    border-radius: 2px;
+    background: rgb(12 17 16 / 0.55);
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .slide-arrows button:hover {
+    background: var(--color-accent);
+  }
+  .slide-thumbs {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    z-index: 2;
+    display: flex;
+    gap: 6px;
+    max-width: calc(100% - 200px);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .slide-thumbs button {
+    display: block;
+    width: 74px;
+    height: 46px;
+    border: 2px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition:
+      opacity 0.2s,
+      border-color 0.2s;
+  }
+  .slide-thumbs button:hover,
+  .slide-thumbs button[aria-pressed="true"] {
+    opacity: 1;
+    border-color: #fff;
+  }
+  .slide-thumbs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 640px) {
+    .slide-thumbs {
+      display: none;
+    }
+  }
+
+  /* Machine names running across the page. */
+  .ticker {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+  }
+  .ticker::before,
+  .ticker::after {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    z-index: 1;
+    width: 9%;
+    pointer-events: none;
+  }
+  .ticker::before {
+    left: 0;
+    background: linear-gradient(90deg, var(--color-ink), transparent);
+  }
+  .ticker::after {
+    right: 0;
+    background: linear-gradient(270deg, var(--color-ink), transparent);
+  }
+  .ticker > div {
+    display: flex;
+    flex: none;
+    gap: 2.2em;
+    padding-right: 2.2em;
+    animation: ticker 60s linear infinite;
+  }
+  @keyframes ticker {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Photos settle into place as they scroll in (browsers with scroll-driven animations). */
+  @supports (animation-timeline: view()) {
+    .photo:not(.photo-still) img {
+      animation: settle linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 38%;
+    }
+    @keyframes settle {
+      from {
+        scale: 1.16;
+        filter: saturate(0.6);
+      }
+      to {
+        scale: 1;
+        filter: saturate(1);
+      }
+    }
+  }
+
   .spec-table {
     width: 100%;
     border-collapse: collapse;
@@ -570,6 +769,9 @@ body {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  .ticker > div {
+    animation: none;
   }
   *,
   *::before,

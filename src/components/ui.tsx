@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Reveal } from "@/components/layout/Motion";
+import { Slideshow } from "@/components/Slideshow";
 import { getMachine, machinePath, viewerParts, type Machine } from "@/lib/content";
 import { href, tr, type Dictionary, type Locale } from "@/lib/i18n";
 import type { StagePart, ViewerLabels } from "@/components/machine/types";
@@ -15,36 +16,60 @@ export const arrow = (
   </span>
 );
 
+/** Keeps the first occurrence of each picture, drops empties. */
+export const pictures = (...sources: (string | null | undefined)[]): string[] => [...new Set(sources.filter((src): src is string => !!src))];
+
 /**
  * A photo loaded straight from FICEP's website. Nothing is copied into this project;
  * replace `src` with licensed files when the concept becomes a real site.
  */
 export function Photo({ src, alt = "", className = "", eager = false }: { src: string; alt?: string; className?: string; eager?: boolean }) {
   return (
-    <div className={`photo ${className}`}>
+    <div className={`photo ${eager ? "photo-still" : ""} ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element -- remote demo imagery, not ours to optimise or re-host */}
       <img src={src} alt={alt} loading={eager ? "eager" : "lazy"} decoding="async" fetchPriority={eager ? "high" : undefined} referrerPolicy="no-referrer" />
     </div>
   );
 }
 
-/** Top of an inner page: photo behind, kicker, large title, lead. */
-export function PageHero({ kicker, title, lead, image, children }: { kicker: string; title: string; lead?: string; image?: string; children?: ReactNode }) {
+/** Dark hero with pictures playing behind the text. Shared by every inner page. */
+export function HeroShell({ images, tall = false, children }: { images: string[]; tall?: boolean; children: ReactNode }) {
   return (
     <section className="on-dark relative isolate overflow-hidden bg-ink text-paper">
-      {image && (
+      {images.length > 0 && (
         <>
-          <Photo src={image} eager className="absolute inset-0 -z-20 bg-ink" />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/70 to-ink/55" />
+          <Slideshow images={images} priority className="!absolute inset-0 -z-20" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/65 to-ink/55" />
         </>
       )}
-      <div className="wrap grid min-h-[58svh] content-end gap-5 pt-40 pb-14">
-        <span className="label text-accent-hi">{kicker}</span>
-        <h1 className="display max-w-[18ch] text-[clamp(2.4rem,7vw,6rem)] leading-[0.92] font-extrabold">{title}</h1>
-        {lead && <p className="max-w-[58ch] text-lg text-[#d5dbd8]">{lead}</p>}
-        {children}
-      </div>
+      <div className={`wrap grid content-end gap-5 pt-40 pb-16 ${tall ? "min-h-[78svh]" : "min-h-[60svh]"}`}>{children}</div>
     </section>
+  );
+}
+
+/** Top of an inner page: pictures behind, kicker, large title, lead. */
+export function PageHero({
+  kicker,
+  title,
+  lead,
+  image,
+  images,
+  children,
+}: {
+  kicker: string;
+  title: string;
+  lead?: string;
+  image?: string;
+  images?: string[];
+  children?: ReactNode;
+}) {
+  return (
+    <HeroShell images={pictures(image, ...(images ?? []))}>
+      <span className="label text-accent-hi">{kicker}</span>
+      <h1 className="display max-w-[18ch] text-[clamp(2.4rem,7vw,6rem)] leading-[0.92] font-extrabold">{title}</h1>
+      {lead && <p className="max-w-[58ch] text-lg text-[#d5dbd8]">{lead}</p>}
+      {children}
+    </HeroShell>
   );
 }
 
