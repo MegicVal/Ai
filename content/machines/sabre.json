@@ -1,0 +1,115 @@
+{
+  "slug": "sabre",
+  "name": "SABRE",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "saldatura-robotizzata",
+  "summary": {
+    "it": "Robot che salda in automatico.",
+    "en": "Automatic welding robot."
+  },
+  "descriptor": {
+    "it": "Saldatura robotizzata",
+    "en": "Robotic welding"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/10/Sabre-robots-welding.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/Sabre-robots-welding-listing.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/sabre/",
+  "processes": [
+    {
+      "label": {
+        "it": "Saldatura",
+        "en": "Welding"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Saldatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Rilevazione dei particolari",
+        "en": "Detail item probing"
+      },
+      "text": {
+        "it": "Il robot rileva la posizione reale dei particolari prima di saldare.",
+        "en": "The robot detects the real position of the fittings before welding."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-rivelazione-particolari-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema a due zone",
+        "en": "Two zones system"
+      },
+      "text": {
+        "it": "Mentre il robot salda un profilo, l'operatore prepara il successivo.",
+        "en": "While the robot welds one section, the operator prepares the next."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-zone2.jpg"
+    },
+    {
+      "title": {
+        "it": "Posizionatori",
+        "en": "Positioners"
+      },
+      "text": {
+        "it": "I posizionatori ruotano il profilo al posto dell'operatore.",
+        "en": "Positioners rotate the section so the operator does not have to."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/Rotators.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Molto meno spazio per assemblaggio e saldatura.",
+      "en": "Far less space for assembly and welding."
+    },
+    {
+      "it": "Non dipende dalla disponibilità di personale specializzato.",
+      "en": "Does not depend on finding specialised staff."
+    },
+    {
+      "it": "Più produttività e minor costo per tonnellata.",
+      "en": "More output and lower cost per tonne."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/10/Sabre-robots-welding.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-g2-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-zone2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-zone1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-g5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-g7.jpg"
+  ],
+  "video": null,
+  "specs": [],
+  "viewer": {
+    "archetype": "robot-cell",
+    "variant": "welding"
+  }
+}

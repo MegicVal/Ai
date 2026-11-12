@@ -1,0 +1,203 @@
+{
+  "slug": "codebrass",
+  "name": "CODEBRASS",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "cesoie",
+  "summary": {
+    "it": "Cesoia meccanica a freddo e a semi-caldo per l’ottone.",
+    "en": "Mechanical cold and warm shear for brass."
+  },
+  "descriptor": {
+    "it": "Cesoie meccaniche a freddo & semicaldo per ottone",
+    "en": "Mechanical cold & warm shearing lines for brass"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-Codebrass.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-Codebrass.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/codebrass/",
+  "processes": [
+    {
+      "label": {
+        "it": "Taglio a freddo",
+        "en": "Cold shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-a-freddo_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio a semi-caldo",
+        "en": "Warm shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-a-semi-caldo_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Taglio alla volata",
+        "en": "Continuous shearing"
+      },
+      "text": {
+        "it": "Taglia senza fermare la barra: più produzione, meno usura della frizione.",
+        "en": "Cuts without stopping the bar: more output, less clutch wear."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Variatore di velocità con inverter elettronico",
+        "en": "Speed changer with electronic inverter"
+      },
+      "text": {
+        "it": "L'inverter regola la velocità e amplia l'uso del taglio alla volata.",
+        "en": "The inverter varies speed and widens the use of the flying cut."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Sostegno spezzoni lunghi",
+        "en": "Support for long slugs"
+      },
+      "text": {
+        "it": "Sostiene gli spezzoni lunghi e aiuta il calibro di misura.",
+        "en": "Supports long billets and assists the length gauge."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Scarto teste e code",
+        "en": "Bar tail scraps and cropping"
+      },
+      "text": {
+        "it": "Devia in automatico teste e code delle barre in un cassone.",
+        "en": "Automatically diverts bar ends into a bin."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Rotazione",
+        "en": "Rotation"
+      },
+      "text": {
+        "it": "La cesoia ruota per inclinare le lame e ottenere un taglio migliore.",
+        "en": "The shear rotates to angle the blades for a better cut."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Pesatura",
+        "en": "Weighing"
+      },
+      "text": {
+        "it": "Pesa gli spezzoni e li divide in buoni, leggeri o pesanti.",
+        "en": "Weighs the billets and sorts them as good, light or heavy."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Nessuno sfrido, quindi nessun materiale perso.",
+      "en": "No swarf, so no material lost."
+    },
+    {
+      "it": "Cesoiare richiede cinque volte meno energia che segare.",
+      "en": "Shearing takes five times less energy than sawing."
+    },
+    {
+      "it": "Fino a 120 tagli al minuto.",
+      "en": "Up to 120 cuts per minute."
+    },
+    {
+      "it": "Tagli ortogonali e puliti.",
+      "en": "Square, clean cuts."
+    },
+    {
+      "it": "L'angolo delle lame si regola con precisione.",
+      "en": "The blade angle can be set precisely."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g6.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CODEBRASS_g2.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Cesoie meccaniche a freddo & semicaldo per ottone",
+        "en": "Mechanical cold & warm shearing lines for brass"
+      },
+      "models": [
+        "CODEBRASS 32",
+        "CODEBRASS 50",
+        "CODEBRASS 65"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza di taglio [kN]",
+            "en": "Cutting force [kN]"
+          },
+          "values": [
+            "320",
+            "900",
+            "2200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al min. max. [no.]",
+            "en": "Stroke per min. max. [no.]"
+          },
+          "values": [
+            "120",
+            "100",
+            "70"
+          ]
+        },
+        {
+          "label": {
+            "it": "Tondo max. [mm]",
+            "en": "Round [max.mm]"
+          },
+          "values": [
+            "32",
+            "50",
+            "65"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza motore principale [kW]",
+            "en": "Main motor power [kW]"
+          },
+          "values": [
+            "5.5",
+            "15",
+            "30"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "shear",
+    "variant": "mechanical"
+  },
+  "materialsNote": {
+    "it": "Leghe di rame (ottoni, bronzi, ecc), leghe di alluminio",
+    "en": "Copper alloys (brass, bronze, etc.), aluminium alloys"
+  }
+}

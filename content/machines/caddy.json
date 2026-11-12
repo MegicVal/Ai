@@ -1,0 +1,317 @@
+{
+  "slug": "caddy",
+  "name": "CADDY",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "cesoie",
+  "summary": {
+    "it": "Cesoia meccanica per taglio a freddo e a semi-caldo.",
+    "en": "Mechanical shear for cold and warm cutting."
+  },
+  "descriptor": {
+    "it": "Cesoie meccaniche a freddo & a semi caldo",
+    "en": "Mechanical cold & warm shearing lines"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-Caddy.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-Caddy_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/caddy/",
+  "processes": [
+    {
+      "label": {
+        "it": "Taglio a freddo",
+        "en": "Cold shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-a-freddo_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio a semi-caldo",
+        "en": "Warm shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-a-semi-caldo_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Pesatura automatica",
+        "en": "Automatic weighing"
+      },
+      "text": {
+        "it": "Pesa gli spezzoni e li seleziona per classi di peso.",
+        "en": "Weighs billets and sorts them by weight class."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Controllo laser",
+        "en": "Laser control"
+      },
+      "text": {
+        "it": "Un laser opzionale verifica le tolleranze della barra prima del taglio.",
+        "en": "An optional laser checks bar tolerances before the cut."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Preriscaldo delle barre",
+        "en": "Bars pre-heating"
+      },
+      "text": {
+        "it": "Taglia ogni materiale, anche con barre preriscaldate, in testa alla linea di forgiatura.",
+        "en": "Cuts any material, pre-heated bars included, at the head of the forging line."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Rotazione della cesoia",
+        "en": "Shear rotation"
+      },
+      "text": {
+        "it": "La cesoia ruota per dare alle lame l'inclinazione ottimale.",
+        "en": "The shear rotates to give the blades the best angle."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Fino a 120 tagli al minuto.",
+      "en": "Up to 120 cuts per minute."
+    },
+    {
+      "it": "Massima precisione, meno scarto.",
+      "en": "Top accuracy, less scrap."
+    },
+    {
+      "it": "Il minor costo per taglio.",
+      "en": "The lowest cost per cut."
+    },
+    {
+      "it": "Taglio piano, parallelo e senza bava.",
+      "en": "Flat, parallel, burr-free cuts."
+    },
+    {
+      "it": "Nessuna fondazione richiesta.",
+      "en": "No foundations required."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_Pannello-operatore-intuitivo.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_Sistema-di-pesatura-automatica-AWS-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_Pressore-per-mantenere-la-barra-in-posizione-dritta.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/CADDY_Calibro-idraulico-auto-posizionante.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Cesoie meccaniche a freddo & a semi caldo",
+        "en": "Mechanical cold & warm shearing lines"
+      },
+      "models": [
+        "CADDY 28F",
+        "CADDY 52F",
+        "CADDY 56",
+        "CADDY 63",
+        "CADDY 70",
+        "CADDY 80"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza di taglio [kN]",
+            "en": "Cutting force [kN]"
+          },
+          "values": [
+            "320",
+            "1.000",
+            "1.400",
+            "2.200",
+            "3.000",
+            "4.400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al min. max. [no.]",
+            "en": "Stroke per min. max. [no.]"
+          },
+          "values": [
+            "120",
+            "100",
+            "78",
+            "70",
+            "70",
+            "63"
+          ]
+        },
+        {
+          "label": {
+            "it": "Tondo max. [mm]",
+            "en": "Round max. [mm]"
+          },
+          "values": [
+            "32",
+            "52",
+            "56",
+            "63",
+            "70",
+            "80"
+          ]
+        },
+        {
+          "label": {
+            "it": "Quadro max. [mm]",
+            "en": "Square max. [mm]"
+          },
+          "values": [
+            "-",
+            "-",
+            "50",
+            "55",
+            "65",
+            "75"
+          ]
+        },
+        {
+          "label": {
+            "it": "Gruppo Freno/Frizione",
+            "en": "Clutch & Brake type"
+          },
+          "values": [
+            "Pneumatico",
+            "Idraulico",
+            "Idraulico",
+            "Idraulico",
+            "Idraulico",
+            "Idraulico"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza motore principale [kW]",
+            "en": "Main motor power [kW]"
+          },
+          "values": [
+            "5.5",
+            "15",
+            "22",
+            "30",
+            "37",
+            "45"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Cesoie meccaniche a freddo & a semi caldo",
+        "en": "Mechanical cold & warm shearing lines"
+      },
+      "models": [
+        "CADDY 90",
+        "CADDY 100",
+        "CADDY 140",
+        "CADDY 160",
+        "CADDY 180"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Forza di taglio [kN]",
+            "en": "Cutting force [kN]"
+          },
+          "values": [
+            "5.000",
+            "6.000",
+            "8.000",
+            "11.500",
+            "14.000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al min. max. [no.]",
+            "en": "Stroke per min. max. [no.]"
+          },
+          "values": [
+            "60",
+            "56",
+            "38",
+            "33",
+            "33"
+          ]
+        },
+        {
+          "label": {
+            "it": "Tondo max. [mm]",
+            "en": "Round max. [mm]"
+          },
+          "values": [
+            "90",
+            "100",
+            "140",
+            "160",
+            "180"
+          ]
+        },
+        {
+          "label": {
+            "it": "Quadro max. [mm]",
+            "en": "Square max. [mm]"
+          },
+          "values": [
+            "90",
+            "100",
+            "135",
+            "160",
+            "180"
+          ]
+        },
+        {
+          "label": {
+            "it": "Gruppo Freno/Frizione",
+            "en": "Clutch & Brake type"
+          },
+          "values": [
+            "Idraulico",
+            "Idraulico",
+            "Idraulico",
+            "Idraulico",
+            "Idraulico"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza motore principale [kW]",
+            "en": "Main motor power [kW]"
+          },
+          "values": [
+            "75",
+            "75",
+            "110",
+            "160",
+            "200"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "shear",
+    "variant": "mechanical"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di acciaio",
+    "en": "All types of steel"
+  }
+}

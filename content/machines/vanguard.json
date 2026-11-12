@@ -1,0 +1,490 @@
+{
+  "slug": "vanguard",
+  "name": "VANGUARD",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Foratura a più mandrini, taglio a nastro e taglio termico di profili.",
+    "en": "Multi-spindle drilling, band sawing and thermal cutting of sections."
+  },
+  "descriptor": {
+    "it": "Linea Automatica a CNC di foratura, foratura & taglio a nastro, foratura & taglio termico per profili",
+    "en": "Automatic CNC drilling, drilling & band sawing, drilling & coping lines for sections"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-vanguard.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-vanguard_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/vanguard/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con sega a nastro",
+        "en": "Band sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Taglio-con-sega-a-nastro_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ossitaglio",
+        "en": "Oxy-fuel cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Ossitaglio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Plasma",
+        "en": "Plasma cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Plasma_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Sistema di misura",
+        "en": "Measuring system"
+      },
+      "text": {
+        "it": "Palpatori, pressori e laser misurano con precisione la trave.",
+        "en": "Probes, clamps and lasers measure the beam accurately."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ORIENT-sistema-di-misura.jpg"
+    },
+    {
+      "title": {
+        "it": "Tre mandrini indipendenti",
+        "en": "Three independent spindles"
+      },
+      "text": {
+        "it": "Tre teste di foratura Direct Drive che lavorano in modo indipendente.",
+        "en": "Three Direct Drive drilling heads working independently."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_tre-madrini-indipendenti.jpg"
+    },
+    {
+      "title": {
+        "it": "Mandrino Direct Drive",
+        "en": "Direct Drive spindle"
+      },
+      "text": {
+        "it": "Mandrino ad azionamento diretto per forare ad alte prestazioni.",
+        "en": "Direct-drive spindle for high-performance drilling."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_mandrino-direct-drive.jpg"
+    },
+    {
+      "title": {
+        "it": "Punte di foratura al carburo",
+        "en": "Carbide drilling"
+      },
+      "text": {
+        "it": "Gli alti giri del mandrino permettono di usare utensili al carburo.",
+        "en": "High spindle speeds allow the use of carbide tools."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-punte-di-forature.jpg"
+    },
+    {
+      "title": {
+        "it": "Tracciatura anima inferiore",
+        "en": "Underside scribing"
+      },
+      "text": {
+        "it": "Traccia anche il lato inferiore dell'anima.",
+        "en": "Scribes the underside of the web too."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ORIENT-tracciatura-anima-inferiore.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili",
+        "en": "Tool changer"
+      },
+      "text": {
+        "it": "Cambio utensili automatico gestito dal CNC.",
+        "en": "CNC-controlled automatic tool changer."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_cambio-utensili.jpg"
+    },
+    {
+      "title": {
+        "it": "Dispositivo magnetico",
+        "en": "Magnetic device"
+      },
+      "text": {
+        "it": "In linea con una segatrice, un magnete scarica i pezzi tagliati.",
+        "en": "In line with a saw, a magnet unloads the cut parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ORIENT-dispositivo-magnetico.jpg"
+    },
+    {
+      "title": {
+        "it": "Unico controllo numerico",
+        "en": "Single CNC control unit"
+      },
+      "text": {
+        "it": "Un solo CNC gestisce anche la segatrice o il robot in linea.",
+        "en": "A single CNC also runs the in-line saw or robot."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/VALIANT_unita-controllo-numerico.jpg"
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "text": {
+        "it": "I dispositivi di sicurezza fermano la macchina al primo contatto.",
+        "en": "Safety devices stop the machine on contact."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sicurezza-prodotto.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Prezzo sostenibile, alta produttività, affidabilità nel tempo.",
+      "en": "Sustainable price, high output, lasting reliability."
+    },
+    {
+      "it": "Più lavorazioni in un'unica linea.",
+      "en": "Several operations in a single line."
+    },
+    {
+      "it": "Mandrino Direct Drive per la massima qualità di foratura.",
+      "en": "Direct Drive spindle for top drilling quality."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_gp1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_gp2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/VANGUARD_gp3.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Beam-Line-System-with-3-In-Line-Spindles-for-Automatic-Steel-Fabrication-Vanguard.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linee automatiche di foratura multi-mandrino a CNC",
+        "en": "Automatic CNC multi-spindle drilling lines"
+      },
+      "models": [
+        "453 VN 453 VN-R",
+        "603 VN 603 VN-R",
+        "1003 VN 1003 VN-R",
+        "1103 VN 1103 VN-R",
+        "1203 VN 1203 VN-R"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dim. profilo [min. mm]",
+            "en": "Section size [min.mm]"
+          },
+          "values": [
+            "60*x10",
+            "60x10",
+            "60x10",
+            "80x10",
+            "80x10"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dim. profilo [max. mm]",
+            "en": "Section size [max.mm]"
+          },
+          "values": [
+            "460x460",
+            "610x460",
+            "1015x460",
+            "1115x510",
+            "1220x610"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max. mm]",
+            "en": "Drilling diameter [max mm]"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "31",
+            "31",
+            "31",
+            "31",
+            "31"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "8500",
+            "9500",
+            "9500",
+            "10000",
+            "10000"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Foratura e taglio a nastro",
+        "en": "Drilling and band sawing"
+      },
+      "models": [
+        "453 VNB",
+        "603 VNB",
+        "1003 VNB",
+        "1103 VNB",
+        "1203 VNB"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Potenza motore [kW]",
+            "en": "Motor power [kW]"
+          },
+          "values": [
+            "9",
+            "9",
+            "9",
+            "15",
+            "15"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità lama a nastro [max. mt/min]",
+            "en": "Band saw blade speed [max.mt/min]"
+          },
+          "values": [
+            "170",
+            "170",
+            "170",
+            "170",
+            "170"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensione lama a nastro [mm]",
+            "en": "Band saw blade size [mm]"
+          },
+          "values": [
+            "41x1.3x7250",
+            "41x1.3x7250",
+            "41x1.3x7250",
+            "54x1.6x9920",
+            "67x1.6x9000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "13000",
+            "14000",
+            "14000",
+            "21500",
+            "16400"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Foratura e taglio termico",
+        "en": "Drilling and thermal coping"
+      },
+      "models": [
+        "604 VNRAZ",
+        "1204 VNRAZ"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Torce ossitaglio [no.]",
+            "en": "Oxy-fuel-fuel torch [no.]"
+          },
+          "values": [
+            "-",
+            "-"
+          ]
+        },
+        {
+          "label": {
+            "it": "Torce plasma [no.]",
+            "en": "Plasma torch [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "18500",
+            "19000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "beam-line",
+    "variant": "triple"
+  }
+}

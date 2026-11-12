@@ -1,19 +1,19 @@
 @import "tailwindcss";
 
-/* Design tokens. Tailwind exposes each as a utility (bg-paper, text-ink-2, font-display…). */
+/* Design tokens. Tailwind exposes each as a utility (bg-paper, text-accent, font-display…). */
 @theme {
-  --color-paper: #f3f5f4;
+  --color-paper: #f6f8f7;
   --color-white: #ffffff;
-  --color-ink: #0c1110;
-  --color-ink-2: #48534f;
-  --color-line: #d5dbd8;
-  --color-steel: #7c8884;
-  --color-fog: #a5b0ab;
-  --color-rule: #2a3330;
-  --color-coal: #141a18;
-  --color-ghost: #e2e7e4;
-  --color-accent: #00705f;
-  --color-accent-hi: #2cc4a6;
+  --color-ink: #15201d;
+  --color-ink-2: #55625e;
+  --color-line: #dde3e0;
+  --color-steel: #8a9692;
+  --color-ghost: #e8edeb;
+  /* FICEP green, taken from the official site's stylesheet. */
+  --color-accent: #00665b;
+  --color-accent-hi: #0a8a7a;
+  --color-deep: #004d45;
+  --color-mint: #e8f2f0;
   --color-hot: #e2571c;
 
   --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
@@ -22,11 +22,11 @@
 }
 
 :root {
-  /* Height of the concept banner; the 3D stage pins itself right under it. */
+  /* Height of the concept banner. */
   --nh: 31px;
   --gutter: 16px;
-  /* Left/right inset of the page column, so full-bleed blocks can line up with it. */
-  --edge: max(var(--gutter), calc((100vw - 1304px) / 2 + var(--gutter)));
+  --lift: clamp(56px, 9vw, 120px);
+  --shadow: 0 1px 2px rgb(21 32 29 / 0.05), 0 18px 40px -22px rgb(21 32 29 / 0.28);
 }
 @media (max-width: 359px) {
   :root {
@@ -46,14 +46,18 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: var(--nh);
+  scroll-padding-top: calc(var(--nh) + 16px);
 }
 body {
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-sans);
-  line-height: 1.55;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: var(--color-accent);
+  color: #fff;
 }
 :focus-visible {
   outline: 2px solid var(--color-accent-hi);
@@ -69,8 +73,8 @@ body {
   }
   .display {
     font-family: var(--font-display);
-    font-stretch: 120%;
-    letter-spacing: -0.02em;
+    font-stretch: 118%;
+    letter-spacing: -0.022em;
     text-wrap: balance;
   }
   .label {
@@ -80,135 +84,379 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
+  /* White surface that lifts slightly off the page. */
+  .card {
+    background: var(--color-white);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
   .btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
     min-height: 46px;
-    padding: 0 18px;
-    border: 1px solid currentColor;
-    border-radius: 2px;
+    padding: 0 20px;
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    color: var(--color-accent);
     font-weight: 600;
     font-size: 0.95rem;
     cursor: pointer;
     transition:
       background-color 0.2s,
       color 0.2s,
-      border-color 0.2s;
+      border-color 0.2s,
+      transform 0.2s;
+  }
+  .btn:active {
+    transform: translateY(1px);
   }
   .btn-solid {
     background: var(--color-accent);
-    border-color: var(--color-accent);
     color: #fff;
   }
   .btn-solid:hover {
-    background: var(--color-ink);
-    border-color: var(--color-ink);
+    background: var(--color-deep);
+    border-color: var(--color-deep);
   }
   .btn-ghost:hover {
-    background: var(--color-ink);
-    border-color: var(--color-ink);
-    color: var(--color-paper);
+    background: var(--color-mint);
   }
-  .on-dark .btn-ghost:hover {
-    background: var(--color-paper);
-    border-color: var(--color-paper);
-    color: var(--color-ink);
+  /* For controls sitting on a photo or on the green footer. */
+  .btn-glass {
+    border-color: rgb(255 255 255 / 0.75);
+    background: rgb(0 0 0 / 0.22);
+    color: #fff;
+    backdrop-filter: blur(6px);
   }
-  .on-dark .btn-solid:hover {
-    background: var(--color-paper);
-    border-color: var(--color-paper);
-    color: var(--color-ink);
-  }
-
-  /* Hatched block that stands in for a photo until FICEP supplies real ones. */
-  .placeholder {
-    position: relative;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-    background:
-      repeating-linear-gradient(135deg, transparent 0 11px, color-mix(in srgb, currentColor 9%, transparent) 11px 12px),
-      color-mix(in srgb, currentColor 5%, transparent);
-    border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+  .btn-glass:hover {
+    background: #fff;
+    border-color: #fff;
+    color: var(--color-accent);
   }
 
-  /* ---------- 3D stage ---------- */
-  .stage {
+  /* Photo frame: neutral ground while the image loads, slow zoom on hover inside links. */
+  .photo {
     position: relative;
-    --sbg: var(--color-paper);
-    --sfg: var(--color-ink);
-    --sfg2: var(--color-ink-2);
-    --sghost: var(--color-ghost);
-    --sline: var(--color-line);
-    --scard: var(--color-white);
-  }
-  .stage[data-dark="true"] {
-    --sbg: var(--color-ink);
-    --sfg: #ecf0ee;
-    --sfg2: var(--color-fog);
-    --sghost: #161d1b;
-    --sline: var(--color-rule);
-    --scard: var(--color-coal);
-  }
-  .stage-sticky {
-    position: sticky;
-    top: var(--nh);
-    height: calc(100vh - var(--nh));
-    height: calc(100svh - var(--nh));
     overflow: hidden;
-    background: var(--sbg);
-    color: var(--sfg);
+    border-radius: 6px;
+    background: var(--color-ghost);
+  }
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  a:hover .photo img,
+  button:hover .photo img {
+    transform: scale(1.04);
+  }
+
+  /* ---------- pictures that play like a film ---------- */
+  .slides {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: var(--color-ghost);
+  }
+  .slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.4s ease;
+    will-change: opacity, transform;
+  }
+  .slide[data-on="true"] {
+    opacity: 1;
+  }
+  .slides[data-playing="true"] .slide[data-on="true"][data-pan="a"] {
+    animation: pan-a 9s ease-out both;
+  }
+  .slides[data-playing="true"] .slide[data-on="true"][data-pan="b"] {
+    animation: pan-b 9s ease-out both;
+  }
+  @keyframes pan-a {
+    from {
+      transform: scale(1.02);
+    }
+    to {
+      transform: scale(1.14) translate(-1.2%, 1%);
+    }
+  }
+  @keyframes pan-b {
+    from {
+      transform: scale(1.14) translate(1.2%, -1%);
+    }
+    to {
+      transform: scale(1.02);
+    }
+  }
+  .slide-bars {
+    position: absolute;
+    right: var(--gutter);
+    bottom: 16px;
+    z-index: 2;
+    display: flex;
+    gap: 6px;
+    width: min(220px, 50%);
+  }
+  .slide-bars span {
+    flex: 1;
+    height: 3px;
+    border-radius: 2px;
+    background: rgb(255 255 255 / 0.4);
+    overflow: hidden;
+  }
+  .slide-bars i {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #fff;
+  }
+  .slide-bars span[data-state="done"] i {
+    width: 100%;
+  }
+  .slides[data-playing="true"] .slide-bars span[data-state="on"] i {
+    animation: bar linear both;
+  }
+  @keyframes bar {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .slide-arrows {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .slide-arrows span {
+    padding: 7px 10px;
+    border-radius: 4px;
+    background: #fff;
+    color: var(--color-accent);
+  }
+  .slide-arrows button {
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    background: #fff;
+    color: var(--color-accent);
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
     transition:
-      background-color 0.7s ease,
-      color 0.7s ease;
+      background-color 0.2s,
+      color 0.2s;
   }
-  .stage-giant {
+  .slide-arrows button:hover {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  .slide-thumbs {
     position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    padding-bottom: 8vh;
-    font-family: var(--font-display);
-    font-stretch: 125%;
-    font-weight: 800;
-    font-size: min(18vw, 42vh);
-    line-height: 0.8;
-    letter-spacing: -0.04em;
-    color: var(--sghost);
-    transition: color 0.7s ease;
-    user-select: none;
+    left: 16px;
+    bottom: 16px;
+    z-index: 2;
+    display: flex;
+    gap: 6px;
+    max-width: calc(100% - 210px);
+    overflow-x: auto;
+    scrollbar-width: none;
   }
-  .stage-canvas,
-  .stage-poster {
-    position: absolute;
-    inset: 0;
+  .slide-thumbs button {
+    display: block;
+    width: 74px;
+    height: 46px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition:
+      opacity 0.2s,
+      border-color 0.2s;
   }
-  .stage-canvas {
-    touch-action: pan-y;
-    cursor: grab;
+  .slide-thumbs button:hover,
+  .slide-thumbs button[aria-pressed="true"] {
+    opacity: 1;
+    border-color: var(--color-accent);
   }
-  .stage-canvas:active {
-    cursor: grabbing;
-  }
-  .stage-poster {
-    pointer-events: none;
-    transition: opacity 0.5s ease;
-  }
-  .stage-poster img {
+  .slide-thumbs img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .stage-tag {
+  @media (max-width: 640px) {
+    .slide-thumbs {
+      display: none;
+    }
+  }
+
+  /* ---------- page hero: full-width picture, white title card lifted over it ---------- */
+  .hero-media {
+    position: relative;
+    overflow: hidden;
+    height: clamp(320px, 62svh, 680px);
+    background: var(--color-accent);
+  }
+  .hero-media.tall {
+    height: clamp(360px, 74svh, 780px);
+  }
+  .hero-media .slides,
+  .hero-media video {
     position: absolute;
-    left: var(--edge);
-    top: 96px;
-    color: var(--sfg2);
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: cover;
+  }
+  .hero-media .slide-bars {
+    bottom: calc(var(--lift) + 18px);
+  }
+  /* keeps the white navigation readable over any picture */
+  .hero-media::after {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 190px;
+    background: linear-gradient(rgb(0 30 26 / 0.62), transparent);
+    pointer-events: none;
+  }
+  .hero-card {
+    position: relative;
+    z-index: 2;
+    margin-top: calc(-1 * var(--lift));
+    max-width: 1000px;
+    display: grid;
+    gap: 18px;
+    padding: clamp(24px, 4vw, 56px);
+  }
+
+  /* Machine names running across the page. */
+  .ticker {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+  }
+  .ticker::before,
+  .ticker::after {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    z-index: 1;
+    width: 9%;
+    pointer-events: none;
+  }
+  .ticker::before {
+    left: 0;
+    background: linear-gradient(90deg, var(--color-paper), transparent);
+  }
+  .ticker::after {
+    right: 0;
+    background: linear-gradient(270deg, var(--color-paper), transparent);
+  }
+  .ticker > div {
+    display: flex;
+    flex: none;
+    gap: 2.2em;
+    padding-right: 2.2em;
+    animation: ticker 60s linear infinite;
+  }
+  @keyframes ticker {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Photos settle into place as they scroll in (browsers with scroll-driven animations). */
+  @supports (animation-timeline: view()) {
+    .photo:not(.photo-still) img {
+      animation: settle linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 38%;
+    }
+    @keyframes settle {
+      from {
+        scale: 1.16;
+        filter: saturate(0.6);
+      }
+      to {
+        scale: 1;
+        filter: saturate(1);
+      }
+    }
+  }
+
+  /* ---------- 3D viewer: a light photo studio ---------- */
+  .viewer {
+    position: relative;
+    overflow: hidden;
+    height: min(78svh, 760px);
+    min-height: 480px;
+    background: radial-gradient(115% 85% at 50% 34%, #f4f7f6 0%, #dde5e2 46%, #b4c2bd 100%);
+    color: var(--color-ink);
+  }
+  .viewer-giant {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding-bottom: 6%;
+    font-family: var(--font-display);
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: min(17vw, 300px);
+    line-height: 0.8;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+    color: rgb(0 102 91 / 0.1);
+    user-select: none;
+  }
+  .viewer-canvas {
+    position: absolute;
+    inset: 0;
+    touch-action: pan-y;
+    cursor: grab;
+  }
+  .viewer-canvas:active {
+    cursor: grabbing;
+  }
+  .viewer-tag,
+  .viewer-hint,
+  .viewer-loading {
+    position: absolute;
+    color: var(--color-ink-2);
     z-index: 2;
   }
-  .stage-balloons {
+  .viewer-tag {
+    left: var(--gutter);
+    top: 18px;
+  }
+  .viewer-hint {
+    right: var(--gutter);
+    top: 18px;
+    text-align: right;
+  }
+  .viewer-loading {
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+  .viewer-balloons {
     position: absolute;
     inset: 0;
     pointer-events: none;
@@ -224,82 +472,87 @@ body {
     place-items: center;
     padding: 0;
     border-radius: 50%;
-    border: 1.5px solid var(--sfg);
-    background: var(--sbg);
-    color: var(--sfg);
+    border: 1.5px solid var(--color-accent);
+    background: #fff;
+    color: var(--color-accent);
     font: 500 12px var(--font-mono);
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
+    box-shadow: var(--shadow);
     transition:
       background-color 0.2s,
-      color 0.2s,
-      border-color 0.2s;
+      color 0.2s;
   }
   .bal:hover,
   .bal[aria-pressed="true"] {
-    background: var(--color-hot);
-    border-color: var(--color-hot);
+    background: var(--color-accent);
     color: #fff;
   }
-  .stage-tools {
+  .viewer-tools {
     position: absolute;
-    right: var(--edge);
+    right: var(--gutter);
     bottom: 18px;
     z-index: 5;
     display: flex;
+    align-items: center;
     gap: 8px;
   }
-  .stage-tools button {
-    height: 40px;
-    min-width: 40px;
-    padding: 0 12px;
-    border: 1px solid var(--sline);
-    border-radius: 2px;
-    background: var(--scard);
-    color: var(--sfg);
+  .viewer-tools button,
+  .viewer-slider {
+    height: 42px;
+    border: 1px solid var(--color-line);
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: var(--shadow);
+  }
+  .viewer-tools button {
+    min-width: 42px;
+    padding: 0 14px;
+    color: var(--color-accent);
     font-weight: 600;
     cursor: pointer;
     transition:
-      background-color 0.7s,
-      color 0.7s,
-      border-color 0.3s;
+      border-color 0.2s,
+      background-color 0.2s;
   }
-  .stage-tools button:hover {
-    border-color: var(--sfg);
+  .viewer-tools button:hover {
+    border-color: var(--color-accent);
+    background: var(--color-mint);
   }
-  .stage-parts {
+  .viewer-slider {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+  }
+  .viewer-slider input {
+    width: 130px;
+    accent-color: var(--color-accent);
+  }
+  .viewer-parts {
     position: absolute;
-    left: var(--edge);
+    left: var(--gutter);
     bottom: 18px;
     z-index: 5;
-    width: 280px;
+    width: 270px;
     display: grid;
-    gap: 2px;
-    opacity: 0;
-    visibility: hidden;
-    transition:
-      opacity 0.4s,
-      visibility 0.4s;
   }
-  .stage[data-dark="true"] .stage-parts {
-    opacity: 1;
-    visibility: visible;
-  }
-  .stage-parts button {
+  .viewer-parts button {
     width: 100%;
     display: grid;
     grid-template-columns: 26px 1fr;
     gap: 10px;
     align-items: center;
-    padding: 9px 10px;
-    border-top: 1px solid var(--sline);
-    color: var(--sfg2);
+    padding: 8px 10px;
+    border-top: 1px solid var(--color-line);
+    color: var(--color-ink-2);
     font-weight: 500;
+    font-size: 0.92rem;
     text-align: left;
     cursor: pointer;
+    transition: color 0.2s;
   }
-  .stage-parts button b {
+  .viewer-parts button b {
     display: grid;
     place-items: center;
     width: 22px;
@@ -308,86 +561,53 @@ body {
     border-radius: 50%;
     font: 500 11px var(--font-mono);
   }
-  .stage-parts button:hover,
-  .stage-parts button[aria-pressed="true"] {
-    color: var(--sfg);
+  .viewer-parts button:hover,
+  .viewer-parts button[aria-pressed="true"] {
+    color: var(--color-accent);
   }
-  .stage-parts button[aria-pressed="true"] b {
-    background: var(--color-hot);
-    border-color: var(--color-hot);
+  .viewer-parts button[aria-pressed="true"] b {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
     color: #fff;
   }
-  .stage-card {
+  .viewer-card {
     position: absolute;
-    right: var(--edge);
-    top: 50%;
-    transform: translateY(-50%);
+    right: var(--gutter);
+    top: 64px;
     z-index: 5;
-    width: min(340px, calc(100% - 2 * var(--gutter)));
+    width: min(320px, calc(100% - 2 * var(--gutter)));
     display: grid;
-    gap: 12px;
-    padding: 22px;
-    border: 1px solid var(--sline);
-    background: var(--scard);
-  }
-  .stage-card dl > div {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 7px 0;
-    border-top: 1px dashed var(--sline);
-  }
-  .stage-chapters {
-    position: relative;
-    z-index: 4;
-    margin-top: calc(var(--nh) - 100vh);
-    margin-top: calc(var(--nh) - 100svh);
-    pointer-events: none;
-  }
-  .ch {
-    display: flex;
-    min-height: calc(100vh - var(--nh));
-    min-height: calc(100svh - var(--nh));
-    padding: 110px var(--edge) 84px;
-  }
-  .ch > div {
-    pointer-events: auto;
-  }
-  .ch-inside {
-    color: var(--color-ink);
-    transition: color 0.7s ease;
-  }
-  .ch-inside p {
-    color: var(--color-ink-2);
-    transition: color 0.7s ease;
-  }
-  .stage[data-dark="true"] .ch-inside {
-    color: #ecf0ee;
-  }
-  .stage[data-dark="true"] .ch-inside p {
-    color: var(--color-fog);
-  }
-  .ch-hold {
-    min-height: 150vh;
-    min-height: 150svh;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: var(--shadow);
   }
 
   @media (max-width: 860px) {
-    .stage-giant {
-      padding-bottom: 34vh;
+    .viewer {
+      height: min(84svh, 720px);
+    }
+    .viewer-giant {
       font-size: 19vw;
+      padding-bottom: 40%;
     }
-    .stage-tag {
-      max-width: 52%;
-    }
-    .stage-tools {
-      top: 88px;
-      bottom: auto;
-    }
-    .stage-tools .zoom {
+    .viewer-hint {
       display: none;
     }
-    .stage-parts {
+    .viewer-tools {
+      left: var(--gutter);
+      right: var(--gutter);
+      bottom: 70px;
+      justify-content: flex-end;
+    }
+    .viewer-slider {
+      flex: 1;
+    }
+    .viewer-slider input {
+      width: 100%;
+    }
+    .viewer-parts {
       left: 0;
       right: 0;
       width: auto;
@@ -397,32 +617,241 @@ body {
       padding-inline: var(--gutter);
       scrollbar-width: none;
     }
-    .stage-parts li {
+    .viewer-parts li {
       flex: none;
     }
-    .stage-parts button {
+    .viewer-parts button {
       grid-template-columns: 22px auto;
-      border: 1px solid var(--sline);
-      border-radius: 2px;
+      border: 1px solid var(--color-line);
+      border-radius: 4px;
+      background: #fff;
       white-space: nowrap;
     }
-    .stage-card {
-      top: auto;
-      bottom: 74px;
+    .viewer-card {
+      top: 48px;
       left: var(--gutter);
-      transform: none;
       width: auto;
-      padding: 16px;
+      padding: 14px;
     }
-    .ch {
-      padding-block: 120px 76px;
-    }
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .spec-table th,
+  .spec-table td {
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--color-line);
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .spec-table thead th {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--color-accent);
+    background: var(--color-mint);
+    border-bottom-color: var(--color-accent);
+  }
+  .spec-table tbody tr:hover td,
+  .spec-table tbody tr:hover th {
+    background: var(--color-paper);
+  }
+  .spec-table tbody th,
+  .spec-table thead th:first-child {
+    position: sticky;
+    left: 0;
+    text-align: left;
+    font-weight: 500;
+    white-space: normal;
+    min-width: 180px;
+    max-width: 280px;
+  }
+  .spec-table tbody th {
+    background: var(--color-white);
+  }
+  .spec-table td {
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+  }
+
+  /* ---------- sites: plant from above and interior tour ---------- */
+  .site-stage {
+    position: relative;
+    overflow: hidden;
+    height: min(80svh, 780px);
+    min-height: 500px;
+    background: var(--color-ghost);
+  }
+  .site-pin,
+  .tour-arrow,
+  .tour-tag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: auto;
+    cursor: pointer;
+    opacity: 0;
+    transition:
+      opacity 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .site-pin {
+    display: grid;
+    gap: 1px;
+    margin: -46px 0 0 -72px;
+    width: 144px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #fff;
+    color: var(--color-ink);
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.25;
+    box-shadow: var(--shadow);
+  }
+  .site-pin::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 2px;
+    height: 18px;
+    margin-left: -1px;
+    background: #fff;
+  }
+  .site-pin span {
+    font: 500 10px var(--font-mono);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+  .site-pin:hover {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  .site-pin:hover span {
+    color: #fff;
+  }
+  .site-tool {
+    display: inline-grid;
+    place-items: center;
+    height: 42px;
+    min-width: 42px;
+    padding: 0 14px;
+    border-radius: 4px;
+    background: #fff;
+    color: var(--color-accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background-color 0.2s;
+  }
+  .site-tool:hover {
+    background: var(--color-mint);
+  }
+  .tour-arrow {
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    width: 130px;
+    margin: -30px 0 0 -65px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+  .tour-arrow i {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--color-accent);
+    font-style: normal;
+    font-size: 20px;
+    box-shadow: var(--shadow);
+    transition:
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .tour-arrow span {
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgb(255 255 255 / 0.92);
+    color: var(--color-ink);
+  }
+  .tour-arrow:hover i {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  .tour-tag {
+    margin: -16px 0 0 -50px;
+    width: 100px;
+    padding: 5px 8px;
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--color-accent);
+    font: 600 11px var(--font-mono);
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .tour-tag:hover,
+  .tour-tag[aria-pressed="true"] {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  .tour-panel,
+  .tour-machine,
+  .tour-map {
+    position: absolute;
+    z-index: 3;
+    border-radius: 8px;
+    background: rgb(255 255 255 / 0.94);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(6px);
+  }
+  .tour-panel {
+    left: var(--gutter);
+    top: 16px;
+    width: min(270px, 62%);
+    display: grid;
+    gap: 8px;
+    padding: 14px;
+  }
+  .tour-machine {
+    right: var(--gutter);
+    top: 16px;
+    width: min(280px, 70%);
+    display: grid;
+    gap: 8px;
+    padding: 14px;
+  }
+  .tour-map {
+    left: var(--gutter);
+    bottom: 16px;
+    width: min(250px, 46%);
+    padding: 8px;
+  }
+  .tour-map svg {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  .ticker > div {
+    animation: none;
   }
   *,
   *::before,

@@ -1,0 +1,352 @@
+{
+  "slug": "excalibur-victory",
+  "name": "EXCALIBUR / VICTORY",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Fora profili con ingombro ridotto.",
+    "en": "Drills sections in a compact footprint."
+  },
+  "descriptor": {
+    "it": "Linea di foratura automatica a CNC monomandrino per profili",
+    "en": "Automatic CNC single spindle drilling lines for sections"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-excalibur-victory.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-excalibur-victory_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/excalibur-victory/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Guide cabina",
+        "en": "Cabin rail"
+      },
+      "text": {
+        "it": "Pignone e cremagliera posizionano il materiale in modo rapido e preciso.",
+        "en": "Rack and pinion position the material quickly and accurately."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-unita-di-foratura.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema di misura laser",
+        "en": "Laser measuring"
+      },
+      "text": {
+        "it": "Un laser rileva testa e superficie del profilo per posizionarlo esattamente.",
+        "en": "A laser detects the section's end and surface for exact positioning."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-sistema-di-misura-laser.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema di bloccaggio",
+        "en": "Clamping device"
+      },
+      "text": {
+        "it": "Pressori automatici a doppio effetto tengono fermo il profilo.",
+        "en": "Double-acting automatic clamps hold the section firmly."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-sistema-di-bloccaggio.jpg"
+    },
+    {
+      "title": {
+        "it": "Mandrino Direct Drive",
+        "en": "Direct Drive spindle"
+      },
+      "text": {
+        "it": "Mandrino ad azionamento diretto per forare ad alte prestazioni.",
+        "en": "Direct-drive spindle for high-performance drilling."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-Il-potente-mandrino-DIRECT-DRIVE.jpg"
+    },
+    {
+      "title": {
+        "it": "Punte di foratura al carburo",
+        "en": "Carbide drilling"
+      },
+      "text": {
+        "it": "Gli alti giri del mandrino permettono di usare utensili al carburo.",
+        "en": "High spindle speeds allow the use of carbide tools."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-punte-di-forature.jpg"
+    },
+    {
+      "title": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "text": {
+        "it": "Un utensile dedicato traccia i riferimenti sui pezzi.",
+        "en": "A dedicated tool scribes layout marks on parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-tracciatura.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili",
+        "en": "Tool changer"
+      },
+      "text": {
+        "it": "Cambio utensili automatico gestito dal CNC.",
+        "en": "CNC-controlled automatic tool changer."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-Cambio-utensili-automatico-a-9-posizioni-2.jpg"
+    },
+    {
+      "title": {
+        "it": "Asse ausiliario",
+        "en": "Auxiliary sub axis"
+      },
+      "text": {
+        "it": "Un asse in più sulla testa permette di fresare e tracciare a pezzo fermo.",
+        "en": "An extra axis on the head allows milling and scribing with the part clamped."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-asse-ausiliario.jpg"
+    },
+    {
+      "title": {
+        "it": "Dispositivo lavorazione piatti",
+        "en": "Flat processing device"
+      },
+      "text": {
+        "it": "Dispositivi magnetici permettono di lavorare anche i piatti.",
+        "en": "Magnetic devices make it possible to process flats too."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-Dispositivo-per-la-lavorazione-di-piatti.jpg"
+    },
+    {
+      "title": {
+        "it": "Controllo remoto",
+        "en": "Remote control"
+      },
+      "text": {
+        "it": "L'operatore comanda la macchina anche mentre carica o scarica.",
+        "en": "The operator can run the machine while loading or unloading."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-operatore-puo-facilmente-preparare-il-materiale-e-controllare-la-macchina.jpg"
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "text": {
+        "it": "I dispositivi di sicurezza fermano la macchina al primo contatto.",
+        "en": "Safety devices stop the machine on contact."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-La-cabina-di-foratura-mobile.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Occupa metà dello spazio di una linea di foratura travi tradizionale.",
+      "en": "Takes half the space of a traditional beam drilling line."
+    },
+    {
+      "it": "L'asse ausiliario esegue più lavorazioni senza spostare la cabina.",
+      "en": "The auxiliary axis does several operations without moving the cab."
+    },
+    {
+      "it": "La cabina resta sollevata da terra, lontana dai trucioli.",
+      "en": "The cab stays clear of the floor, away from chips."
+    },
+    {
+      "it": "La cabina resta sollevata da terra, lontana dai trucioli.",
+      "en": "The cab stays clear of the floor, away from chips."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-esempi-di-lavorazione.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl8.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl67.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-gl6.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/CNC-Single-Spindle-Drilling-Line-Processes-Multiple-Parts-in-One-Automated-Cycle-Excalibur.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linea di foratura automatica a CNC monomandrino per profili",
+        "en": "Automatic CNC single spindle drilling lines for sections"
+      },
+      "models": [
+        "VICTORY 1001 EX",
+        "EXCALIBUR 1201 EX"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni profilo [min. mm]",
+            "en": "Profile size [min. mm]"
+          },
+          "values": [
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni profilo [max mm]",
+            "en": "Profile size [max mm]"
+          },
+          "values": [
+            "1000",
+            "1200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "1",
+            "1 (9)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro foratura [max mm]",
+            "en": "Drilling diameter [max mm]"
+          },
+          "values": [
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "17",
+            "19"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max RPM]",
+            "en": "Spindle speed [max RPM]"
+          },
+          "values": [
+            "5000",
+            "5000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa complementare mandrino [mm]",
+            "en": "Spindle sub-axis stroke [mm]"
+          },
+          "values": [
+            "-",
+            "200"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "beam-line",
+    "variant": "compact"
+  }
+}

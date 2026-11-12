@@ -1,0 +1,359 @@
+{
+  "slug": "rapid",
+  "name": "RAPID",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "angolari-piatti",
+  "summary": {
+    "it": "Fora e taglia angolari.",
+    "en": "Drills and cuts angles."
+  },
+  "descriptor": {
+    "it": "Linee automatiche a CNC di foratura ad alta velocità e taglio per angolari",
+    "en": "Automatic CNC high-speed drilling and cutting lines for angles"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-rapid.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-rapid_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/rapid/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con sega a disco",
+        "en": "Disc sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Taglio-con-sega-a-disco_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con cesoia",
+        "en": "Shearing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Taglio-con-cesoia_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Unità di foratura Direct Drive",
+        "en": "Direct Drive drilling units"
+      },
+      "text": {
+        "it": "Unità di foratura veloci con mandrini Direct Drive.",
+        "en": "High-speed drilling units with Direct Drive spindles."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-unita-foratura-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili automatico",
+        "en": "Automatic tool-changer"
+      },
+      "text": {
+        "it": "Cambio utensile automatico sulle unità di foratura.",
+        "en": "Automatic tool change on the drilling units."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-rapido-cabio-utensili-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Assi complementari",
+        "en": "Spindle sub-axis positioning"
+      },
+      "text": {
+        "it": "200 mm di corsa extra in X per fresare e realizzare asole.",
+        "en": "200 mm of extra X travel for milling and slotting."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-Assi-complementari-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Unità' di taglio",
+        "en": "Shearing unit"
+      },
+      "text": {
+        "it": "Cesoia a taglio singolo o doppio, con lame costruite in casa.",
+        "en": "Single- or double-cut shear with blades made in-house."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-unita-di-taglio.jpg"
+    },
+    {
+      "title": {
+        "it": "Segatrice a disco",
+        "en": "Disc saw"
+      },
+      "text": {
+        "it": "Segatrice a disco per tagli a 90°, in alternativa alla cesoia.",
+        "en": "Disc saw for 90° cuts, as an alternative to the shear."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-Segatrice-circolare-a-disco.jpg"
+    },
+    {
+      "title": {
+        "it": "Marcatrice",
+        "en": "Marking unit"
+      },
+      "text": {
+        "it": "Marcatrice a disco per identificare i pezzi.",
+        "en": "Disc marking unit to identify parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-Marcatrice-a-cassetti.jpg"
+    },
+    {
+      "title": {
+        "it": "Fresatura del vertice dell'angolare",
+        "en": "Angle heel milling"
+      },
+      "text": {
+        "it": "Un utensile speciale fresa il vertice dell'angolare.",
+        "en": "A special tool mills the heel of the angle."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-fresatura-angolare.jpg"
+    },
+    {
+      "title": {
+        "it": "Rapida alimentazione barra",
+        "en": "Fast angle feeding system"
+      },
+      "text": {
+        "it": "Una pinza ad alta velocità posiziona l'angolare con precisione.",
+        "en": "A high-speed gripper positions the angle accurately."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-rapisa-alimentazione-barra.jpg"
+    },
+    {
+      "title": {
+        "it": "Rilevamento lunghezza barra",
+        "en": "Stock length detection"
+      },
+      "text": {
+        "it": "Un laser sulla rulliera d'entrata misura la lunghezza reale della barra.",
+        "en": "A laser on the infeed conveyor measures the actual bar length."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-rilevamento-lunghezza-barra.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema rotativo di carico",
+        "en": "Rotating loading system"
+      },
+      "text": {
+        "it": "Supporti a V caricano da soli gli angolari sulla rulliera.",
+        "en": "V-supports load angles onto the conveyor automatically."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/AeHP-Sistema-rotativo-di-carico-.jpg"
+    },
+    {
+      "title": {
+        "it": "Banchi di trasferimento",
+        "en": "Cross transfer system"
+      },
+      "text": {
+        "it": "Banchi di carico e scarico per barre e pezzi finiti.",
+        "en": "Loading and unloading tables for bars and finished parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/09/AeHP-Serie-A-banchi-di-trasferimento.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Foratura veloce a costi ridotti.",
+      "en": "Fast drilling at lower cost."
+    },
+    {
+      "it": "Alti giri per forare in fretta con utensili al carburo.",
+      "en": "High rpm for fast drilling with carbide tools."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-gp.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-gp1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/RAPID-unita-di-taglio.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Steel-Angle-Fabrication-by-FICEP-Uses-Unique-Steel-Fabrication-Techniques-in-Rapid-35-Angle-Drill.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linee automatiche a CNC di foratura ad alta velocità e taglio per angolari",
+        "en": "Automatic CNC high-speed drilling and cutting lines for angles"
+      },
+      "models": [
+        "RAPID 16T",
+        "RAPID 20T",
+        "RAPID 25T",
+        "RAPID 35T"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni angolare (410 N/mm²) [min. mm]",
+            "en": "Angle size (410 N/mm²) [min. mm]"
+          },
+          "values": [
+            "40x40x4",
+            "40x40x4",
+            "60x60x6",
+            "60x60x6"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni angolare (410 N/mm²) [max. mm]",
+            "en": "Angle size (410 N/mm²) [max. mm]"
+          },
+          "values": [
+            "160x160x20",
+            "200x200x25",
+            "250x250x40",
+            "350x350x40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [max no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [max no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "3 (6)",
+            "3 (6)",
+            "3 (6)",
+            "3 (6)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro foratura [max mm]",
+            "en": "Drilling diameter [max.mm]"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "11 (15)",
+            "11 (15)",
+            "19 (27)",
+            "19 (27)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità Mandrino [RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "3500",
+            "3500",
+            "3500",
+            "3500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa asse ausiliario mandrino [mm]",
+            "en": "Spindle sub-axis stroke [mm]"
+          },
+          "values": [
+            "200",
+            "200",
+            "200",
+            "200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Unità di taglio",
+            "en": "Cutting unit"
+          },
+          "values": [
+            "Cesoia (segatrice a disco)",
+            "Segatrice a disco (cesoia)",
+            "(Segatrice a disco - cesoia)",
+            "(Segatrice a disco)"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "angle-line",
+    "variant": "default"
+  }
+}

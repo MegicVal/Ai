@@ -1,0 +1,384 @@
+{
+  "slug": "dd",
+  "name": "DD",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "presse",
+  "summary": {
+    "it": "Pressa a vite ad azionamento diretto.",
+    "en": "Direct-drive screw press."
+  },
+  "descriptor": {
+    "it": "Presse a vite ad azionamento diretto",
+    "en": "Direct drive screw presses"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-DD-1.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-DD_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/dd/",
+  "processes": [
+    {
+      "label": {
+        "it": "Sagomatura - stampaggio",
+        "en": "Forming - Forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sagomatura-stampaggio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stampaggio senza bava",
+        "en": "Flashless forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stampaggio-senza-bava_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stampi complessi",
+        "en": "Complex dies"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stampi-complessi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stampi mobili",
+        "en": "Mobile dies"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stampi-mobili_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Motore lineare rotativo",
+        "en": "Rotating linear motor"
+      },
+      "text": {
+        "it": "Motore brushless con magneti permanenti montati direttamente sul volano.",
+        "en": "Brushless motor with permanent magnets mounted directly on the flywheel."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "A prova di vibrazioni",
+        "en": "Insensitive to vibration"
+      },
+      "text": {
+        "it": "Il motore lineare isola il gruppo volano dalle vibrazioni dei colpi.",
+        "en": "The linear motor keeps the flywheel unit isolated from impact vibration."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Doppio inverter abbinato al KERS",
+        "en": "Double inverter combined with KERS"
+      },
+      "text": {
+        "it": "Il KERS recupera l'energia non usata nel colpo.",
+        "en": "KERS recovers the energy not used in the blow."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Impatto più veloce, stampi meno usurati.",
+      "en": "Faster impact, less die wear."
+    },
+    {
+      "it": "Energia piena già a tre quarti della corsa.",
+      "en": "Full energy at three quarters of the stroke."
+    },
+    {
+      "it": "Tempo ciclo ridotto, più produttività.",
+      "en": "Shorter cycle time, more output."
+    },
+    {
+      "it": "Energia programmabile e ripetibile a ogni colpo.",
+      "en": "Programmable, repeatable energy on every blow."
+    },
+    {
+      "it": "Oltre il 50% di energia elettrica risparmiata.",
+      "en": "More than 50% of electricity saved."
+    },
+    {
+      "it": "Manutenzione semplificata.",
+      "en": "Simplified maintenance."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD_g1-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g1-Pressa-a-vite-ad-azionamento-diretto-mod.-DD-750.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g2-Motore-lineare-rotativo.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g3-Procedure-di-calibrazione-di-energia-e-forza.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g4-Pannello-operatore-intuitivo.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g5-Soluzioni-dedicate-per-soddisfare-tutte-le-esigenze-dei-nostri-clienti.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g6-Linee-di-stampaggio-a-caldo-completamente-automatiche.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/DD-g7-Esempi-di-pezzi-stampati.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Presse a vite ad azionamento diretto",
+        "en": "Direct drive screw presses"
+      },
+      "models": [
+        "DD 12",
+        "DD 16",
+        "DD 40",
+        "DD 50",
+        "DD 68",
+        "DD 85",
+        "DD 110",
+        "DD 140"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Diametro vite [mm]",
+            "en": "Screw diameter [mm]"
+          },
+          "values": [
+            "160",
+            "205",
+            "234",
+            "255",
+            "280",
+            "305",
+            "330",
+            "368"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza in continuo [max. kN]",
+            "en": "Continuous force [max. kN]"
+          },
+          "values": [
+            "4.100",
+            "6.700",
+            "8.800",
+            "10.400",
+            "12.800",
+            "14.900",
+            "17.500",
+            "21.800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Energia lorda [kJ]",
+            "en": "Gross energy [kJ]"
+          },
+          "values": [
+            "12.5",
+            "25",
+            "65",
+            "80",
+            "108",
+            "154",
+            "177",
+            "240"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al min. [max. no.]",
+            "en": "Stroke per min. [max. no.]"
+          },
+          "values": [
+            "42",
+            "40",
+            "38",
+            "31",
+            "30",
+            "28",
+            "25",
+            "23"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "350",
+            "400",
+            "450",
+            "475",
+            "475",
+            "500",
+            "500",
+            "550"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale [mm]",
+            "en": "Vertical clearance [mm]"
+          },
+          "values": [
+            "400",
+            "600",
+            "650",
+            "750",
+            "750",
+            "915",
+            "1.100",
+            "1.100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce orizzontale [mm]",
+            "en": "Horizontal clearance [mm]"
+          },
+          "values": [
+            "550",
+            "600",
+            "650",
+            "750",
+            "910",
+            "1.000",
+            "1.070",
+            "1.100"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Presse a vite ad azionamento diretto",
+        "en": "Direct drive screw presses"
+      },
+      "models": [
+        "DD 190",
+        "DD 270",
+        "DD 400",
+        "DD 560",
+        "DD 750",
+        "DD 1100",
+        "DD 1600"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Diametro vite [mm]",
+            "en": "Screw diameter [mm]"
+          },
+          "values": [
+            "410",
+            "455",
+            "510",
+            "560",
+            "630",
+            "710",
+            "800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza in continuo [max. kN]",
+            "en": "Continuous force [max. kN]"
+          },
+          "values": [
+            "27.000",
+            "33.200",
+            "41.600",
+            "50.400",
+            "64.000",
+            "80.600",
+            "102.400"
+          ]
+        },
+        {
+          "label": {
+            "it": "Energia lorda [kJ]",
+            "en": "Gross energy [kJ]"
+          },
+          "values": [
+            "331",
+            "445",
+            "652",
+            "860",
+            "1.230",
+            "1.700",
+            "2.500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al min. [max. no.]",
+            "en": "Stroke per min. [max. no.]"
+          },
+          "values": [
+            "19",
+            "16",
+            "15",
+            "13",
+            "11",
+            "10",
+            "9"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "650",
+            "700",
+            "800",
+            "900",
+            "1.000",
+            "1.100",
+            "1.250"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale [mm]",
+            "en": "Vertical clearance [mm]"
+          },
+          "values": [
+            "1.200",
+            "1.250",
+            "1.400",
+            "1.500",
+            "1.700",
+            "1.800",
+            "1.800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce orizzontale [mm]",
+            "en": "Horizontal clearance [mm]"
+          },
+          "values": [
+            "1.290",
+            "1.350",
+            "1.400",
+            "1.500",
+            "1.630",
+            "1.800",
+            "2.000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "press",
+    "variant": "screw"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di materiali ferrosi e non ferrosi (acciai, leghe alluminio, leghe rame, titanio)",
+    "en": "All ferrous and non-ferrous materials (steels, aluminium alloys, copper alloys, titanium)"
+  }
+}

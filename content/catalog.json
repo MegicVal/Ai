@@ -3,7 +3,10 @@
     {
       "id": "steel",
       "slug": "carpenteria-metallica",
-      "name": { "it": "Carpenteria metallica", "en": "Steel fabrication" },
+      "name": {
+        "it": "Carpenteria metallica",
+        "en": "Steel fabrication"
+      },
       "summary": {
         "it": "Macchine singole e linee automatiche che portano profili e lamiere dal grezzo al pezzo pronto per il montaggio.",
         "en": "Stand-alone machines and automatic lines that take sections and plates from raw stock to parts ready for assembly."
@@ -11,70 +14,329 @@
       "categories": [
         {
           "id": "angolari-piatti",
-          "name": { "it": "Angolari e piatti", "en": "Angles and flats" },
+          "name": {
+            "it": "Angolari e piatti",
+            "en": "Angles and flats"
+          },
           "machines": [
-            { "slug": "xp-r", "name": "XP R", "summary": { "it": "Punzona e cesoia angolari con avanzamento a rulli.", "en": "Punches and shears angles with roller feed." } },
-            { "slug": "xp-t", "name": "XP T", "summary": { "it": "Punzona e cesoia angolari con avanzamento a pignone e cremagliera.", "en": "Punches and shears angles with rack-and-pinion feed." } },
-            { "slug": "a-hp", "name": "A & HP", "summary": { "it": "Punzona e cesoia angolari di grande sezione.", "en": "Punches and shears large angles." } },
-            { "slug": "rapid", "name": "RAPID", "summary": { "it": "Fora e taglia angolari.", "en": "Drills and cuts angles." } },
-            { "slug": "tipo-d4", "name": "TIPO D4", "summary": { "it": "Punzona e taglia piatti.", "en": "Punches and cuts flats." } },
-            { "slug": "tipo-d50-f", "name": "TIPO D50-F", "summary": { "it": "Fora e taglia piatti, angolari, ferri a U e tubi.", "en": "Drills and cuts flats, angles, channels and tubes." } }
+            {
+              "slug": "xp-r",
+              "name": "XP R",
+              "summary": {
+                "it": "Punzona e cesoia angolari con avanzamento a rulli.",
+                "en": "Punches and shears angles with roller feed."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-XP-r_v2.jpg"
+            },
+            {
+              "slug": "xp-t",
+              "name": "XP T",
+              "summary": {
+                "it": "Punzona e cesoia angolari con avanzamento a pignone e cremagliera.",
+                "en": "Punches and shears angles with rack-and-pinion feed."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-XP-t_v2-1.jpg"
+            },
+            {
+              "slug": "a-hp",
+              "name": "A & HP",
+              "summary": {
+                "it": "Punzona e cesoia angolari di grande sezione.",
+                "en": "Punches and shears large angles."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/09/l-a-hp_v2.jpg"
+            },
+            {
+              "slug": "rapid",
+              "name": "RAPID",
+              "summary": {
+                "it": "Fora e taglia angolari.",
+                "en": "Drills and cuts angles."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-rapid_v2.jpg"
+            },
+            {
+              "slug": "tipo-d4",
+              "name": "TIPO D4",
+              "summary": {
+                "it": "Punzona e taglia piatti.",
+                "en": "Punches and cuts flats."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipo-d4_v2.jpg"
+            },
+            {
+              "slug": "tipo-d50-f",
+              "name": "TIPO D50-F",
+              "summary": {
+                "it": "Fora e taglia piatti, angolari, ferri a U e tubi.",
+                "en": "Drills and cuts flats, angles, channels and tubes."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipo-d50f_v2.jpg"
+            }
           ]
         },
         {
           "id": "travi-tubi",
-          "name": { "it": "Travi e tubi", "en": "Beams and tubes" },
+          "name": {
+            "it": "Travi e tubi",
+            "en": "Beams and tubes"
+          },
           "machines": [
-            { "slug": "excalibur-victory", "name": "EXCALIBUR / VICTORY", "summary": { "it": "Fora profili con ingombro ridotto.", "en": "Drills sections in a compact footprint." } },
-            { "slug": "xblade", "name": "XBLADE", "summary": { "it": "Fora e taglia profili in un'unica linea.", "en": "Drills and cuts sections in a single line." } },
-            { "slug": "orient", "name": "ORIENT", "summary": { "it": "Foratura a un mandrino, taglio a nastro e taglio termico di profili.", "en": "Single-spindle drilling, band sawing and thermal cutting of sections." } },
-            { "slug": "vanguard", "name": "VANGUARD", "summary": { "it": "Foratura a più mandrini, taglio a nastro e taglio termico di profili.", "en": "Multi-spindle drilling, band sawing and thermal cutting of sections." } },
-            { "slug": "valiant", "name": "VALIANT", "summary": { "it": "Foratura a più mandrini ad alta produttività per profili.", "en": "High-output multi-spindle drilling for sections." } },
-            { "slug": "enterprise", "name": "ENTERPRISE", "summary": { "it": "Fora travi da ponte e strutture saldate.", "en": "Drills bridge girders and welded structures." } },
-            { "slug": "katana", "name": "KATANA", "summary": { "it": "Taglia profili con sega a nastro.", "en": "Band-saws sections." } },
-            { "slug": "nozomi", "name": "NOZOMI", "summary": { "it": "Taglio termico di profili su 9 assi.", "en": "Nine-axis thermal cutting of sections." } },
-            { "slug": "lexington", "name": "LEXINGTON", "summary": { "it": "Traccia i profili su quattro lati.", "en": "Scribes sections on four sides." } }
+            {
+              "slug": "excalibur-victory",
+              "name": "EXCALIBUR / VICTORY",
+              "summary": {
+                "it": "Fora profili con ingombro ridotto.",
+                "en": "Drills sections in a compact footprint."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-excalibur-victory_v2.jpg"
+            },
+            {
+              "slug": "xblade",
+              "name": "XBLADE",
+              "summary": {
+                "it": "Fora e taglia profili in un'unica linea.",
+                "en": "Drills and cuts sections in a single line."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2025/02/XBLADE-listing.jpg"
+            },
+            {
+              "slug": "orient",
+              "name": "ORIENT",
+              "summary": {
+                "it": "Foratura a un mandrino, taglio a nastro e taglio termico di profili.",
+                "en": "Single-spindle drilling, band sawing and thermal cutting of sections."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-Orient-r_v2.jpg"
+            },
+            {
+              "slug": "vanguard",
+              "name": "VANGUARD",
+              "summary": {
+                "it": "Foratura a più mandrini, taglio a nastro e taglio termico di profili.",
+                "en": "Multi-spindle drilling, band sawing and thermal cutting of sections."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-vanguard_v2.jpg"
+            },
+            {
+              "slug": "valiant",
+              "name": "VALIANT",
+              "summary": {
+                "it": "Foratura a più mandrini ad alta produttività per profili.",
+                "en": "High-output multi-spindle drilling for sections."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-valiant_v2.jpg"
+            },
+            {
+              "slug": "enterprise",
+              "name": "ENTERPRISE",
+              "summary": {
+                "it": "Fora travi da ponte e strutture saldate.",
+                "en": "Drills bridge girders and welded structures."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-enterprise_v2.jpg"
+            },
+            {
+              "slug": "katana",
+              "name": "KATANA",
+              "summary": {
+                "it": "Taglia profili con sega a nastro.",
+                "en": "Band-saws sections."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-katana_v2.jpg"
+            },
+            {
+              "slug": "nozomi",
+              "name": "NOZOMI",
+              "summary": {
+                "it": "Taglio termico di profili su 9 assi.",
+                "en": "Nine-axis thermal cutting of sections."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-nozomi_v2.jpg"
+            },
+            {
+              "slug": "lexington",
+              "name": "LEXINGTON",
+              "summary": {
+                "it": "Traccia i profili su quattro lati.",
+                "en": "Scribes sections on four sides."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/09/l-Lexington_v2.jpg"
+            }
           ]
         },
         {
           "id": "lamiere",
-          "name": { "it": "Lamiere", "en": "Plates" },
+          "name": {
+            "it": "Lamiere",
+            "en": "Plates"
+          },
           "machines": [
-            { "slug": "p", "name": "P", "summary": { "it": "Fora e punzona piastre.", "en": "Drills and punches plates." } },
-            { "slug": "kronos", "name": "KRONOS", "summary": { "it": "Taglio termico e foratura di lamiere.", "en": "Thermal cutting and drilling of plates." } },
-            { "slug": "gemini", "name": "GEMINI", "summary": { "it": "Taglio termico, foratura e fresatura di lamiere.", "en": "Thermal cutting, drilling and milling of plates." }, "viewer": true },
-            { "slug": "gemini-laser", "name": "GEMINI LASER", "summary": { "it": "Taglio laser, foratura e fresatura di lamiere.", "en": "Laser cutting, drilling and milling of plates." } },
-            { "slug": "energy", "name": "ENERGY", "summary": { "it": "Fresa i bordi delle lamiere per la bisellatura.", "en": "Mills plate edges for bevelling." } },
-            { "slug": "tipo-a", "name": "TIPO A", "summary": { "it": "Fora e taglia lamiere a caldo.", "en": "Drills and thermally cuts plates." } },
-            { "slug": "tipo-b", "name": "TIPO B", "summary": { "it": "Punzona e taglia lamiere a caldo.", "en": "Punches and thermally cuts plates." } },
-            { "slug": "tipo-g", "name": "TIPO G", "summary": { "it": "Fora, fresa e taglia lamiere a caldo.", "en": "Drills, mills and thermally cuts plates." } }
+            {
+              "slug": "p",
+              "name": "P",
+              "summary": {
+                "it": "Fora e punzona piastre.",
+                "en": "Drills and punches plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-p_v2.jpg"
+            },
+            {
+              "slug": "kronos",
+              "name": "KRONOS",
+              "summary": {
+                "it": "Taglio termico e foratura di lamiere.",
+                "en": "Thermal cutting and drilling of plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-kronos_v2.jpg"
+            },
+            {
+              "slug": "gemini",
+              "name": "GEMINI",
+              "summary": {
+                "it": "Taglio termico, foratura e fresatura di lamiere.",
+                "en": "Thermal cutting, drilling and milling of plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-gemini_v2.jpg"
+            },
+            {
+              "slug": "gemini-laser",
+              "name": "GEMINI LASER",
+              "summary": {
+                "it": "Taglio laser, foratura e fresatura di lamiere.",
+                "en": "Laser cutting, drilling and milling of plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2025/03/gemini_laser_listing.jpg"
+            },
+            {
+              "slug": "energy",
+              "name": "ENERGY",
+              "summary": {
+                "it": "Fresa i bordi delle lamiere per la bisellatura.",
+                "en": "Mills plate edges for bevelling."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-energy_v2-1.jpg"
+            },
+            {
+              "slug": "tipo-a",
+              "name": "TIPO A",
+              "summary": {
+                "it": "Fora e taglia lamiere a caldo.",
+                "en": "Drills and thermally cuts plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipoa_v2.jpg"
+            },
+            {
+              "slug": "tipo-b",
+              "name": "TIPO B",
+              "summary": {
+                "it": "Punzona e taglia lamiere a caldo.",
+                "en": "Punches and thermally cuts plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipo-b_v2.jpg"
+            },
+            {
+              "slug": "tipo-g",
+              "name": "TIPO G",
+              "summary": {
+                "it": "Fora, fresa e taglia lamiere a caldo.",
+                "en": "Drills, mills and thermally cuts plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipo-g_v2.jpg"
+            }
           ]
         },
         {
           "id": "trattamento-superfici",
-          "name": { "it": "Trattamento superfici", "en": "Surface treatment" },
+          "name": {
+            "it": "Trattamento superfici",
+            "en": "Surface treatment"
+          },
           "machines": [
-            { "slug": "rb-gl", "name": "RB GL", "summary": { "it": "Sabbia profili e lamiere con turbine da 11 kW.", "en": "Shot-blasts sections and plates with 11 kW turbines." } },
-            { "slug": "rb-g", "name": "RB G", "summary": { "it": "Sabbia profili e lamiere con turbine fino a 18,5 kW.", "en": "Shot-blasts sections and plates with turbines up to 18.5 kW." } },
-            { "slug": "rb-hd", "name": "RB HD", "summary": { "it": "Sabbia profili e lamiere con turbine fino a 30 kW.", "en": "Shot-blasts sections and plates with turbines up to 30 kW." } },
-            { "slug": "primer-coating-line", "name": "PRIMER COATING LINE", "summary": { "it": "Applica il primer su strutture, profili e lamiere.", "en": "Applies primer to structures, sections and plates." } },
-            { "slug": "top-coating-line", "name": "TOP COATING LINE", "summary": { "it": "Applica la verniciatura di finitura.", "en": "Applies the finishing coat." } }
+            {
+              "slug": "rb-gl",
+              "name": "RB GL",
+              "summary": {
+                "it": "Sabbia profili e lamiere con turbine da 11 kW.",
+                "en": "Shot-blasts sections and plates with 11 kW turbines."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-rb-gl_v2.jpg"
+            },
+            {
+              "slug": "rb-g",
+              "name": "RB G",
+              "summary": {
+                "it": "Sabbia profili e lamiere con turbine fino a 18,5 kW.",
+                "en": "Shot-blasts sections and plates with turbines up to 18.5 kW."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-rb-g_v2.jpg"
+            },
+            {
+              "slug": "rb-hd",
+              "name": "RB HD",
+              "summary": {
+                "it": "Sabbia profili e lamiere con turbine fino a 30 kW.",
+                "en": "Shot-blasts sections and plates with turbines up to 30 kW."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-rb-hd_v2.jpg"
+            },
+            {
+              "slug": "primer-coating-line",
+              "name": "PRIMER COATING LINE",
+              "summary": {
+                "it": "Applica il primer su strutture, profili e lamiere.",
+                "en": "Applies primer to structures, sections and plates."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2026/03/Primer-coating-line-1080.jpg"
+            },
+            {
+              "slug": "top-coating-line",
+              "name": "TOP COATING LINE",
+              "summary": {
+                "it": "Applica la verniciatura di finitura.",
+                "en": "Applies the finishing coat."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2026/03/Top-coating-line-1080-2.jpg"
+            }
           ]
         },
         {
           "id": "saldatura-robotizzata",
-          "name": { "it": "Saldatura robotizzata", "en": "Robotic welding" },
+          "name": {
+            "it": "Saldatura robotizzata",
+            "en": "Robotic welding"
+          },
           "machines": [
-            { "slug": "e-lexington", "name": "E-LEXINGTON", "summary": { "it": "Proietta con il laser le posizioni di saldatura.", "en": "Laser-projects weld positions." } },
-            { "slug": "sabre", "name": "SABRE", "summary": { "it": "Robot che salda in automatico.", "en": "Automatic welding robot." } }
+            {
+              "slug": "e-lexington",
+              "name": "E-LEXINGTON",
+              "summary": {
+                "it": "Proietta con il laser le posizioni di saldatura.",
+                "en": "Laser-projects weld positions."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/SabreE-Lexington-listing.jpg"
+            },
+            {
+              "slug": "sabre",
+              "name": "SABRE",
+              "summary": {
+                "it": "Robot che salda in automatico.",
+                "en": "Automatic welding robot."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/Sabre-robots-welding-listing.jpg"
+            }
           ]
         }
-      ]
+      ],
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/macchinari_per_la_carpenteria2.jpg"
     },
     {
       "id": "forging",
       "slug": "forgiatura",
-      "name": { "it": "Forgiatura", "en": "Forging" },
+      "name": {
+        "it": "Forgiatura",
+        "en": "Forging"
+      },
       "summary": {
         "it": "Linee complete e robotizzate per stampare e tagliare acciaio, ottone, alluminio e titanio.",
         "en": "Complete robotic lines for forging and cutting steel, brass, aluminium and titanium."
@@ -82,43 +344,168 @@
       "categories": [
         {
           "id": "presse",
-          "name": { "it": "Presse", "en": "Presses" },
+          "name": {
+            "it": "Presse",
+            "en": "Presses"
+          },
           "machines": [
-            { "slug": "dd", "name": "DD", "summary": { "it": "Pressa a vite ad azionamento diretto.", "en": "Direct-drive screw press." } },
-            { "slug": "mf", "name": "MF", "summary": { "it": "Pressa meccanica per stampaggio.", "en": "Mechanical forging press." } },
-            { "slug": "hf", "name": "HF", "summary": { "it": "Pressa idraulica per stampaggio.", "en": "Hydraulic forging press." } },
-            { "slug": "hf-4c", "name": "HF 4C", "summary": { "it": "Pressa idraulica a quattro colonne.", "en": "Four-column hydraulic press." } },
-            { "slug": "hf-x", "name": "HF X", "summary": { "it": "Pressa idraulica a tripla azione.", "en": "Triple-action hydraulic press." } },
-            { "slug": "pvx", "name": "PVX", "summary": { "it": "Pressa a frizione.", "en": "Friction screw press." } }
+            {
+              "slug": "dd",
+              "name": "DD",
+              "summary": {
+                "it": "Pressa a vite ad azionamento diretto.",
+                "en": "Direct-drive screw press."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-DD_v2.jpg"
+            },
+            {
+              "slug": "mf",
+              "name": "MF",
+              "summary": {
+                "it": "Pressa meccanica per stampaggio.",
+                "en": "Mechanical forging press."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-MF_v2.jpg"
+            },
+            {
+              "slug": "hf",
+              "name": "HF",
+              "summary": {
+                "it": "Pressa idraulica per stampaggio.",
+                "en": "Hydraulic forging press."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-HF_v2.jpg"
+            },
+            {
+              "slug": "hf-4c",
+              "name": "HF 4C",
+              "summary": {
+                "it": "Pressa idraulica a quattro colonne.",
+                "en": "Four-column hydraulic press."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-HF-4C.jpg"
+            },
+            {
+              "slug": "hf-x",
+              "name": "HF X",
+              "summary": {
+                "it": "Pressa idraulica a tripla azione.",
+                "en": "Triple-action hydraulic press."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-HF-X-1.jpg"
+            },
+            {
+              "slug": "pvx",
+              "name": "PVX",
+              "summary": {
+                "it": "Pressa a frizione.",
+                "en": "Friction screw press."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/L-PVX.jpg"
+            }
           ]
         },
         {
           "id": "cesoie",
-          "name": { "it": "Cesoie", "en": "Shears" },
+          "name": {
+            "it": "Cesoie",
+            "en": "Shears"
+          },
           "machines": [
-            { "slug": "caddy", "name": "CADDY", "summary": { "it": "Cesoia meccanica per taglio a freddo e a semi-caldo.", "en": "Mechanical shear for cold and warm cutting." } },
-            { "slug": "ctch", "name": "CTCH", "summary": { "it": "Cesoia idraulica per taglio a caldo.", "en": "Hydraulic shear for hot cutting." } },
-            { "slug": "codebrass", "name": "CODEBRASS", "summary": { "it": "Cesoia meccanica per barre in ottone e leghe.", "en": "Mechanical shear for brass and alloy bars." } }
+            {
+              "slug": "caddy",
+              "name": "CADDY",
+              "summary": {
+                "it": "Cesoia meccanica per taglio a freddo e a semi-caldo.",
+                "en": "Mechanical shear for cold and warm cutting."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-Caddy_v2.jpg"
+            },
+            {
+              "slug": "ctch",
+              "name": "CTCH",
+              "summary": {
+                "it": "Cesoia idraulica per taglio a caldo.",
+                "en": "Hydraulic shear for hot cutting."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-CTCH.jpg"
+            },
+            {
+              "slug": "codebrass",
+              "name": "CODEBRASS",
+              "summary": {
+                "it": "Cesoia meccanica a freddo e a semi-caldo per l’ottone.",
+                "en": "Mechanical cold and warm shear for brass."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-Codebrass.jpg"
+            }
           ]
         },
         {
           "id": "segatrici",
-          "name": { "it": "Segatrici", "en": "Saws" },
+          "name": {
+            "it": "Segatrici",
+            "en": "Saws"
+          },
           "machines": [
-            { "slug": "s", "name": "S", "summary": { "it": "Taglia profili con sega a disco.", "en": "Disc-saws sections." } },
-            { "slug": "sp", "name": "SP", "summary": { "it": "Taglia tubi con sega a disco.", "en": "Disc-saws tubes." } },
-            { "slug": "vs", "name": "VS", "summary": { "it": "Taglia profili di forme diverse con sega a disco.", "en": "Disc-saws sections of various shapes." } }
+            {
+              "slug": "s",
+              "name": "S",
+              "summary": {
+                "it": "Taglia profili con sega a disco.",
+                "en": "Disc-saws sections."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-S_v2.jpg"
+            },
+            {
+              "slug": "sp",
+              "name": "SP",
+              "summary": {
+                "it": "Taglia tubi con sega a disco.",
+                "en": "Disc-saws tubes."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-SP_v2.jpg"
+            },
+            {
+              "slug": "vs",
+              "name": "VS",
+              "summary": {
+                "it": "Taglia profili di forme diverse con sega a disco.",
+                "en": "Disc-saws sections of various shapes."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/l-VS-1.jpg"
+            }
           ]
         },
         {
           "id": "automazione",
-          "name": { "it": "Automazione", "en": "Automation" },
+          "name": {
+            "it": "Automazione",
+            "en": "Automation"
+          },
           "machines": [
-            { "slug": "rp", "name": "RP", "summary": { "it": "Movimentazione automatica a 4 assi.", "en": "Four-axis automatic handling." } },
-            { "slug": "rf", "name": "RF", "summary": { "it": "Movimentazione automatica a 6 assi.", "en": "Six-axis automatic handling." } }
+            {
+              "slug": "rp",
+              "name": "RP",
+              "summary": {
+                "it": "Movimentazione automatica a 4 assi.",
+                "en": "Four-axis automatic handling."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-RP.jpg"
+            },
+            {
+              "slug": "rf",
+              "name": "RF",
+              "summary": {
+                "it": "Movimentazione automatica a 6 assi.",
+                "en": "Six-axis automatic handling."
+              },
+              "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-RF.jpg"
+            }
           ]
         }
-      ]
+      ],
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/macchinari_per_la_forgiatura2-1.jpg"
     }
   ]
 }

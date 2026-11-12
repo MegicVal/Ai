@@ -1,0 +1,320 @@
+{
+  "slug": "tipo-d50-f",
+  "name": "TIPO D50-F",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "angolari-piatti",
+  "summary": {
+    "it": "Fora e taglia piatti, angolari, ferri a U e tubi.",
+    "en": "Drills and cuts flats, angles, channels and tubes."
+  },
+  "descriptor": {
+    "it": "Linea automatica a CNC di foratura & taglio ad alta velocità per piatti, angolari, ferri a U e tubi",
+    "en": "Automatic CNC high speed drilling & sawing line for flats, angles, channels and tubes"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-tipo-d50f.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-tipo-d50f_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/tipo-d50-f/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio con sega a disco",
+        "en": "Disc sawing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Taglio-con-sega-a-disco_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Marcatura",
+        "en": "Marking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Marcatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Unità di foratura",
+        "en": "Drilling unit"
+      },
+      "text": {
+        "it": "Unità di foratura con avanzamento comandato dal CNC.",
+        "en": "Drilling unit with CNC-controlled feed."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/STEEL-CONSTRUCTION-MACHINERY_ANGLESFLATS_TIPO-D50-F_DRILLING-UNIT-480X480.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili automatico",
+        "en": "Automatic tool-changer"
+      },
+      "text": {
+        "it": "Cambio utensile automatico sulle unità di foratura.",
+        "en": "Automatic tool change on the drilling units."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/STEEL-CONSTRUCTION-MACHINERY_ANGLESFLATS_TIPO-D50-F_TOOL-CHANGER-480X480.jpg"
+    },
+    {
+      "title": {
+        "it": "Segatrice a disco orientabile",
+        "en": "Mitering disc saw"
+      },
+      "text": {
+        "it": "Segatrice circolare orientabile per tagli inclinati.",
+        "en": "Swivelling circular saw for mitre cuts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/STEEL-CONSTRUCTION-MACHINERY_ANGLESFLATS_TIPO-D50-F_DISC-SAW-480X480.jpg"
+    },
+    {
+      "title": {
+        "it": "Marcatrice",
+        "en": "Marking unit"
+      },
+      "text": {
+        "it": "Marcatrice a disco per identificare i pezzi.",
+        "en": "Disc marking unit to identify parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_Prima-del-taglio-a-misura-una-marcatrice-programmabile-da-CNC-permette-di-marcare-automaticamente-i-pezzi-per-una-facile-identificazione-dei-componenti.jpg"
+    },
+    {
+      "title": {
+        "it": "Seconda unità di foratura",
+        "en": "Second drilling unit"
+      },
+      "text": {
+        "it": "Un secondo mandrino Direct Drive, uguale al primo, disponibile come opzione.",
+        "en": "A second Direct Drive spindle, identical to the first, available as an option."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/STEEL-CONSTRUCTION-MACHINERY_ANGLESFLATS_TIPO-D50-F_2-DRILLNG-UNIT-480X480.jpg"
+    },
+    {
+      "title": {
+        "it": "Lavorazione di angolari",
+        "en": "Processing of angles"
+      },
+      "text": {
+        "it": "Tagli inclinati su entrambe le estremità degli angolari.",
+        "en": "Mitre cuts on both ends of angles."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/TIPO-D50-lavorazioni-angolari.jpg"
+    },
+    {
+      "title": {
+        "it": "Banchi di trasferimento",
+        "en": "Cross transfer system"
+      },
+      "text": {
+        "it": "Banchi di carico e scarico per barre e pezzi finiti.",
+        "en": "Loading and unloading tables for bars and finished parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_1.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Lavora piatti, angolari, ferri a U e tubi.",
+      "en": "Processes flats, angles, channels and tubes."
+    },
+    {
+      "it": "Tagli inclinati programmabili su entrambe le estremità.",
+      "en": "Programmable mitre cuts on both ends."
+    },
+    {
+      "it": "Stozzatura dei piatti come opzione.",
+      "en": "Notching of flats as an option."
+    },
+    {
+      "it": "Marcatura, foratura, tracciatura, fresatura e taglio in un solo impianto.",
+      "en": "Marking, drilling, scribing, milling and sawing in one line."
+    },
+    {
+      "it": "Carico, lavorazione e scarico in automatico.",
+      "en": "Loading, processing and unloading fully automatic."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPO-D50-gp1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/TIPO-D50-gp2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_Prima-del-taglio-a-misura-una-marcatrice-programmabile-da-CNC-permette-di-marcare-automaticamente-i-pezzi-per-una-facile-identificazione-dei-componenti.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/tipo-d50_esempi-di-lavorazione.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Automated-and-versatile-structural-steel-fabrication-process-for-miscellaneous-detail-components.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linea automatica a CNC di foratura & taglio ad alta velocità per piatti, angolari, ferri a U e tubi",
+        "en": "Automatic CNC high speed drilling & sawing line for flats, angles, channels and tubes"
+      },
+      "models": [
+        "TIPO D50-F"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensioni piatto [min/max mm]",
+            "en": "Flat size [min/max mm]"
+          },
+          "values": [
+            "50x6/500x25"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni angolare [min/max mm]",
+            "en": "Angle size [min/max mm]"
+          },
+          "values": [
+            "50x50x6/180x180x18"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni ferro a U [min/max mm]",
+            "en": "U channel size [min/max.mm]"
+          },
+          "values": [
+            "UPN 80/UPN 300"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni tubo quadro [min/max mm]",
+            "en": "Square tube size [min/max.mm]"
+          },
+          "values": [
+            "60x60/160x160"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni tubo rettangolare [min/max mm]",
+            "en": "Rectangular tube size [min/max.mm]"
+          },
+          "values": [
+            "60x40/300x100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no]"
+          },
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no]"
+          },
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max.mm]",
+            "en": "Drilling diameter [max mm]"
+          },
+          "values": [
+            "40 (50)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "3500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "19 (27)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Unità di taglio",
+            "en": "Cutting unit"
+          },
+          "values": [
+            "Segatrice a disco (orientabile +/-60°)"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "flat-line",
+    "variant": "default"
+  }
+}

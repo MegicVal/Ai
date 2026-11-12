@@ -1,0 +1,200 @@
+{
+  "slug": "top-coating-line",
+  "name": "TOP COATING LINE",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "trattamento-superfici",
+  "summary": {
+    "it": "Applica la verniciatura di finitura.",
+    "en": "Applies the finishing coat."
+  },
+  "descriptor": {
+    "it": "Sistemi di verniciatura di finitura",
+    "en": "Top coating systems"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2026/03/Top-coating-line-1080-2.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2026/03/Top-coating-line-1080-2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/top-coating-line/",
+  "processes": [
+    {
+      "label": {
+        "it": "Verniciatura",
+        "en": "Painting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2026/03/Verniciatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2025/02/r_Main_Travi_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Stazione di pre-riscaldamento & sistema di essicazione",
+        "en": "Preheating station & drying system"
+      },
+      "text": {
+        "it": "Forni di preriscaldo ed essiccazione su misura.",
+        "en": "Pre-heating ovens and drying systems to suit the job."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Preheating-station-drying-system.jpg"
+    },
+    {
+      "title": {
+        "it": "Unità di verniciatura con pistole airless",
+        "en": "Painting unit with airless spray guns"
+      },
+      "text": {
+        "it": "Pistole airless con alimentazione e dosaggio della vernice.",
+        "en": "Airless guns with paint feed and metering."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Painting-unit-with-airless-spray-guns.jpg"
+    },
+    {
+      "title": {
+        "it": "Cabina di filtraggio a secco",
+        "en": "Dry filter booth"
+      },
+      "text": {
+        "it": "Ventilazione e filtrazione a secco dell'aria di scarico.",
+        "en": "Ventilation and dry filtration of the exhaust air."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Dry-filter-booth-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Carico e scarico manuale o automatico",
+        "en": "Manual or automatic loading and unloading"
+      },
+      "text": {
+        "it": "Carico manuale o automatico con trasportatori a catena o a rulli.",
+        "en": "Manual or automatic loading with chain or roller conveyors."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "TeCNologia di scansione 3D e riconoscimento dei component",
+        "en": "3D-scanning & component recognition technology"
+      },
+      "text": {
+        "it": "Riconosce in 3D i contorni dei pezzi per verniciare solo dove serve.",
+        "en": "Recognises part outlines in 3D to paint only where needed."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Manual-or-automatic-loading-and-unloading.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Impianto robusto a flusso continuo.",
+      "en": "A sturdy continuous-flow system."
+    },
+    {
+      "it": "Adatta alla produzione in serie.",
+      "en": "Suited to series production."
+    },
+    {
+      "it": "Per geometrie complesse su strutture saldate.",
+      "en": "For complex shapes on welded structures."
+    },
+    {
+      "it": "Per vernici bicomponenti.",
+      "en": "For two-component paints."
+    },
+    {
+      "it": "Gestisce più colori.",
+      "en": "Handles several colours."
+    },
+    {
+      "it": "Adatta alla verniciatura multistrato.",
+      "en": "Suited to multi-coat painting."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg6.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Sistemi di verniciatura",
+        "en": "Painting systems"
+      },
+      "models": [
+        "LINEA DI VERNICIATURA DI FINITURA"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Tipo di materiale",
+            "en": "Type of material"
+          },
+          "values": [
+            "Travi in acciaio"
+          ]
+        },
+        {
+          "label": {
+            "it": "Larghezza materiale [max.mm]",
+            "en": "Material width [max.mm]"
+          },
+          "values": [
+            "3000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Altezza finestra spray [mm]",
+            "en": "Spray window height [mm]"
+          },
+          "values": [
+            "700"
+          ]
+        },
+        {
+          "label": {
+            "it": "Tipo di vernice",
+            "en": "Type of coating"
+          },
+          "values": [
+            "Vernici a base di solventi (COV) e/o a base d'acqua"
+          ]
+        },
+        {
+          "label": {
+            "it": "Pistole a spruzzo [no.]",
+            "en": "Spray guns [no.]"
+          },
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "label": {
+            "it": "Primer DTF [Spessore film a secco - µm]",
+            "en": "DTF [Dry film thickness - µm]"
+          },
+          "values": [
+            "80/160"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "tunnel",
+    "variant": "coating"
+  }
+}

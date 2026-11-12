@@ -1,0 +1,38 @@
+{
+  "slug": "rp",
+  "name": "RP",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "automazione",
+  "summary": {
+    "it": "Movimentazione automatica a 4 assi.",
+    "en": "Four-axis automatic handling."
+  },
+  "descriptor": {
+    "it": "Robot a 4 assi",
+    "en": "Articulated robots with 4 axes"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/10/W-p-RP.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/l-RP.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/rp/",
+  "processes": [
+    {
+      "label": {
+        "it": "Automazione a 4 assi",
+        "en": "4 axes automation"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Automazione-a-4-assi_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [],
+  "advantages": [],
+  "gallery": [],
+  "video": null,
+  "specs": [],
+  "viewer": {
+    "archetype": "robot-cell",
+    "variant": "handling4"
+  }
+}

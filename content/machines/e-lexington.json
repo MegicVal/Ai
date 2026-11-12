@@ -1,0 +1,112 @@
+{
+  "slug": "e-lexington",
+  "name": "E-LEXINGTON",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "saldatura-robotizzata",
+  "summary": {
+    "it": "Proietta con il laser le posizioni di saldatura.",
+    "en": "Laser-projects weld positions."
+  },
+  "descriptor": {
+    "it": "Saldatura robotizzata",
+    "en": "Robotic welding"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/10/SabreE-Lexington.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/10/SabreE-Lexington-listing.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/e-lexington/",
+  "processes": [
+    {
+      "label": {
+        "it": "Saldatura",
+        "en": "Welding"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/10/Saldatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Rilevazione laser del profilo",
+        "en": "Laser profile identification"
+      },
+      "text": {
+        "it": "Il laser trova posizione e zero del profilo prima di proiettare il layout.",
+        "en": "The laser finds the section's position and zero before projecting the layout."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/E-LEXINGTON_proiettore.jpg"
+    },
+    {
+      "title": {
+        "it": "Proiezione dei particolari",
+        "en": "Detail item projection"
+      },
+      "text": {
+        "it": "Proietta sul profilo la posizione esatta dei particolari da montare.",
+        "en": "Projects the exact position of the fittings onto the section."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/E-LEXINGTON_proiezione-dei-particolari.jpg"
+    },
+    {
+      "title": {
+        "it": "Puntatura dei particolari",
+        "en": "Detail item tack weld"
+      },
+      "text": {
+        "it": "L'operatore punta i particolari seguendo la traccia proiettata dal laser.",
+        "en": "The operator tacks the fittings following the laser projection."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/10/E-LEXINGTON_one-welder.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Serve meno manodopera specializzata.",
+      "en": "Needs less specialised labour."
+    },
+    {
+      "it": "Libera lo spazio usato per la tracciatura manuale.",
+      "en": "Frees the space used for manual layout."
+    },
+    {
+      "it": "Più produttività e meno errori.",
+      "en": "More output and fewer errors."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SabreE-Lexington.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-zone2-with-e-lexington.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/SABRE-g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/10/E-Lexington.jpg"
+  ],
+  "video": null,
+  "specs": [],
+  "viewer": {
+    "archetype": "robot-cell",
+    "variant": "projector"
+  }
+}

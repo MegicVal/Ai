@@ -1,0 +1,68 @@
+{
+  "note": {
+    "it": "Ambienti ricostruiti in 3D come segnaposto: disposizione e arredi sono indicativi. Con le planimetrie e le foto 360° di FICEP ogni punto di vista può caricare il panorama reale (campo \"panorama\").",
+    "en": "Rooms rebuilt in 3D as placeholders: layout and fittings are indicative. With FICEP's floor plans and 360° photos each viewpoint can load the real panorama (the \"panorama\" field)."
+  },
+  "zones": [
+    {
+      "id": "ingresso",
+      "name": { "it": "Ingresso", "en": "Entrance" },
+      "text": { "it": "L'accoglienza della sede di Gazzada Schianno.", "en": "The reception of the Gazzada Schianno headquarters." },
+      "rect": [-7, 0, 7, 11],
+      "height": 4.2,
+      "photo": "https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg",
+      "path": "/azienda"
+    },
+    {
+      "id": "showroom",
+      "name": { "it": "Showroom", "en": "Showroom" },
+      "text": { "it": "2.000 m² di macchine funzionanti, pronte per una prova sul tuo pezzo.", "en": "2,000 m² of working machines, ready for a test on your part." },
+      "rect": [7, -6, 41, 17],
+      "height": 9,
+      "photo": "https://ficepgroup.com/wp-content/uploads/2022/10/sr-g6.jpg",
+      "path": "/academy/showroom"
+    },
+    {
+      "id": "academy",
+      "name": { "it": "Academy", "en": "Academy" },
+      "text": { "it": "Sei aule e due sale conferenze per formare operatori e programmatori.", "en": "Six classrooms and two conference rooms to train operators and programmers." },
+      "rect": [-23, 0, -7, 11],
+      "height": 4.2,
+      "photo": "https://ficepgroup.com/wp-content/uploads/2023/01/academy-b.jpg",
+      "path": "/academy"
+    },
+    {
+      "id": "produzione",
+      "name": { "it": "Produzione", "en": "Production" },
+      "text": { "it": "Le navate dove le linee vengono montate e collaudate prima della spedizione.", "en": "The bays where lines are assembled and tested before shipment." },
+      "rect": [-23, 11, 41, 43],
+      "height": 11,
+      "photo": "https://ficepgroup.com/wp-content/uploads/2022/10/unita-linee-di-taglio.jpg",
+      "path": "/azienda"
+    }
+  ],
+  "nodes": [
+    { "id": "reception", "zone": "ingresso", "name": { "it": "Reception", "en": "Reception" }, "pos": [0, 3], "yaw": 0, "links": ["showroom-door", "classroom", "bay-centre"], "panorama": null },
+    { "id": "showroom-door", "zone": "showroom", "name": { "it": "Ingresso showroom", "en": "Showroom entrance" }, "pos": [11, 5.5], "yaw": 1.45, "links": ["reception", "showroom-centre"], "panorama": null },
+    { "id": "showroom-centre", "zone": "showroom", "name": { "it": "Centro showroom", "en": "Showroom centre" }, "pos": [24, 5.5], "yaw": 1.2, "links": ["showroom-door", "bay-east"], "panorama": null },
+    { "id": "classroom", "zone": "academy", "name": { "it": "Aula", "en": "Classroom" }, "pos": [-11, 5.5], "yaw": -1.57, "links": ["reception"], "panorama": null },
+    { "id": "bay-centre", "zone": "produzione", "name": { "it": "Navata centrale", "en": "Central bay" }, "pos": [0, 20], "yaw": 0.3, "links": ["reception", "bay-east", "bay-west"], "panorama": null },
+    { "id": "bay-east", "zone": "produzione", "name": { "it": "Montaggio linee", "en": "Line assembly" }, "pos": [24, 26], "yaw": 0.2, "links": ["bay-centre", "showroom-centre"], "panorama": null },
+    { "id": "bay-west", "zone": "produzione", "name": { "it": "Collaudo presse", "en": "Press testing" }, "pos": [-12, 28], "yaw": -0.5, "links": ["bay-centre"], "panorama": null }
+  ],
+  "doors": [
+    { "between": ["ingresso", "showroom"], "at": [7, 5.5], "axis": "z", "width": 4 },
+    { "between": ["ingresso", "academy"], "at": [-7, 5.5], "axis": "z", "width": 3 },
+    { "between": ["ingresso", "produzione"], "at": [0, 11], "axis": "x", "width": 5 },
+    { "between": ["showroom", "produzione"], "at": [24, 17], "axis": "x", "width": 8 }
+  ],
+  "machines": [
+    { "slug": "gemini", "pos": [18, -0.5], "rot": 0 },
+    { "slug": "valiant", "pos": [32, 5], "rot": 1.57 },
+    { "slug": "xp-r", "pos": [20, 12], "rot": 0 },
+    { "slug": "kronos", "pos": [26, 34], "rot": 0 },
+    { "slug": "katana", "pos": [6, 34], "rot": 0 },
+    { "slug": "dd", "pos": [-14, 36], "rot": 0 },
+    { "slug": "caddy", "pos": [-17, 22], "rot": 1.57 }
+  ]
+}

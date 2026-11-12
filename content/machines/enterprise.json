@@ -1,0 +1,345 @@
+{
+  "slug": "enterprise",
+  "name": "ENTERPRISE",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "travi-tubi",
+  "summary": {
+    "it": "Fora travi da ponte e strutture saldate.",
+    "en": "Drills bridge girders and welded structures."
+  },
+  "descriptor": {
+    "it": "Linea automatica gantry a CNC di foratura per travi da ponte saldate e strutture saldate",
+    "en": "Automatic gantry CNC drilling line for bridge girders and welded structures"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-enterprise.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-enterprise_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/enterprise/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Sistema di misura a triplo laser",
+        "en": "Triple laser measuring system"
+      },
+      "text": {
+        "it": "Tre laser rilevano dimensioni e posizione reali della struttura.",
+        "en": "Three lasers detect the real size and position of the structure."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-Scansione-a-triplo-laser.jpg"
+    },
+    {
+      "title": {
+        "it": "Tre mandrini indipendenti da 31 kW",
+        "en": "Three 31 kW (42 hp) independent spindles"
+      },
+      "text": {
+        "it": "Tre mandrini Direct Drive indipendenti da 31 kW.",
+        "en": "Three independent 31 kW Direct Drive spindles."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-tre-mandrini-indipendenti.jpg"
+    },
+    {
+      "title": {
+        "it": "Assi ausiliari",
+        "en": "Spindle sub-axis"
+      },
+      "text": {
+        "it": "Ogni mandrino ha una corsa aggiuntiva per fresature e lavorazioni speciali.",
+        "en": "Each spindle has extra travel for milling and special operations."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-Nuovi-assi-ausiliari-.jpg"
+    },
+    {
+      "title": {
+        "it": "Testa rotante per lavorazione frontale",
+        "en": "Mitering head for edge processing"
+      },
+      "text": {
+        "it": "La testa verticale ruota per lavorare anche la testa della trave.",
+        "en": "The vertical head rotates to machine the beam end as well."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-Testa-di-foratura-orientabile-per-fresature-frontali.jpg"
+    },
+    {
+      "title": {
+        "it": "Mandrino Direct Drive",
+        "en": "Direct Drive spindle"
+      },
+      "text": {
+        "it": "Mandrino ad azionamento diretto per forare ad alte prestazioni.",
+        "en": "Direct-drive spindle for high-performance drilling."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-mandrino-rotante.jpg"
+    },
+    {
+      "title": {
+        "it": "Punte di foratura al carburo",
+        "en": "Carbide drilling"
+      },
+      "text": {
+        "it": "Gli alti giri del mandrino permettono di usare utensili al carburo.",
+        "en": "High spindle speeds allow the use of carbide tools."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/EXCALIBUR-VICTORY-punte-di-forature.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili",
+        "en": "Tool changer"
+      },
+      "text": {
+        "it": "Cambio utensili automatico gestito dal CNC.",
+        "en": "CNC-controlled automatic tool changer."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-Mandrino-orizzontale-con-cambio-utensili-automatico.jpg"
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "text": {
+        "it": "I dispositivi di sicurezza fermano la macchina al primo contatto.",
+        "en": "Safety devices stop the machine on contact."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sicurezza-prodotto.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Lavora travi saldate e travi curve.",
+      "en": "Handles welded and curved beams."
+    },
+    {
+      "it": "Mandrino Direct Drive per la massima qualità di foratura.",
+      "en": "Direct Drive spindle for top drilling quality."
+    },
+    {
+      "it": "Assi ausiliari su tutti i mandrini per lavorazioni multiple e veloci.",
+      "en": "Auxiliary axes on every spindle for fast multiple operations."
+    },
+    {
+      "it": "Il mandrino rotante fresa anche la testa dei profili.",
+      "en": "The rotating spindle also mills the end of sections."
+    },
+    {
+      "it": "Diagnosi da remoto: i tecnici controllano la macchina a distanza.",
+      "en": "Remote diagnostics: technicians check the machine from afar."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-Testa-di-foratura-orientabile-per-fresature-frontali.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-gp1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/03/ENTERPRISE-esempi-di-lavorazione.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2022/03/Steel-Bridge-Fabrication-is-Revolutionized-with-Unique-Steel-Fabrication-Technology.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linea automatica gantry a CNC di foratura per travi da ponte saldate e strutture saldate",
+        "en": "Automatic gantry CNC drilling line for bridge girders and welded structures"
+      },
+      "models": [
+        "1501/8 GDD",
+        "2003/8 GDD",
+        "2503/10 GDD",
+        "3003/12 GDD",
+        "3003/18 GDD",
+        "4003/12 GDD",
+        "4003/18 GDD"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensione profilo [min mm]",
+            "en": "Profile size [min.mm]"
+          },
+          "values": [
+            "200x100",
+            "200x100",
+            "200x100",
+            "200x100",
+            "200x100",
+            "200x100",
+            "200x100"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensione profilo [max mm]",
+            "en": "Profile size [max.mm]"
+          },
+          "values": [
+            "1500x800",
+            "2000x800",
+            "2500x1000",
+            "3000x1200",
+            "3000x1800",
+            "4000x1200",
+            "4000x1800"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "1",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max. mm]",
+            "en": "Drilling diameter [max.mm]"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "31",
+            "31",
+            "31",
+            "31",
+            "31",
+            "31",
+            "31"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità mandrino [max. RPM]",
+            "en": "Spindle speed [max.RPM]"
+          },
+          "values": [
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000",
+            "5000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa asse ausiliario mandrino [mm]",
+            "en": "Spindle sub-axis stroke [mm]"
+          },
+          "values": [
+            "-",
+            "250",
+            "250",
+            "250",
+            "200",
+            "250",
+            "200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "15000",
+            "23500",
+            "24300",
+            "25000",
+            "25500",
+            "29000",
+            "30000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "beam-line",
+    "variant": "gantry"
+  }
+}

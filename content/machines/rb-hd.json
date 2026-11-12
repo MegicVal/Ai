@@ -1,0 +1,268 @@
+{
+  "slug": "rb-hd",
+  "name": "RB HD",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "trattamento-superfici",
+  "summary": {
+    "it": "Sabbia profili e lamiere con turbine fino a 30 kW.",
+    "en": "Shot-blasts sections and plates with turbines up to 30 kW."
+  },
+  "descriptor": {
+    "it": "Granigliatrici a turbina",
+    "en": "Shotblasting systems"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/03/p-rb-hd.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/03/l-rb-hd_v2.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/rb-hd/",
+  "processes": [
+    {
+      "label": {
+        "it": "Sabbiatura",
+        "en": "Shotblasting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sabbiatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Angolari",
+        "en": "Angles"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Angolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Piatti",
+        "en": "Flats"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Ferri a U",
+        "en": "Channels"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Ferri-a-u_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi quadri",
+        "en": "Square tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tubi rettangolari",
+        "en": "Rectangular tubes"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/r_Main_Tubi-rettangolari_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Lamiere",
+        "en": "Plates"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Turbine",
+        "en": "Shotblast wheel"
+      },
+      "text": {
+        "it": "Turbine ad alta resa per una sabbiatura uniforme e lunga durata.",
+        "en": "High-efficiency turbines for even blasting and long life."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RB-G-p-turbine.jpg"
+    },
+    {
+      "title": {
+        "it": "Cabina di sabbiatura",
+        "en": "Shotblast cabinet"
+      },
+      "text": {
+        "it": "Cabina in acciaio al manganese, resistente all'usura dell'abrasivo.",
+        "en": "Manganese-steel cabinet that withstands abrasive wear."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RB-G-p-cabina-sabbiatura.jpg"
+    },
+    {
+      "title": {
+        "it": "Unita' di rimozione abrasivo",
+        "en": "Abrasive removal unit"
+      },
+      "text": {
+        "it": "Spazzole rotanti tolgono l'abrasivo rimasto sul pezzo.",
+        "en": "Rotating brushes remove abrasive left on the part."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RB-G-p-rimozione-abrasiva.jpg"
+    },
+    {
+      "title": {
+        "it": "Unita' filtraggio cartucce",
+        "en": "Cartridge filter unit"
+      },
+      "text": {
+        "it": "Filtri a cartucce aspirano ruggine e polveri della sabbiatura.",
+        "en": "Cartridge filters extract rust and dust from blasting."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/03/RB-G-p-unita-filtraggio.jpg"
+    },
+    {
+      "title": {
+        "it": "Materiale abrasivo",
+        "en": "Abrasive shot blast"
+      },
+      "text": {
+        "it": "L'abrasivo circola in continuo e viene ripulito a ogni passaggio.",
+        "en": "The abrasive circulates continuously and is cleaned on every pass."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/RB-SERIES_materiali-di-granigliatura.jpg"
+    },
+    {
+      "title": {
+        "it": "Carico e scarico",
+        "en": "Loading and unloading"
+      },
+      "text": {
+        "it": "Rulliere e banchi collegano la sabbiatrice alle linee di foratura e taglio.",
+        "en": "Roller conveyors and tables link the blaster to drilling and cutting lines."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2022/04/RB-GL-scaricoscarico.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Turbine con sistema brevettato per qualità e produttività.",
+      "en": "Turbines with a patented system for quality and output."
+    },
+    {
+      "it": "Costi di manutenzione ridotti.",
+      "en": "Lower maintenance costs."
+    },
+    {
+      "it": "Consuma meno abrasivo.",
+      "en": "Uses less abrasive."
+    },
+    {
+      "it": "Dura di più grazie a intervalli di lavoro prolungati.",
+      "en": "Lasts longer thanks to extended working intervals."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/RB-SERIES_g2.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/RB-SERIES_g3-HD.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/RB-SERIES_g4-HD.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/RB-SERIES_g5-HD.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Granigliatrici a turbina",
+        "en": "Shotblasting systems"
+      },
+      "models": [
+        "RB1500HD 4/18,5",
+        "RB2500HD 8/18,5",
+        "RB3000HD 8/18,5"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Larghezza di ingresso della macchina [mm]",
+            "en": "Machine entrance size [mm]"
+          },
+          "values": [
+            "1600x550",
+            "2650x550",
+            "3150x550"
+          ]
+        },
+        {
+          "label": {
+            "it": "Turbine di granigliatura [no.]",
+            "en": "Wheels [no.]"
+          },
+          "values": [
+            "4",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza per turbina [max kW]",
+            "en": "Installed driving capacity [max.kW]"
+          },
+          "values": [
+            "18,5",
+            "30",
+            "30"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro turbine [mm]",
+            "en": "Turbines diameter [mm]"
+          },
+          "values": [
+            "380",
+            "380",
+            "380"
+          ]
+        },
+        {
+          "label": {
+            "it": "Larghezza lame [mm]",
+            "en": "Blades width [mm]"
+          },
+          "values": [
+            "65",
+            "65",
+            "65"
+          ]
+        },
+        {
+          "label": {
+            "it": "Larghezza piastre [max mm]",
+            "en": "Plates width [max.mm]"
+          },
+          "values": [
+            "1500",
+            "2500",
+            "3000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Dimensioni profilati [max]",
+            "en": "Beam size [max]"
+          },
+          "values": [
+            "HEB1000",
+            "HEB1000",
+            "HEB1000"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "tunnel",
+    "variant": "blast"
+  }
+}

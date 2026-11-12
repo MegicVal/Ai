@@ -1,17 +1,347 @@
 [
-  { "slug": "gazzada-schianno", "kind": "hq", "name": "FICEP S.p.A.", "city": { "it": "Gazzada Schianno", "en": "Gazzada Schianno" }, "country": { "it": "Italia", "en": "Italy" }, "coords": [45.78, 8.82], "divisions": ["steel", "forging"], "tour": true },
-  { "slug": "bordeaux", "kind": "subsidiary", "name": "FICEP France", "city": { "it": "Camblanes", "en": "Camblanes" }, "country": { "it": "Francia", "en": "France" }, "coords": [44.77, -0.49], "divisions": ["steel", "forging"] },
-  { "slug": "normanton", "kind": "subsidiary", "name": "FICEP UK", "city": { "it": "Normanton", "en": "Normanton" }, "country": { "it": "Regno Unito", "en": "United Kingdom" }, "coords": [53.7, -1.41], "divisions": ["steel", "forging"] },
-  { "slug": "nordhorn", "kind": "subsidiary", "name": "FICEP.DE", "city": { "it": "Nordhorn", "en": "Nordhorn" }, "country": { "it": "Germania", "en": "Germany" }, "coords": [52.43, 7.07], "divisions": ["steel", "forging"] },
-  { "slug": "vitoria-gasteiz", "kind": "subsidiary", "name": "FICEP Iberica", "city": { "it": "Vitoria-Gasteiz", "en": "Vitoria-Gasteiz" }, "country": { "it": "Spagna", "en": "Spain" }, "coords": [42.85, -2.67], "divisions": ["steel", "forging"] },
-  { "slug": "lugano", "kind": "subsidiary", "name": "FICEP CH", "city": { "it": "Lugano", "en": "Lugano" }, "country": { "it": "Svizzera", "en": "Switzerland" }, "coords": [46.0, 8.95], "divisions": ["steel", "forging"] },
-  { "slug": "forest-hill", "kind": "subsidiary", "name": "FICEP Corporation", "city": { "it": "Forest Hill, Maryland", "en": "Forest Hill, Maryland" }, "country": { "it": "Stati Uniti", "en": "United States" }, "coords": [39.58, -76.39], "divisions": ["steel", "forging"] },
-  { "slug": "toronto", "kind": "subsidiary", "name": "FICEP Canada", "city": { "it": "Toronto", "en": "Toronto" }, "country": { "it": "Canada", "en": "Canada" }, "coords": [43.73, -79.42], "divisions": ["steel"] },
-  { "slug": "san-luis-potosi", "kind": "subsidiary", "name": "FICEP Mexico", "city": { "it": "San Luis Potosí", "en": "San Luis Potosí" }, "country": { "it": "Messico", "en": "Mexico" }, "coords": [22.15, -100.98], "divisions": ["steel", "forging"] },
-  { "slug": "beirut", "kind": "subsidiary", "name": "FICEP Middle East", "city": { "it": "Beirut", "en": "Beirut" }, "country": { "it": "Libano", "en": "Lebanon" }, "coords": [33.89, 35.5], "divisions": ["steel", "forging"] },
-  { "slug": "algeri", "kind": "subsidiary", "name": "FICEP Bureau de Liaison", "city": { "it": "Algeri", "en": "Algiers" }, "country": { "it": "Algeria", "en": "Algeria" }, "coords": [36.74, 3.04], "divisions": ["steel", "forging"] },
-  { "slug": "thane", "kind": "subsidiary", "name": "FICEP Tech India", "city": { "it": "Thane", "en": "Thane" }, "country": { "it": "India", "en": "India" }, "coords": [19.2, 72.97], "divisions": ["steel", "forging"] },
-  { "slug": "guangzhou", "kind": "subsidiary", "name": "FICEP Guangzhou", "city": { "it": "Guangzhou", "en": "Guangzhou" }, "country": { "it": "Cina", "en": "China" }, "coords": [23.13, 113.28], "divisions": ["steel", "forging"] },
-  { "slug": "hong-kong", "kind": "subsidiary", "name": "FICEP Hong Kong", "city": { "it": "Hong Kong", "en": "Hong Kong" }, "country": { "it": "Hong Kong", "en": "Hong Kong" }, "coords": [22.29, 114.15], "divisions": ["steel", "forging"] },
-  { "slug": "osaka", "kind": "subsidiary", "name": "FICEP Japan", "city": { "it": "Osaka", "en": "Osaka" }, "country": { "it": "Giappone", "en": "Japan" }, "coords": [34.76, 135.52], "divisions": ["steel", "forging"] }
+  {
+    "slug": "gazzada-schianno",
+    "kind": "hq",
+    "name": "FICEP S.p.A.",
+    "city": {
+      "it": "Gazzada Schianno",
+      "en": "Gazzada Schianno"
+    },
+    "country": {
+      "it": "Italia",
+      "en": "Italy"
+    },
+    "coords": [
+      45.78,
+      8.82
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "tour": true
+  },
+  {
+    "slug": "camblanes",
+    "kind": "subsidiary",
+    "name": "FICEP France",
+    "city": {
+      "it": "Camblanes",
+      "en": "Camblanes"
+    },
+    "country": {
+      "it": "Francia",
+      "en": "France"
+    },
+    "coords": [
+      44.77,
+      -0.49
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 1988
+  },
+  {
+    "slug": "normanton",
+    "kind": "subsidiary",
+    "name": "FICEP UK",
+    "city": {
+      "it": "Normanton",
+      "en": "Normanton"
+    },
+    "country": {
+      "it": "Regno Unito",
+      "en": "United Kingdom"
+    },
+    "coords": [
+      53.7,
+      -1.41
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 1999
+  },
+  {
+    "slug": "nordhorn",
+    "kind": "subsidiary",
+    "name": "FICEP.DE",
+    "city": {
+      "it": "Nordhorn",
+      "en": "Nordhorn"
+    },
+    "country": {
+      "it": "Germania",
+      "en": "Germany"
+    },
+    "coords": [
+      52.43,
+      7.07
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 2010
+  },
+  {
+    "slug": "vitoria-gasteiz",
+    "kind": "subsidiary",
+    "name": "FICEP Iberica",
+    "city": {
+      "it": "Vitoria-Gasteiz",
+      "en": "Vitoria-Gasteiz"
+    },
+    "country": {
+      "it": "Spagna",
+      "en": "Spain"
+    },
+    "coords": [
+      42.85,
+      -2.67
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 1989
+  },
+  {
+    "slug": "lugano",
+    "kind": "subsidiary",
+    "name": "FICEP CH",
+    "city": {
+      "it": "Lugano",
+      "en": "Lugano"
+    },
+    "country": {
+      "it": "Svizzera",
+      "en": "Switzerland"
+    },
+    "coords": [
+      46.0,
+      8.95
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ]
+  },
+  {
+    "slug": "kemeten",
+    "kind": "office",
+    "name": "FICEP Austria (MTL)",
+    "city": {
+      "it": "Kemeten",
+      "en": "Kemeten"
+    },
+    "country": {
+      "it": "Austria",
+      "en": "Austria"
+    },
+    "coords": [
+      47.25,
+      16.15
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ]
+  },
+  {
+    "slug": "forest-hill",
+    "kind": "subsidiary",
+    "name": "FICEP Corporation",
+    "city": {
+      "it": "Forest Hill, Maryland",
+      "en": "Forest Hill, Maryland"
+    },
+    "country": {
+      "it": "Stati Uniti",
+      "en": "United States"
+    },
+    "coords": [
+      39.58,
+      -76.39
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 2002
+  },
+  {
+    "slug": "toronto",
+    "kind": "subsidiary",
+    "name": "FICEP Canada",
+    "city": {
+      "it": "Toronto",
+      "en": "Toronto"
+    },
+    "country": {
+      "it": "Canada",
+      "en": "Canada"
+    },
+    "coords": [
+      43.73,
+      -79.42
+    ],
+    "divisions": [
+      "steel"
+    ]
+  },
+  {
+    "slug": "san-luis-potosi",
+    "kind": "subsidiary",
+    "name": "FICEP Mexico",
+    "city": {
+      "it": "San Luis Potosí",
+      "en": "San Luis Potosí"
+    },
+    "country": {
+      "it": "Messico",
+      "en": "Mexico"
+    },
+    "coords": [
+      22.15,
+      -100.98
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 2014
+  },
+  {
+    "slug": "beirut",
+    "kind": "subsidiary",
+    "name": "FICEP Middle East",
+    "city": {
+      "it": "Beirut",
+      "en": "Beirut"
+    },
+    "country": {
+      "it": "Libano",
+      "en": "Lebanon"
+    },
+    "coords": [
+      33.89,
+      35.5
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 2006
+  },
+  {
+    "slug": "algeri",
+    "kind": "office",
+    "name": "FICEP Bureau de Liaison",
+    "city": {
+      "it": "Algeri",
+      "en": "Algiers"
+    },
+    "country": {
+      "it": "Algeria",
+      "en": "Algeria"
+    },
+    "coords": [
+      36.74,
+      3.04
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ]
+  },
+  {
+    "slug": "thane",
+    "kind": "subsidiary",
+    "name": "FICEP Tech India",
+    "city": {
+      "it": "Thane",
+      "en": "Thane"
+    },
+    "country": {
+      "it": "India",
+      "en": "India"
+    },
+    "coords": [
+      19.2,
+      72.97
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ]
+  },
+  {
+    "slug": "guangzhou",
+    "kind": "subsidiary",
+    "name": "FICEP Guangzhou",
+    "city": {
+      "it": "Guangzhou",
+      "en": "Guangzhou"
+    },
+    "country": {
+      "it": "Cina",
+      "en": "China"
+    },
+    "coords": [
+      23.13,
+      113.28
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 2013
+  },
+  {
+    "slug": "hong-kong",
+    "kind": "subsidiary",
+    "name": "FICEP Hong Kong",
+    "city": {
+      "it": "Hong Kong",
+      "en": "Hong Kong"
+    },
+    "country": {
+      "it": "Hong Kong",
+      "en": "Hong Kong"
+    },
+    "coords": [
+      22.29,
+      114.15
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ],
+    "since": 2003
+  },
+  {
+    "slug": "osaka",
+    "kind": "subsidiary",
+    "name": "FICEP Japan",
+    "city": {
+      "it": "Suita, Osaka",
+      "en": "Suita, Osaka"
+    },
+    "country": {
+      "it": "Giappone",
+      "en": "Japan"
+    },
+    "coords": [
+      34.76,
+      135.52
+    ],
+    "divisions": [
+      "steel",
+      "forging"
+    ]
+  }
 ]

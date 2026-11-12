@@ -1,0 +1,1167 @@
+[
+  {
+    "path": "/azienda",
+    "kicker": {
+      "it": "Azienda",
+      "en": "Company"
+    },
+    "title": {
+      "it": "Chi siamo",
+      "en": "About us"
+    },
+    "lead": {
+      "it": "In oltre novant’anni siamo diventati il più grande costruttore al mondo di impianti automatici per lavorare l’acciaio, e uno dei principali per forgiatura e stampaggio.",
+      "en": "In more than ninety years we have become the world’s largest maker of automatic lines for processing steel, and one of the leading names in forging."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Dove costruiamo",
+          "en": "Where we build"
+        },
+        "text": {
+          "it": "La sede di Gazzada Schianno, vicino a Varese, riunisce in oltre 100.000 m² uffici, ricerca e sviluppo, Academy of Technology, showroom e reparti produttivi. Intorno lavorano stabilimenti specializzati nel montaggio.",
+          "en": "The Gazzada Schianno headquarters, near Varese, brings together offices, research and development, the Academy of Technology, the showroom and production in over 100,000 m². Specialised assembly plants work around it."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/casale-litta.jpg"
+      },
+      {
+        "title": {
+          "it": "Unità produttive",
+          "en": "Production units"
+        },
+        "text": {
+          "it": "Ogni famiglia di macchine ha il suo reparto.",
+          "en": "Each machine family has its own department."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/unita-linee-di-taglio.jpg",
+        "items": [
+          {
+            "it": "Montaggio delle linee per angolari",
+            "en": "Assembly of angle lines"
+          },
+          {
+            "it": "Montaggio delle linee di taglio",
+            "en": "Assembly of cutting lines"
+          },
+          {
+            "it": "Centro di lavorazione meccanica",
+            "en": "Machining centre"
+          }
+        ]
+      },
+      {
+        "title": {
+          "it": "Una presenza mondiale",
+          "en": "A worldwide presence"
+        },
+        "text": {
+          "it": "Le filiali aperte negli anni portano vendita, assistenza, formazione e ricambi vicino ai clienti, in ogni continente.",
+          "en": "The subsidiaries opened over the years bring sales, service, training and spare parts close to customers on every continent."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/centri-di-lavorazione.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/azienda/storia",
+      "/azienda/gruppo",
+      "/azienda/strategia"
+    ]
+  },
+  {
+    "path": "/azienda/gruppo",
+    "kicker": {
+      "it": "Azienda",
+      "en": "Company"
+    },
+    "title": {
+      "it": "Gruppo FICEP",
+      "en": "FICEP Group"
+    },
+    "lead": {
+      "it": "Tre aziende, un solo processo: macchine, controlli numerici e software nascono nello stesso gruppo.",
+      "en": "Three companies, one process: machines, numerical controls and software come from the same group."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/03/mappa_new.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "FICEP S.p.A.",
+          "en": "FICEP S.p.A."
+        },
+        "text": {
+          "it": "La capogruppo: progettazione, produzione, Academy e showroom a Gazzada Schianno, con gli stabilimenti di montaggio nelle vicinanze.",
+          "en": "The parent company: design, production, Academy and showroom in Gazzada Schianno, with assembly plants nearby."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sedi_1.png"
+      },
+      {
+        "title": {
+          "it": "Mitrol",
+          "en": "Mitrol"
+        },
+        "text": {
+          "it": "Dal 1983 progetta e costruisce i controlli numerici di tutte le linee FICEP. Hardware e software sono sviluppati in casa, così ogni macchina ha un CNC fatto su misura.",
+          "en": "Since 1983 it has designed and built the numerical controls for every FICEP line. Hardware and software are developed in-house, so each machine has a CNC made for it."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/03/sedi_2.png"
+      },
+      {
+        "title": {
+          "it": "Steel Projects",
+          "en": "Steel Projects"
+        },
+        "text": {
+          "it": "La divisione software, fondata in Francia nel 1994. Collega l’ufficio tecnico all’officina: importa i disegni, ottimizza il materiale e genera i programmi per le macchine.",
+          "en": "The software division, founded in France in 1994. It links the design office to the shop floor: it imports drawings, optimises material and generates machine programs."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2025/10/photo-steel-projects_2025.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Vedi le sedi",
+        "en": "See the locations"
+      },
+      "path": "/sedi"
+    },
+    "related": [
+      "/azienda",
+      "/macchine/software",
+      "/sedi"
+    ]
+  },
+  {
+    "path": "/azienda/strategia",
+    "kicker": {
+      "it": "Azienda",
+      "en": "Company"
+    },
+    "title": {
+      "it": "Strategia e visione",
+      "en": "Strategy and vision"
+    },
+    "lead": {
+      "it": "Fornire in tutto il mondo impianti completi per lavorare profili e lamiere, dalla singola macchina alla fabbrica intera.",
+      "en": "To supply complete plants for processing sections and plates worldwide, from a single machine to an entire factory."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-strategia-visione3-1.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "La missione",
+          "en": "The mission"
+        },
+        "text": {
+          "it": "Rispondere alla domanda di macchine di qualità per carpenteria metallica e forgiatura, con prodotti innovativi, assistenza attenta e persone che capiscono le esigenze produttive del cliente.",
+          "en": "To meet the demand for quality machines in steel fabrication and forging, with innovative products, attentive service and people who understand the customer’s production needs."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/slide-sv8-b-1.jpg"
+      },
+      {
+        "title": {
+          "it": "Dalla linea al sistema",
+          "en": "From line to system"
+        },
+        "text": {
+          "it": "Una macchina da sola raramente basta. Progettiamo impianti in cui lavorazione, movimentazione e software funzionano come un unico sistema.",
+          "en": "A single machine is rarely enough. We design plants in which processing, handling and software work as one system."
+        }
+      },
+      {
+        "title": {
+          "it": "Scelte sostenibili",
+          "en": "Sustainable choices"
+        },
+        "text": {
+          "it": "Per noi sostenibilità significa prima di tutto risparmio energetico: nei nostri prodotti è un dato di fatto, e le presse Direct Drive ne sono l’esempio.",
+          "en": "For us sustainability means, first of all, saving energy: in our products it is a fact, and the Direct Drive presses are the example."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/immagine_energia-1-1.jpg"
+      },
+      {
+        "title": {
+          "it": "Presenti ovunque",
+          "en": "Present everywhere"
+        },
+        "text": {
+          "it": "Europa, Americhe, Medio Oriente, Africa, Oceania e Asia: una rete diretta che segue il cliente dopo la consegna.",
+          "en": "Europe, the Americas, the Middle East, Africa, Oceania and Asia: a direct network that follows customers after delivery."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/immagine_presenza-1.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/azienda",
+      "/azienda/make"
+    ]
+  },
+  {
+    "path": "/azienda/make",
+    "kicker": {
+      "it": "Azienda",
+      "en": "Company"
+    },
+    "title": {
+      "it": "MA.KE",
+      "en": "MA.KE"
+    },
+    "lead": {
+      "it": "Un progetto che ripensa come si crea, si usa e si rigenera il valore di un impianto industriale nel tempo.",
+      "en": "A project that rethinks how the value of an industrial plant is created, used and renewed over time."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/10/Copertina_News_October_MA.KEOH_.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Un sistema continuo",
+          "en": "One continuous system"
+        },
+        "text": {
+          "it": "MA.KE collega ogni fase della vita produttiva: dalla progettazione alla produzione, dall’uso quotidiano al riutilizzo.",
+          "en": "MA.KE connects every stage of production life: from design to manufacturing, from daily operation to reuse."
+        }
+      },
+      {
+        "title": {
+          "it": "I cinque pilastri",
+          "en": "The five pillars"
+        },
+        "text": {
+          "it": "Il progetto si svela per tappe.",
+          "en": "The project is being revealed step by step."
+        },
+        "items": [
+          {
+            "it": "Svolta industriale",
+            "en": "Industrial shift"
+          },
+          {
+            "it": "Economia circolare",
+            "en": "Circular economy"
+          },
+          {
+            "it": "Tecnologia ibrida",
+            "en": "Hybrid technology"
+          },
+          {
+            "it": "Piattaforma modulare",
+            "en": "Modular platform"
+          },
+          {
+            "it": "Time to value",
+            "en": "Time to value"
+          }
+        ]
+      },
+      {
+        "title": {
+          "it": "Perché conta",
+          "en": "Why it matters"
+        },
+        "text": {
+          "it": "Un investimento industriale non è più una decisione presa una volta: evolve. MA.KE è il metodo che rende possibile questa evoluzione.",
+          "en": "An industrial investment is no longer a one-off decision: it evolves. MA.KE is the method that makes that evolution possible."
+        }
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/news",
+      "/azienda/strategia"
+    ]
+  },
+  {
+    "path": "/azienda/testimonianze",
+    "kicker": {
+      "it": "Azienda",
+      "en": "Company"
+    },
+    "title": {
+      "it": "Testimonianze",
+      "en": "Customer stories"
+    },
+    "lead": {
+      "it": "I clienti ci considerano un partner, non un fornitore: li seguiamo dalla scelta dell’impianto alla manutenzione.",
+      "en": "Customers see us as a partner, not a supplier: we follow them from choosing the plant through to maintenance."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-testimonials.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Dalla prevendita in poi",
+          "en": "From pre-sale onwards"
+        },
+        "text": {
+          "it": "Analizziamo insieme esigenze e obiettivi, poi restiamo al fianco del cliente in consegna, installazione, collaudo, formazione e assistenza.",
+          "en": "We analyse needs and goals together, then stay alongside the customer through delivery, installation, testing, training and service."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2026/09/Testimonial_Settembre-26_Evers_Copertina.jpg"
+      },
+      {
+        "title": {
+          "it": "Storie dal campo",
+          "en": "Stories from the field"
+        },
+        "text": {
+          "it": "Carpenterie, centri di servizio e forge raccontano che cosa è cambiato in officina dopo l’arrivo di una linea FICEP.",
+          "en": "Fabricators, service centres and forges describe what changed on the shop floor after a FICEP line arrived."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2026/07/Testimonial_Luglio_Chiaravalli_Copertina.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/settori",
+      "/macchine"
+    ]
+  },
+  {
+    "path": "/servizi",
+    "kicker": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "title": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "lead": {
+      "it": "Una macchina rende se resta efficiente: assistenza, ricambi, manutenzione e formazione fanno parte dell’impianto.",
+      "en": "A machine pays back when it stays efficient: service, parts, maintenance and training are part of the plant."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-assistenza-1.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Che cosa offriamo",
+          "en": "What we offer"
+        },
+        "text": {
+          "it": "Scegli il servizio che ti serve.",
+          "en": "Choose the service you need."
+        },
+        "items": [
+          {
+            "it": "Assistenza tecnica, in sede o da remoto",
+            "en": "Technical service, on site or remote"
+          },
+          {
+            "it": "Ricambi originali e consumabili",
+            "en": "Original spare parts and consumables"
+          },
+          {
+            "it": "Manutenzione preventiva a pacchetti",
+            "en": "Preventive maintenance packages"
+          },
+          {
+            "it": "Supporto e richieste rapide",
+            "en": "Support and quick requests"
+          },
+          {
+            "it": "Buying Experience: dall’ordine all’avviamento",
+            "en": "Buying Experience: from order to start-up"
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/servizi/assistenza",
+      "/servizi/ricambi",
+      "/servizi/manutenzione-preventiva",
+      "/servizi/supporto",
+      "/servizi/buying-experience"
+    ]
+  },
+  {
+    "path": "/servizi/assistenza",
+    "kicker": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "title": {
+      "it": "Assistenza",
+      "en": "Service"
+    },
+    "lead": {
+      "it": "Supporto veloce ed efficiente, per tutta la vita dell’impianto.",
+      "en": "Fast, efficient support for the whole life of the plant."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-assistenza-1.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Help-line di tecnici",
+          "en": "A help-line of technicians"
+        },
+        "text": {
+          "it": "Dal lunedì al venerdì rispondono tecnici che conoscono le macchine, non un centralino.",
+          "en": "From Monday to Friday you speak to technicians who know the machines, not a call centre."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/MP-1-1.jpg"
+      },
+      {
+        "title": {
+          "it": "Teleservice",
+          "en": "Teleservice"
+        },
+        "text": {
+          "it": "Collegandosi alla macchina da remoto i tecnici trovano la causa del problema e spesso lo risolvono senza trasferte.",
+          "en": "By connecting to the machine remotely, technicians find the cause and often fix it without travelling."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/immagine_tele-b.jpg"
+      },
+      {
+        "title": {
+          "it": "Vicini ovunque",
+          "en": "Close everywhere"
+        },
+        "text": {
+          "it": "Le filiali garantiscono interventi rapidi sul posto in ogni continente.",
+          "en": "The subsidiaries guarantee rapid on-site help on every continent."
+        }
+      },
+      {
+        "title": {
+          "it": "L’avviamento",
+          "en": "Start-up"
+        },
+        "text": {
+          "it": "La messa in servizio è il momento più delicato: la seguiamo con personale dedicato.",
+          "en": "Commissioning is the most delicate moment: dedicated staff follow it through."
+        }
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi supporto",
+        "en": "Request support"
+      },
+      "path": "/servizi/supporto"
+    },
+    "related": [
+      "/servizi/ricambi",
+      "/servizi/manutenzione-preventiva"
+    ]
+  },
+  {
+    "path": "/servizi/ricambi",
+    "kicker": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "title": {
+      "it": "Ricambi e consumabili",
+      "en": "Spare parts and consumables"
+    },
+    "lead": {
+      "it": "Ricambi originali per mantenere le macchine efficienti.",
+      "en": "Original parts to keep machines efficient."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/b-ricambi.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Ordini a qualsiasi ora",
+          "en": "Orders at any time"
+        },
+        "text": {
+          "it": "Comunica il codice del pezzo al Servizio Ricambi: verifica subito la disponibilità e, se serve, stima i tempi di produzione. Senza codice bastano descrizione, modello o disegno.",
+          "en": "Give the part code to the Spare Parts Service: it checks availability at once and, if needed, estimates production time. Without a code, a description, model or drawing is enough."
+        }
+      },
+      {
+        "title": {
+          "it": "Magazzino automatico",
+          "en": "Automated warehouse"
+        },
+        "text": {
+          "it": "Il magazzino completamente automatizzato spedisce ogni giorno con corriere i ricambi disponibili. A Gazzada sono sempre a magazzino più di 10.000 articoli.",
+          "en": "The fully automated warehouse ships available parts by courier every day. More than 10,000 items are always in stock in Gazzada."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/immagine_magazzino-b.jpg"
+      },
+      {
+        "title": {
+          "it": "Garanzia e disponibilità",
+          "en": "Warranty and availability"
+        },
+        "text": {
+          "it": "I ricambi originali sono garantiti un anno dall’acquisto. Assistenza e ricambi sono assicurati per almeno 10 anni su tutte le macchine a CNC in funzione, in alcuni casi oltre 20.",
+          "en": "Original parts are guaranteed for one year from purchase. Service and parts are assured for at least 10 years on all working CNC machines, in some cases more than 20."
+        }
+      },
+      {
+        "title": {
+          "it": "Utensili fatti in casa",
+          "en": "Tools made in-house"
+        },
+        "text": {
+          "it": "Produciamo direttamente punzoni e matrici, caratteri di marcatura, lame e altri utensili.",
+          "en": "We make punches and dies, marking characters, blades and other tools ourselves."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/immagine_UTENSILI-CONSUMABILI-1.jpg"
+      },
+      {
+        "title": {
+          "it": "Container ricambi",
+          "en": "Spare-parts container"
+        },
+        "text": {
+          "it": "Per le installazioni più lunghe, quando una nuova fabbrica nasce in zone remote, FICEP può inviare container mobili attrezzati con tutti gli utensili necessari a completare il lavoro.",
+          "en": "For the longest installations, when a new factory is built in a remote area, FICEP can send mobile containers equipped with all the tools needed to complete the job."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/ficep-container.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/servizi/assistenza",
+      "/servizi/manutenzione-preventiva"
+    ]
+  },
+  {
+    "path": "/servizi/manutenzione-preventiva",
+    "kicker": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "title": {
+      "it": "Manutenzione preventiva",
+      "en": "Preventive maintenance"
+    },
+    "lead": {
+      "it": "Controlli programmati per evitare guasti e fermi macchina.",
+      "en": "Scheduled checks to prevent faults and downtime."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-manutenzione-b.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Un servizio strutturato",
+          "en": "A structured service"
+        },
+        "text": {
+          "it": "Controlli periodici programmati eliminano il rischio di malfunzionamenti e fermi macchina. Per gli interventi straordinari che il teleservice non risolve è disponibile un servizio rapido sul posto, in tutto il mondo.",
+          "en": "Scheduled periodic checks remove the risk of malfunctions and downtime. For extraordinary work that teleservice cannot solve, a rapid on-site service is available worldwide."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/MP-1-1.jpg"
+      },
+      {
+        "title": {
+          "it": "Tre pacchetti",
+          "en": "Three packages"
+        },
+        "text": {
+          "it": "Contratti di manutenzione standard, con visite programmate dei tecnici, in tre pacchetti da scegliere secondo le esigenze.",
+          "en": "Standard maintenance contracts, with scheduled technician visits, in three packages to choose from."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/MP-2-1.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/servizi/assistenza",
+      "/servizi/ricambi"
+    ]
+  },
+  {
+    "path": "/servizi/supporto",
+    "kicker": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "title": {
+      "it": "Supporto",
+      "en": "Support"
+    },
+    "lead": {
+      "it": "Scrivi al servizio clienti: ti risponde chi può darti l’informazione che cerchi.",
+      "en": "Write to customer service: the person who can answer will reply."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-assistenza-1.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Come contattarci",
+          "en": "How to reach us"
+        },
+        "text": {
+          "it": "FICEP S.p.A., Via Matteotti 21, 21045 Gazzada Schianno (VA). Nel concept il modulo è dimostrativo e non invia richieste.",
+          "en": "FICEP S.p.A., Via Matteotti 21, 21045 Gazzada Schianno (VA), Italy. In this concept the form is a demo and sends nothing."
+        }
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/servizi/assistenza"
+    ]
+  },
+  {
+    "path": "/servizi/buying-experience",
+    "kicker": {
+      "it": "Servizi",
+      "en": "Services"
+    },
+    "title": {
+      "it": "Buying Experience",
+      "en": "Buying Experience"
+    },
+    "lead": {
+      "it": "Dalla scelta dell’impianto all’avviamento, senza sorprese.",
+      "en": "From choosing the plant to start-up, with no surprises."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-Ficep-buying-office2.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "1 · Scelta dell’impianto",
+          "en": "1 · Choosing the plant"
+        },
+        "text": {
+          "it": "Sopralluogo e intervista per capire mercato e volumi. Il software simula un tuo progetto reale sui layout 3D proposti e mostra tempi, colli di bottiglia e personale necessario.",
+          "en": "A site visit and interview to understand market and volumes. The software simulates one of your real projects on the proposed 3D layouts and shows times, bottlenecks and staffing."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/fbe-1b.jpg"
+      },
+      {
+        "title": {
+          "it": "2 · Preparazione",
+          "en": "2 · Preparation"
+        },
+        "text": {
+          "it": "Dopo l’ordine i nostri ingegneri preparano layout di installazione e disegni delle fondazioni.",
+          "en": "After the order our engineers prepare installation layouts and foundation drawings."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/fbe-2-1b.jpg"
+      },
+      {
+        "title": {
+          "it": "3 · Formazione e pre-accettazione",
+          "en": "3 · Training and pre-acceptance"
+        },
+        "text": {
+          "it": "Gli operatori si formano all’Academy mentre l’impianto viene collaudato in fabbrica.",
+          "en": "Operators train at the Academy while the plant is tested at the factory."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/FOR-1-1-b.jpg"
+      },
+      {
+        "title": {
+          "it": "4 · Installazione e avviamento",
+          "en": "4 · Installation and start-up"
+        },
+        "text": {
+          "it": "Verifichiamo che lo stabilimento sia pronto, seguiamo il posizionamento e il collaudo finale e restiamo fino alla produzione.",
+          "en": "We check the site is ready, oversee positioning and final acceptance, and stay until production begins."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/BE-N1b-1.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/academy",
+      "/trova-la-tua-macchina"
+    ]
+  },
+  {
+    "path": "/academy",
+    "kicker": {
+      "it": "Academy",
+      "en": "Academy"
+    },
+    "title": {
+      "it": "Academy of Technology",
+      "en": "Academy of Technology"
+    },
+    "lead": {
+      "it": "Oltre 3.000 m² dedicati a formare chi userà gli impianti, con sei aule e due sale conferenze.",
+      "en": "More than 3,000 m² devoted to training the people who will run the lines, with six classrooms and two conference rooms."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/b-academy.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Formazione continua",
+          "en": "Continuous training"
+        },
+        "text": {
+          "it": "I corsi tengono aggiornati operatori, programmatori e manutentori dei clienti, e i tecnici FICEP.",
+          "en": "Courses keep customers’ operators, programmers and maintenance staff, and FICEP technicians, up to date."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/academy-b.jpg"
+      },
+      {
+        "title": {
+          "it": "Seminari e forum",
+          "en": "Seminars and forums"
+        },
+        "text": {
+          "it": "L’Academy ospita incontri tecnici su temi specifici, con relatori interni ed esterni.",
+          "en": "The Academy hosts technical meetings on specific topics, with internal and external speakers."
+        }
+      },
+      {
+        "title": {
+          "it": "Non solo macchine",
+          "en": "More than machines"
+        },
+        "text": {
+          "it": "L’ufficio engineering studia l’intero layout di fabbrica: dall’analisi del mercato del cliente alla capacità annua, fino all’impianto chiavi in mano.",
+          "en": "The engineering office studies the whole factory layout: from the customer’s market to annual capacity, through to a turnkey plant."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/acdem-nonsolomacchine-b-1.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Organizza un corso",
+        "en": "Arrange a course"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/academy/formazione",
+      "/academy/showroom",
+      "/sedi"
+    ]
+  },
+  {
+    "path": "/academy/formazione",
+    "kicker": {
+      "it": "Academy",
+      "en": "Academy"
+    },
+    "title": {
+      "it": "Formazione",
+      "en": "Training"
+    },
+    "lead": {
+      "it": "Un impianto a CNC rende quanto chi lo usa: per questo condividiamo quello che sappiamo.",
+      "en": "A CNC line performs as well as the people who run it: that is why we share what we know."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-formazione2-b.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Corsi per i clienti",
+          "en": "Courses for customers"
+        },
+        "text": {
+          "it": "Prima della spedizione il personale del cliente viene in Academy per imparare a usare il proprio impianto.",
+          "en": "Before shipment the customer’s staff come to the Academy to learn to use their own plant."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/FOR-1b.jpg"
+      },
+      {
+        "title": {
+          "it": "Aggiornamento dei tecnici",
+          "en": "Technician updates"
+        },
+        "text": {
+          "it": "Più volte l’anno tutto il personale tecnico FICEP segue corsi sulle novità di prodotto.",
+          "en": "Several times a year all FICEP technical staff attend courses on product developments."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/FOR-2.jpg"
+      },
+      {
+        "title": {
+          "it": "Corsi su misura",
+          "en": "Tailored courses"
+        },
+        "text": {
+          "it": "Su richiesta organizziamo formazione dedicata a un reparto o a una lavorazione.",
+          "en": "On request we arrange training dedicated to one department or one process."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/personalizzate-b.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Organizza un corso",
+        "en": "Arrange a course"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/academy",
+      "/academy/showroom"
+    ]
+  },
+  {
+    "path": "/academy/showroom",
+    "kicker": {
+      "it": "Academy",
+      "en": "Academy"
+    },
+    "title": {
+      "it": "Showroom",
+      "en": "Showroom"
+    },
+    "lead": {
+      "it": "2.000 m² di macchine funzionanti, dentro l’Academy.",
+      "en": "2,000 m² of working machines, inside the Academy."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/b-fshowroom.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Prove reali",
+          "en": "Real tests"
+        },
+        "text": {
+          "it": "Le macchine esposte lavorano davvero: si parte dal disegno del tuo pezzo e si esegue la prova in tua presenza.",
+          "en": "The machines on show really work: we start from your part drawing and run the test with you present."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/sr-g6.jpg"
+      },
+      {
+        "title": {
+          "it": "Sempre aggiornato",
+          "en": "Always up to date"
+        },
+        "text": {
+          "it": "In showroom ci sono gli ultimi modelli della gamma, di ogni tipo e dimensione.",
+          "en": "The showroom holds the latest models in the range, of every type and size."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/sr-g2.jpg"
+      },
+      {
+        "title": {
+          "it": "Visitalo da qui",
+          "en": "Visit it from here"
+        },
+        "text": {
+          "it": "Entra nel tour virtuale della sede e raggiungi lo showroom senza spostarti.",
+          "en": "Enter the virtual tour of the headquarters and reach the showroom without travelling."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2022/10/sr-g3.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Apri il tour della sede",
+        "en": "Open the site tour"
+      },
+      "path": "/sedi"
+    },
+    "related": [
+      "/academy",
+      "/sedi"
+    ]
+  },
+  {
+    "path": "/usato",
+    "kicker": {
+      "it": "Usato",
+      "en": "Used"
+    },
+    "title": {
+      "it": "Impianti usati",
+      "en": "Used machines"
+    },
+    "lead": {
+      "it": "Linee FICEP ricondizionate, pronte per una seconda vita.",
+      "en": "Reconditioned FICEP lines, ready for a second life."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/unita-linee-di-taglio.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Da dove arrivano",
+          "en": "Where they come from"
+        },
+        "text": {
+          "it": "Quando un cliente rinnova il parco macchine con linee di capacità o dimensioni superiori, quelle esistenti tornano disponibili.",
+          "en": "When a customer renews its machinery with lines of greater capacity or size, the existing ones become available."
+        }
+      },
+      {
+        "title": {
+          "it": "Ricondizionati su misura",
+          "en": "Reconditioned to order"
+        },
+        "text": {
+          "it": "Gli impianti usati vengono ricondizionati in base alle esigenze del nuovo cliente. L’elenco cambia spesso: chiedi la disponibilità.",
+          "en": "Used lines are reconditioned to the needs of the new customer. The list changes often: ask about availability."
+        }
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/macchine",
+      "/servizi/assistenza"
+    ]
+  },
+  {
+    "path": "/lavora-con-noi",
+    "kicker": {
+      "it": "Carriere",
+      "en": "Careers"
+    },
+    "title": {
+      "it": "Lavora con noi",
+      "en": "Careers"
+    },
+    "lead": {
+      "it": "Un’azienda in crescita, un contesto internazionale, la possibilità di girare il mondo.",
+      "en": "A growing company, an international setting, the chance to travel the world."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/b-carrers.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Posizioni aperte",
+          "en": "Open positions"
+        },
+        "text": {
+          "it": "Vendite, programmazione, produzione, qualità, acquisti, assistenza: cerchiamo persone a cui piacciono l’ingegneria e l’acciaio.",
+          "en": "Sales, programming, production, quality, purchasing, service: we look for people who like engineering and steel."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-posizioni-aperte-b.jpg"
+      },
+      {
+        "title": {
+          "it": "Candidatura spontanea",
+          "en": "Open application"
+        },
+        "text": {
+          "it": "Non trovi la posizione giusta? Mandaci comunque il tuo profilo.",
+          "en": "Cannot find the right role? Send us your profile anyway."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-candidatura-libera-b.jpg"
+      },
+      {
+        "title": {
+          "it": "Stage e tirocini",
+          "en": "Internships"
+        },
+        "text": {
+          "it": "Percorsi per studenti e neolaureati, in officina e negli uffici tecnici.",
+          "en": "Programmes for students and graduates, on the shop floor and in the technical offices."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2023/01/b-stage-b.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Invia la candidatura",
+        "en": "Send your application"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/azienda",
+      "/academy"
+    ]
+  },
+  {
+    "path": "/contatti",
+    "kicker": {
+      "it": "Contatti",
+      "en": "Contact"
+    },
+    "title": {
+      "it": "Contatti",
+      "en": "Contact"
+    },
+    "lead": {
+      "it": "FICEP S.p.A. · Via Matteotti 21 · 21045 Gazzada Schianno (VA) · Italia",
+      "en": "FICEP S.p.A. · Via Matteotti 21 · 21045 Gazzada Schianno (VA) · Italy"
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2022/10/b-chi-siamo.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "Trova la sede più vicina",
+          "en": "Find the nearest office"
+        },
+        "text": {
+          "it": "Filiali e agenti seguono vendita, assistenza, formazione e ricambi in ogni area del mondo.",
+          "en": "Subsidiaries and agents handle sales, service, training and parts in every part of the world."
+        }
+      },
+      {
+        "title": {
+          "it": "Modulo dimostrativo",
+          "en": "Demo form"
+        },
+        "text": {
+          "it": "In questo concept i moduli non inviano dati. Nella versione reale la richiesta arriva alla sede competente.",
+          "en": "In this concept forms do not send data. In the real version the request reaches the relevant office."
+        }
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Vedi le sedi",
+        "en": "See the locations"
+      },
+      "path": "/sedi"
+    },
+    "related": [
+      "/sedi",
+      "/servizi/supporto"
+    ]
+  },
+  {
+    "path": "/macchine/software",
+    "kicker": {
+      "it": "Macchine",
+      "en": "Machines"
+    },
+    "title": {
+      "it": "Software Steel Projects",
+      "en": "Steel Projects software"
+    },
+    "lead": {
+      "it": "Il collegamento tra ufficio tecnico e officina: dal modello 3D al programma macchina.",
+      "en": "The link between design office and shop floor: from the 3D model to the machine program."
+    },
+    "image": "https://ficepgroup.com/wp-content/uploads/2024/04/Banner-Software.jpg",
+    "sections": [
+      {
+        "title": {
+          "it": "La divisione software",
+          "en": "The software division"
+        },
+        "text": {
+          "it": "Steel Projects, nel gruppo FICEP, sviluppa dal 1994 soluzioni per chi lavora il metallo: oltre 2.500 clienti in più di 100 paesi.",
+          "en": "Steel Projects, part of the FICEP group, has developed solutions for metal fabricators since 1994: over 2,500 customers in more than 100 countries."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2025/10/photo-steel-projects_2025.jpg"
+      },
+      {
+        "title": {
+          "it": "Steel Projects PLM",
+          "en": "Steel Projects PLM"
+        },
+        "text": {
+          "it": "Moduli da combinare secondo le esigenze dell’officina.",
+          "en": "Modules to combine according to the needs of the shop."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2024/04/Soluzioni-software-Ficep.jpg",
+        "items": [
+          {
+            "it": "Importazione dall’ufficio tecnico",
+            "en": "Import from the design office"
+          },
+          {
+            "it": "Controlli di fattibilità",
+            "en": "Feasibility checks"
+          },
+          {
+            "it": "Gestione dei progetti",
+            "en": "Project management"
+          },
+          {
+            "it": "Nesting di barre e lamiere",
+            "en": "Bar and plate nesting"
+          },
+          {
+            "it": "Scorte e acquisti",
+            "en": "Stock and purchasing"
+          },
+          {
+            "it": "Pianificazione della produzione",
+            "en": "Production planning"
+          },
+          {
+            "it": "Generazione automatica dei dati CNC",
+            "en": "Automatic CNC data generation"
+          },
+          {
+            "it": "Postazioni manuali, spedizioni e cantiere",
+            "en": "Manual stations, shipping and site follow-up"
+          }
+        ]
+      },
+      {
+        "title": {
+          "it": "Industria 4.0",
+          "en": "Industry 4.0"
+        },
+        "text": {
+          "it": "Una gestione digitale dell’officina, collegata ai sistemi esterni dell’azienda.",
+          "en": "Digital shop-floor management, connected to the company’s external systems."
+        },
+        "image": "https://ficepgroup.com/wp-content/uploads/2024/04/software-scheme.jpg"
+      }
+    ],
+    "cta": {
+      "label": {
+        "it": "Richiedi informazioni",
+        "en": "Request information"
+      },
+      "path": "/contatti"
+    },
+    "related": [
+      "/macchine",
+      "/azienda/gruppo"
+    ]
+  }
+]

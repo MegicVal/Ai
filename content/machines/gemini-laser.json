@@ -1,0 +1,324 @@
+{
+  "slug": "gemini-laser",
+  "name": "GEMINI LASER",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "lamiere",
+  "summary": {
+    "it": "Taglio laser, foratura e fresatura di lamiere.",
+    "en": "Laser cutting, drilling and milling of plates."
+  },
+  "descriptor": {
+    "it": "Linea automatica gantry a CNC di foratura, fresatura e taglio laser per lamiere di grandi dimensioni",
+    "en": "Automatic gantry CNC drilling, milling and laser cutting systems for large plates"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2025/03/p-gemini-laser-1.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2025/03/gemini_laser_listing.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/gemini-laser/",
+  "processes": [
+    {
+      "label": {
+        "it": "Foratura",
+        "en": "Drilling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Foratura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Tracciatura",
+        "en": "Scribing"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Tracciatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Fresatura",
+        "en": "Milling"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Fresatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Svasatura",
+        "en": "Countersinking"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Svasatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Maschiatura",
+        "en": "Tapping"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/03/Maschiatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Taglio Laser",
+        "en": "Laser Cutting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2025/03/Laser_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Lamiere",
+        "en": "Plates"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/09/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Nuova teCNologia di taglio laser",
+        "en": "New laser cutting technology"
+      },
+      "text": {
+        "it": "Taglia lamiere da 5 a 60 mm con sorgenti laser di diversa potenza.",
+        "en": "Cuts plates from 5 to 60 mm with a choice of laser sources."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/testa-laser_giusta.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio automatico degli ugelli",
+        "en": "Automatic nozzle changer"
+      },
+      "text": {
+        "it": "Sostituisce e pulisce gli ugelli da solo, per lavorare senza soste.",
+        "en": "Changes and cleans nozzles on its own, for uninterrupted work."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-cambio-automatico-dell-ugelli.jpg"
+    },
+    {
+      "title": {
+        "it": "Unita' di foratura",
+        "en": "Drilling unit"
+      },
+      "text": {
+        "it": "Testa di foratura a controllo numerico per fori precisi.",
+        "en": "CNC drilling head for accurate holes."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-sunita-di-foratura.jpg"
+    },
+    {
+      "title": {
+        "it": "Cambio utensili",
+        "en": "Tool changer"
+      },
+      "text": {
+        "it": "Cambio utensili automatico gestito dal CNC.",
+        "en": "CNC-controlled automatic tool changer."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-cambio-utiensili.jpg"
+    },
+    {
+      "title": {
+        "it": "Fresatura avanzata",
+        "en": "Advanced milling"
+      },
+      "text": {
+        "it": "Fresature speciali: asole, tasche, svasature e preparazioni di saldatura.",
+        "en": "Special milling: slots, pockets, countersinks and weld preparations."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-fresatura-avanzata.jpg"
+    },
+    {
+      "title": {
+        "it": "Cianfrinatura dei bordi con laser",
+        "en": "Edge bevelling by laser"
+      },
+      "text": {
+        "it": "La testa laser inclinabile prepara i bordi per la saldatura (V, Y, X, K).",
+        "en": "The tilting laser head prepares weld edges (V, Y, X, K)."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-cianfrinatura-dei-bordi-con-il-laser-1-2.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema a doppio gantry",
+        "en": "Double gantry system"
+      },
+      "text": {
+        "it": "Due portali sulla stessa linea per produrre di più a costi contenuti.",
+        "en": "Two gantries on the same line for more output at lower cost."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-sistema-a-doppio-gantry.jpg"
+    },
+    {
+      "title": {
+        "it": "Sistema di scarico pezzi automatico",
+        "en": "Automatic parts unloading"
+      },
+      "text": {
+        "it": "Un robot a 4/6 assi o cartesiano scarica i pezzi tagliati.",
+        "en": "A 4/6-axis or Cartesian robot unloads the cut parts."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-sistema-di-scarico-pezzi-automatico.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Portale e testa laser progettati per la velocità.",
+      "en": "Gantry and laser head designed for speed."
+    },
+    {
+      "it": "Doppia trave robusta: flessione minima in foratura e fresatura.",
+      "en": "Sturdy twin beam: minimal deflection when drilling and milling."
+    },
+    {
+      "it": "Fresatura e foratura a 7.000 giri/min con cambio utensile automatico.",
+      "en": "Milling and drilling at 7,000 rpm with automatic tool change."
+    },
+    {
+      "it": "Taglio laser sottile, con meno materiale perso.",
+      "en": "A narrow laser kerf, with less material lost."
+    },
+    {
+      "it": "Testa laser stabile e precisa grazie alle doppie guide.",
+      "en": "Stable, accurate laser head thanks to twin guides."
+    },
+    {
+      "it": "Testa bevel opzionale a ±45° per tagli complessi.",
+      "en": "Optional ±45° bevel head for complex cuts."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-g1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-g3.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-g5.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2025/03/Gemini-laser-g6.jpg"
+  ],
+  "video": "https://ficepgroup.com/wp-content/uploads/2025/03/The-new-laser-cutting-system-integrated-with-drilling-and-milling-for-large-plates-_-GEMINI-LASER.mp4",
+  "specs": [
+    {
+      "title": {
+        "it": "Linea automatica gantry a CNC di foratura, fresatura e taglio laser per lamiere di grandi dimensioni",
+        "en": "Automatic gantry CNC drilling, milling and laser cutting systems for large plates"
+      },
+      "models": [
+        "G25LS",
+        "G32LS"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Dimensione della lamiera [max. mm]",
+            "en": "Plate size [max. mm]"
+          },
+          "values": [
+            "2540x6000",
+            "3100x6000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore della lamiera con sorgente laser da 30 kW [max. mm]",
+            "en": "Plate thickness with 30 kW laser source [max. mm]"
+          },
+          "values": [
+            "60",
+            "60"
+          ]
+        },
+        {
+          "label": {
+            "it": "Testa laser diritta [max. n.]",
+            "en": "Straight laser head [max. no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Testa laser bevel [max. no.]",
+            "en": "Bevel laser head [max. no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Teste di foratura [no.]",
+            "en": "Drilling heads [no.]"
+          },
+          "values": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "it": "Utensili di foratura per testa [no.]",
+            "en": "Drilling tools per head [no.]"
+          },
+          "values": [
+            "8 (24)",
+            "8 (24)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Diametro di foratura [max. mm]",
+            "en": "Drilling diameter [max. mm]"
+          },
+          "values": [
+            "40 (250)",
+            "40 (250)"
+          ]
+        },
+        {
+          "label": {
+            "it": "Spessore di foratura [max. mm]",
+            "en": "Drilling thickness [max. mm]"
+          },
+          "values": [
+            "60",
+            "60"
+          ]
+        },
+        {
+          "label": {
+            "it": "Potenza del mandrino [kW]",
+            "en": "Spindle power [kW]"
+          },
+          "values": [
+            "15",
+            "15"
+          ]
+        },
+        {
+          "label": {
+            "it": "Velocità del mandrino [max. RPM]",
+            "en": "Spindle speed [max. RPM]"
+          },
+          "values": [
+            "7000",
+            "7000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Peso della macchina [kg]",
+            "en": "Machine weight [kg]"
+          },
+          "values": [
+            "4500",
+            "4800"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "plate-gantry",
+    "variant": "laser"
+  }
+}

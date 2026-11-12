@@ -2,19 +2,79 @@
   {
     "slug": "make-officina-di-domani",
     "date": "2026-10-23",
-    "title": { "it": "MA.KE: come immaginiamo la carpenteria di domani", "en": "MA.KE: how we picture the steel shop of tomorrow" },
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/10/Copertina_News_October_MA.KEOH_.jpg",
+    "title": {
+      "it": "MA.KE: come immaginiamo la carpenteria di domani",
+      "en": "MA.KE: how we picture the steel shop of tomorrow"
+    },
     "excerpt": {
-      "it": "Un progetto che mette insieme macchine, movimentazione e software in un unico flusso di produzione.",
-      "en": "A project that brings machines, handling and software into a single production flow."
+      "it": "Dal 28 settembre al 2 ottobre FICEP ha aperto la sede per presentare MA.KE, il progetto strategico per il futuro della carpenteria metallica, a centinaia di ospiti.",
+      "en": "From 28 September to 2 October FICEP opened its headquarters to present MA.KE, the strategic project for the future of steel fabrication, to hundreds of guests."
     }
   },
   {
     "slug": "easy-check-realta-aumentata",
     "date": "2026-09-17",
-    "title": { "it": "Easy Check: il controllo qualità con la realtà aumentata", "en": "Easy Check: quality control with augmented reality" },
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/09/News-Easy-Check-Copertina.jpg",
+    "title": {
+      "it": "Easy Check: il controllo qualità con la realtà aumentata",
+      "en": "Easy Check: quality control with augmented reality"
+    },
     "excerpt": {
-      "it": "Steel Projects presenta uno strumento che sovrappone il disegno al pezzo reale per verificarlo in pochi secondi.",
-      "en": "Steel Projects presents a tool that overlays the drawing on the real part to check it in seconds."
+      "it": "La divisione software Steel Projects presenta Easy Check: la realtà aumentata per trovare gli errori prima che diventino rilavorazioni e ritardi.",
+      "en": "The Steel Projects software division presents Easy Check: augmented reality to catch errors before they turn into rework and delays."
+    }
+  },
+  {
+    "slug": "automazione-stampaggio-a-caldo",
+    "date": "2026-08-11",
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/08/News_Agosto2026_Impianto-automatico-forgia_Copertina.jpg",
+    "title": {
+      "it": "Stampaggio a caldo: il valore sta nell’integrazione",
+      "en": "Hot forging: the value lies in integration"
+    },
+    "excerpt": {
+      "it": "Tempi più brevi, più flessibilità, qualità costante e tracciabilità: come l’integrazione del processo risponde alle sfide dello stampaggio a caldo.",
+      "en": "Shorter times, more flexibility, consistent quality and traceability: how process integration answers the challenges of hot forging."
+    }
+  },
+  {
+    "slug": "make-presentazione",
+    "date": "2026-07-22",
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/07/News_Luglio2026_MA.KE_Copertina.jpg",
+    "title": {
+      "it": "Nasce MA.KE, una nuova idea di produzione industriale",
+      "en": "MA.KE is born, a new idea of industrial production"
+    },
+    "excerpt": {
+      "it": "Un progetto strategico che ripensa come gli impianti industriali vengono progettati, gestiti ed evolvono nel tempo.",
+      "en": "A strategic project that rethinks how industrial assets are designed, managed and evolve over time."
+    }
+  },
+  {
+    "slug": "hf1000xl-pressa-idraulica",
+    "date": "2026-06-16",
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/06/News_Giugno2026_HF1000XL_Copertina-1.jpg",
+    "title": {
+      "it": "HF1000XL: una pressa idraulica per le forgiature più impegnative",
+      "en": "HF1000XL: a hydraulic press for the toughest forgings"
+    },
+    "excerpt": {
+      "it": "Una pressa idraulica da 1.000 tonnellate per componenti di grandi dimensioni e geometrie complesse.",
+      "en": "A 1,000-tonne hydraulic press for large components and complex shapes."
+    }
+  },
+  {
+    "slug": "nuova-sede-alpharetta",
+    "date": "2026-05-15",
+    "image": "https://ficepgroup.com/wp-content/uploads/2026/05/Copertina_News_Alpharetta.jpg",
+    "title": {
+      "it": "Una nuova sede ad Alpharetta, negli Stati Uniti",
+      "en": "A new site in Alpharetta, United States"
+    },
+    "excerpt": {
+      "it": "FICEP Corporation prepara l’apertura della nuova sede di Alpharetta, in Georgia: un investimento a lungo termine sul mercato nordamericano.",
+      "en": "FICEP Corporation is preparing to open its new site in Alpharetta, Georgia: a long-term investment in the North American market."
     }
   }
 ]

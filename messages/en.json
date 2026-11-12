@@ -2,7 +2,7 @@
   "banner": "Redesign concept – not the official FICEP website",
   "meta": {
     "title": "FICEP redesign concept",
-    "description": "Independent redesign proposal: machines in 3D, site tours and a guided machine finder. Not the official website."
+    "description": "Independent redesign proposal for the FICEP website: full catalogue, machines in 3D, a walkable plant and a machine finder. Not the official website."
   },
   "header": {
     "logo": "Placeholder logo",
@@ -13,32 +13,73 @@
     "finder": "Find your machine",
     "contact": "Contact"
   },
-  "stage": {
-    "region": "in 3D",
-    "placeholder": "Simplified 3D model · placeholder",
+  "viewer": {
+    "placeholder": "Simplified 3D model",
     "explode": "Explode",
     "assemble": "Reassemble",
+    "explodeAmount": "How far the machine opens",
     "zoomIn": "Zoom in",
     "zoomOut": "Zoom out",
     "components": "Components",
     "componentOf": "Component {n} of {total}",
     "closeCard": "Close card",
-    "canvas": "3D model of the machine. Drag to rotate it.",
-    "noWebgl": "This browser cannot show 3D. The components are still in the list."
+    "canvas": "3D model. Drag to rotate it.",
+    "noWebgl": "This browser cannot show 3D. The components are still in the list.",
+    "hint": "Drag to rotate"
+  },
+  "catalog": {
+    "kicker": "Machines",
+    "title": "The full range",
+    "lead": "44 machines in two divisions. Filter by family or by process, or search by name.",
+    "all": "All",
+    "search": "Search a machine",
+    "process": "Process",
+    "anyProcess": "All processes",
+    "count": "{n} machines",
+    "none": "No machine matches the filters.",
+    "reset": "Clear filters",
+    "open": "Details"
+  },
+  "machine": {
+    "processes": "Processes",
+    "profiles": "Sections handled",
+    "materials": "Materials",
+    "viewerKicker": "3D model",
+    "viewerTitle": "See it from every side, then open it.",
+    "viewerBody": "Rotate the model, set how far it opens with the slider and tap a component to see what it does.",
+    "features": "Main features",
+    "advantages": "Advantages",
+    "specs": "Technical data",
+    "specsNote": "Figures from FICEP's public catalogue.",
+    "gallery": "Gallery",
+    "video": "Video",
+    "related": "In the same family",
+    "requestInfo": "Request information",
+    "view3d": "View in 3D",
+    "source": "Original page on ficepgroup.com",
+    "model": "Model"
   },
   "common": {
-    "placeholderImage": "Placeholder image",
     "example": "Sample content",
-    "past": "Ended"
+    "past": "Ended",
+    "discover": "Discover",
+    "seeAlso": "See also",
+    "solution": "Machines for this sector",
+    "allSectors": "All sectors"
   },
   "footer": {
-    "disclaimer": "Independent concept, not affiliated with FICEP S.p.A. Logo, 3D models, images and video are placeholders; copy has been rewritten.",
+    "disclaimer": "Independent concept, not affiliated with FICEP S.p.A. Photos, icons and video belong to FICEP and are loaded from the official site for demonstration only. Logo and 3D models are placeholders; copy has been rewritten.",
     "address": "Headquarters"
   },
   "soon": {
     "kicker": "Coming soon",
     "title": "This page arrives in the next phases.",
-    "body": "The concept is built in stages: home, 3D viewer, site tours, then the rest of the site.",
+    "body": "The concept is built in stages.",
     "back": "Back to home"
+  },
+  "gallery": {
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "show": "Show photo"
   }
 }

@@ -1,0 +1,320 @@
+{
+  "slug": "pvx",
+  "name": "PVX",
+  "division": "forging",
+  "divisionSlug": "forgiatura",
+  "category": "presse",
+  "summary": {
+    "it": "Pressa a frizione.",
+    "en": "Friction screw press."
+  },
+  "descriptor": {
+    "it": "Presse a vite a frizione",
+    "en": "Friction screw presses"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2022/04/W-p-PVX.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2022/04/L-PVX.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/pvx/",
+  "processes": [
+    {
+      "label": {
+        "it": "Preformatura",
+        "en": "Preforming"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Preformatura_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Sagomatura - stampaggio",
+        "en": "Forming - Forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Sagomatura-stampaggio_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Stampaggio senza bava",
+        "en": "Flashless forging"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Stampaggio-senza-bava_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Coniatura",
+        "en": "Coining"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/Coniatura_ico.svg"
+    }
+  ],
+  "profiles": [],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Struttura ad anello chiuso",
+        "en": "Closed ring frame"
+      },
+      "text": {
+        "it": "La struttura chiusa assorbe l'urto: bastano fondazioni leggere.",
+        "en": "The closed frame absorbs the shock, so light foundations are enough."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Robustezza e produttivita'",
+        "en": "Robust and productive"
+      },
+      "text": {
+        "it": "Un progetto semplice che dà robustezza e alta produttività.",
+        "en": "A simple design that brings strength and high output."
+      },
+      "image": ""
+    },
+    {
+      "title": {
+        "it": "Elevata potenza",
+        "en": "Powerful"
+      },
+      "text": {
+        "it": "Molta energia a ogni colpo: una pressa piccola fa il lavoro di una più grande.",
+        "en": "High energy per blow: a small press does the work of a larger one."
+      },
+      "image": ""
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Senza punto morto inferiore: la pressa non si blocca.",
+      "en": "No bottom dead centre: the press cannot jam."
+    },
+    {
+      "it": "Energia preregolabile con precisione, per consumare meno.",
+      "en": "Energy can be preset precisely, to use less."
+    },
+    {
+      "it": "Una o due battute dove un maglio ne richiede sette o otto.",
+      "en": "One or two blows where a hammer needs seven or eight."
+    },
+    {
+      "it": "Si integra in linee di stampaggio automatiche.",
+      "en": "Integrates into automatic forging lines."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g1-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g3-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g2-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g8.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g4.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g7.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g5-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2022/04/PVX_g6-1.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Presse a vite a frizione",
+        "en": "Friction screw presses"
+      },
+      "models": [
+        "PVX 160",
+        "PVX 200",
+        "PVX 230",
+        "PVX 260"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Diametro vite [mm]",
+            "en": "Screw diameter [mm]"
+          },
+          "values": [
+            "160",
+            "205",
+            "230",
+            "260"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza in continuo max.[kN]",
+            "en": "Continuous force max. [kN]"
+          },
+          "values": [
+            "4350",
+            "6700",
+            "8500",
+            "11600"
+          ]
+        },
+        {
+          "label": {
+            "it": "Energia lorda [kJ]",
+            "en": "Gross energy [kJ]"
+          },
+          "values": [
+            "17",
+            "38",
+            "54",
+            "80"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al minuto max. [no.]",
+            "en": "Stroke per minute max. [no.]"
+          },
+          "values": [
+            "50",
+            "38",
+            "32",
+            "30"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "300",
+            "400",
+            "430",
+            "460"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale - slitta in basso [mm]",
+            "en": "Vertical clearance - ram at bottom [mm]"
+          },
+          "values": [
+            "400",
+            "580",
+            "620",
+            "700"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce orizzontale [mm]",
+            "en": "Horizontal clearance [mm]"
+          },
+          "values": [
+            "400",
+            "500",
+            "560",
+            "640"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Presse a vite a frizione",
+        "en": "Friction screw presses"
+      },
+      "models": [
+        "PVX 310",
+        "PVX 350",
+        "PVX 370",
+        "PVX 410"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Diametro vite [mm]",
+            "en": "Screw diameter [mm]"
+          },
+          "values": [
+            "310",
+            "350",
+            "368",
+            "410"
+          ]
+        },
+        {
+          "label": {
+            "it": "Forza in continuo max.[kN]",
+            "en": "Continuous force max. [kN]"
+          },
+          "values": [
+            "17000",
+            "21600",
+            "22000",
+            "27000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Energia lorda [kJ]",
+            "en": "Gross energy [kJ]"
+          },
+          "values": [
+            "140",
+            "200",
+            "240",
+            "331"
+          ]
+        },
+        {
+          "label": {
+            "it": "Colpi al minuto max. [no.]",
+            "en": "Stroke per minute max. [no.]"
+          },
+          "values": [
+            "26",
+            "24",
+            "20",
+            "18"
+          ]
+        },
+        {
+          "label": {
+            "it": "Corsa slitta [mm]",
+            "en": "Ram stroke [mm]"
+          },
+          "values": [
+            "520",
+            "550",
+            "550",
+            "600"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce verticale - slitta in basso [mm]",
+            "en": "Vertical clearance - ram at bottom [mm]"
+          },
+          "values": [
+            "700",
+            "1000",
+            "1100",
+            "1200"
+          ]
+        },
+        {
+          "label": {
+            "it": "Luce orizzontale [mm]",
+            "en": "Horizontal clearance [mm]"
+          },
+          "values": [
+            "700",
+            "780",
+            "900",
+            "1100"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "press",
+    "variant": "screw"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di materiali ferrosi e non ferrosi (acciai, leghe alluminio, leghe rame, titanio)",
+    "en": "All ferrous and non-ferrous materials (steels, aluminium alloys, copper alloys, titanium)"
+  }
+}

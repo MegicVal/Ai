@@ -1,0 +1,205 @@
+{
+  "slug": "primer-coating-line",
+  "name": "PRIMER COATING LINE",
+  "division": "steel",
+  "divisionSlug": "carpenteria-metallica",
+  "category": "trattamento-superfici",
+  "summary": {
+    "it": "Applica il primer su strutture, profili e lamiere.",
+    "en": "Applies primer to structures, sections and plates."
+  },
+  "descriptor": {
+    "it": "Sistemi di verniciatura primer",
+    "en": "Primer coating systems"
+  },
+  "hero": "https://ficepgroup.com/wp-content/uploads/2026/03/Primer-coating-line-1080.jpg",
+  "thumb": "https://ficepgroup.com/wp-content/uploads/2026/03/Primer-coating-line-1080.jpg",
+  "source": "https://ficepgroup.com/it/prodotti/primer-coating-line/",
+  "processes": [
+    {
+      "label": {
+        "it": "Verniciatura",
+        "en": "Painting"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2026/03/Verniciatura_ico.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "label": {
+        "it": "Travi",
+        "en": "Beams"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2025/02/r_Main_Travi_ico.svg"
+    },
+    {
+      "label": {
+        "it": "Lamiere",
+        "en": "Plates"
+      },
+      "icon": "https://ficepgroup.com/wp-content/uploads/2022/04/r_Main_Piatti_ico.svg"
+    }
+  ],
+  "materials": [],
+  "features": [
+    {
+      "title": {
+        "it": "Stazione di soffiaggio ad aria per la rimozione di contaminanti e residui d'acqua",
+        "en": "Air blower station to remove contaminants and water residue"
+      },
+      "text": {
+        "it": "Soffia via polvere, sporco e acqua prima della verniciatura.",
+        "en": "Blows off dust, dirt and water before painting."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Air-blower-station-to-remove-contaminants-and-water-residue.jpg"
+    },
+    {
+      "title": {
+        "it": "Stazione di preriscaldamento e sistema di asciugatura",
+        "en": "Preheating station & drying system"
+      },
+      "text": {
+        "it": "Asciugatura ad aria, UV o infrarossi.",
+        "en": "Drying by air circulation, UV or infrared."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Preheating-station-drying-system-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Unità di verniciatura con pistole airless",
+        "en": "Painting unit with airless spray guns"
+      },
+      "text": {
+        "it": "Pistole airless con alimentazione e dosaggio della vernice.",
+        "en": "Airless guns with paint feed and metering."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/spying-guns-2.jpg"
+    },
+    {
+      "title": {
+        "it": "Cabina con filtro a secco",
+        "en": "Dry filter booth"
+      },
+      "text": {
+        "it": "Cabina ventilata con filtrazione a secco dell'aria di verniciatura.",
+        "en": "Ventilated booth with dry filtration of the spray air."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Dry-filter-booth-1.jpg"
+    },
+    {
+      "title": {
+        "it": "Carico e scarico manuale o automatico",
+        "en": "Manual or automatic loading and unloading"
+      },
+      "text": {
+        "it": "Carico manuale o automatico con trasportatori a catena o a rulli.",
+        "en": "Manual or automatic loading with chain or roller conveyors."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/Manual-or-automatic-loading-and-unloading_bk.jpg"
+    },
+    {
+      "title": {
+        "it": "Scansione 3D e teCNologia di riconoscimento dei componenti",
+        "en": "3D-scanning & component recognition technology"
+      },
+      "text": {
+        "it": "Riconosce in 3D i contorni dei pezzi per verniciare solo dove serve.",
+        "en": "Recognises part outlines in 3D to paint only where needed."
+      },
+      "image": "https://ficepgroup.com/wp-content/uploads/2026/03/3d-scanning-component-recognition-technology-1.jpg"
+    }
+  ],
+  "advantages": [
+    {
+      "it": "Impianto robusto a flusso continuo.",
+      "en": "A sturdy continuous-flow system."
+    },
+    {
+      "it": "Adatta alla produzione in serie.",
+      "en": "Suited to series production."
+    },
+    {
+      "it": "Per semilavorati standard in acciaio.",
+      "en": "For standard semi-finished steel products."
+    }
+  ],
+  "gallery": [
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg2-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg3-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg4-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg5-1.jpg",
+    "https://ficepgroup.com/wp-content/uploads/2026/03/mg6-1.jpg"
+  ],
+  "video": null,
+  "specs": [
+    {
+      "title": {
+        "it": "Sistemi di verniciatura",
+        "en": "Painting systems"
+      },
+      "models": [
+        "SISTEMA DI VERNICIATURA PRIMER"
+      ],
+      "rows": [
+        {
+          "label": {
+            "it": "Tipo di materiale",
+            "en": "Type of material"
+          },
+          "values": [
+            "Travi in acciaio, lamiere in acciaio"
+          ]
+        },
+        {
+          "label": {
+            "it": "Larghezza materiale [max mm]",
+            "en": "Material width [max.mm]"
+          },
+          "values": [
+            "4000"
+          ]
+        },
+        {
+          "label": {
+            "it": "Altezza finestra di spruzzatura [mm]",
+            "en": "Spray window height [mm]"
+          },
+          "values": [
+            "500"
+          ]
+        },
+        {
+          "label": {
+            "it": "Tipo di rivestimento",
+            "en": "Type of coating"
+          },
+          "values": [
+            "Vernice a base solvente (VOC) e/o a base acqua"
+          ]
+        },
+        {
+          "label": {
+            "it": "Pistole di spruzzatura [n.]",
+            "en": "Spray guns [no.]"
+          },
+          "values": [
+            "4/8"
+          ]
+        },
+        {
+          "label": {
+            "it": "DTF [Spessore film secco – µm]",
+            "en": "DTF [Dry film thickness - µm]"
+          },
+          "values": [
+            "15/20"
+          ]
+        }
+      ]
+    }
+  ],
+  "viewer": {
+    "archetype": "tunnel",
+    "variant": "coating"
+  }
+}
