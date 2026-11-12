@@ -18,8 +18,8 @@
   "processes": [
     {
       "label": {
-        "it": "VERNICIATURA",
-        "en": "PAINTING"
+        "it": "Verniciatura",
+        "en": "Painting"
       },
       "icon": "https://ficepgroup.com/wp-content/uploads/2026/03/Verniciatura_ico.svg"
     }
@@ -27,8 +27,8 @@
   "profiles": [
     {
       "label": {
-        "it": "TRAVI",
-        "en": "BEAMS"
+        "it": "Travi",
+        "en": "Beams"
       },
       "icon": "https://ficepgroup.com/wp-content/uploads/2025/02/r_Main_Travi_ico.svg"
     }
