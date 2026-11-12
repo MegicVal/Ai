@@ -30,8 +30,8 @@ export function MachineShowcase({ items, labels, openLabel }: { items: ShowcaseI
             id={`showcase-${entry.slug}`}
             aria-selected={position === index}
             onClick={() => setIndex(position)}
-            className={`min-h-11 flex-none cursor-pointer rounded-xs border px-4 font-semibold whitespace-nowrap transition-colors ${
-              position === index ? "border-paper bg-paper text-ink" : "border-rule text-fog hover:border-paper hover:text-paper"
+            className={`min-h-11 flex-none cursor-pointer rounded-sm border px-4 font-semibold whitespace-nowrap transition-colors ${
+              position === index ? "border-accent bg-accent text-white" : "border-line bg-white text-ink-2 hover:border-accent hover:text-accent"
             }`}
           >
             {entry.name}
@@ -42,7 +42,7 @@ export function MachineShowcase({ items, labels, openLabel }: { items: ShowcaseI
       <div className="wrap flex flex-wrap items-center justify-between gap-4 py-6">
         <p className="max-w-[60ch]">
           <span className="label mr-3 text-accent-hi">{item.family}</span>
-          <span className="text-fog">{item.summary}</span>
+          <span className="text-ink-2">{item.summary}</span>
         </p>
         <Link href={item.href} className="btn btn-ghost">
           {openLabel}: {item.name}

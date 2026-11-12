@@ -376,5 +376,9 @@
   "viewer": {
     "archetype": "press",
     "variant": "screw"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di materiali ferrosi e non ferrosi (acciai, leghe alluminio, leghe rame, titanio)",
+    "en": "All ferrous and non-ferrous materials (steels, aluminium alloys, copper alloys, titanium)"
   }
 }

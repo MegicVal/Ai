@@ -60,7 +60,7 @@ function Scene({ name, source, parts, control, onSelect }: SceneProps) {
       <directionalLight position={[-8, 5, -7]} intensity={1.3} color={0xbfe9df} />
       <mesh rotation-x={-Math.PI / 2} position-y={-0.002} receiveShadow>
         <circleGeometry args={[19, 64]} />
-        <meshStandardMaterial ref={floor} color={0x161c1a} roughness={0.5} metalness={0.2} alphaMap={fade} transparent />
+        <meshStandardMaterial ref={floor} color={0xc3cdc9} roughness={0.55} metalness={0.05} alphaMap={fade} transparent />
       </mesh>
       {rig.entries.map(({ part, built }) => (
         <primitive key={part.id} object={built.group} onClick={pick(part.id)} />
@@ -84,7 +84,7 @@ export default function MachineCanvas({ active, label, onReady, ...scene }: Mach
       gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
       camera={{ fov: 30, near: 0.1, far: 300, position: [8, 6, 10] }}
       onCreated={({ gl }) => {
-        gl.toneMappingExposure = 1.12;
+        gl.toneMappingExposure = 1.02;
         onReady();
       }}
       role="img"

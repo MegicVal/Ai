@@ -71,8 +71,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.2,
@@ -87,8 +87,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.2,
@@ -169,8 +169,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.0,
@@ -185,8 +185,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.0,
@@ -283,8 +283,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.0,
@@ -299,8 +299,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.0,
@@ -381,8 +381,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         0.6,
@@ -397,8 +397,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         0.6,
@@ -479,8 +479,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         0.6,
@@ -495,8 +495,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         0.6,
@@ -561,8 +561,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.0,
@@ -577,8 +577,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.0,
@@ -643,8 +643,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.0,
@@ -659,8 +659,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.0,
@@ -741,8 +741,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.0,
@@ -757,8 +757,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.0,
@@ -839,8 +839,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         1.2,
@@ -855,8 +855,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         1.2,
@@ -937,8 +937,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         0.6,
@@ -953,8 +953,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         0.6,
@@ -1019,8 +1019,8 @@
         "en": "Control station"
       },
       "function": {
-        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione. Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
-        "en": "The operator starts programs and follows the job from here. The numerical control is developed by Mitrol, part of the FICEP group."
+        "it": "Da qui l'operatore avvia i programmi e segue la lavorazione.",
+        "en": "The operator starts programs and follows the job from here."
       },
       "explode": [
         0.8,
@@ -1035,8 +1035,8 @@
         "en": "Software"
       },
       "function": {
-        "it": "Riceve i disegni dall'ufficio tecnico, ottimizza il materiale e genera i programmi per la macchina.",
-        "en": "Takes drawings from the design office, optimises material and generates the machine programs."
+        "it": "Gestisce i programmi di lavoro e i dati di produzione della macchina.",
+        "en": "Manages the machine’s work programs and production data."
       },
       "explode": [
         0.8,

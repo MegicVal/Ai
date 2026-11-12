@@ -5,8 +5,8 @@
   "divisionSlug": "forgiatura",
   "category": "cesoie",
   "summary": {
-    "it": "Cesoia meccanica per barre in ottone e leghe.",
-    "en": "Mechanical shear for brass and alloy bars."
+    "it": "Cesoia meccanica a freddo e a semi-caldo per l’ottone.",
+    "en": "Mechanical cold and warm shear for brass."
   },
   "descriptor": {
     "it": "Cesoie meccaniche a freddo & semicaldo per ottone",
@@ -195,5 +195,9 @@
   "viewer": {
     "archetype": "shear",
     "variant": "mechanical"
+  },
+  "materialsNote": {
+    "it": "Leghe di rame (ottoni, bronzi, ecc), leghe di alluminio",
+    "en": "Copper alloys (brass, bronze, etc.), aluminium alloys"
   }
 }

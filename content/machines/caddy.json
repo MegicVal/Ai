@@ -309,5 +309,9 @@
   "viewer": {
     "archetype": "shear",
     "variant": "mechanical"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di acciaio",
+    "en": "All types of steel"
   }
 }

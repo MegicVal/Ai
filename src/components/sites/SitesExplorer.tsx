@@ -147,13 +147,13 @@ export function SitesExplorer({
               {labels.mapTitle}
             </h2>
             <svg viewBox="0 0 1000 500" className="h-auto w-full" role="group" aria-labelledby="map-title">
-              <path d={land} className="fill-ghost stroke-line" strokeWidth="0.5" />
+              <path d={land} className="fill-mint stroke-accent/25" strokeWidth="0.5" />
               {markers.map((marker) => {
                 const on = marker.slug === site;
                 return (
                   <g key={marker.slug} transform={`translate(${marker.x} ${marker.y})`}>
-                    {on && <circle r="13" className={marker.kind === "hq" ? "fill-hot/25" : "fill-accent/25"} />}
-                    <circle r={marker.kind === "hq" ? 6.5 : 4.5} className={`${marker.kind === "hq" ? "fill-hot" : "fill-accent"} stroke-white`} strokeWidth="1.5" />
+                    {on && <circle r="13" className="fill-accent/20" />}
+                    <circle r={marker.kind === "hq" ? 6.5 : 4.5} className={`${marker.kind === "hq" ? "fill-accent" : "fill-accent-hi"} stroke-white`} strokeWidth="1.5" />
                     <circle
                       r="14"
                       fill="transparent"
@@ -171,9 +171,9 @@ export function SitesExplorer({
             </svg>
           </div>
           <div className="grid gap-5">
-            <div className="grid gap-3 bg-white p-6" aria-live="polite">
-              <span className={`label ${selected.kind === "hq" ? "text-hot" : "text-accent"}`}>{selected.kind === "hq" ? labels.hq : labels.subsidiary}</span>
-              <h3 className="display text-2xl leading-tight font-bold">{selected.name}</h3>
+            <div className="card grid gap-3 p-6" aria-live="polite">
+              <span className="label text-accent-hi">{selected.kind === "hq" ? labels.hq : labels.subsidiary}</span>
+              <h3 className="display text-2xl leading-tight font-bold text-accent">{selected.name}</h3>
               <p className="text-ink-2">
                 {selected.city}, {selected.country}
               </p>
@@ -204,12 +204,12 @@ export function SitesExplorer({
         </div>
       </section>
 
-      <section ref={stageRef} className="on-dark scroll-mt-(--nh) bg-ink text-paper" aria-label={plant.name} id="stabilimento">
+      <section ref={stageRef} className="scroll-mt-(--nh) bg-white" aria-label={plant.name} id="stabilimento">
         <div className="wrap flex flex-wrap items-end justify-between gap-4 pt-12 pb-5">
           <div className="grid gap-2">
             <span className="label text-accent-hi">{labels.hq}</span>
-            <h2 className="display text-[clamp(1.8rem,4vw,3.2rem)] leading-none font-extrabold">{plant.name}</h2>
-            <p className="text-fog">{plant.address}</p>
+            <h2 className="display text-[clamp(1.8rem,4vw,3.2rem)] leading-none font-bold text-accent">{plant.name}</h2>
+            <p className="text-ink-2">{plant.address}</p>
           </div>
           <div role="tablist" className="flex flex-wrap gap-2">
             {tabs.map(([id, name]) => (
@@ -220,8 +220,8 @@ export function SitesExplorer({
                 id={`site-tab-${id}`}
                 aria-selected={view === id}
                 onClick={() => show(id)}
-                className={`min-h-11 cursor-pointer rounded-xs border px-4 font-semibold transition-colors ${
-                  view === id ? "border-paper bg-paper text-ink" : "border-rule text-fog hover:border-paper hover:text-paper"
+                className={`min-h-11 cursor-pointer rounded-sm border px-4 font-semibold transition-colors ${
+                  view === id ? "border-accent bg-accent text-white" : "border-line bg-white text-ink-2 hover:border-accent hover:text-accent"
                 }`}
               >
                 {name}
@@ -263,7 +263,7 @@ export function SitesExplorer({
                   </button>
                 ))}
               </div>
-              <p className="label absolute top-4 left-(--gutter) max-w-[60%] text-fog">{labels.drag}</p>
+              <p className="label absolute top-4 left-(--gutter) max-w-[60%] rounded-sm bg-white/85 px-2 py-1 text-ink-2">{labels.drag}</p>
               <div className="absolute right-(--gutter) bottom-4 flex flex-wrap justify-end gap-2">
                 <a className="site-tool" href={`https://earth.google.com/web/@${lat},${lon},300a,650d,35y,20h,60t,0r`} target="_blank" rel="noreferrer">
                   {labels.openEarth}
@@ -275,7 +275,7 @@ export function SitesExplorer({
                   +
                 </button>
               </div>
-              <p className="absolute bottom-4 left-(--gutter) max-w-[55%] text-[11px] text-fog">
+              <p className="absolute bottom-4 left-(--gutter) max-w-[55%] rounded-sm bg-white/85 px-2 py-1 text-[11px] text-ink-2">
                 {labels.roleNote} · {plant.attribution} · {plant.ground.attribution}
               </p>
             </>
@@ -317,21 +317,21 @@ export function SitesExplorer({
 
               <div className="tour-panel">
                 <span className="label text-accent-hi">{zone.name}</span>
-                <strong className="display text-xl leading-tight font-bold">{currentNode.name}</strong>
-                <p className="text-sm text-fog">{zone.text}</p>
+                <strong className="display text-xl leading-tight font-bold text-accent">{currentNode.name}</strong>
+                <p className="text-sm text-ink-2">{zone.text}</p>
                 <div className="photo aspect-[16/9] max-sm:hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element -- remote demo photo from FICEP's site */}
                   <img src={zone.photo} alt="" loading="lazy" referrerPolicy="no-referrer" />
                 </div>
-                <Link href={zone.href} className="text-sm font-semibold text-accent-hi hover:text-paper">
+                <Link href={zone.href} className="text-sm font-semibold text-accent hover:text-deep">
                   {labels.openPage} →
                 </Link>
               </div>
 
               {activeMachine && (
                 <div className="tour-machine" aria-live="polite">
-                  <strong className="display text-lg font-bold">{activeMachine.name}</strong>
-                  <p className="text-sm text-fog">{activeMachine.summary}</p>
+                  <strong className="display text-lg font-bold text-accent">{activeMachine.name}</strong>
+                  <p className="text-sm text-ink-2">{activeMachine.summary}</p>
                   <Link href={activeMachine.href} className="btn btn-solid min-h-10 justify-self-start text-sm">
                     {labels.machineOpen}
                   </Link>
@@ -347,7 +347,7 @@ export function SitesExplorer({
                       y={item.rect[1]}
                       width={item.rect[2] - item.rect[0]}
                       height={item.rect[3] - item.rect[1]}
-                      className={item.id === zone.id ? "fill-accent/45 stroke-accent-hi" : "fill-coal stroke-steel"}
+                      className={item.id === zone.id ? "fill-accent/25 stroke-accent" : "fill-white stroke-steel"}
                       strokeWidth="0.35"
                     />
                   ))}
@@ -357,7 +357,7 @@ export function SitesExplorer({
                       cx={item.pos[0]}
                       cy={item.pos[1]}
                       r="1.5"
-                      className={`cursor-pointer ${item.id === node ? "fill-hot" : "fill-paper"}`}
+                      className={`cursor-pointer ${item.id === node ? "fill-accent" : "fill-steel"}`}
                       tabIndex={0}
                       role="button"
                       aria-label={item.id === node ? `${labels.youAreHere}: ${item.name}` : `${labels.goTo} ${item.name}`}
@@ -370,11 +370,11 @@ export function SitesExplorer({
                       control.current.compass = element;
                     }}
                   >
-                    <path d="M0 5.5 L-2.6 -1.5 L2.6 -1.5 Z" className="fill-hot/70" />
+                    <path d="M0 5.5 L-2.6 -1.5 L2.6 -1.5 Z" className="fill-accent/60" />
                   </g>
                 </svg>
               </div>
-              <p className="label absolute top-4 right-(--gutter) text-right text-fog max-sm:hidden">{labels.lookAround}</p>
+              <p className="label absolute top-4 right-(--gutter) rounded-sm bg-white/85 px-2 py-1 text-right text-ink-2 max-sm:hidden">{labels.lookAround}</p>
             </>
           )}
 
@@ -390,7 +390,7 @@ export function SitesExplorer({
 
           {view === "earth" && mapsKey && <GoogleEarth mapsKey={mapsKey} lat={lat} lon={lon} />}
         </div>
-        {view === "tour" && <p className="wrap py-4 text-xs text-fog">{labels.tourNote}</p>}
+        {view === "tour" && <p className="wrap py-4 text-xs text-ink-2">{labels.tourNote}</p>}
       </section>
     </>
   );

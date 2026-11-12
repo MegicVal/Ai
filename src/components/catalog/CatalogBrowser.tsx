@@ -72,11 +72,11 @@ export function CatalogBrowser({
   };
   const tab = (active: boolean) =>
     `min-h-11 cursor-pointer rounded-xs border px-4 font-semibold transition-colors ${
-      active ? "border-ink bg-ink text-paper" : "border-line bg-white hover:border-ink"
+      active ? "border-accent bg-accent text-white" : "border-line bg-white hover:border-accent hover:text-accent"
     }`;
   const chip = (active: boolean) =>
     `label min-h-9 cursor-pointer rounded-xs border px-3 transition-colors ${
-      active ? "border-accent bg-accent text-white" : "border-line bg-white text-ink-2 hover:border-ink hover:text-ink"
+      active ? "border-accent bg-mint text-accent" : "border-line bg-white text-ink-2 hover:border-accent hover:text-accent"
     }`;
 
   return (
@@ -105,7 +105,7 @@ export function CatalogBrowser({
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder={labels.search}
-              className="min-h-11 w-full rounded-xs border border-line bg-white px-4 placeholder:text-ink-2 focus:border-ink"
+              className="min-h-11 w-full rounded-xs border border-line bg-white px-4 placeholder:text-ink-2 focus:border-accent"
             />
           </label>
         </div>
@@ -150,11 +150,11 @@ export function CatalogBrowser({
           {shown.map((item) => (
             <li key={item.slug}>
               <Link href={item.href} className="group grid h-full content-start gap-3">
-                <div className="photo aspect-[16/9]">
+                <div className="photo aspect-[16/9] bg-white">
                   {/* eslint-disable-next-line @next/next/no-img-element -- remote demo imagery from FICEP's site */}
                   <img src={item.thumb} alt={item.name} loading="lazy" decoding="async" referrerPolicy="no-referrer" />
                 </div>
-                <span className="label text-accent">{item.categoryName}</span>
+                <span className="label text-accent-hi">{item.categoryName}</span>
                 <strong className="display text-xl leading-tight font-bold transition-colors group-hover:text-accent">{item.name}</strong>
                 <span className="text-[0.95rem] text-ink-2">{item.summary}</span>
               </Link>

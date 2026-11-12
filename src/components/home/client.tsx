@@ -27,7 +27,7 @@ export function HeroVideo({ src, poster }: { src: string; poster: string }) {
   return (
     <video
       ref={ref}
-      className="absolute inset-0 -z-20 size-full bg-ink object-cover"
+      className="bg-accent"
       poster={poster}
       muted
       loop
@@ -57,7 +57,7 @@ export function NewsletterForm({ placeholder, cta, demo }: { placeholder: string
           required
           autoComplete="email"
           placeholder={placeholder}
-          className="min-h-[46px] min-w-0 flex-1 basis-60 rounded-xs border border-ink bg-white px-4 placeholder:text-ink-2"
+          className="min-h-[46px] min-w-0 flex-1 basis-60 rounded-sm border border-line bg-white px-4 placeholder:text-ink-2 focus:border-accent"
         />
         <button type="submit" className="btn btn-solid">
           {cta}

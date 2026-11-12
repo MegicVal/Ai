@@ -7,8 +7,9 @@ import { href, tr, type Dictionary, type Locale } from "@/lib/i18n";
 import type { StagePart, ViewerLabels } from "@/components/machine/types";
 
 export const band = "py-[clamp(64px,9vw,128px)]";
-export const h2 = "display text-[clamp(2rem,5.2vw,4.6rem)] leading-[0.95] font-extrabold";
-export const h3 = "display text-[clamp(1.5rem,3vw,2.4rem)] leading-none font-bold";
+/** Section and page titles carry FICEP green. */
+export const h2 = "display text-[clamp(2rem,4.8vw,4.2rem)] leading-[0.98] font-bold text-accent";
+export const h3 = "display text-[clamp(1.5rem,2.8vw,2.3rem)] leading-[1.05] font-bold text-accent";
 
 export const arrow = (
   <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1.5">
@@ -32,22 +33,22 @@ export function Photo({ src, alt = "", className = "", eager = false }: { src: s
   );
 }
 
-/** Dark hero with pictures playing behind the text. Shared by every inner page. */
-export function HeroShell({ images, tall = false, children }: { images: string[]; tall?: boolean; children: ReactNode }) {
+/**
+ * Page opening shared by every page: pictures playing across the full width,
+ * and a white card with the title lifted over their lower edge.
+ */
+export function HeroShell({ images, media, tall = false, children }: { images?: string[]; media?: ReactNode; tall?: boolean; children: ReactNode }) {
   return (
-    <section className="on-dark relative isolate overflow-hidden bg-ink text-paper">
-      {images.length > 0 && (
-        <>
-          <Slideshow images={images} priority className="!absolute inset-0 -z-20" />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/65 to-ink/55" />
-        </>
-      )}
-      <div className={`wrap grid content-end gap-5 pt-40 pb-16 ${tall ? "min-h-[78svh]" : "min-h-[60svh]"}`}>{children}</div>
+    <section className="pb-[clamp(28px,4vw,56px)]">
+      <div className={`hero-media ${tall ? "tall" : ""}`}>{media ?? (images && images.length > 0 && <Slideshow images={images} priority />)}</div>
+      <div className="wrap">
+        <div className="hero-card card">{children}</div>
+      </div>
     </section>
   );
 }
 
-/** Top of an inner page: pictures behind, kicker, large title, lead. */
+/** Top of an inner page: pictures, kicker, green title, lead. */
 export function PageHero({
   kicker,
   title,
@@ -66,18 +67,18 @@ export function PageHero({
   return (
     <HeroShell images={pictures(image, ...(images ?? []))}>
       <span className="label text-accent-hi">{kicker}</span>
-      <h1 className="display max-w-[18ch] text-[clamp(2.4rem,7vw,6rem)] leading-[0.92] font-extrabold">{title}</h1>
-      {lead && <p className="max-w-[58ch] text-lg text-[#d5dbd8]">{lead}</p>}
+      <h1 className="display max-w-[18ch] text-[clamp(2.3rem,6vw,5rem)] leading-[0.95] font-bold text-accent">{title}</h1>
+      {lead && <p className="max-w-[60ch] text-lg text-ink-2">{lead}</p>}
       {children}
     </HeroShell>
   );
 }
 
-export function SectionHead({ kicker, title, id, dark = false }: { kicker?: string; title: string; id?: string; dark?: boolean }) {
+export function SectionHead({ kicker, title, id }: { kicker?: string; title: string; id?: string }) {
   return (
     <Reveal className="grid gap-3">
-      {kicker && <span className={`label ${dark ? "text-accent-hi" : "text-accent"}`}>{kicker}</span>}
-      <h2 id={id} className={`${h2} max-w-[16ch]`}>
+      {kicker && <span className="label text-accent-hi">{kicker}</span>}
+      <h2 id={id} className={`${h2} max-w-[17ch]`}>
         {title}
       </h2>
     </Reveal>
@@ -85,27 +86,38 @@ export function SectionHead({ kicker, title, id, dark = false }: { kicker?: stri
 }
 
 /** Catalogue card: real photo, name, one-line summary. */
-export function MachineCard({ machine, lang, dark = false }: { machine: Pick<Machine, "slug" | "name" | "summary" | "thumb">; lang: Locale; dark?: boolean }) {
+export function MachineCard({ machine, lang }: { machine: Pick<Machine, "slug" | "name" | "summary" | "thumb">; lang: Locale }) {
   return (
     <Link href={href(lang, machinePath(machine.slug))} className="group grid h-full content-start gap-3">
-      <Photo src={machine.thumb} alt={machine.name} className="aspect-[16/9]" />
+      <Photo src={machine.thumb} alt={machine.name} className="aspect-[16/9] bg-white" />
       <span className="flex items-baseline justify-between gap-3">
         <strong className="display text-xl leading-tight font-bold transition-colors group-hover:text-accent">{machine.name}</strong>
-        <span className={dark ? "text-fog" : "text-steel"}>{arrow}</span>
+        <span className="text-accent">{arrow}</span>
       </span>
-      <span className={`text-[0.95rem] ${dark ? "text-fog" : "text-ink-2"}`}>{tr(machine.summary, lang)}</span>
+      <span className="text-[0.95rem] text-ink-2">{tr(machine.summary, lang)}</span>
     </Link>
   );
 }
 
 export const viewerLabels = (dict: Dictionary): ViewerLabels => dict.viewer;
 
+const mitrol = {
+  it: " Il controllo numerico è sviluppato da Mitrol, nel gruppo FICEP.",
+  en: " The numerical control is developed by Mitrol, part of the FICEP group.",
+};
+const steelProjects = {
+  it: " Per la carpenteria, la suite Steel Projects collega l'ufficio tecnico all'officina.",
+  en: " For steel fabrication, the Steel Projects suite links the design office to the shop floor.",
+};
+
 /** The translated component list of a machine's 3D model. */
 export function stageParts(machine: Machine, lang: Locale): StagePart[] {
+  const steel = machine.division === "steel";
   return (viewerParts[machine.viewer.archetype] ?? []).map((component) => ({
     id: component.id,
     name: tr(component.name, lang),
-    role: tr(component.function, lang),
+    // Mitrol controls and Steel Projects software are documented for the steel lines only.
+    role: tr(component.function, lang) + (steel && component.id === "cnc" ? tr(mitrol, lang) : steel && component.id === "sw" ? tr(steelProjects, lang) : ""),
     explode: component.explode,
   }));
 }

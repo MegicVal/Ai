@@ -154,15 +154,15 @@ export function MachineViewer({ name, source, parts, labels, className = "" }: M
         <aside className="viewer-card" aria-live="polite">
           <button
             type="button"
-            className="absolute top-2 right-2 grid size-8 cursor-pointer place-items-center text-lg text-fog"
+            className="absolute top-2 right-2 grid size-8 cursor-pointer place-items-center text-lg text-ink-2 hover:text-accent"
             aria-label={labels.closeCard}
             onClick={() => select(null)}
           >
             ×
           </button>
-          <span className="label text-hot">{fill(labels.componentOf, { n: activeIndex + 1, total: parts.length })}</span>
-          <h3 className="display text-2xl leading-[1.1] font-semibold">{active.name}</h3>
-          <p className="text-[0.95rem] text-fog">{active.role}</p>
+          <span className="label text-accent-hi">{fill(labels.componentOf, { n: activeIndex + 1, total: parts.length })}</span>
+          <h3 className="display text-2xl leading-[1.1] font-semibold text-accent">{active.name}</h3>
+          <p className="text-[0.95rem] text-ink-2">{active.role}</p>
         </aside>
       )}
 

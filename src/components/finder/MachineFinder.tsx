@@ -64,7 +64,7 @@ export function MachineFinder({
 
   const choose = (active: boolean) =>
     `min-h-11 cursor-pointer rounded-xs border px-4 py-2 text-left font-semibold transition-colors ${
-      active ? "border-accent bg-accent text-white" : "border-line bg-white hover:border-ink"
+      active ? "border-accent bg-accent text-white" : "border-line bg-white hover:border-accent hover:text-accent"
     }`;
   const toggle = (name: string) => setWanted((list) => (list.includes(name) ? list.filter((item) => item !== name) : [...list, name]));
   const reset = () => {
@@ -74,8 +74,8 @@ export function MachineFinder({
   };
   const heading = (number: number, text: string) => (
     <h2 className="flex items-baseline gap-4">
-      <span className="font-mono text-xs text-accent tabular-nums">{fill(labels.step, { n: number })}</span>
-      <span className="display text-[clamp(1.4rem,2.8vw,2.2rem)] leading-tight font-bold">{text}</span>
+      <span className="font-mono text-xs text-accent-hi tabular-nums">{fill(labels.step, { n: number })}</span>
+      <span className="display text-[clamp(1.4rem,2.8vw,2.2rem)] leading-tight font-bold text-accent">{text}</span>
     </h2>
   );
 
@@ -134,10 +134,10 @@ export function MachineFinder({
       )}
 
       {division && (
-        <section className="grid gap-6 border-t border-ink pt-10" aria-live="polite">
+        <section className="grid gap-6 border-t-2 border-accent pt-10" aria-live="polite">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div className="grid gap-2">
-              <h2 className="display text-[clamp(1.8rem,4vw,3rem)] leading-none font-extrabold">{labels.result}</h2>
+              <h2 className="display text-[clamp(1.8rem,4vw,3rem)] leading-none font-bold text-accent">{labels.result}</h2>
               <p className="text-ink-2">{labels.resultHint}</p>
             </div>
             <button type="button" className="btn btn-ghost" onClick={reset}>
@@ -149,7 +149,7 @@ export function MachineFinder({
           ) : (
             <ul className="grid gap-5 lg:grid-cols-3">
               {ranked.map(({ item, hits }) => (
-                <li key={item.slug} className="grid content-start gap-4 bg-white p-5">
+                <li key={item.slug} className="card grid content-start gap-4 p-5">
                   <div className="photo aspect-[16/9]">
                     {/* eslint-disable-next-line @next/next/no-img-element -- remote demo imagery from FICEP's site */}
                     <img src={item.thumb} alt={item.name} loading="lazy" referrerPolicy="no-referrer" />

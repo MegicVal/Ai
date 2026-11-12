@@ -4,8 +4,11 @@ import type { BuiltPart } from "../types";
 
 /** Physically based finishes, lit by the studio environment map. */
 const PALETTE = {
-  white: { color: 0xeef1f0, roughness: 0.36, metalness: 0.12 }, // painted panels
-  green: { color: 0x0a6b5c, roughness: 0.38, metalness: 0.15 },
+  // Livery read off FICEP's product photos: light-grey panels, graphite trim,
+  // orange hydraulics, yellow robots, the model name in red.
+  white: { color: 0xe2e5e3, roughness: 0.4, metalness: 0.12 }, // painted panels
+  green: { color: 0x3b4341, roughness: 0.5, metalness: 0.3 }, // graphite trim
+  orange: { color: 0xe8860f, roughness: 0.45, metalness: 0.15 },
   dark: { color: 0x2b312f, roughness: 0.58, metalness: 0.45 }, // cast and black-painted steel
   steel: { color: 0xd0d6d3, roughness: 0.2, metalness: 1 }, // machined steel
   plate: { color: 0x6c777c, roughness: 0.5, metalness: 0.85 }, // raw plate and sections
@@ -17,12 +20,14 @@ const PALETTE = {
   lampAmber: { color: 0xffb020, emissive: 0xffb020, emissiveIntensity: 0.5, roughness: 0.3 },
   lampGreen: { color: 0x35d06a, emissive: 0x35d06a, emissiveIntensity: 2.2, roughness: 0.3 },
   glass: { color: 0xa9c9cf, roughness: 0.05, metalness: 0.1, transparent: true, opacity: 0.26, depthWrite: false },
+  smoke: { color: 0x22343a, roughness: 0.06, metalness: 0.35, transparent: true, opacity: 0.4, depthWrite: false }, // cabin windows
+  curtain: { color: 0x4a5fd0, roughness: 0.22, metalness: 0, transparent: true, opacity: 0.5, depthWrite: false }, // PVC strips
 } satisfies Record<string, THREE.MeshStandardMaterialParameters>;
 
 export type Tone = keyof typeof PALETTE;
 type Axis = "x" | "y" | "z";
 /** Finishes that should not light up when their component is selected. */
-const FIXED: Tone[] = ["hot", "lampRed", "lampAmber", "lampGreen", "glass"];
+const FIXED: Tone[] = ["hot", "lampRed", "lampAmber", "lampGreen", "glass", "smoke", "curtain"];
 
 const shared = new Map<string, THREE.Texture>();
 function sharedTexture(key: string, make: () => THREE.Texture): THREE.Texture {
@@ -113,6 +118,15 @@ export class Kit {
     } finally {
       this.current.group = part;
     }
+  }
+
+  /** Cable chain rising in an arch, as on the roofs of enclosed lines. Spans along `axis`. */
+  arch(radius: number, x: number, y: number, z: number, axis: "x" | "z" = "x"): THREE.Mesh {
+    const key = `arch${radius.toFixed(3)}`;
+    const mesh = this.mesh(this.geometry(key, () => new THREE.TorusGeometry(radius, 0.032, 6, 28, Math.PI)), "rubber", x, y, z);
+    mesh.scale.z = 2.6;
+    if (axis === "z") mesh.rotation.y = Math.PI / 2;
+    return mesh;
   }
 
   /** Geared motor with cooling fins, shaft along `axis`. */
@@ -243,13 +257,13 @@ export class Kit {
   }
 
   /** Lettering applied to a panel, facing +Z before `turn` (radians about Y). */
-  nameplate(text: string, width: number, x: number, y: number, z: number, turn = 0, color = "#f4f6f5"): void {
+  nameplate(text: string, width: number, x: number, y: number, z: number, turn = 0, color = "#c41e1a"): void {
     const canvas = document.createElement("canvas");
     canvas.width = 1024;
     canvas.height = 160;
     const ctx = canvas.getContext("2d")!;
     ctx.fillStyle = color;
-    ctx.font = "800 130px Arial, Helvetica, sans-serif";
+    ctx.font = "italic 800 130px Arial, Helvetica, sans-serif";
     ctx.textBaseline = "middle";
     ctx.textAlign = "center";
     const measured = ctx.measureText(text).width;
@@ -278,9 +292,9 @@ export class Kit {
     const length = x1 - x0;
     const mid = (x0 + x1) / 2;
     [1, -1].forEach((side) => {
-      this.box(length, 0.16, 0.06, "white", mid, y - 0.03, z + (side * width) / 2);
-      this.box(length, 0.02, 0.13, "white", mid, y + 0.06, z + side * (width / 2 + 0.035));
-      this.box(length, 0.02, 0.13, "white", mid, y - 0.12, z + side * (width / 2 + 0.035));
+      this.box(length, 0.16, 0.06, "dark", mid, y - 0.03, z + (side * width) / 2);
+      this.box(length, 0.02, 0.13, "dark", mid, y + 0.06, z + side * (width / 2 + 0.035));
+      this.box(length, 0.02, 0.13, "dark", mid, y - 0.12, z + side * (width / 2 + 0.035));
     });
     for (let x = x0 + step / 2; x < x1; x += step) {
       this.cyl(0.052, width - 0.1, "steel", x, y, z, "z");
@@ -296,7 +310,7 @@ export class Kit {
       this.box(0.06, 0.06, width, "dark", x, y * 0.42, z);
     }
     this.motor(x0 + 0.55, y - 0.3, z + width / 2 + 0.2, "x", 0.9);
-    this.box(0.5, 0.26, 0.05, "green", x0 + 0.55, y - 0.1, z + width / 2 + 0.07);
+    this.box(0.5, 0.26, 0.05, "yellow", x0 + 0.55, y - 0.1, z + width / 2 + 0.07);
   }
 
   /** I-beam lying along X, resting at height y. */

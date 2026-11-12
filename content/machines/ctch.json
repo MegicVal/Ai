@@ -163,5 +163,9 @@
   "viewer": {
     "archetype": "shear",
     "variant": "hydraulic"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di acciaio ad eccezione degli acciai inox",
+    "en": "All types of steel except stainless steel"
   }
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ContentPageView } from "@/components/ContentPageView";
+import { PageHero } from "@/components/ui";
 import { getPage, pages, site } from "@/lib/content";
 import { getDictionary, hasLocale, href, locales, tr, type Localized } from "@/lib/i18n";
 
@@ -38,17 +39,10 @@ export default async function TextPage({ params }: PageProps<"/[lang]/[...slug]"
   const label = upcoming.find((item) => item.path === path)?.label;
   if (!label) notFound();
   return (
-    <section className="on-dark bg-ink text-paper">
-      <div className="wrap grid min-h-[78svh] content-center gap-6 pt-40 pb-24">
-        <span className="label text-accent-hi">{dict.soon.kicker}</span>
-        <h1 className="display max-w-[16ch] text-[clamp(2.2rem,6vw,5rem)] leading-[0.95] font-extrabold">{tr(label, lang)}</h1>
-        <p className="max-w-[52ch] text-lg text-fog">
-          {dict.soon.title} {dict.soon.body}
-        </p>
-        <Link href={href(lang)} className="btn btn-solid justify-self-start">
-          {dict.soon.back}
-        </Link>
-      </div>
-    </section>
+    <PageHero kicker={dict.soon.kicker} title={tr(label, lang)} lead={`${dict.soon.title} ${dict.soon.body}`}>
+      <Link href={href(lang)} className="btn btn-solid justify-self-start">
+        {dict.soon.back}
+      </Link>
+    </PageHero>
   );
 }

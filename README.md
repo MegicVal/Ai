@@ -28,9 +28,18 @@ npm run build && npm run start
 | Dati tecnici e nomi | Dal catalogo pubblico FICEP. |
 | Testi | Riscritti, in italiano e inglese. |
 | Logo | Segnaposto. |
-| Modelli 3D di macchine e interni | Segnaposto costruiti in codice. |
+| Modelli 3D di macchine e interni | Segnaposto costruiti in codice. Forme e colori (pannelli grigio chiaro, nome in rosso, idraulica arancione, robot gialli, cabine con finestre) sono ricavati dalle foto ufficiali: non esistono CAD pubblici delle macchine FICEP. |
 | Edifici dello stabilimento | © OpenStreetMap contributors. |
 | Immagine satellitare | Esri World Imagery, caricata a runtime. |
+
+## Da verificare con FICEP
+
+I contenuti sono stati confrontati con le pagine pubbliche di `ficepgroup.com`. Restano da confermare:
+
+- **Eventi**: nomi e date vengono dal sito; città e paese delle fiere sono stati aggiunti a mano.
+- **Reparti dello stabilimento** (Montaggio, Produzione, Academy e showroom): etichette indicative sugli edifici.
+- **Numero di filiali**: FICEP dichiara 16 filiali dirette; le sue pagine ne elencano 14 più la sede.
+- **Pagine legali**: segnaposto.
 
 ## Dove sono i contenuti
 

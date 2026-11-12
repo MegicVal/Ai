@@ -203,5 +203,9 @@
   "viewer": {
     "archetype": "disc-saw",
     "variant": "vertical"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di acciaio",
+    "en": "All types of steel"
   }
 }

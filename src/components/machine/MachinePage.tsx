@@ -13,7 +13,7 @@ function IconList({ title, items, lang }: { title: string; items: Labelled[]; la
       <h2 className="label text-ink-2">{title}</h2>
       <ul className="flex flex-wrap gap-2">
         {items.map((item) => (
-          <li key={item.label.it} className="flex items-center gap-2.5 border border-line bg-white py-2 pr-3.5 pl-2.5 text-sm font-medium">
+          <li key={item.label.it} className="flex items-center gap-2.5 rounded-sm border border-line bg-white py-2 pr-3.5 pl-2.5 text-sm font-medium">
             {item.icon && (
               // eslint-disable-next-line @next/next/no-img-element -- FICEP's own pictogram, loaded from their site
               <img src={item.icon} alt="" width={26} height={26} loading="lazy" referrerPolicy="no-referrer" className="size-[26px] object-contain" />
@@ -36,25 +36,25 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
   return (
     <>
       <HeroShell images={pictures(machine.hero, ...machine.gallery.slice(0, 4))} tall>
-          <nav aria-label="Breadcrumb" className="label flex flex-wrap gap-x-2 text-fog">
-            <Link href={href(lang, "/macchine")} className="hover:text-paper">
+          <nav aria-label="Breadcrumb" className="label flex flex-wrap gap-x-2 text-ink-2">
+            <Link href={href(lang, "/macchine")} className="hover:text-accent">
               {dict.catalog.kicker}
             </Link>
             <span aria-hidden="true">/</span>
             {division && (
-              <Link href={href(lang, `/macchine/${division.slug}`)} className="hover:text-paper">
+              <Link href={href(lang, `/macchine/${division.slug}`)} className="hover:text-accent">
                 {tr(division.name, lang)}
               </Link>
             )}
             <span aria-hidden="true">/</span>
             {division && family && (
-              <Link href={href(lang, `/macchine/${division.slug}/${family.id}`)} className="hover:text-paper">
+              <Link href={href(lang, `/macchine/${division.slug}/${family.id}`)} className="hover:text-accent">
                 {tr(family.name, lang)}
               </Link>
             )}
           </nav>
-          <h1 className="display text-[clamp(3rem,11vw,9.5rem)] leading-[0.85] font-extrabold">{machine.name}</h1>
-          <p className="max-w-[46ch] text-xl text-[#d5dbd8]">{tr(machine.descriptor, lang)}</p>
+          <h1 className="display text-[clamp(2.8rem,9vw,7.5rem)] leading-[0.88] font-bold text-accent">{machine.name}</h1>
+          <p className="max-w-[50ch] text-xl text-ink-2">{tr(machine.descriptor, lang)}</p>
           <div className="flex flex-wrap gap-2.5 pt-2">
             <Link href={href(lang, site.contactPath)} className="btn btn-solid">
               {t.requestInfo}
@@ -67,16 +67,22 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
 
       <section className="py-14">
         <div className="wrap grid gap-10 lg:grid-cols-[1fr_1.4fr]">
-          <p className="display text-[clamp(1.4rem,2.6vw,2.1rem)] leading-tight font-semibold">{tr(machine.summary, lang)}</p>
+          <p className="display text-[clamp(1.4rem,2.6vw,2.1rem)] leading-tight font-semibold text-accent">{tr(machine.summary, lang)}</p>
           <div className="grid gap-7">
             <IconList title={t.processes} items={machine.processes} lang={lang} />
             <IconList title={t.profiles} items={machine.profiles} lang={lang} />
             <IconList title={t.materials} items={machine.materials} lang={lang} />
+            {machine.materialsNote && (
+              <div className="grid content-start gap-3">
+                <h2 className="label text-ink-2">{t.materials}</h2>
+                <p className="max-w-[60ch] rounded-sm border border-line bg-white px-3.5 py-2.5 text-sm font-medium">{tr(machine.materialsNote, lang)}</p>
+              </div>
+            )}
           </div>
         </div>
       </section>
 
-      <section id="modello-3d" className="on-dark bg-ink text-paper" aria-labelledby="viewer-title">
+      <section id="modello-3d" className="bg-white" aria-labelledby="viewer-title">
         <div className="wrap grid gap-3 pt-14 pb-6 lg:grid-cols-2 lg:items-end">
           <div className="grid gap-3">
             <span className="label text-accent-hi">{t.viewerKicker}</span>
@@ -84,7 +90,7 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
               {t.viewerTitle}
             </h2>
           </div>
-          <p className="max-w-[50ch] text-fog lg:justify-self-end">{t.viewerBody}</p>
+          <p className="max-w-[50ch] text-ink-2 lg:justify-self-end">{t.viewerBody}</p>
         </div>
         <MachineViewer name={machine.name} source={machine.viewer} parts={stageParts(machine, lang)} labels={viewerLabels(dict)} />
       </section>
@@ -109,7 +115,7 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
       )}
 
       {machine.advantages.length > 0 && (
-        <section className="on-dark bg-accent py-16 text-white" aria-labelledby="advantages-title">
+        <section className="bg-accent py-16 text-white [&_h2]:text-white" aria-labelledby="advantages-title">
           <div className="wrap grid gap-8 lg:grid-cols-[1fr_2fr]">
             <h2 id="advantages-title" className={h3}>
               {t.advantages}
@@ -179,12 +185,12 @@ export function MachinePage({ machine, lang, dict }: { machine: Machine; lang: L
       )}
 
       {machine.video && (
-        <section className="on-dark bg-ink py-16 text-paper" aria-labelledby="video-title">
+        <section className="bg-mint py-16" aria-labelledby="video-title">
           <div className="wrap grid gap-6">
             <h2 id="video-title" className={h3}>
               {t.video}
             </h2>
-            <video className="aspect-video w-full bg-coal" controls preload="none" poster={machine.hero} playsInline>
+            <video className="aspect-video w-full rounded-lg bg-ghost shadow-(--shadow)" controls preload="none" poster={machine.hero} playsInline>
               <source src={machine.video} type="video/mp4" />
             </video>
           </div>

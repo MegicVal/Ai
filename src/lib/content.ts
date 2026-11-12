@@ -39,6 +39,8 @@ export interface Machine {
   processes: Labelled[];
   profiles: Labelled[];
   materials: Labelled[];
+  /** Materials stated as a sentence (forging machines). */
+  materialsNote?: Localized;
   features: { title: Localized; text: Localized; image: string | null }[];
   advantages: Localized[];
   gallery: string[];

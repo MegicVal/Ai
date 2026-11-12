@@ -225,7 +225,7 @@ export default function TourCanvas({ tour, control, active, label }: { tour: Tou
       frameloop={active ? "always" : "never"}
       gl={{ antialias: true }}
       camera={{ fov: 66, near: 0.1, far: 220 }}
-      onCreated={({ gl }) => gl.setClearColor(0x0c1110)}
+      onCreated={({ gl }) => gl.setClearColor(0xe8edeb)}
       role="img"
       aria-label={label}
     >

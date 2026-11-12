@@ -170,5 +170,9 @@
   "viewer": {
     "archetype": "disc-saw",
     "variant": "horizontal"
+  },
+  "materialsNote": {
+    "it": "Tutti i tipi di acciaio",
+    "en": "All types of steel"
   }
 }

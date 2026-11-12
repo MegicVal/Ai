@@ -182,8 +182,8 @@
           "en": "Sustainable choices"
         },
         "text": {
-          "it": "Per noi sostenibilità significa prima di tutto macchine che consumano meno energia e sprecano meno materiale.",
-          "en": "For us sustainability means, first of all, machines that use less energy and waste less material."
+          "it": "Per noi sostenibilità significa prima di tutto risparmio energetico: nei nostri prodotti è un dato di fatto, e le presse Direct Drive ne sono l’esempio.",
+          "en": "For us sustainability means, first of all, saving energy: in our products it is a fact, and the Direct Drive presses are the example."
         },
         "image": "https://ficepgroup.com/wp-content/uploads/2022/10/immagine_energia-1-1.jpg"
       },
@@ -496,14 +496,34 @@
     "sections": [
       {
         "title": {
+          "it": "Ordini a qualsiasi ora",
+          "en": "Orders at any time"
+        },
+        "text": {
+          "it": "Comunica il codice del pezzo al Servizio Ricambi: verifica subito la disponibilità e, se serve, stima i tempi di produzione. Senza codice bastano descrizione, modello o disegno.",
+          "en": "Give the part code to the Spare Parts Service: it checks availability at once and, if needed, estimates production time. Without a code, a description, model or drawing is enough."
+        }
+      },
+      {
+        "title": {
           "it": "Magazzino automatico",
           "en": "Automated warehouse"
         },
         "text": {
-          "it": "Il magazzino completamente automatizzato permette di spedire in tempi brevi i ricambi disponibili.",
-          "en": "The fully automated warehouse ships available parts quickly."
+          "it": "Il magazzino completamente automatizzato spedisce ogni giorno con corriere i ricambi disponibili. A Gazzada sono sempre a magazzino più di 10.000 articoli.",
+          "en": "The fully automated warehouse ships available parts by courier every day. More than 10,000 items are always in stock in Gazzada."
         },
         "image": "https://ficepgroup.com/wp-content/uploads/2023/01/immagine_magazzino-b.jpg"
+      },
+      {
+        "title": {
+          "it": "Garanzia e disponibilità",
+          "en": "Warranty and availability"
+        },
+        "text": {
+          "it": "I ricambi originali sono garantiti un anno dall’acquisto. Assistenza e ricambi sono assicurati per almeno 10 anni su tutte le macchine a CNC in funzione, in alcuni casi oltre 20.",
+          "en": "Original parts are guaranteed for one year from purchase. Service and parts are assured for at least 10 years on all working CNC machines, in some cases more than 20."
+        }
       },
       {
         "title": {
@@ -518,12 +538,12 @@
       },
       {
         "title": {
-          "it": "Kit pronti",
-          "en": "Ready kits"
+          "it": "Container ricambi",
+          "en": "Spare-parts container"
         },
         "text": {
-          "it": "Per le linee più diffuse sono disponibili dotazioni di ricambi consigliati.",
-          "en": "Recommended spare-part kits are available for the most common lines."
+          "it": "Per le installazioni più lunghe, quando una nuova fabbrica nasce in zone remote, FICEP può inviare container mobili attrezzati con tutti gli utensili necessari a completare il lavoro.",
+          "en": "For the longest installations, when a new factory is built in a remote area, FICEP can send mobile containers equipped with all the tools needed to complete the job."
         },
         "image": "https://ficepgroup.com/wp-content/uploads/2022/10/ficep-container.jpg"
       }
@@ -562,8 +582,8 @@
           "en": "A structured service"
         },
         "text": {
-          "it": "Visite periodiche pianificate riducono il rischio di malfunzionamenti. Per gli interventi straordinari è disponibile un servizio rapido sul posto.",
-          "en": "Planned periodic visits reduce the risk of malfunctions. A rapid on-site service is available for extraordinary work."
+          "it": "Controlli periodici programmati eliminano il rischio di malfunzionamenti e fermi macchina. Per gli interventi straordinari che il teleservice non risolve è disponibile un servizio rapido sul posto, in tutto il mondo.",
+          "en": "Scheduled periodic checks remove the risk of malfunctions and downtime. For extraordinary work that teleservice cannot solve, a rapid on-site service is available worldwide."
         },
         "image": "https://ficepgroup.com/wp-content/uploads/2023/01/MP-1-1.jpg"
       },
@@ -573,8 +593,8 @@
           "en": "Three packages"
         },
         "text": {
-          "it": "Tre livelli di copertura, da scegliere in base all’uso dell’impianto.",
-          "en": "Three levels of cover, to choose according to how the plant is used."
+          "it": "Contratti di manutenzione standard, con visite programmate dei tecnici, in tre pacchetti da scegliere secondo le esigenze.",
+          "en": "Standard maintenance contracts, with scheduled technician visits, in three packages to choose from."
         },
         "image": "https://ficepgroup.com/wp-content/uploads/2023/01/MP-2-1.jpg"
       }
@@ -910,33 +930,19 @@
           "en": "Where they come from"
         },
         "text": {
-          "it": "Quando un cliente passa a una linea più grande, quella precedente torna in FICEP. Viene revisionata e adattata alle esigenze del nuovo proprietario.",
-          "en": "When a customer moves to a larger line, the previous one comes back to FICEP. It is overhauled and adapted to the new owner’s needs."
+          "it": "Quando un cliente rinnova il parco macchine con linee di capacità o dimensioni superiori, quelle esistenti tornano disponibili.",
+          "en": "When a customer renews its machinery with lines of greater capacity or size, the existing ones become available."
         }
       },
       {
         "title": {
-          "it": "Come funziona",
-          "en": "How it works"
+          "it": "Ricondizionati su misura",
+          "en": "Reconditioned to order"
         },
         "text": {
-          "it": "Chiedi la disponibilità: l’elenco degli impianti cambia spesso.",
-          "en": "Ask about availability: the list of machines changes often."
-        },
-        "items": [
-          {
-            "it": "Revisione meccanica ed elettrica",
-            "en": "Mechanical and electrical overhaul"
-          },
-          {
-            "it": "Aggiornamento del controllo numerico",
-            "en": "Numerical control update"
-          },
-          {
-            "it": "Installazione e formazione",
-            "en": "Installation and training"
-          }
-        ]
+          "it": "Gli impianti usati vengono ricondizionati in base alle esigenze del nuovo cliente. L’elenco cambia spesso: chiedi la disponibilità.",
+          "en": "Used lines are reconditioned to the needs of the new customer. The list changes often: ask about availability."
+        }
       }
     ],
     "cta": {

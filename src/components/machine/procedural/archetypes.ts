@@ -54,8 +54,8 @@ const plateGantry: Builder = (k, variant, name) => {
   k.box(0.035, 0.03, 3.3, "steel", 0.32, 2.14, 0);
   k.box(0.035, 0.03, 3.3, "steel", 0.32, 1.86, 0);
   k.cableChain(-1.6, 1.6, 2.36, -0.16, "z");
-  k.nameplate(name, 1.25, -0.316, 2.02, 0, -HALF, "#0a6b5c");
-  k.nameplate(name, 1.0, 0.316, 2.0, -1.2, HALF, "#0a6b5c");
+  k.nameplate(name, 1.25, -0.316, 2.02, 0, -HALF);
+  k.nameplate(name, 1.0, 0.316, 2.0, -1.2, HALF);
   k.towerLight(0, 2.3, -1.6);
 
   // working head: drilling spindle, laser head or milling heads
@@ -137,7 +137,7 @@ const plateRoller: Builder = (k, variant, name) => {
   k.box(0.9, 2.3, 0.5, "white", 0.4, 1.45, -1.45);
   k.box(1.0, 0.6, 3.4, "white", 0.4, 2.45, 0);
   k.box(1.02, 0.07, 3.4, "green", 0.4, 2.68, 0);
-  k.nameplate(name, 1.5, 0.905, 2.44, 0, HALF, "#0a6b5c");
+  k.nameplate(name, 1.5, 0.905, 2.44, 0, HALF);
   k.hazard(1.52, 0.1, 0.06, 0.4, 0.62, 1.62);
   k.feet([[-0.2, 1.4], [1.0, 1.4], [-0.2, -1.4], [1.0, -1.4]]);
   k.towerLight(0.4, 2.75, -1.5);
@@ -199,18 +199,62 @@ const beamLine: Builder = (k, variant, name) => {
     k.box(0.8, h, 0.7, "white", 0, h / 2 + 0.3, -1.25);
     k.box(0.7, 0.5, 2.2, "white", 0, h + 0.05, -0.3);
     k.box(0.72, 0.07, 2.2, "green", 0, h + 0.33, -0.3);
-    k.nameplate(name, 1.3, 0.356, h + 0.05, -0.3, HALF, "#0a6b5c");
+    k.nameplate(name, 1.3, 0.356, h + 0.05, -0.3, HALF);
   } else {
     k.box(0.9, h, 0.5, "white", 0, h / 2 + 0.3, 1.2);
     k.box(0.9, h, 0.5, "white", 0, h / 2 + 0.3, -1.2);
     k.box(1.0, 0.55, 2.9, "white", 0, h + 0.5, 0);
     k.box(1.02, 0.07, 2.9, "green", 0, h + 0.82, 0);
-    k.nameplate(name, 1.7, 0.506, h + 0.48, 0, HALF, "#0a6b5c");
-    k.box(0.02, h - 0.8, 0.3, "green", 0.46, h / 2 + 0.3, 1.2);
     k.hazard(0.92, 0.1, 0.06, 0, 0.36, 1.46);
+    if (big) {
+      k.nameplate(name, 1.7, 0.506, h + 0.48, 0, HALF);
+    } else {
+      // Enclosed cabin, as on the real lines: the beam passes under a fascia with the
+      // model name, through a strip curtain; the long side has glazed sliding doors.
+      const top = h + 0.92;
+      const mid = (top + 0.3) / 2;
+      const fascia = 1.95;
+      [-1.28, 1.28].forEach((x) => {
+        const out = Math.sign(x);
+        k.box(0.05, top - 0.3, 0.86, "white", x, mid, 1.18);
+        k.box(0.05, top - 0.3, 0.86, "white", x, mid, -1.18);
+        k.box(0.05, top - fascia, 1.5, "white", x, (top + fascia) / 2, 0);
+        [-0.36, 0.36].forEach((z) => {
+          k.box(0.02, 0.3, 0.52, "dark", x + out * 0.02, fascia + 0.3, z);
+          k.box(0.02, 0.22, 0.44, "smoke", x + out * 0.034, fascia + 0.3, z);
+        });
+        for (let i = 0; i < 10; i++) {
+          const z = -0.675 + i * 0.15;
+          const drop = Math.abs(z) < 0.3 ? 0.6 : 1.02; // shorter where the beam passes
+          k.box(0.012, drop, 0.14, "curtain", x - out * 0.03, fascia - drop / 2, z);
+        }
+        k.nameplate(name, 1.3, x + out * 0.03, top - 0.4, 0, out * HALF);
+      });
+      k.box(2.6, top - 0.3, 0.05, "white", 0, mid, -1.61);
+      // rear: electrical cabinet doors with vents, handles and warning labels
+      [-0.86, 0, 0.86].forEach((x) => {
+        k.box(0.012, top - 0.9, 0.012, "dark", x + 0.43, mid - 0.2, -1.64);
+        k.box(0.03, 0.3, 0.03, "steel", x + 0.3, 1.5, -1.66);
+        k.box(0.36, 0.2, 0.012, "dark", x, 0.75, -1.64);
+        k.box(0.1, 0.1, 0.006, "yellow", x, 2.05, -1.638);
+      });
+      k.nameplate(name, 1.5, 0, top - 0.4, -1.64, Math.PI);
+      k.box(2.6, 0.9, 0.05, "white", 0, 0.75, 1.61);
+      k.box(2.6, top - 2.5, 0.05, "white", 0, (top + 2.5) / 2, 1.61);
+      k.box(2.5, 1.3, 0.02, "smoke", 0, 1.85, 1.61);
+      [-1.27, -0.43, 0.43, 1.27].forEach((x) => k.box(0.06, 1.3, 0.07, "dark", x, 1.85, 1.61));
+      [-0.5, 0.36].forEach((x) => k.box(0.03, 0.36, 0.03, "steel", x, 1.8, 1.67));
+      [-0.85, 0.85].forEach((x) => k.box(0.1, 0.1, 0.006, "yellow", x, 0.92, 1.638));
+      k.box(2.7, 0.05, 3.32, "green", 0, top - 0.02, 0);
+      k.box(2.62, 0.05, 3.24, "white", 0, top + 0.03, 0);
+      [-0.78, 0, 0.78].forEach((x) => {
+        k.arch(0.4, x, top + 0.05, 0.3, "z");
+        k.box(0.24, 0.26, 0.3, "dark", x, top + 0.18, -0.32);
+      });
+    }
   }
   k.towerLight(0, h + 0.86, -1.3);
-  k.cableChain(-1.2, 1.2, h + 0.92, -0.3, "z");
+  if (big || variant === "cantilever") k.cableChain(-1.2, 1.2, h + 0.92, -0.3, "z");
 
   // spindles: one from above, plus one per side on multi-spindle lines
   const heads = k.part("heads");
@@ -241,8 +285,8 @@ const beamLine: Builder = (k, variant, name) => {
   [-0.62, 0.62].forEach((x) => {
     k.box(0.2, 0.5, 0.3, "dark", x, 1.0, 0.42);
     k.box(0.2, 0.5, 0.3, "dark", x, 1.0, -0.42);
-    k.cyl(0.05, 0.3, "steel", x, 1.05, 0.68, "z");
-    k.cyl(0.05, 0.3, "steel", x, 1.05, -0.68, "z");
+    k.cyl(0.05, 0.3, "orange", x, 1.05, 0.68, "z");
+    k.cyl(0.05, 0.3, "orange", x, 1.05, -0.68, "z");
     k.box(0.24, 0.12, 1.5, "dark", x, 0.64, 0);
   });
 
@@ -301,7 +345,7 @@ const angleLine: Builder = (k, variant, name) => {
   k.box(1.5, 0.7, 1.3, "dark", -0.2, 0.35, 0);
   k.box(1.3, 1.5, 1.2, "white", -0.2, 1.45, -0.15);
   k.box(1.32, 0.07, 1.2, "green", -0.2, 2.1, -0.15);
-  k.nameplate(name, 1.0, -0.2, 1.9, 0.456, 0, "#0a6b5c");
+  k.nameplate(name, 1.0, -0.2, 1.9, 0.456, 0);
   k.feet([[-0.85, 0.55], [0.45, 0.55], [-0.85, -0.55], [0.45, -0.55]]);
   if (flat) {
     k.cyl(0.1, 0.5, "steel", -0.2, 1.3, 0.3);
@@ -309,13 +353,13 @@ const angleLine: Builder = (k, variant, name) => {
     k.motor(-0.2, 1.75, 0.3, "y", 0.9);
   } else {
     [-0.45, 0.05].forEach((x) => {
-      k.cyl(0.13, 0.5, "steel", x, 1.25, 0.45).rotation.x = -0.75;
-      k.cyl(0.13, 0.5, "steel", x, 1.25, 0.15).rotation.x = 0.75;
+      k.cyl(0.13, 0.5, "orange", x, 1.25, 0.45).rotation.x = -0.75;
+      k.cyl(0.13, 0.5, "orange", x, 1.25, 0.15).rotation.x = 0.75;
     });
   }
   const disc = k.cyl(0.18, 0.1, "steel", 0.42, 1.35, 0.5, "x");
   // hydraulic power unit with hoses up to the working units
-  k.box(0.9, 0.7, 0.7, "green", -0.2, 0.35, -1.6);
+  k.box(0.9, 0.7, 0.7, "orange", -0.2, 0.35, -1.6);
   k.motor(-0.2, 0.9, -1.6, "y", 1.2);
   k.hose([[-0.5, 0.7, -1.4], [-0.6, 1.4, -1.0], [-0.5, 2.0, -0.6]], 0.025);
   k.hose([[0.1, 0.7, -1.4], [0.2, 1.4, -1.0], [0.1, 2.0, -0.6]], 0.025);
@@ -368,7 +412,7 @@ const bandSaw: Builder = (k, _variant, name) => {
     k.box(0.02, 1.2, 0.06, "steel", 0, 1.3, -0.5);
     k.box(0.12, 0.2, 0.12, "dark", 0, 1.55, 0.5);
     k.box(0.12, 0.2, 0.12, "dark", 0, 1.55, -0.5);
-    k.nameplate(name, 1.4, 0.256, 2.45, 0, HALF, "#0a6b5c");
+    k.nameplate(name, 1.4, 0.256, 2.45, 0, HALF);
     k.motor(-0.45, 1.9, -1.2, "x", 1.2);
   });
   k.hose([[0.1, 1.5, 0.5], [0.4, 1.2, 0.9], [0.5, 0.5, 1.2]], 0.015);
@@ -376,8 +420,8 @@ const bandSaw: Builder = (k, _variant, name) => {
 
   k.part("clamps");
   [-0.5, 0.5].forEach((x) => {
-    k.box(0.22, 0.55, 0.3, "dark", x, 1.03, 0.45);
-    k.box(0.22, 0.55, 0.3, "dark", x, 1.03, -0.45);
+    k.box(0.22, 0.55, 0.3, "orange", x, 1.03, 0.45);
+    k.box(0.22, 0.55, 0.3, "orange", x, 1.03, -0.45);
     k.cyl(0.05, 0.35, "steel", x, 1.05, 0.75, "z");
     k.cyl(0.05, 0.35, "steel", x, 1.05, -0.75, "z");
   });
@@ -417,7 +461,7 @@ const robotCell: Builder = (k, variant, name) => {
     k.box(0.3, 0.3, 1.9, "white", 0, 3.4, -0.75);
     k.box(0.5, 0.35, 0.5, "dark", 0, 3.15, 0);
     k.cyl(0.08, 0.1, "lampGreen", 0, 2.95, 0);
-    k.nameplate(name, 1.2, 0.152, 3.4, -0.75, HALF, "#0a6b5c");
+    k.nameplate(name, 1.2, 0.152, 3.4, -0.75, HALF);
     const cone = new THREE.Mesh(
       new THREE.ConeGeometry(1.3, 1.9, 4, 1, true),
       new THREE.MeshBasicMaterial({ color: 0x2cc4a6, transparent: true, opacity: 0.16, side: THREE.DoubleSide, depthWrite: false, toneMapped: false }),
@@ -436,13 +480,13 @@ const robotCell: Builder = (k, variant, name) => {
     k.add(arm);
     const lower = new THREE.Group();
     arm.add(lower);
-    [k.cyl(0.3, 0.4, "green", 0, 0.7, z), k.cyl(0.24, 0.5, "dark", 0, 0.9, z, "x"), k.box(0.28, 1.5, 0.3, "green", 0, 1.5, z)].forEach((m) => lower.attach(m));
+    [k.cyl(0.3, 0.4, "yellow", 0, 0.7, z), k.cyl(0.24, 0.5, "dark", 0, 0.9, z, "x"), k.box(0.28, 1.5, 0.3, "yellow", 0, 1.5, z)].forEach((m) => lower.attach(m));
     const upper = new THREE.Group();
     upper.position.set(0, 1.75, 0);
     lower.add(upper);
     [
       k.cyl(0.2, 0.44, "dark", 0, 2.25, z, "x"),
-      k.box(0.24, 0.24, 1.4, "green", 0, 2.25, z + 0.7),
+      k.box(0.24, 0.24, 1.4, "yellow", 0, 2.25, z + 0.7),
       k.cyl(0.13, 0.3, "dark", 0, 2.25, z + 1.42, "z"),
       k.cyl(0.1, 0.3, "steel", 0, 2.25, z + 1.5, "z"),
       k.cyl(handling ? 0.16 : 0.04, handling ? 0.1 : 0.3, handling ? "dark" : "hot", 0, 2.05, z + 1.62),
@@ -456,7 +500,7 @@ const robotCell: Builder = (k, variant, name) => {
   k.part("cabin");
   if (!handling) k.fence([[-2.4, -2.4], [0, -2.4], [2.4, -2.4], [2.4, -1.0]], 2.1);
   else k.fence([[-3, 1.9], [-3, -1.9], [0, -1.9], [3, -1.9], [3, 1.9]], 1.9);
-  if (variant !== "projector") k.nameplate(name, 1.1, 3.456, 1.2, -2.3, HALF, "#0a6b5c");
+  if (variant !== "projector") k.nameplate(name, 1.1, 3.456, 1.2, -2.3, HALF);
 
   const consoleAt = k.console(3.0, 2.2);
   k.cabinet(3.2, -2.3);
@@ -486,7 +530,7 @@ const tunnel: Builder = (k, variant, name) => {
   k.box(3.0, 2.2, 0.2, "white", 0, 1.9, -1.25);
   k.box(3.0, 0.2, 2.7, "white", 0, 3.05, 0);
   k.box(3.02, 0.08, 2.72, "green", 0, 2.75, 0);
-  k.nameplate(name, 1.6, 0, 2.3, 1.356, 0, "#0a6b5c");
+  k.nameplate(name, 1.6, 0, 2.3, 1.356, 0);
   // rubber curtains at the openings, inspection door with window
   [-1.5, 1.5].forEach((x) => {
     k.box(0.1, 0.5, 2.3, "dark", x, 2.75, 0);
@@ -559,7 +603,7 @@ const press: Builder = (k, variant, name) => {
   }
   k.box(2.6, 0.9, 2.0, "white", 0, 4.47, 0);
   k.box(2.62, 0.08, 2.0, "green", 0, 4.1, 0);
-  k.nameplate(name, 1.7, 0, 4.5, 1.006, 0, "#0a6b5c");
+  k.nameplate(name, 1.7, 0, 4.5, 1.006, 0);
   // service platform with handrail and ladder
   k.box(3.2, 0.06, 0.9, "steel", 0, 4.95, -1.4);
   const deck = new THREE.Group();
@@ -579,8 +623,9 @@ const press: Builder = (k, variant, name) => {
   const ram = k.part("ram");
   k.box(1.3, 0.8, 1.5, "dark", 0, 2.72, 0);
   k.box(0.9, 0.25, 1.0, "steel", 0, 2.2, 0);
-  k.box(0.08, 0.7, 0.2, "steel", -0.68, 2.72, 0.5);
-  k.box(0.08, 0.7, 0.2, "steel", 0.68, 2.72, 0.5);
+  k.box(0.08, 0.7, 0.2, "orange", -0.68, 2.72, 0.5);
+  k.box(0.08, 0.7, 0.2, "orange", 0.68, 2.72, 0.5);
+  k.box(1.32, 0.12, 1.52, "orange", 0, 3.05, 0);
 
   k.part("drive");
   let wheel: THREE.Mesh | undefined;
@@ -630,7 +675,7 @@ const shear: Builder = (k, variant, name) => {
   k.box(2.4, 0.8, 2.0, "dark", 0, 0.4, 0);
   k.box(1.9, 1.7, 1.7, "white", 0, 1.65, 0);
   k.box(1.92, 0.08, 1.7, "green", 0, 2.25, 0);
-  k.nameplate(name, 1.3, 0, 2.05, 0.856, 0, "#0a6b5c");
+  k.nameplate(name, 1.3, 0, 2.05, 0.856, 0);
   k.feet([[-1.1, 0.9], [1.1, 0.9], [-1.1, -0.9], [1.1, -0.9]]);
   k.hazard(2.42, 0.1, 0.06, 0, 0.75, 1.02);
   k.towerLight(-0.8, 2.3, -0.7);
@@ -696,7 +741,7 @@ const discSaw: Builder = (k, variant, name) => {
   const top = vertical ? 1.7 : 1.9;
   k.box(0.7, 1.4, 0.9, "white", 0, top, -0.75);
   k.box(0.72, 0.07, 0.9, "green", 0, top + 0.6, -0.75);
-  k.nameplate(name, 0.6, 0, top + 0.35, -0.296, 0, "#0a6b5c");
+  k.nameplate(name, 0.6, 0, top + 0.35, -0.296, 0);
   const disc = k.cyl(0.6, 0.03, "steel", 0, vertical ? 0.95 : 1.75, -0.05, "x");
   k.cyl(0.14, 0.3, "dark", 0.14, vertical ? 0.95 : 1.75, -0.05, "x");
   if (!vertical) {
